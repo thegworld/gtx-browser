@@ -1,6 +1,6 @@
 # Useful URLs
 
-Chromium has a lot of different pages for a lot of different things.
+GTx Browser has a lot of different pages for a lot of different things.
 This page aims to be a repository of useful links that people may find useful.
 
 ## Build Status
@@ -28,9 +28,9 @@ This page aims to be a repository of useful links that people may find useful.
 
 ## Communication
 
-* [Chromium Developers List chromium-dev@](https://groups.google.com/a/chromium.org/group/chromium-dev/topics)
-* [Chromium Users List chromium-discuss@](https://groups.google.com/a/chromium.org/group/chromium-discuss/topics)
-* [Chromium Slack channel](https://chromium.slack.com)
+* [GTx Browser Developers List chromium-dev@](https://groups.google.com/a/chromium.org/group/chromium-dev/topics)
+* [GTx Browser Users List chromium-discuss@](https://groups.google.com/a/chromium.org/group/chromium-discuss/topics)
+* [GTx Browser Slack channel](https://chromium.slack.com)
 
 ## Performance Information
 

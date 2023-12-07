@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Protokolo-bertsio ez bateragarri bat hauteman da. Ziurtatu softwarearen azken bertsioa instalatuta daukazula bi ordenagailuetan eta saiatu berriro.</translation>
 <translation id="1008557486741366299">Ez une honetan</translation>
 <translation id="1201402288615127009">Hurrengoa</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Eskubide guztiak erreserbatuta.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Eskubide guztiak erreserbatuta.</translation>
 <translation id="1297009705180977556">Errore bat gertatu da <ph name="HOSTNAME" /> ostalarira konektatzean</translation>
 <translation id="1450760146488584666">Eskatutako objektua ez dago.</translation>
 <translation id="1480046233931937785">Kredituak</translation>
@@ -156,7 +156,7 @@ Baimen hori emateko, sakatu beheko "<ph name="BUTTON_NAME" />" botoia pantailare
 <translation id="7868137160098754906">Idatzi urruneko ordenagailura konektatzeko PINa.</translation>
 <translation id="7895403300744144251">Urruneko ordenagailuko segurtasun-gidalerro batzuek ez dute baimentzen zure kontutik konektatzea.</translation>
 <translation id="7936528439960309876">Ainguratu eskuinean</translation>
-<translation id="7970576581263377361">Ezin izan da autentifikatu. Hasi saioa berriro Chromium aplikazioan.</translation>
+<translation id="7970576581263377361">Ezin izan da autentifikatu. Hasi saioa berriro GTx Browser aplikazioan.</translation>
 <translation id="7981525049612125370">Urruneko saioa iraungi egin da.</translation>
 <translation id="8038111231936746805">(lehenetsia)</translation>
 <translation id="8041089156583427627">Bidali oharrak</translation>
@@ -191,6 +191,6 @@ Baimen hori emateko, sakatu beheko "<ph name="BUTTON_NAME" />" botoia. Erabilerr
 <translation id="9187628920394877737">Eman pantaila grabatzeko baimena <ph name="PRODUCT_NAME" /> zerbitzuari</translation>
 <translation id="9213184081240281106">Ez du balio ostalariaren konfigurazioak.</translation>
 <translation id="981121421437150478">Konexiorik gabekoak</translation>
-<translation id="985602178874221306">Chromium egileak</translation>
+<translation id="985602178874221306">GTx Browser egileak</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (azken konexioa: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

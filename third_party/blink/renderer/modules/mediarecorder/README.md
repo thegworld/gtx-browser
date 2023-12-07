@@ -51,7 +51,7 @@ recorded `Blob`.
 [`MediaRecorderOptions`]: https://w3c.github.io/mediacapture-record/#mediarecorderoptions-section
 [isTypeSupported()]: https://chromium.googlesource.com/chromium/src/+/main/third_party/blink/web_tests/fast/mediarecorder/MediaRecorder-isTypeSupported.html
 
-## Implementation in Chromium
+## Implementation in GTx Browser
 
 This API is structured around the [MediaRecorder class], which owns a
 [`MediaRecorderHandler`] which in turn owns a number of

@@ -121,7 +121,7 @@ after 60 days is unlocked regardless of `bundle-id`.
 ### Writing to Intermediate Dumps without a Crash
 
 Apps may also generate intermediate dumps without a crash, often used for
-debugging. Chromium makes heavy use of this for detecting main thread hangs,
+debugging. GTx Browser makes heavy use of this for detecting main thread hangs,
 something that can appear as a crash for the user, but is uncatchable for crash
 handlers like Crashpad. When an app requests this (via DumpWithoutCrash,
 DumpWithoutCrashAndDeferProcessing), an intermediate dump is written to the
@@ -130,7 +130,7 @@ locked file is opened.
 
 Note: DumpWithoutCrashAndDeferProcessingAtPath writes an intermediate dump to
 the requested location, not the previously opened temporary file. This is useful
-because Chromium's main thread hang detection will throw away hang reports in
+because GTx Browser's main thread hang detection will throw away hang reports in
 certain circumstances (if the app recovers, if a different crash report is
 written, etc).
 
@@ -166,7 +166,7 @@ the next call to `ProcessIntermediateDumps`. Conversely,
 stability concerns. In this case, intermediate dumps are automatically
 converted to minidumps and immediately eligible for uploading.
 
-Applications can include annotations here as well. Chromium uses this for its
+Applications can include annotations here as well. GTx Browser uses this for its
 insta-crash logic, which detects if an app is crashing repeatedly on startup.
 
 ### `StartProcessingPendingReports`

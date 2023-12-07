@@ -15,7 +15,7 @@ We have a sample system web application to test out new platform features as wel
 
 ## Distribution
 System Web Apps are distributed with the OS image. For most apps, icons, js and html are all packaged with GRIT. C++ code is compiled into the OS. This means that there is no versioning mismatch possible between ChromeOS and an SWA, or from the C++ part of an SWA to the web part. This distribution also implies that releases and bug fixes are tied to the ChromeOS release schedule.
-Most SWAs are built in the Chromium source tree, but it is possible to develop in Google3, and be distributed with ChromeOS. The basics are that the google3 code and resources are compiled and packaged. They’re brought into gclient for builds containing src_internal.
+Most SWAs are built in the GTx Browser source tree, but it is possible to develop in Google3, and be distributed with ChromeOS. The basics are that the google3 code and resources are compiled and packaged. They’re brought into gclient for builds containing src_internal.
 
 ## Installation
 System Web Apps are installed on startup using the Web Apps installation pipeline. The key differences are:

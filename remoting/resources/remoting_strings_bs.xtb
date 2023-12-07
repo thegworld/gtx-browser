@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Otkrivena je nekompatibilna verzija protokola. Provjerite je li na oba računara instalirana najnovija verzija softvera i pokušajte ponovo.</translation>
 <translation id="1008557486741366299">Ne sada</translation>
 <translation id="1201402288615127009">Naprijed</translation>
-<translation id="1296511125400541222">Autorska prava 2023. Autori Chromiuma. Sva prava su zadržana.</translation>
+<translation id="1296511125400541222">Autorska prava 2023. Autori GTx Browsera. Sva prava su zadržana.</translation>
 <translation id="1297009705180977556">Greška prilikom povezivanja s host računarom <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Traženi objekat ne postoji.</translation>
 <translation id="1480046233931937785">Zasluge</translation>
@@ -156,7 +156,7 @@ Ako je skripta "<ph name="SERVICE_SCRIPT_NAME" />" već označena, uklonite ozna
 <translation id="7868137160098754906">Unesite PIN za udaljeni računar.</translation>
 <translation id="7895403300744144251">Pravila o sigurnosti na udaljenom računaru ne dozvoljavaju uspostavljanje veza s vašeg računa.</translation>
 <translation id="7936528439960309876">Priključi udesno</translation>
-<translation id="7970576581263377361">Došlo je do problema prilikom autentifikacije. Ponovo se prijavite u Chromium.</translation>
+<translation id="7970576581263377361">Došlo je do problema prilikom autentifikacije. Ponovo se prijavite u GTx Browser.</translation>
 <translation id="7981525049612125370">Sesija na daljinu je istekla.</translation>
 <translation id="8038111231936746805">(zadano)</translation>
 <translation id="8041089156583427627">Pošaljite povratne informacije</translation>
@@ -191,6 +191,6 @@ Ako je stavka "<ph name="SERVICE_SCRIPT_NAME" />" već označena, uklonite oznak
 <translation id="9187628920394877737">Dajte odobrenje za "Snimanje ekrana" za <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Nevažeća konfiguracija host računara.</translation>
 <translation id="981121421437150478">Van mreže</translation>
-<translation id="985602178874221306">Autori Chromiuma</translation>
+<translation id="985602178874221306">Autori GTx Browsera</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (posljednji put na mreži <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

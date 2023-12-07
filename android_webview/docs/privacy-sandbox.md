@@ -4,7 +4,7 @@
 [TOC]
 
 
-The WebView team supports both the [Android](https://developer.android.com/design-for-safety/privacy-sandbox) and [Chromium](https://developer.chrome.com/en/docs/privacy-sandbox/) Privacy Sandbox
+The WebView team supports both the [Android](https://developer.android.com/design-for-safety/privacy-sandbox) and [GTx Browser](https://developer.chrome.com/en/docs/privacy-sandbox/) Privacy Sandbox
 initiatives. Below please find details of work related to these efforts:
 
 

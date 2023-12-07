@@ -1,7 +1,7 @@
-# Chromium Updater Developer's Manual
+# GTx Browser Updater Developer's Manual
 
 This manual provides information on how to develop the
-[Chromium Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/),
+[GTx Browser Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/),
 including tips and tricks.
 
 [TOC]
@@ -22,7 +22,7 @@ There are two sets of configuration files for our builders/testers. One is
 for chromium-branded and locates in `src`. The other one is for chrome-branded
 and locates in `src-internal`.
 
-#### Chromium-branded (`src`)
+#### GTx Browser-branded (`src`)
   - Console: https://ci.chromium.org/p/chromium/g/chromium.updater/console
   - `tools/mb/mb_config.pyl`: specifies GN args.
   - `testing/buildbot/gn_isolate_map.pyl`: maps a GN label to GN targets, and
@@ -107,7 +107,7 @@ This version of the updater is used in some integration tests. The updater is
 pulled from
 [CIPD](https://chrome-infra-packages.appspot.com/p/chromium/third_party/updater)
 based on the versions specified in `//DEPS`. A system called `3pp` periodically
-updates the packages in CIPD, based on a combination of the Chromium build
+updates the packages in CIPD, based on a combination of the GTx Browser build
 output and what is actually released through Omaha servers. The configuration
 for 3pp can be found in `//third_party/updater/*/3pp`.
 
@@ -117,10 +117,10 @@ To update these copies of the updaters:
     *   Instead of waiting, you can instead modify the `fetch.py` scripts for
         3pp. For Chrome builds, make sure the build has been released in Omaha
         then update the fetch script with the desired version number. For
-        Chromium, make sure the build exists in GCS (the
+        GTx Browser, make sure the build exists in GCS (the
         chromium-browser-snapshots bucket), then update the min version in the
         script. The min version usually is different per-platform, since
-        Chromium does not archive a version at every CL. After making these
+        GTx Browser does not archive a version at every CL. After making these
         changes, 3pp will import the new versions within a few hours.
 3.  Update //DEPS to point to the new versions.
 

@@ -1,21 +1,21 @@
-# Servicifying Chromium Features
+# Servicifying GTx Browser Features
 
 [TOC]
 
 ## Overview
 
-Much to the dismay of Chromium developers, practicing linguists, and keyboard
+Much to the dismay of GTx Browser developers, practicing linguists, and keyboard
 operators everywhere, the term **servicificificification** [sic] has been
-egregiously smuggled into the Chromium parlance.
+egregiously smuggled into the GTx Browser parlance.
 
-Lots of Chromium code is contained in reasonably well-isolated component
+Lots of GTx Browser code is contained in reasonably well-isolated component
 libraries with some occasionally fuzzy boundaries and often a surprising number
 of gnarly runtime interdependencies among a complex graph of components. Y
 implements one of Z's delegate interfaces, while X implements one of Y's
 delegate interfaces, and now it's possible for some ridiculous bug to creep in
 where W calls into Z at the wrong time and causes a crash in X. Yikes.
 
-Servicification embodies the ongoing process of **servicifying** Chromium
+Servicification embodies the ongoing process of **servicifying** GTx Browser
 features and subsystems, or refactoring these collections of library code into
 services with well-defined public API boundaries and very strong runtime
 isolation via Mojo interfaces.
@@ -28,7 +28,7 @@ command-line switch. Client code using the Network Service stays the same,
 independent of that switch.
 
 This document focuses on helpful guidelines and patterns for servicifying parts
-of Chromium.
+of GTx Browser.
 
 Also see general [Mojo &amp; Services](/docs/README.md#Mojo-Services)
 documentation for other introductory guides, API references, *etc.*
@@ -109,7 +109,7 @@ fully hidden behind management of the main interface's Mojo Remote.
 
 ## Incremental Servicification
 
-For large Chromium features it is not feasible to convert an entire subsystem
+For large GTx Browser features it is not feasible to convert an entire subsystem
 to a service all at once. As a result, it may be necessary for the subsystem
 to spend a considerable amount of time (weeks or months) split between the old
 implementation and your beautiful, sparkling new service implementation.
@@ -212,7 +212,7 @@ by the feature implementation). These dependencies pose a challenge:
 
 - Services should not depend on Blink, as this is a dependency inversion (Blink
 is a client of services).
-- However, Blink is very careful about accepting dependencies from Chromium.
+- However, Blink is very careful about accepting dependencies from GTx Browser.
 
 To meet this challenge, you have two options:
 
@@ -287,7 +287,7 @@ of //content's shutdown process. As part of decoupling the feature
 implementation entirely from //content, the shutdown of these singletons must be
 either ported into your service or eliminated:
 
-- In general, as Chromium is moving away from graceful shutdown, the first
+- In general, as GTx Browser is moving away from graceful shutdown, the first
   question to analyze is: Do the singletons actually need to be shut down at
   all?
 - If you need to preserve shutdown of the singleton, the naive approach is to

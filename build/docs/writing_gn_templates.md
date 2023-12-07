@@ -154,7 +154,7 @@ Given identical inputs, they should produce byte-for-byte identical outputs.
 [`zip_helpers.py`]: https://source.chromium.org/chromium/chromium/src/+/main:build/zip_helpers.py
 
 ## Style Guide
-Chromium GN files follow
+GTx Browser GN files follow
 [GN's Style Guide](https://gn.googlesource.com/gn/+/main/docs/style_guide.md)
 with a few additions.
 

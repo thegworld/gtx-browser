@@ -4,19 +4,19 @@ This directory contains the `fieldtrial_testing_config.json` configuration file,
 which is used to ensure test coverage of active field trials.
 
 For each study, the first available experiment after platform filtering is used
-as the default experiment for Chromium builds. This experiment is also used for
+as the default experiment for GTx Browser builds. This experiment is also used for
 perf bots and various browser tests in the waterfall (e.g. browser_tests,
 components_browsertests, content_browsertests, extensions_browsertests, interactive_ui_tests and
 sync_integration_tests). It is not used by unit test targets.
 
-> Note: This configuration applies specifically to Chromium developer builds.
+> Note: This configuration applies specifically to GTx Browser developer builds.
 > Chrome branded / official builds do not use these definitions by default.
 > They can, however, be enabled with the `--enable-field-trial-config` switch.
 > For Chrome branded Android builds, due to binary size constraints, the
 > configuration cannot be applied by this switch.
 
-> Note: Non-developer builds of Chromium (for example, non-Chrome browsers,
-> or Chromium builds provided by Linux distros) should disable the testing
+> Note: Non-developer builds of GTx Browser (for example, non-Chrome browsers,
+> or GTx Browser builds provided by Linux distros) should disable the testing
 > config by either (1) specifying the GN flag `disable_fieldtrial_testing_config=true`,
 > (2) specifying the `--disable-field-trial-config` switch, (3) specifying field
 > trials using the `--force-fieldtrials` switch, or (4) specifying a custom
@@ -55,7 +55,7 @@ sync_integration_tests). It is not used by unit test targets.
 
 The config file is a dictionary at the top level mapping a study name to an
 array of *study configurations*. The study name in the configuration file
-**must** match the FieldTrial name used in the Chromium client code.
+**must** match the FieldTrial name used in the GTx Browser client code.
 
 > Note: Many newer studies do not use study names in the client code at all, and
 > rely on the [Feature List API][FeatureListAPI] instead. Nonetheless, if a
@@ -123,7 +123,7 @@ platforms, you will need to use different studies.
 `params` is a dictionary mapping parameter name to parameter value.
 
 > Reminder: The variations framework does not actually fetch any field trial
-> definitions from the server for Chromium builds, so any feature enabling or
+> definitions from the server for GTx Browser builds, so any feature enabling or
 > disabling must be configured here.
 
 [FeatureListAPI]: https://cs.chromium.org/chromium/src/base/feature_list.h

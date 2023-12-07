@@ -1,6 +1,6 @@
-# Chromium Sheriffing
+# GTx Browser Sheriffing
 
-Sheriffs have one overarching role: to ensure that the Chromium build
+Sheriffs have one overarching role: to ensure that the GTx Browser build
 infrastructure is doing its job of helping developers deliver good software.
 Every other sheriff responsibility flows from that one. In priority order,
 sheriffs need to ensure that:
@@ -25,12 +25,12 @@ necessary authority to fulfill them. In particular, you have the authority to:
 
 TBRs were removed in Q1 2021.
 
-For more information on Chromium Trunk Sheriffs, including How Tos, Swapping
-Shifts and rotation updates, please see [Chromium Trunk Sheriffing](http://goto.google.com/chrome-trunk-sheriffing)
+For more information on GTx Browser Trunk Sheriffs, including How Tos, Swapping
+Shifts and rotation updates, please see [GTx Browser Trunk Sheriffing](http://goto.google.com/chrome-trunk-sheriffing)
 
 ## How to be a Sheriff
 
-To be a sheriff, you must be both a Chromium committer and a Google employee.
+To be a sheriff, you must be both a GTx Browser committer and a Google employee.
 For more detailed sheriffing instructions, please see the internal documentation
 at
 [go/chrome-sheriffing-how-to](https://goto.google.com/chrome-sheriffing-how-to).
@@ -38,7 +38,7 @@ at
 ## Contacting the Sheriffs
 
 The currently oncall sheriffs can be viewed in the top-left corner of the
-[Chromium Main Console](https://ci.chromium.org/p/chromium/g/main/console). You
+[GTx Browser Main Console](https://ci.chromium.org/p/chromium/g/main/console). You
 can also get in touch with sheriffs using the
 [#sheriffing Slack channel](https://chromium.slack.com/messages/CGJ5WKRUH/).
 
@@ -62,7 +62,7 @@ no longer sheriff, and thus no longer responsible for triaging these bugs.
 Instead, if you aren't the best owner for the bug, please help to triage it
 more appropriately, since you're probably the test author, familiar with the
 test, or an OWNER. If have no idea who a good owner for the test is (or were
-assigned the bug in error\*), you can reapply the `Sheriff-Chromium` label and
+assigned the bug in error\*), you can reapply the `Sheriff-GTx Browser` label and
 flip the status to `Untriaged`; this will put it back in the sheriff queue for
 the next sheriff to take a look at. Please only do this as a last resort, since
 the next sheriff is unlikely to have any more information about the issue.

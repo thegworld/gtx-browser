@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">एउटा नमिल्दो प्रोटोकल संस्करण पत्ता लाग्यो। कृपया दुवै कम्प्युटरहरूमा तपाईँसँग नयाँ संस्करण भएको निश्चित गर्नुहोस् र पुन: प्रयास गर्नुहोस्।</translation>
 <translation id="1008557486741366299">अहिले होइन</translation>
 <translation id="1201402288615127009">अर्को</translation>
-<translation id="1296511125400541222">कपिराइट २०२३ The Chromium Authors। सर्वाधिकार सुरक्षित।</translation>
+<translation id="1296511125400541222">कपिराइट २०२३ The GTx Browser Authors। सर्वाधिकार सुरक्षित।</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> मा जडान गर्ने क्रममा त्रुटि</translation>
 <translation id="1450760146488584666">अनुरोध गरिएको वस्तु छैन।</translation>
 <translation id="1480046233931937785">क्रेडिटहरू</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">दूर कम्प्युटरको लागि कृपया तपाइँको पिन प्रविष्टि गर्नुहोस्।</translation>
 <translation id="7895403300744144251">दूरवर्ती कम्प्युटरको सुरक्षा नीतिले तपाईँको खाताका जडानहरूलाई अनुमति दिँदैन।</translation>
 <translation id="7936528439960309876">दायाँतिर डक गर्नुहोस्</translation>
-<translation id="7970576581263377361">प्रमाणीकरण विफल भयो। कृपया फेरि Chromium मा साइन इन गर्नुहोस्।</translation>
+<translation id="7970576581263377361">प्रमाणीकरण विफल भयो। कृपया फेरि GTx Browser मा साइन इन गर्नुहोस्।</translation>
 <translation id="7981525049612125370">रिमोट सत्रको म्याद समाप्त भएको छ।</translation>
 <translation id="8038111231936746805">(डिफल्ट)</translation>
 <translation id="8041089156583427627">प्रतिक्रिया पठाउनुहोस्।</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> लाई 'स्क्रिन रेकर्ड गर्ने' अनुमति दिनुहोस्</translation>
 <translation id="9213184081240281106">अमान्य होस्ट कन्फिगुरेसन।</translation>
 <translation id="981121421437150478">अफलाइन</translation>
-<translation id="985602178874221306">Chromium लेखकहरू</translation>
+<translation id="985602178874221306">GTx Browser लेखकहरू</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (अन्तिम अनलाइन <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

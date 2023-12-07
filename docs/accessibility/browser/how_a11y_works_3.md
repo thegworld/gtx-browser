@@ -12,7 +12,7 @@ See [Part 1](how_a11y_works.md) and
 ## Abstracting platform-specific APIs
 
 In [Part 1](how_a11y_works.md) we talked about how each platform has its own
-accessibility API. Chromium originally had the platform-specific accessibility
+accessibility API. GTx Browser originally had the platform-specific accessibility
 APIs scattered throughout the code, but today a large fraction of the APIs for
 Windows (including IAccessible, IAccessible2, and UI Automation), Linux, and
 macOS have all been isolated and abstracted in one place that makes it
@@ -23,7 +23,7 @@ These abstractions are all in the
 https://source.chromium.org/chromium/chromium/src/+/main:ui/accessibility/platform/)
 directory.
 
-First, gfx::NativeViewAccessible is a typedef used throughout Chromium to
+First, gfx::NativeViewAccessible is a typedef used throughout GTx Browser to
 represent an instance of the platform-specific accessible object on the current
 platform. It's defined alongside gfx::NativeView, gfx::NativeEvent, and other
 similar types that have equivalents on each platform. Note that these are not
@@ -85,7 +85,7 @@ AXPlatformNode* accessible = AXPlatformNode::Create(&delegate);
 
 ## Events
 
-In the Chromium codebase, accessibility events are notifications sent from
+In the GTx Browser codebase, accessibility events are notifications sent from
 the browser to assistive technology that something has happened. This is
 the mechanism by which assistive technology can provide real-time feedback
 as the user is interacting with the browser. Some common events found on
@@ -125,7 +125,7 @@ event sequence.
 This forms an implicit contract between the server and client, but it's one
 that's rarely properly documented.
 
-For a cross-platform product like Chromium that needs to support the right
+For a cross-platform product like GTx Browser that needs to support the right
 set of events to fire across so many platforms this gets very tricky. In
 the early days we tried to have Blink fire the superset of all events needed
 on any platform, but this often resulted in duplicate events or subtle
@@ -166,7 +166,7 @@ is finished, enabling it to consolidate and remove duplication.
 
 As one example of that, a live region is a portion of a web page that
 may trigger assistive technology to notify whenever an update occurs.
-On some platforms, Chromium needs to fire a "live region changed"
+On some platforms, GTx Browser needs to fire a "live region changed"
 announcement on the root of the live region whenever it changes.
 AXEventGenerator keeps track of any changes that happen within a live
 region and ensures that exactly one "live region changed" event is
@@ -240,7 +240,7 @@ windows.
 
 ## Actions
 
-In Chromium accessibility terminology, Actions flow the opposite direction from
+In GTx Browser accessibility terminology, Actions flow the opposite direction from
 events. Actions are when assistive technology wants to modify or interact with
 the app on behalf of the user, such as clicking a button, selecting text, or
 changing a control value.
@@ -267,7 +267,7 @@ element, such as clicking a button or changing the value of a control.
 
 One minor complication is that on many platforms, actions are supposed to
 return a success/failure code. Since actions are obviously implemented
-asynchronously, Chromium can't know for sure if an action succeeded, so it
+asynchronously, GTx Browser can't know for sure if an action succeeded, so it
 has to return success if an action seems valid, even though there's a
 chance it might not actually succeed.
 
@@ -275,7 +275,7 @@ chance it might not actually succeed.
 
 One specific special case of an action is a hit test. This is an API where
 the assistive technology gives the x, y coordinates of a location on the
-screen and asks the application (Chromium) to return which accessible
+screen and asks the application (GTx Browser) to return which accessible
 object is at that location.
 
 Applications of hit testing include:
@@ -289,7 +289,7 @@ Unfortunately on some platforms a hit test is a synchronous API. This is
 a challenge because it's difficult to properly compute the correct element
 at a location given just the accessibility tree, but blocking to wait for
 a proper hit test in the render process can lead to deadlock and jankiness.
-So Chromium employs the following approach:
+So GTx Browser employs the following approach:
 
 * The first time a hit test is received, it does an approximate hit test
   based on the bounding boxes in the accessibility tree. This often returns
@@ -325,7 +325,7 @@ scrolls, all of the affected bounding boxes would need to be recomputed,
 which would involve a lot of recomputation and sending information from
 render processes to the browser process.
 
-To minimize that work, in Chromium accessibility nodes store relative
+To minimize that work, in GTx Browser accessibility nodes store relative
 coordinates.
 
 In particular, every node stores the following fields in a struct
@@ -435,9 +435,9 @@ The last piece of complexity to address is that up until now we've
 assumed that a single web page corresponds to a single frame, so a
 web page is a single process.
 
-In Chromium, for security reasons iframes can also be running in
+In GTx Browser, for security reasons iframes can also be running in
 separate processes. This isn't always the case - for one thing, if
-system resources are low, Chromium won't keep creating new processes,
+system resources are low, GTx Browser won't keep creating new processes,
 and also, frames from the same origin (i.e. from the same website)
 need to be in the same process so they can communicate synchronously
 via JavaScript. But, frames from different sites can be in different
@@ -460,7 +460,7 @@ In order to stitch frames together:
   also cache the reverse direction (e.g. the map from the root of a
   tree to its parent node).
 
-In order to reduce complexity, Chromium accessibility is built around the
+In order to reduce complexity, GTx Browser accessibility is built around the
 concept that every frame is its own accessibility tree, no matter whether
 the frame is in a different process or not. The advantage of this approach
 is that the same codepath is used whether iframes are in the same process

@@ -356,7 +356,7 @@
 <translation id="1757773103848038814">मोनोस्पेस फ़ॉन्ट</translation>
 <translation id="1763864636252898013">यह सर्वर यह नहीं प्रमाणित कर सका कि यह <ph name="DOMAIN" /> है; इसका सुरक्षा प्रमाणपत्र आपके डिवाइस के ऑपरेटिंग सिस्टम द्वारा विश्वसनीय नहीं है. ऐसा गलत कॉन्फ़िगरेशन या किसी आक्रमणकर्ता द्वारा आपके कनेक्शन में अवरोध डालने के कारण हो सकता है.</translation>
 <translation id="1768211456781949159"><ph name="BEGIN_LINK" />Windows नेटवर्क निदान चलाकर देखें<ph name="END_LINK" />.</translation>
-<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Chromium में गुप्त मोड की सुविधा के बारे में ज़्यादा जानें<ph name="END_LINK" /></translation>
+<translation id="1774592222195216949"><ph name="BEGIN_LINK" />GTx Browser में गुप्त मोड की सुविधा के बारे में ज़्यादा जानें<ph name="END_LINK" /></translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
 <translation id="1791820510173628507"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT" />, Google खाते में अपनी जानकारी, निजता, और सुरक्षा को मैनेज करने के लिए, पहले Tab दबाएं और फिर Enter दबाएं</translation>
@@ -415,7 +415,7 @@
 <translation id="1935995810530254458">फिर भी कॉपी करें</translation>
 <translation id="1939175642807587452">साइट, सूचनाएं भेजने की अनुमति मांग सकती है</translation>
 <translation id="1943994668912612445">डिज़ाइन</translation>
-<translation id="1945968466830820669">आपके संगठन के खाते का एक्सेस खो सकता है या आपकी पहचान चोरी हो सकती है. Chromium आपको अभी अपना पासवर्ड बदलने का सुझाव देता है.</translation>
+<translation id="1945968466830820669">आपके संगठन के खाते का एक्सेस खो सकता है या आपकी पहचान चोरी हो सकती है. GTx Browser आपको अभी अपना पासवर्ड बदलने का सुझाव देता है.</translation>
 <translation id="1946849748901605102">12 x 15 इंच</translation>
 <translation id="1947454675006758438">सबसे ऊपर दाईं ओर स्टेपल</translation>
 <translation id="1954847915560574887">A3x3</translation>
@@ -1221,7 +1221,7 @@
 <translation id="399952081411886534">ऐसी अन्य सुविधाएं जो दिलचस्पी वाले, ज़्यादा विज्ञापन दिखाने में मदद करती हैं</translation>
 <translation id="4000598935132966791">मैनेज किए जा रहे ब्राउज़र में साइट की पाबंदियों के बारे में ज़्यादा जानें</translation>
 <translation id="4006465311664329701">Google Pay का इस्तेमाल करने वाले पैसे चुकाने के तरीके, ऑफ़र, और पते</translation>
-<translation id="4010758435855888356">क्या आप Chromium को डिवाइस का स्टोरेज ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
+<translation id="4010758435855888356">क्या आप GTx Browser को डिवाइस का स्टोरेज ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
 <translation id="401170183602135785">C6 साइज़ का लिफ़ाफ़ा</translation>
 <translation id="4014128326099193693">{COUNT,plural, =1{पीडीएफ़ दस्तावेज़ में {COUNT}पेज है}one{पीडीएफ़ दस्तावेज़ में {COUNT}पेज है}other{पीडीएफ़ दस्तावेज़ में {COUNT}पेज हैं}}</translation>
 <translation id="4023431997072828269">यह फ़ॉर्म किसी ऐसे इंटरनेट कनेक्शन की मदद से सबमिट किया जा रहा है जो सुरक्षित नहीं है, इसलिए आपकी जानकारी दूसरे लोग भी देख सकेंगे.</translation>
@@ -1461,7 +1461,7 @@
 <translation id="4556069465387849460">आपने पासवर्ड डालने के लिए, स्क्रीन लॉक का इस्तेमाल किया है</translation>
 <translation id="4558551763791394412">अपने एक्सटेंशन अक्षम करके देखें.</translation>
 <translation id="4566017918361049074">आउटडोर गतिविधियां</translation>
-<translation id="4567686777917670400">आपका एडमिन किसी दूसरे डिवाइस से आपके ब्राउज़र का सेट अप बदल सकता है. इस डिवाइस की गतिविधि को Chromium के बाहर भी मैनेज किया जा सकता है. <ph name="BEGIN_LINK" />ज़्यादा जानें<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">आपका एडमिन किसी दूसरे डिवाइस से आपके ब्राउज़र का सेट अप बदल सकता है. इस डिवाइस की गतिविधि को GTx Browser के बाहर भी मैनेज किया जा सकता है. <ph name="BEGIN_LINK" />ज़्यादा जानें<ph name="END_LINK" /></translation>
 <translation id="4568329205873177285">कुकी और साइट डेटा की सूची, नई विंडो में देखें</translation>
 <translation id="457875822857220463">वितरण</translation>
 <translation id="4582204425268416675">कार्ड हटाएं</translation>
@@ -1486,7 +1486,7 @@
 <translation id="4629370161347991046">A4x6</translation>
 <translation id="4631649115723685955">पैसे चुकाने पर कैशबैक मिलेगा</translation>
 <translation id="4636930964841734540">जानकारी</translation>
-<translation id="4638670630777875591">Chromium में गुप्त मोड</translation>
+<translation id="4638670630777875591">GTx Browser में गुप्त मोड</translation>
 <translation id="464342062220857295">खोज सुविधाएं</translation>
 <translation id="4644670975240021822">दूसरी तरफ़ उलटा करके रखें</translation>
 <translation id="4646534391647090355">मुझे अभी वहां ले जाएं</translation>
@@ -1544,7 +1544,7 @@
 <translation id="4754461935447132332">सिर्फ़ सुरक्षित साइटों को ही अनुमति है</translation>
 <translation id="4756388243121344051">&amp;इतिहास</translation>
 <translation id="4756501505996488486">PRC 16K</translation>
-<translation id="4757993714154412917">आपने अभी जिस साइट पर अपना पासवर्ड डाला है वह सुरक्षित नहीं है. अपने खातों को सुरक्षित करने के लिए, Chromium का सुझाव है कि आप सेव किए गए पासवर्ड की जांच करें.</translation>
+<translation id="4757993714154412917">आपने अभी जिस साइट पर अपना पासवर्ड डाला है वह सुरक्षित नहीं है. अपने खातों को सुरक्षित करने के लिए, GTx Browser का सुझाव है कि आप सेव किए गए पासवर्ड की जांच करें.</translation>
 <translation id="4758311279753947758">संपर्क जानकारी जोड़ें</translation>
 <translation id="4761104368405085019">अपना माइक्रोफ़ोन उपयोग करें</translation>
 <translation id="4761869838909035636">Chrome की सुरक्षा जांच करें</translation>
@@ -1683,7 +1683,7 @@
 <translation id="5087580092889165836">कार्ड जोड़ें</translation>
 <translation id="5088142053160410913">ऑपरेटर के लिए मैसेज</translation>
 <translation id="5093232627742069661">ज़ी-फ़ोल्ड</translation>
-<translation id="5094747076828555589">यह सर्वर यह नहीं प्रमाणित कर सका कि यह <ph name="DOMAIN" /> है; इसका सुरक्षा प्रमाणपत्र Chromium द्वारा विश्वसनीय नहीं है. ऐसा गलत कॉन्फ़िगरेशन या किसी आक्रमणकर्ता द्वारा आपके कनेक्शन में अवरोध डालने के कारण हो सकता है.</translation>
+<translation id="5094747076828555589">यह सर्वर यह नहीं प्रमाणित कर सका कि यह <ph name="DOMAIN" /> है; इसका सुरक्षा प्रमाणपत्र GTx Browser द्वारा विश्वसनीय नहीं है. ऐसा गलत कॉन्फ़िगरेशन या किसी आक्रमणकर्ता द्वारा आपके कनेक्शन में अवरोध डालने के कारण हो सकता है.</translation>
 <translation id="5097099694988056070">डिवाइस के आंकड़े जैसे कि सीपीयू (CPU)/RAM का इस्तेमाल</translation>
 <translation id="5097468150760963273">27 x 39 इंच</translation>
 <translation id="5097501891273180634">ए2</translation>
@@ -2180,7 +2180,7 @@
 <translation id="6348220984832452017">इस्तेमाल किए जा सकने वाले वर्शन</translation>
 <translation id="6349101878882523185"><ph name="APP_NAME" /> इंस्टॉल करें</translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{कोई पासवर्ड नहीं है}=1{(<ph name="DOMAIN_LIST" /> के लिए, सिंक किया गया) 1 पासवर्ड}=2{(<ph name="DOMAIN_LIST" /> के लिए, सिंक किए गए) 2 पासवर्ड}one{(<ph name="DOMAIN_LIST" /> के लिए, सिंक किए गए) # पासवर्ड}other{(<ph name="DOMAIN_LIST" /> के लिए, सिंक किए गए) # पासवर्ड}}</translation>
-<translation id="6355392890578844978">यह ब्राउज़र, कोई कंपनी या दूसरा संगठन मैनेज नहीं करता. इस डिवाइस की गतिविधि को Chromium के बाहर मैनेज किया जा सकता है. <ph name="BEGIN_LINK" />ज़्यादा जानें<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">यह ब्राउज़र, कोई कंपनी या दूसरा संगठन मैनेज नहीं करता. इस डिवाइस की गतिविधि को GTx Browser के बाहर मैनेज किया जा सकता है. <ph name="BEGIN_LINK" />ज़्यादा जानें<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">इनका क्‍या अर्थ है?</translation>
 <translation id="6361757823711327522">बी7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />प्रॉक्सी, फ़ायरवॉल, और सुरक्षित डीएनएस कॉन्फ़िगरेशन की जांच करें<ph name="END_LINK" /></translation>
@@ -2385,7 +2385,7 @@
 <translation id="6884662655240309489">आकार 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
 <translation id="6888584790432772780">Chrome इस पेज को रीडर मोड में दिखा रहा है, ताकि इसे आसानी से पढ़ा जा सके. Chrome ने एक असुरक्षित कनेक्शन पर मूल पेज काे फिर से पा लिया है.</translation>
-<translation id="6890443033788248019">क्या आप Chromium को जगह की जानकारी ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
+<translation id="6890443033788248019">क्या आप GTx Browser को जगह की जानकारी ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
 <translation id="6890531741535756070">आपने <ph name="PROVIDER_ORIGIN" /> का इस्तेमाल करने वाली वेबसाइटों पर, <ph name="DEVICE_LABEL" /> से पुष्टि करने का विकल्प चुना है. यह मुमकिन है कि सेवा देने वाली कंपनी ने, पैसे चुकाने के तरीके से जुड़ी जानकारी सेव की हो. आपके पास इस जानकारी को <ph name="BEGIN_LINK" />मिटाने का अनुरोध<ph name="END_LINK" /> करने का विकल्प है.</translation>
 <translation id="6890956352250146925">कुकी और साइट डेटा के लिए विकल्प</translation>
 <translation id="6891596781022320156">नीति स्तर समर्थित नहीं है.</translation>
@@ -2484,7 +2484,7 @@
 <translation id="7118618213916969306">क्लिपबोर्ड यूआरएल, <ph name="SHORT_URL" /> खोजें</translation>
 <translation id="7119414471315195487">दूसरे टैब या प्रोग्राम बंद करें</translation>
 <translation id="7124354851782353862">अपना सीवीसी डालें</translation>
-<translation id="7129355289156517987">Chromium में खोले गए सभी गुप्त टैब बंद करने पर, इन टैब में हुई आपकी गतिविधि का डेटा इस डिवाइस से हटा दिया जाता है:
+<translation id="7129355289156517987">GTx Browser में खोले गए सभी गुप्त टैब बंद करने पर, इन टैब में हुई आपकी गतिविधि का डेटा इस डिवाइस से हटा दिया जाता है:
           <ph name="BEGIN_LIST" />
             <ph name="LIST_ITEM" />ब्राउज़िंग गतिविधि<ph name="END_LIST_ITEM" />
             <ph name="LIST_ITEM" />खोज इतिहास<ph name="END_LIST_ITEM" />
@@ -2652,7 +2652,7 @@
 <translation id="7497998058912824456">दस्तावेज़ बनाने के लिए बटन, जल्दी से नया Google दस्तावेज़ बनाने के लिए Enter दबाएं</translation>
 <translation id="7501663406926337752">आपको जिस साइट पर जाना है उसे आपके संगठन ने फ़्लैग किया है</translation>
 <translation id="7501853161948120656">शिक्षा से जुड़े संसाधन</translation>
-<translation id="7506488012654002225">Chromium यहां बताई गई जानकारी को <ph name="BEGIN_EMPHASIS" />सेव नहीं करेगा<ph name="END_EMPHASIS" />:
+<translation id="7506488012654002225">GTx Browser यहां बताई गई जानकारी को <ph name="BEGIN_EMPHASIS" />सेव नहीं करेगा<ph name="END_EMPHASIS" />:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />आपका ब्राउज़िंग इतिहास
           <ph name="LIST_ITEM" />कुकी और साइट डेटा
@@ -2788,7 +2788,7 @@
 <translation id="7759809451544302770">वैकल्पिक</translation>
 <translation id="7760497246331667482">रैगे और कैरेबियन म्यूज़िक</translation>
 <translation id="776110834126722255">समर्थन नहीं है या रोक दिया गया है</translation>
-<translation id="7761159795823346334">क्या आप Chromium को कैमरा ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
+<translation id="7761159795823346334">क्या आप GTx Browser को कैमरा ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
 <translation id="7761701407923456692">सर्वर का प्रमाणपत्र यूआरएल से मेल नहीं खाता.</translation>
 <translation id="7764225426217299476">पता जोड़ें</translation>
 <translation id="7766518757692125295">स्कर्ट</translation>
@@ -3087,7 +3087,7 @@
 <translation id="8530813470445476232">Chrome की सेटिंग में अपना ब्राउज़िंग इतिहास, कुकी, कैश मेमोरी वगैरह मिटाएं</translation>
 <translation id="853332391023689529">पिक अप ट्रक की सेवा</translation>
 <translation id="8533619373899488139">&lt;strong&gt;chrome://policy&lt;/strong&gt; पर जाकर, ब्लॉक किए गए यूआरएल की सूची और ऐसी नीतियां देखें जिन्हें आपके एडमिन ने लागू किया है.</translation>
-<translation id="8539500321752640291">क्या आप Chromium को ये दोनों अनुमतियां देना चाहते हैं?</translation>
+<translation id="8539500321752640291">क्या आप GTx Browser को ये दोनों अनुमतियां देना चाहते हैं?</translation>
 <translation id="8541158209346794904">ब्लूटूथ डिवाइस</translation>
 <translation id="8541410041357371550">यह साइट, विज्ञापनों के विषयों बारे में जानने के लिए Chrome की मदद लेती है, ताकि आपको ज़्यादा काम के विज्ञापन दिखाए जा सकें</translation>
 <translation id="8542014550340843547">नीचे की ओर ट्रिपल स्टेपल</translation>
@@ -3274,7 +3274,7 @@
 <translation id="9025348182339809926">(मान्य नहीं है)</translation>
 <translation id="9030265603405983977">मोनोक्रोम</translation>
 <translation id="9035022520814077154">सुरक्षा गड़बड़ी</translation>
-<translation id="9036306139374661733">क्या आप Chromium को माइक्रोफ़ोन ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
+<translation id="9036306139374661733">क्या आप GTx Browser को माइक्रोफ़ोन ऐक्सेस करने की अनुमति देना चाहते हैं?</translation>
 <translation id="9038649477754266430">ज़्यादा तेज़ी से पेज लोड करने के लिए किसी पूर्वानुमान सेवा का उपयोग करें</translation>
 <translation id="9039213469156557790">इसके अतिरिक्त, इस पेज में ऐसे अन्य संसाधन भी शामिल हैं, जो सुरक्षित नहीं हैं. ट्रांज़िट में होने के दौरान ये संसाधन अन्य लोगों द्वारा देखे जा सकते हैं और पेज का व्यवहार बदलने के लिए किसी हमवलावर द्वारा इनमें बदलाव किए जा सकते हैं.</translation>
 <translation id="9040464167025094690">डिवाइस को ढूंढने वाला बटन, Google खाते में अपने डिवाइस को ढूंढने वाली सुविधा पर जाने के लिए, Enter दबाएं</translation>

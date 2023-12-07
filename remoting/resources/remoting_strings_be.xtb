@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Выяўлена несумяшчальная версія пратакола. Упэўніцеся, што на абодвух камп'ютарах усталявана апошняя версія праграмнага забеспячэння, і паўтарыце спробу.</translation>
 <translation id="1008557486741366299">Не зараз</translation>
 <translation id="1201402288615127009">Далей</translation>
-<translation id="1296511125400541222">Аўтарскае права: стваральнікі Chromium, 2023. Усе правы абаронены.</translation>
+<translation id="1296511125400541222">Аўтарскае права: стваральнікі GTx Browser, 2023. Усе правы абаронены.</translation>
 <translation id="1297009705180977556">Памылка падключэння да хоста "<ph name="HOSTNAME" />"</translation>
 <translation id="1450760146488584666">Запытаны аб'ект не існуе.</translation>
 <translation id="1480046233931937785">Падзякі</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Увядзіце PIN-код для аддаленага камп'ютара.</translation>
 <translation id="7895403300744144251">Палітыкі бяспекі на аддаленым камп'ютары не дазваляюць падключэнні з вашага ўліковага запісу.</translation>
 <translation id="7936528439960309876">Замацаваць справа</translation>
-<translation id="7970576581263377361">Памылка аўтэнтыфікацыі. Увайдзіце ва ўліковы запіс Chromium зноў.</translation>
+<translation id="7970576581263377361">Памылка аўтэнтыфікацыі. Увайдзіце ва ўліковы запіс GTx Browser зноў.</translation>
 <translation id="7981525049612125370">Час аддаленага сеанса скончыўся.</translation>
 <translation id="8038111231936746805">(стандартна)</translation>
 <translation id="8041089156583427627">Адправіць водгук</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Дайце сэрвісу "<ph name="PRODUCT_NAME" />" дазвол на выкарыстанне функцыі "Запіс экрана"</translation>
 <translation id="9213184081240281106">Няправільная канфігурацыя хоста.</translation>
 <translation id="981121421437150478">Па-за сеткай</translation>
-<translation id="985602178874221306">Аўтары Chromium</translation>
+<translation id="985602178874221306">Аўтары GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (апошні раз у інтэрнэце – <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

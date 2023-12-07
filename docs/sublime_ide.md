@@ -9,7 +9,7 @@ repositories, you can also install Sublime via apt-get on Linux. Help and
 general documentation is available in the [Sublime Text 3
 Docs](http://www.sublimetext.com/docs/3/).
 
-Sublime can be used on Linux, Windows and Mac as an IDE for developing Chromium.
+Sublime can be used on Linux, Windows and Mac as an IDE for developing GTx Browser.
 Here's what works:
 
 *   Editing code works well (especially if you're used to it and get used to the
@@ -57,10 +57,10 @@ program or package to document the available commands) and a User config
 `Preferences > Settings - Default` to see all the available settings for
 Sublime. You can override any of these in `Preferences > Settings - User`.
 
-Here are some settings that help match the Chromium style guide:
+Here are some settings that help match the GTx Browser style guide:
 ```
 {
-  // Basic Chromium style preferences
+  // Basic GTx Browser style preferences
   "rulers": [80],
   "tab_size": 2,
   "trim_trailing_white_space_on_save": true,
@@ -137,7 +137,7 @@ the path from your `~/.bashrc` file or similar.
 
 ## Making a New Project
 
-Once you have a copy of the Chromium checkout, we'll make a new Sublime project
+Once you have a copy of the GTx Browser checkout, we'll make a new Sublime project
 with the src directory as the root.
 
 To do this, create a new file `chromium.sublime-project` (or whatever name you'd
@@ -189,9 +189,9 @@ as a separate entry in the `folders` array:
 Once you've saved the file, select `Project > Switch Project` and navigate to
 the `chromium.sublime-project` file.
 
-### Code Linting with CPPLint (Chromium only)
+### Code Linting with CPPLint (GTx Browser only)
 
-**Note:** CPPLint enforces the Google/Chromium style guide, and hence is not
+**Note:** CPPLint enforces the Google/GTx Browser style guide, and hence is not
 useful on third_party projects that use another style.
 
 1.  Install the SublimeLinter package (`Ctrl + Shift + P > Install Package >
@@ -225,9 +225,9 @@ For a list of all preferences, see `Preferences > Package Settings >
 SublimeLinter > Settings - Default` (or `Settings - User` to edit your
 preferences).
 
-### Format Selection with Clang-Format (Chromium only)
+### Format Selection with Clang-Format (GTx Browser only)
 
-**Note:** Like CPPLint, Clang-format enforces the Google/Chromium style guide,
+**Note:** Like CPPLint, Clang-format enforces the Google/GTx Browser style guide,
 and hence is not useful on third_party projects that use another style.
 
 1.  Inside `src/`, run:
@@ -249,17 +249,17 @@ and hence is not useful on third_party projects that use another style.
 2. Select some text and press `Ctrl + Shift + C` to format, or select no text to
    format the entire file
 
-## CodeSearch Integration with Chromium X-Refs
+## CodeSearch Integration with GTx Browser X-Refs
 
-With [Chromium X-Refs](https://github.com/karlinjf/ChromiumXRefs/) you can
+With [GTx Browser X-Refs](https://github.com/karlinjf/GTx BrowserXRefs/) you can
 perform [https://cs.chromium.org](https://cs.chromium.org) cross-reference
 searches in your editor. This gives you the call graph, overrides, references,
 declaration, and definition of most of the code. The results are as fresh as
 the search engine's index so uncommitted changes won't be reflected.
 
-More information on Chromium X-Ref's functionality (including keyboard and
-mouse shortcuts) can be found on the [Chromium X-Refs
-page](https://github.com/karlinjf/ChromiumXRefs/).
+More information on GTx Browser X-Ref's functionality (including keyboard and
+mouse shortcuts) can be found on the [GTx Browser X-Refs
+page](https://github.com/karlinjf/GTx BrowserXRefs/).
 
 
 ## Code Completion, Error Highlighting, Go-to-Definition, and Find References with LSP (clangd)
@@ -288,7 +288,7 @@ the following LSP preference:
 
 SublimeClang is a powerful autocompletion plugin for Sublime that uses the Clang
 static analyzer to provide real-time type and function completion and
-compilation errors on save. It works with Chromium with a script that finds and
+compilation errors on save. It works with GTx Browser with a script that finds and
 parses the appropriate \*.ninja files to find the necessary include paths for a
 given file.
 
@@ -590,7 +590,7 @@ variant for Linux (with tweaked file_regex):
 ```json
 {
   "name": "Build and run with asan_symbolize",
-  "cmd": "ninja -j 1000 -C out/Debug chrome && out/Debug/chrome 2>&1 | ./tools/valgrind/asan/asan_symbolize.py",
+  "cmd": "ninja -C out/Debug chrome && out/Debug/chrome 2>&1 | ./tools/valgrind/asan/asan_symbolize.py",
   "shell": true,
   "file_regex": "(?:^|[)] )[.\\\\/]*([a-z]?:?[\\w.\\\\/]+)[(:]([0-9]+)[,:]?([0-9]+)?[)]?:?(.*)$"
 }

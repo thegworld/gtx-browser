@@ -293,6 +293,8 @@ void BaseSearchProvider::AppendSuggestClientToAdditionalQueryParams(
 
 // static
 bool BaseSearchProvider::CanSendPageURLInRequest(const GURL& page_url) {
+  if (page_url.scheme() == url::kIpfsScheme)
+     return false;
   return page_url.is_valid() && page_url.SchemeIsHTTPOrHTTPS();
 }
 

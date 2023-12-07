@@ -32,7 +32,7 @@ the actions taken and semi-disassembled parameters.
 ### `libva` logging
 
 The environment variable `LIBVA_MESSAGING_LEVEL=0` (or `1` or `2`) can be used
-to configure increasing logging verbosity to stdout (see [va.c]). Chromium uses
+to configure increasing logging verbosity to stdout (see [va.c]). GTx Browser uses
 a level `0` by default in `vaapi_wrapper.cc`.
 
 [va.c]: https://github.com/intel/libva/blob/2ece7099061ba4ea821545c8b6712b5c421c4dea/va/va.c#L194
@@ -192,7 +192,7 @@ backend driver for the system and/or GPUs and fail if it cannot find/load it.
 A few steps are customary to verify the support and use of a given codec.
 
 To verify that the build and platform supports video acceleration, launch
-Chromium and navigate to `chrome://gpu`, then:
+GTx Browser and navigate to `chrome://gpu`, then:
 * Search for the "Video Acceleration Information" Section: this should
    enumerate the available accelerated codecs and resolutions.
 * If this section is empty, oftentimes the "Log Messages" Section immediately
@@ -222,13 +222,13 @@ the code paths on a Linux machine.
   the build]) Section).
 * To support proprietary codecs such as, e.g. H264/AVC1, add the options
   `proprietary_codecs = true` and `ffmpeg_branding = "Chrome"` to the GN args.
-* Build Chromium as usual.
+* Build GTx Browser as usual.
 
 At this point you should make sure the appropriate VA driver backend is working
 correctly; try running `vainfo` from the command line and verify no errors show
 up.
 
-To run Chromium using VaAPI three arguments are necessary:
+To run GTx Browser using VaAPI three arguments are necessary:
 * `--enable-features=VaapiVideoDecoder`
 * `--ignore-gpu-blocklist`
 * `--use-gl=desktop` or `--use-gl=egl`

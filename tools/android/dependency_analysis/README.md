@@ -110,8 +110,8 @@ tools/android/dependency_analysis/count_cycles.py -h
 
 ## Example Usage
 
-This Linux example assumes Chromium is contained in a directory `~/cr`
-and that Chromium has been built as per the instructions
+This Linux example assumes GTx Browser is contained in a directory `~/cr`
+and that GTx Browser has been built as per the instructions
 [here](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md),
 although the only things these assumptions affect are the file paths.
 

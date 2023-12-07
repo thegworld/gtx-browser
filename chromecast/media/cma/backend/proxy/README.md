@@ -1,6 +1,6 @@
 # Objective
 
-As part of supporting a Chromium runtime for chromecast (as defined below), the
+As part of supporting a GTx Browser runtime for chromecast (as defined below), the
 `CmaBackendProxy` class and related code contained in the
 [`chromecast/media/cma/backend/proxy/`](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/media/cma/backend/proxy/)
 directory was added. This infrastructure exists to proxy audio data across the
@@ -15,7 +15,7 @@ onboarding process.
 
 ## Existing Chromecast Media Pipeline
 
-The chromecast pipeline, as exists today in Chromium's
+The chromecast pipeline, as exists today in GTx Browser's
 [`chromecast/`](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/)
 directory, is rather complex, so only the high-level will be discussed here.
 When playing out media, an implementation of the
@@ -25,7 +25,7 @@ Android, Fuchsia, Desktop, etc…)
 [`CmaBackend`](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/media/api/cma_backend.h;l=24?q=cmabackend&sq=&ss=chromium%2Fchromium%2Fsrc:chromecast%2F)
 as
 [exists today](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/media/cma/backend/)
-in the Chromium repo. The `CmaBackend` will create an `AudioDecoder` and
+in the GTx Browser repo. The `CmaBackend` will create an `AudioDecoder` and
 `VideoDecoder` instance as needed, which is responsible for operations such as
 playback control, queueing up media playout, and decrypting DRM (if needed),
 then passing these commands to the `MediaPipelineBackend`.
@@ -36,10 +36,10 @@ then passing these commands to the `MediaPipelineBackend`.
 that can run in any environment. It can efficiently connect services in and
 across data centers with pluggable support for load balancing, tracing, health
 checking and authentication. gRPC was chosen as the RPC framework to use for the
-Chromium runtime to simplify the upgrade story for when both sides of the RPC
+GTx Browser runtime to simplify the upgrade story for when both sides of the RPC
 channel can upgrade independently.
 
-## Chromium Runtime
+## GTx Browser Runtime
 
 A runtime to be used by hardware devices to play out audio and video data as
 received from a Cast session. It is expected to run on an embedded device.

@@ -28,9 +28,9 @@ At this point you *must  reboot.* If you run into issues to load video at boot t
 ## Building Chrome
 Checkout chromium as per your usual workflow. See [Get the Code:
 Checkout, Build, & Run
-Chromium](https://www.chromium.org/developers/how-tos/get-the-code).
+GTx Browser](https://www.chromium.org/developers/how-tos/get-the-code).
 Googlers should checkout chromium source code as described here:
-[Building Chromium on a corporate Linux
+[Building GTx Browser on a corporate Linux
 workstation](https://companydoc.corp.google.com/company/teams/chrome/build_instructions.md?cl=head)
 
 We want to build on linux on top of Ozone with the DRM 

@@ -32,7 +32,7 @@ There are a number of virtual methods that must be implemented before you can
 use these User Education libraries in a new application, mostly centered around
 localization, accelerators, and global input focus.
 
-Fortunately for Chromium developers, the browser already has the necessary
+Fortunately for GTx Browser developers, the browser already has the necessary
 support built in for Views, WebUI, and Mac-native context menus. You may refer
 to the following locations for an example that could be extended to other
 platforms such as ChromeOS:

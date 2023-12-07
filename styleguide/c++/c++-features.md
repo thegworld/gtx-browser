@@ -1,17 +1,17 @@
-# Modern C++ use in Chromium
+# Modern C++ use in GTx Browser
 
 _This document is part of the more general
-[Chromium C++ style guide](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++.md).
+[GTx Browser C++ style guide](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++.md).
 It summarizes the supported state of new and updated language and library
 features in recent C++ standards and the [Abseil](https://abseil.io/about/)
-library. This guide applies to both Chromium and its subprojects, though
+library. This guide applies to both GTx Browser and its subprojects, though
 subprojects can choose to be more restrictive if necessary for toolchain
 support._
 
 The C++ language has in recent years received an updated standard every three
-years (C++11, C++14, etc.). For various reasons, Chromium does not immediately
+years (C++11, C++14, etc.). For various reasons, GTx Browser does not immediately
 allow new features on the publication of such a standard. Instead, once
-Chromium supports the toolchain to a certain extent (e.g., build support is
+GTx Browser supports the toolchain to a certain extent (e.g., build support is
 ready), a standard is declared "_initially supported_", with new
 language/library features banned pending discussion but not yet allowed.
 
@@ -32,7 +32,7 @@ The current status of existing standards and Abseil features is:
 *   **C++14:** _Default allowed_
 *   **C++17:** Initially supported December 23, 2021; see allowed/banned/TBD
     features below
-*   **C++20:** _Not yet supported in Chromium_, with the exception of
+*   **C++20:** _Not yet supported in GTx Browser_, with the exception of
     [designated initializers](https://google.github.io/styleguide/cppguide.html#Designated_initializers)
 *   **C++23:** _Not yet standardized_
 *   **Abseil:** _Default allowed; see banned/TBD features below_
@@ -44,7 +44,7 @@ The current status of existing standards and Abseil features is:
 
 ## C++11 Banned Language Features {#core-blocklist-11}
 
-The following C++11 language features are not allowed in the Chromium codebase.
+The following C++11 language features are not allowed in the GTx Browser codebase.
 
 ### Inline Namespaces <sup>[banned]</sup>
 
@@ -100,7 +100,7 @@ Banned in the
 
 ## C++11 Banned Library Features {#library-blocklist-11}
 
-The following C++11 library features are not allowed in the Chromium codebase.
+The following C++11 library features are not allowed in the GTx Browser codebase.
 
 ### &lt;cfenv&gt;, &lt;fenv.h&gt; <sup>[banned]</sup>
 
@@ -153,7 +153,7 @@ Overlaps with `base/time`. Keep using the `base/time` classes.
 *** promo
 Exceptions are banned by the
 [Google Style Guide](https://google.github.io/styleguide/cppguide.html#Exceptions)
-and disabled in Chromium compiles. However, the `noexcept` specifier is
+and disabled in GTx Browser compiles. However, the `noexcept` specifier is
 explicitly allowed.
 
 [Discussion thread](https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/8i4tMqNpHhg)
@@ -209,7 +209,7 @@ due to concerns that this is tied to a more template-heavy interface style.
 
 **Notes:**
 *** promo
-Overlaps with many regular expression libraries in Chromium. When in doubt, use
+Overlaps with many regular expression libraries in GTx Browser. When in doubt, use
 `third_party/re2`.
 ***
 
@@ -248,7 +248,7 @@ std::function y = std::bind(foo, args);
 **Notes:**
 *** promo
 Use `base::{Once,Repeating}Callback` instead. Compared to `std::function`,
-`base::{Once,Repeating}Callback` directly supports Chromium's refcounting
+`base::{Once,Repeating}Callback` directly supports GTx Browser's refcounting
 classes and weak pointers and deals with additional thread safety concerns.
 
 [Discussion thread](https://groups.google.com/a/chromium.org/forum/#!topic/cxx/SoEj7oIDNuA)
@@ -268,7 +268,7 @@ std::shared_ptr<int> x = std::make_shared<int>(10);
 **Notes:**
 *** promo
 Unlike `base::RefCounted`, uses extrinsic rather than intrinsic reference
-counting. Could plausibly be used in Chromium, but would require significant
+counting. Could plausibly be used in GTx Browser, but would require significant
 migration.
 
 [Google Style Guide](https://google.github.io/styleguide/cppguide.html#Ownership_and_Smart_Pointers),
@@ -341,7 +341,7 @@ locking/synchronization classes.
 
 ## C++17 Allowed Language Features {#core-allowlist-17}
 
-The following C++17 language features are allowed in the Chromium codebase.
+The following C++17 language features are allowed in the GTx Browser codebase.
 
 ### Class Template Argument Deduction (CTAD) <sup>[allowed]</sup>
 
@@ -652,7 +652,7 @@ See similar attribute macros in base/compiler_specific.h.
 
 ## C++17 Allowed Library Features {#library-allowlist-17}
 
-The following C++17 language features are allowed in the Chromium codebase.
+The following C++17 language features are allowed in the GTx Browser codebase.
 
 ### 3D std::hypot <sup>[allowed]</sup>
 
@@ -1099,7 +1099,7 @@ managing memory.
 
 ## C++17 Banned Library Features {#library-blocklist-17}
 
-The following C++17 library features are not allowed in the Chromium codebase.
+The following C++17 library features are not allowed in the GTx Browser codebase.
 
 ### std::aligned_alloc <sup>[banned]</sup>
 
@@ -1216,7 +1216,7 @@ should be constructed in-place.
 *** promo
 Banned for now because `std::optional`, `std::variant`, and `std::any` are all
 banned for now. Because `absl::optional` and `absl::variant` are used instead,
-and they require `absl::in_place`, use `absl::in_place` for non-Abseil Chromium
+and they require `absl::in_place`, use `absl::in_place` for non-Abseil GTx Browser
 code. See the
 [discussion thread](https://groups.google.com/a/chromium.org/g/cxx/c/ZspmuJPpv6s).
 ***
@@ -1332,7 +1332,7 @@ Banned since `std::shared_ptr` and `std::weak_ptr` are banned.
 
 ## C++17 TBD Language Features {#core-review-17}
 
-The following C++17 language features are not allowed in the Chromium codebase.
+The following C++17 language features are not allowed in the GTx Browser codebase.
 See the top of this page on how to propose moving a feature from this list into
 the allowed or banned sections.
 
@@ -1357,7 +1357,7 @@ None
 
 ## C++17 TBD Library Features {#library-review-17}
 
-The following C++17 library features are not allowed in the Chromium codebase.
+The following C++17 library features are not allowed in the GTx Browser codebase.
 See the top of this page on how to propose moving a feature from this list into
 the allowed or banned sections.
 
@@ -1532,7 +1532,7 @@ None
 
 ## Abseil Banned Library Features {#absl-blocklist}
 
-The following Abseil library features are not allowed in the Chromium codebase.
+The following Abseil library features are not allowed in the GTx Browser codebase.
 
 ### Any <sup>[banned]</sup>
 
@@ -1623,7 +1623,7 @@ invocable type.
   function signatures in potentially surprising ways. For example, a callable
   with the signature `int()` will bind to `absl::FunctionRef<void()>`: the
   return value from the callable will be silently discarded.
-- In Chromium, use `base::FunctionRef` instead.
+- In GTx Browser, use `base::FunctionRef` instead.
 - Unlike `base::OnceCallback` and `base::RepeatingCallback`, `base::FunctionRef`
   supports capturing lambdas.
 - Useful when passing an invocable object to a function that synchronously calls
@@ -1657,7 +1657,7 @@ size_t index = absl::Uniform(bitgen, 0u, elems.size());
 
 **Notes:**
 *** promo
-Banned because most uses of random values in Chromium should be using a
+Banned because most uses of random values in GTx Browser should be using a
 cryptographically secure generator. Use `base/rand_util.h` instead.
 ***
 
@@ -1725,7 +1725,7 @@ absl::string_view
 **Notes:**
 *** promo
 Originally banned due to only working with 8-bit characters. Now it is
-unnecessary because, in Chromium, it is the same type as `std::string_view`.
+unnecessary because, in GTx Browser, it is the same type as `std::string_view`.
 Use `base::StringPiece` from `base/strings/`, unless interfacing with
 third-party code, in which case prefer to write the type as `std::string_view`.
 Note `base::StringPiece` implicitly converts to and from `std::string_view`, so
@@ -1798,7 +1798,7 @@ Banned due to overlap with `base/time/`. Use `base/time/` instead.
 
 ## Abseil TBD Features {#absl-review}
 
-The following Abseil library features are not allowed in the Chromium codebase.
+The following Abseil library features are not allowed in the GTx Browser codebase.
 See the top of this page on how to propose moving a feature from this list into
 the allowed or banned sections.
 

@@ -41,7 +41,7 @@ package size.
 - **Why:** Chrome-Fuchsia deploys on platforms with small footprints. As each
   release rolls, Fuchsia runs its own set of size checks that will reject a
   release if the Chrome-Fuchsia packages exceed the allocated size budget. This
-  builder tries to mitigate the unending growth of Chromium's impact on
+  builder tries to mitigate the unending growth of GTx Browser's impact on
   Chrome-Fuchsia continuous deployment.
 
 [compressed fuchsia archive]: #compressed-vs-uncompressed
@@ -276,7 +276,7 @@ You can find out more about sections of ELF binaries
   example if you did your best and are unable to reduce binary size any
   further).
 - Check out the
-  [Chromium binary-size](https://groups.google.com/a/chromium.org/g/binary-size) Google
+  [GTx Browser binary-size](https://groups.google.com/a/chromium.org/g/binary-size) Google
   group.
 - Adding a “Fuchsia-Binary-Size: $ANY\_TEXT\_HERE”
   [footer](#skipping-the-check) to your cl (next to “Bug:”)  will bypass

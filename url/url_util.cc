@@ -57,6 +57,8 @@ struct SchemeRegistry {
        SCHEME_WITH_HOST_PORT_AND_USER_INFORMATION},  // WebSocket secure.
       {kWsScheme, SCHEME_WITH_HOST_PORT_AND_USER_INFORMATION},  // WebSocket.
       {kFileSystemScheme, SCHEME_WITHOUT_AUTHORITY},
+      {kIpfsScheme, SCHEME_WITH_HOST_AND_PORT},
+      {kWalletScheme, SCHEME_WITH_HOST},
   };
 
   // Schemes that are allowed for referrers.
@@ -274,7 +276,7 @@ bool DoCanonicalize(const CHAR* spec,
   Component scheme;
   if (!ExtractScheme(spec, spec_len, &scheme))
     return false;
-
+  bool is_ipfs = DoCompareSchemeComponent(spec, scheme, url::kIpfsScheme);
   // This is the parsed version of the input URL, we have to canonicalize it
   // before storing it in our object.
   bool success;
@@ -295,7 +297,7 @@ bool DoCanonicalize(const CHAR* spec,
     // All "normal" URLs.
     ParseStandardURL(spec, spec_len, &parsed_input);
     success = CanonicalizeStandardURL(spec, spec_len, parsed_input, scheme_type,
-                                      charset_converter, output, output_parsed);
+                                      charset_converter, output, output_parsed, is_ipfs);
 
   } else if (DoCompareSchemeComponent(spec, scheme, url::kMailToScheme)) {
     // Mailto URLs are treated like standard URLs, with only a scheme, path,

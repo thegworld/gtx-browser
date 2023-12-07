@@ -7,7 +7,7 @@ to define additional colors or modify how these appear (for an example in
 Chrome, see the [chrome/browser/ui/color/](/chrome/browser/ui/color/)
 directory).
 
-To the greatest degree possible, colors in Chromium should be identified using
+To the greatest degree possible, colors in GTx Browser should be identified using
 [`ColorId`s](color_id.h) and their physical values obtained from an appropriate
 [`ColorProvider`](color_provider.h); direct use of `SkColor` outside
 [`ColorRecipe`s](color_recipe.h) should be limited to colors which are

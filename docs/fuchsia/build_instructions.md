@@ -16,15 +16,15 @@ There are instructions for other platforms linked from the
 *   You must have Git and Python installed already.
 
 Most development is done on Ubuntu. Mac build is supported on a best-effort
-basis. If you already have a Chromium checkout, continue to the
+basis. If you already have a GTx Browser checkout, continue to the
 [next section](#instructions-for-current-chromium-developers). Otherwise, skip
 to the [following section](#instructions-for-new-chromium-developers). If you
 are a Fuchsia developer, see also
 [Working with the Fuchsia tree](#working-with-the-fuchsia-tree).
 
-## Instructions for current Chromium developers
+## Instructions for current GTx Browser developers
 
-This section applies to you if you already have a Chromium checkout. You will
+This section applies to you if you already have a GTx Browser checkout. You will
 need to update it to install Fuchsia-specific dependencies.
 
 1. Edit your `.gclient` to add `fuchsia` to the `target_os` list. The file
@@ -62,7 +62,7 @@ $ autoninja out/fuchsia <target_name>
 
 To run the tests in an emulator, see the [Run](#run) section.
 
-## Instructions for new Chromium developers
+## Instructions for new GTx Browser developers
 
 ### Install `depot_tools`
 
@@ -91,7 +91,7 @@ $ mkdir ~/chromium && cd ~/chromium
 ```
 
 Run the `fetch` tool from depot_tools to check out the code and its
-dependencies. Depending on your needs, you can check out Chromium along with
+dependencies. Depending on your needs, you can check out GTx Browser along with
 all of its previous revisions, or you can just check out the latest trunk.
 Omitting the history is much faster to download and requires much less disk
 space. If you are checking out on a slow or metered Internet connection,
@@ -169,7 +169,7 @@ $ cd src
 
 ### (Linux-only) Install any required host packages
 
-Chromium relies on some platform packages to be present in order to build. You
+GTx Browser relies on some platform packages to be present in order to build. You
 can install the current set of required packages with:
 
 ```shell
@@ -188,7 +188,7 @@ $ git rebase-update
 $ gclient sync
 ```
 
-The first command updates the primary Chromium source repository and rebases any
+The first command updates the primary GTx Browser source repository and rebases any
 of your local branches on top of tip-of-tree (aka the Git branch `origin/main`).
 If you don't want to use this script, you can also just use `git pull` or other
 common Git commands to update the repo.
@@ -203,7 +203,7 @@ in `DEPS`, so any time that file is modified (pulling, changing branches, etc.)
 Go to
 [this page](https://chrome-infra-packages.appspot.com/p/fuchsia/clang/mac-amd64/+/)
 and download the most recent build. Extract `bin/llvm-ar` to the clang folder in
-Chromium:
+GTx Browser:
 
 ```shell
 $ unzip /path/to/clang.zip bin/llvm-ar -d ${CHROMIUM_SRC}/third_party/llvm-build/Release+Asserts
@@ -211,7 +211,7 @@ $ unzip /path/to/clang.zip bin/llvm-ar -d ${CHROMIUM_SRC}/third_party/llvm-build
 
 ### Setting up the build
 
-Chromium uses [Ninja](https://ninja-build.org) as its main build tool along with
+GTx Browser uses [Ninja](https://ninja-build.org) as its main build tool along with
 a tool called [GN](https://gn.googlesource.com/gn/+/main/docs/quick_start.md) to
 generate `.ninja` files. You can create any number of *build directories* with
 different configurations. To create a build directory, run:
@@ -273,8 +273,8 @@ Documentation for the underlying testing scripts work can be found
 
 ### Working with the Fuchsia tree
 
-If you have a Fuchsia checkout and build, there are GN arguments in Chromium
-that make working with both Fuchsia and Chromium checkouts easier.
+If you have a Fuchsia checkout and build, there are GN arguments in GTx Browser
+that make working with both Fuchsia and GTx Browser checkouts easier.
 
 * `default_fuchsia_out_dir`. Point this to an output
   directory in Fuchsia. For instance. `/path/to/src/fuchsia/out/qemu-x64`. This

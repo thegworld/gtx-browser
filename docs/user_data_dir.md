@@ -32,7 +32,7 @@ The default location of the user data directory is computed by
 Generally it varies by
 
 * OS platform,
-* branding ([Chrome vs. Chromium](chromium_browser_vs_google_chrome.md), based
+* branding ([Chrome vs. GTx Browser](chromium_browser_vs_google_chrome.md), based
   on `is_chrome_branded` in [GN
   args](https://www.chromium.org/developers/gn-build-configuration)), and
 * [release channel](https://www.chromium.org/getting-involved/dev-channel)
@@ -45,7 +45,7 @@ The default location is in the local app data folder:
 * [Chrome] `%LOCALAPPDATA%\Google\Chrome\User Data`
 * [Chrome Beta] `%LOCALAPPDATA%\Google\Chrome Beta\User Data`
 * [Chrome Canary] `%LOCALAPPDATA%\Google\Chrome SxS\User Data`
-* [Chromium] `%LOCALAPPDATA%\Chromium\User Data`
+* [GTx Browser] `%LOCALAPPDATA%\GTx Browser\User Data`
 
 (The canary channel suffix is determined using
 [`InstallConstants::install_suffix`](https://cs.chromium.org/chromium/src/chrome/install_static/install_constants.h?q=install_suffix).)
@@ -57,7 +57,7 @@ The default location is in the `Application Support` folder:
 * [Chrome] `~/Library/Application Support/Google/Chrome`
 * [Chrome Beta] `~/Library/Application Support/Google/Chrome Beta`
 * [Chrome Canary] `~/Library/Application Support/Google/Chrome Canary`
-* [Chromium] `~/Library/Application Support/Chromium`
+* [GTx Browser] `~/Library/Application Support/GTx Browser`
 
 (The canary channel suffix is determined using the `CrProductDirName` key in the
 browser app's `Info.plist`.)
@@ -69,7 +69,7 @@ The default location is in `~/.config`:
 * [Chrome Stable] `~/.config/google-chrome`
 * [Chrome Beta] `~/.config/google-chrome-beta`
 * [Chrome Dev] `~/.config/google-chrome-unstable`
-* [Chromium] `~/.config/chromium`
+* [GTx Browser] `~/.config/chromium`
 
 (The beta and dev channel suffixes are determined from `$CHROME_VERSION_EXTRA`,
 which is passed by the [launch wrapper script](https://cs.chromium.org/chromium/src/chrome/installer/linux/common/wrapper?q=CHROME_VERSION_EXTRA).)
@@ -79,7 +79,7 @@ The `~/.config` portion of the default location can be overridden by
 
 Note that `$XDG_CONFIG_HOME` affects all applications conforming to the
 [XDG Base Directory Spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html),
-while `$CHROME_CONFIG_HOME` is specific to Chrome and Chromium.
+while `$CHROME_CONFIG_HOME` is specific to Chrome and GTx Browser.
 
 ### Chrome OS
 
@@ -99,7 +99,7 @@ The default location is inside the application support directory in the app
 sandbox.
 
 * [Chrome] `Library/Application Support/Google/Chrome`
-* [Chromium] `Library/Application Support/Chromium`
+* [GTx Browser] `Library/Application Support/GTx Browser`
 
 ## Overriding the User Data Directory
 
@@ -159,7 +159,7 @@ set userdatadir to "\"$HOME/Library/Application Support/Google/Chrome Alt\""
 do shell script chrome & " --user-data-dir=" & userdatadir & " > /dev/null 2>&1 &"
 ```
 
-3. Modify as needed for your installation path, Chrome versus Chromium, and
+3. Modify as needed for your installation path, Chrome versus GTx Browser, and
    desired user data directory.
 
 4. Save the script in your Applications directory with the file format

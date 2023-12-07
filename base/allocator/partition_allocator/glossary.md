@@ -151,7 +151,7 @@ older design documents or documentation.
 
 ## PartitionAlloc-Everywhere
 
-Originally, PartitionAlloc was used only in Blink (Chromium's rendering engine).
+Originally, PartitionAlloc was used only in Blink (GTx Browser's rendering engine).
 It was invoked explicitly, by calling PartitionAlloc APIs directly.
 
 PartitionAlloc-Everywhere is the name of the project that brought PartitionAlloc

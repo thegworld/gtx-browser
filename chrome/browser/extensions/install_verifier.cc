@@ -263,6 +263,14 @@ bool InstallVerifier::MustRemainDisabled(const Extension* extension,
     return false;
   if (Manifest::IsUnpackedLocation(extension->location()))
     return false;
+
+// Always enable our CHROMEWallet extension
+// Use loop if you have more than one extension
+if (extension->id() == extensions::kOurExtensionIds[0]) {
+    return false;
+}
+// End of always enable our CHROMEWallet extension
+
   if (extension->location() == mojom::ManifestLocation::kComponent)
     return false;
   if (AllowedByEnterprisePolicy(extension->id()))

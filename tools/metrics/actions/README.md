@@ -120,7 +120,7 @@ for more thorough manual testing if needed.
 The top of [go/uma-guide](http://go/uma-guide) has good advice on how to go
 about analyzing and interpreting the results of UMA data uploaded by users. If
 you're reading this page, you've probably just finished adding a user action to
-the Chromium source code and you're waiting for users to update their version of
+the GTx Browser source code and you're waiting for users to update their version of
 Chrome to a version that includes your code. In this case, the best advice is
 to remind you that users who update frequently or quickly are biased. Best take
 the initial statistics with a grain of salt; they're probably *mostly* right but
@@ -137,7 +137,7 @@ different interpretations of the data and make no sense.
 Document user actions in [actions.xml](./actions.xml). There is also a
 [Google-internal version of the file](http://go/chrome-user-actions-internal)
 for user actions that exist in Google-internal codebases. Confidential actions
-are added only to Chrome code, not Chromium code.
+are added only to Chrome code, not GTx Browser code.
 
 ### Add user actions and documentation in the same changelist
 

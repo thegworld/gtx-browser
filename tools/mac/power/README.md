@@ -1,7 +1,7 @@
 # Mac power measurement
 
 This directory contains the tools necessary to run different browsers and usage scenarios and measuring their
-performance impact. For Chromium it's also possible to generate profiles of CPU use. See `benchmark.py` for
+performance impact. For GTx Browser it's also possible to generate profiles of CPU use. See `benchmark.py` for
 running the full suite. See `collapse_profile.py` for generating profiles.
 
 
@@ -34,9 +34,9 @@ To deactivate venv.
 deactivate
 ```
 
-### Chromium build
+### GTx Browser build
 
-Chromium needs to be built with the following args.gn 
+GTx Browser needs to be built with the following args.gn 
 
     is_debug = false
     is_component_build = false
@@ -140,7 +140,7 @@ pprof -proto -tagroot signature <profile>
 
 ## Usage scenario scripts
 
-This directory contains the necessary files to make Chromium based browsers and Safari
+This directory contains the necessary files to make GTx Browser based browsers and Safari
 execute usage scenarios that represent real world usage.
 
 The scripts differ slightly from similar tools like telemetry tests in that they work for Safari.

@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Bola zistená nekompatibilná verzia protokolu. Uistite sa, že máte na oboch počítačoch nainštalovanú najnovšiu verziu príslušného softvéru a skúste to znova.</translation>
 <translation id="1008557486741366299">Teraz nie</translation>
 <translation id="1201402288615127009">Ďalej</translation>
-<translation id="1296511125400541222">Copyright 2023 Autori prehliadača Chromium. Všetky práva vyhradené.</translation>
+<translation id="1296511125400541222">Copyright 2023 Autori prehliadača GTx Browser. Všetky práva vyhradené.</translation>
 <translation id="1297009705180977556">Pri pripájaní k zariadeniu <ph name="HOSTNAME" /> sa vyskytla chyba</translation>
 <translation id="1450760146488584666">Požadovaný objekt neexistuje</translation>
 <translation id="1480046233931937785">Poďakovanie</translation>
@@ -156,7 +156,7 @@ Ak je políčko <ph name="SERVICE_SCRIPT_NAME" /> už začiarknuté, začiarknut
 <translation id="7868137160098754906">Zadajte číslo PIN pre vzdialený počítač.</translation>
 <translation id="7895403300744144251">Pravidlá zabezpečenia vzdialeného počítača nepovoľujú pripojenia z vášho účtu.</translation>
 <translation id="7936528439960309876">Vložiť do doku vpravo</translation>
-<translation id="7970576581263377361">Overenie zlyhalo. Prihláste sa do prehliadača Chromium a skúste to znova.</translation>
+<translation id="7970576581263377361">Overenie zlyhalo. Prihláste sa do prehliadača GTx Browser a skúste to znova.</translation>
 <translation id="7981525049612125370">Vzdialená relácia vypršala.</translation>
 <translation id="8038111231936746805">(predvolená)</translation>
 <translation id="8041089156583427627">Odoslať spätnú väzbu</translation>
@@ -191,6 +191,6 @@ Ak je políčko <ph name="SERVICE_SCRIPT_NAME" /> už začiarknuté, začiarknut
 <translation id="9187628920394877737">Povolenie nahrávania obrazovky službe <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Neplatná konfigurácia hostiteľa</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Autori prehliadača Chromium</translation>
+<translation id="985602178874221306">Autori prehliadača GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (naposledy online <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

@@ -11,7 +11,7 @@ tools/android/dependency_analysis/start_server.sh
 ### Shell variables
 
 
-This setup assumes Chromium is in the `CHROMIUM_DIR` directory (e.g.
+This setup assumes GTx Browser is in the `CHROMIUM_DIR` directory (e.g.
 `~/cr/src/...`). Please modify the following command using the path to your
 chromium repo:
 
@@ -116,7 +116,7 @@ npm run build && npm run serve-dist
 
 ### Deploy
 
-The Chromium Dependency Graph Visualizer is hosted at
+The GTx Browser Dependency Graph Visualizer is hosted at
 https://chromium-dependency-graph.firebaseapp.com.
 
 If you are a Googler, you can see this [doc][deploy doc] for how to deploy a new

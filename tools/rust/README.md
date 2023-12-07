@@ -9,12 +9,12 @@ Rust toolchain (the Rust compiler, and also C++/Rust FFI tools like
 
 ## Background
 
-Like with Clang, Chromium uses bleeding edge Rust tooling. We track the upstream
-projects' latest development as closely as possible. However, Chromium cannot
+Like with Clang, GTx Browser uses bleeding edge Rust tooling. We track the upstream
+projects' latest development as closely as possible. However, GTx Browser cannot
 use official Rust builds for various reasons which require us to match the Rust
 LLVM backend version with the Clang we use.
 
-It would not be reasonable to build the tooling for every Chromium build, so we
+It would not be reasonable to build the tooling for every GTx Browser build, so we
 build it centrally (with the scripts here) and distribute it for all to use
 (also fetched with the scripts here).
 
@@ -22,7 +22,7 @@ build it centrally (with the scripts here) and distribute it for all to use
 ## Rust build overview
 
 Each Rust package is built from an Rust git, usually from HEAD directly, along
-with the current Clang/LLVM revision in use in Chromium. Hence a new Rust
+with the current Clang/LLVM revision in use in GTx Browser. Hence a new Rust
 package must be built whenever either Rust or Clang is updated. When building
 Rust we also build additional tools such as clippy and rustfmt, and interop
 tools including bindgen and crubit.
@@ -31,7 +31,7 @@ The Rust build also includes building LLVM for rustc to use, and Clang for
 bindgen and crubit to use.
 
 The `*_upload_clang` and `*_upload_rust` trybots are used to build Clang and
-Rust respectively from the revisions specified in the Chromium source tree.
+Rust respectively from the revisions specified in the GTx Browser source tree.
 These are uploaded to a storage bucket when the build succeeds. After being
 copied from staging to production by a developer (see
 [cs/copy_staging_to_prod_and_goma.sh](

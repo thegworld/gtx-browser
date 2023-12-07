@@ -804,7 +804,7 @@ Si la inhabilitas, se inhabilitará el desplazamiento de la página web a fragme
           * <ph name="PROXY_MODE_ENUM_FIXED_SERVERS" />: se usarán los campos <ph name="PROXY_SERVER_PROXY_SETTINGS_FIELD" /> y <ph name="PROXY_BYPASS_LIST_PROXY_SETTINGS_FIELD" />.
           * <ph name="PROXY_MODE_ENUM_PAC_SCRIPT" />: se usarán los campos <ph name="PROXY_BYPASS_LIST_PROXY_PAC_URL" />, <ph name="PROXY_PAC_MANDATORY_PROXY_SETTINGS_FIELD" /> y <ph name="PROXY_BYPASS_LIST_PROXY_SETTINGS_FIELD" />.
 
-      Nota: Para obtener más ejemplos detallados, visita The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+      Nota: Para obtener más ejemplos detallados, visita The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="1700811900332333712">Permite que el dispositivo solicite Powerwash</translation>
 <translation id="1705215165572785706">Tratar las teclas de la fila superior como teclas multimedia, pero permitir que el usuario las modifique</translation>
 <translation id="1708496595873025510">Establece la restricción en la obtención del valor de inicialización de las variaciones.</translation>
@@ -858,7 +858,7 @@ Si la inhabilitas, se inhabilitará el desplazamiento de la página web a fragme
 
        No debes configurar esta política si seleccionaste otro modo para configurar políticas de proxy.
 
-       Nota: Para obtener más ejemplos detallados, visita The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+       Nota: Para obtener más ejemplos detallados, visita The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="1767673020408652620">Habilitar las recomendaciones de apps cuando el cuadro de búsqueda se encuentra sin estado</translation>
 <translation id="1768225118528727376">Otorgar el permiso de Administración de ventanas a estos sitios</translation>
 <translation id="1770071413238151235">Formato de reloj de 12 horas</translation>
@@ -1005,7 +1005,7 @@ Si estableces la política como <ph name="DISABLE_UNPUBLISHED" /> (1), se inhabi
       La API Managed Configuration es una configuración de pares clave-valor a la cual se puede acceder mediante la llamada de JavaScript navigator.managed.getManagedConfiguration(). Esta API solo está disponible para los orígenes que corresponden a las aplicaciones web que se instalaron de manera automática mediante <ph name="WEB_APP_INSTALL_FORCE_LIST_POLICY_NAME" />.</translation>
 <translation id="1919802376548418720">Usa la política de KDC para delegar credenciales.</translation>
 <translation id="1920046221095339924">Permitir las sesiones administradas en el dispositivo</translation>
-<translation id="1920772397574801429">Si estableces esta política, se especificará el tipo de cuentas que proporciona la app de autenticación de Android compatible con la autenticación <ph name="HTTP_NEGOTIATE" /> (como la autenticación Kerberos). El proveedor de la app de autenticación debe brindar esta información. Para saber más sobre este procedimiento, consulta The Chromium Projects (https://goo.gl/hajyfN)
+<translation id="1920772397574801429">Si estableces esta política, se especificará el tipo de cuentas que proporciona la app de autenticación de Android compatible con la autenticación <ph name="HTTP_NEGOTIATE" /> (como la autenticación Kerberos). El proveedor de la app de autenticación debe brindar esta información. Para saber más sobre este procedimiento, consulta The GTx Browser Projects (https://goo.gl/hajyfN)
 
       Si no estableces la política, se desactivará la autenticación <ph name="HTTP_NEGOTIATE" /> en Android.</translation>
 <translation id="1923704782248889851">Habilitar el dictado</translation>
@@ -2488,7 +2488,7 @@ Si se habilita esta política, se utilizará el comportamiento nuevo.
 
 Si se inhabilita, se utilizará el comportamiento anterior.
 
-Si no se establece, se usará el comportamiento nuevo al igual que en el resto de los usuarios de Chromium.</translation>
+Si no se establece, se usará el comportamiento nuevo al igual que en el resto de los usuarios de GTx Browser.</translation>
 <translation id="3219421230122020860">Modo incógnito disponible</translation>
 <translation id="3220624000494482595">Si la Aplicación de kiosko es una app de Android, esta no tendrá control sobre la versión de <ph name="PRODUCT_OS_NAME" />, incluso si esta política se establece como <ph name="TRUE" />.</translation>
 <translation id="3222088741899353813">El botón principal en la pantalla de acceso es el izquierdo</translation>
@@ -4506,7 +4506,7 @@ Si no se establece esta política o se establece como verdadera, los informes so
           Si no se configura esta política, se utilizará la línea de comandos predeterminada.</translation>
 <translation id="5151099177901233471">Habilitar los informes de la zona horaria del dispositivo</translation>
 <translation id="5152393033264257734">Permite las revisiones de intercepción de DNS y las barras de información de "http://intranetsite/" para "quisiste decir".</translation>
-<translation id="5152787786897382519">Chromium y Google Chrome tienen algunos grupos de políticas que dependen unos de otros para controlar una función. Los siguientes grupos de políticas representan estos conjuntos. Como las políticas pueden tener diferentes fuentes, solo se aplicarán los valores que provengan de la fuente de mayor prioridad. Se ignorarán los valores que provengan de una fuente de menor prioridad perteneciente al mismo grupo. El orden de prioridad se define en <ph name="POLICY_PRIORITY_DOC_URL" />.</translation>
+<translation id="5152787786897382519">GTx Browser y Google Chrome tienen algunos grupos de políticas que dependen unos de otros para controlar una función. Los siguientes grupos de políticas representan estos conjuntos. Como las políticas pueden tener diferentes fuentes, solo se aplicarán los valores que provengan de la fuente de mayor prioridad. Se ignorarán los valores que provengan de una fuente de menor prioridad perteneciente al mismo grupo. El orden de prioridad se define en <ph name="POLICY_PRIORITY_DOC_URL" />.</translation>
 <translation id="5153187201534281749">Ícono de experimentos del navegador de la barra de herramientas</translation>
 <translation id="5163002264923337812">Habilitar la forma de acceso antigua basada en la Web</translation>
 <translation id="5163889437570441600">Permite que se transmita contenido al dispositivo que esté usando <ph name="PRODUCT_NAME" />.
@@ -6152,7 +6152,7 @@ El tiempo de espera de inactividad para iniciar el protector de pantalla y el in
 
       Si no estableces la política, los usuarios podrán elegir la configuración de proxy.
 
-      Nota: Para obtener ejemplos detallados, visita The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+      Nota: Para obtener ejemplos detallados, visita The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="656130159911161669">Ignorar las actualizaciones de ChromeOS con la versión definida en el manifiesto de la app de kiosco</translation>
 <translation id="6561396069801924653">Mostrar opciones de accesibilidad en el menú de la bandeja del sistema</translation>
 <translation id="6562889469672829421">El período sin intervención del usuario después del cual se atenúa la pantalla (en milisegundos).</translation>
@@ -6682,7 +6682,7 @@ Si se selecciona "U2F_EXTENDED", el segundo factor integrado proporcionará func
 
        No debes configurar esta política si seleccionaste otro modo para configurar políticas de proxy.
 
-       Nota: Para obtener ejemplos detallados, visita The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+       Nota: Para obtener ejemplos detallados, visita The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="7002040773317582266">Habilita la verificación en tiempo real de las URL del marco principal</translation>
 <translation id="7003746348783715221">Preferencias de <ph name="PRODUCT_NAME" /></translation>
 <translation id="7007283257527015835">Función experimental booleana que indica si el controlador de protocolos debe establecerse como predeterminado.</translation>
@@ -7457,7 +7457,7 @@ política mientras se esté ejecutando el navegador.</translation>
 
        No debes configurar esta política si seleccionaste otro modo para configurar políticas de proxy.
 
-      Nota: Para obtener ejemplos detallados, visita The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+      Nota: Para obtener ejemplos detallados, visita The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="7717938661004793600">Permite configurar las funciones de accesibilidad de <ph name="PRODUCT_OS_NAME" />.</translation>
 <translation id="7718127720248642697">Esta política está habilitada de forma predeterminada. Controla los dispositivos inscritos a fin de que informen sobre los identificadores y las estadísticas de hardware para los dispositivos de almacenamiento.
 
@@ -8034,7 +8034,7 @@ Si no la estableces, inicialmente se inhabilitará la pantalla de privacidad, pe
 
       Esta política no se aplica a las cuentas de usuario normales.</translation>
 <translation id="8257863622304579015">Habilitar la zona de pruebas del servicio de red</translation>
-<translation id="8259375588339409826">Chromium y Google Chrome se rigen por las mismas políticas.
+<translation id="8259375588339409826">GTx Browser y Google Chrome se rigen por las mismas políticas.
       Debes tener en cuenta que es posible que este documento incluya
       políticas no publicadas (p. ej., la entrada "Disponible en" hace
       referencia a una versión de <ph name="PRODUCT_NAME" /> que aún no se publicó) que están
@@ -8814,7 +8814,7 @@ Si no estableces la política, no se importará ninguna contraseña guardada en 
 <translation id="8947415621777543415">Informar la ubicación del dispositivo</translation>
 <translation id="8948062138228904066">Lista de servidores de autenticación habilitados</translation>
 <translation id="8951350807133946005">Configurar el directorio de caché de disco</translation>
-<translation id="8952611478149810182">Se modificará el envío de eventos en los controles de formularios inhabilitados en Chromium a fin de mejorar la compatibilidad con otros navegadores y la experiencia de los desarrolladores.
+<translation id="8952611478149810182">Se modificará el envío de eventos en los controles de formularios inhabilitados en GTx Browser a fin de mejorar la compatibilidad con otros navegadores y la experiencia de los desarrolladores.
 
 Este cambio hace que los MouseEvents se envíen en los elementos de control de formularios inhabilitados, excepto los clics, el mouseup y el mousedown. Los nuevos eventos incluirán mousemove, mouseenter y mouseleave, por ejemplo.
 
@@ -8826,7 +8826,7 @@ Si se habilita esta política, se utilizará el comportamiento nuevo.
 
 Si se inhabilita, se utilizará el comportamiento anterior.
 
-Si no se establece, se usará el comportamiento nuevo al igual que en el resto de los usuarios de Chromium.</translation>
+Si no se establece, se usará el comportamiento nuevo al igual que en el resto de los usuarios de GTx Browser.</translation>
 <translation id="8955719471735800169">Volver al principio</translation>
 <translation id="8956312248048980644">Permitir el agrupamiento en clústeres de agentes con clave de origen de forma predeterminada</translation>
 <translation id="8970205333161758602">Elimina el mensaje de desactivación de <ph name="PRODUCT_FRAME_NAME" />.</translation>

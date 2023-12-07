@@ -16,8 +16,9 @@ bool CanAddURLToHistory(const GURL& url) {
   // typed.  Right now, however, these are marked as typed even when triggered
   // by a shortcut or menu action.
   // Right now, URLs like about:version are not registered in the history.
+  // url.SchemeIs(url::kIpfsScheme) ||
   if (url.SchemeIs(url::kJavaScriptScheme) || url.SchemeIs(url::kAboutScheme) ||
-      url.SchemeIs(url::kContentScheme) ||
+      url.SchemeIs(url::kContentScheme) || url.SchemeIs(url::kGtxScheme) ||
       url.SchemeIs(content::kChromeDevToolsScheme) ||
       url.SchemeIs(content::kChromeUIScheme) ||
       url.SchemeIs(content::kChromeUIUntrustedScheme) ||

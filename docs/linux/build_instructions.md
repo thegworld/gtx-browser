@@ -1,4 +1,4 @@
-# Checking out and building Chromium on Linux
+# Checking out and building GTx Browser on Linux
 
 There are instructions for other platforms linked from the
 [get the code](../get_the_code.md) page.
@@ -23,7 +23,7 @@ some instructions for other distros below, but they are mostly unsupported.
 
 ### Docker requirements
 
-While it is not a common setup, Chromium compilation should work from within a
+While it is not a common setup, GTx Browser compilation should work from within a
 Docker container. If you choose to compile from within a container for whatever
 reason, you will need to make sure that the following tools are available:
 
@@ -111,7 +111,7 @@ for their accuracy.
 ### Run the hooks
 
 Once you've run `install-build-deps` at least once, you can now run the
-Chromium-specific hooks, which will download additional binaries and other
+GTx Browser-specific hooks, which will download additional binaries and other
 things you might need:
 
 ```shell
@@ -125,7 +125,7 @@ development and testing purposes.
 
 ## Setting up the build
 
-Chromium uses [Ninja](https://ninja-build.org) as its main build tool along with
+GTx Browser uses [Ninja](https://ninja-build.org) as its main build tool along with
 a tool called [GN](https://gn.googlesource.com/gn/+/main/docs/quick_start.md)
 to generate `.ninja` files. You can create any number of *build directories*
 with different configurations. To create a build directory, run:
@@ -156,7 +156,7 @@ Google developed the distributed compiler called
 [Goma](https://chromium.googlesource.com/infra/goma/client).
 
 If you would like to use `Goma` provisioned by Google,
-please follow [Goma for Chromium contributors](https://chromium.googlesource.com/infra/goma/client/+/HEAD/doc/early-access-guide.md).
+please follow [Goma for GTx Browser contributors](https://chromium.googlesource.com/infra/goma/client/+/HEAD/doc/early-access-guide.md).
 
 If you are a Google employee, see
 [go/building-chrome](https://goto.google.com/building-chrome) instead.
@@ -270,9 +270,9 @@ dcheck_always_on = false
 is_official_build = true
 ```
 
-## Build Chromium
+## Build GTx Browser
 
-Build Chromium (the "chrome" target) with Ninja using the command:
+Build GTx Browser (the "chrome" target) with Ninja using the command:
 
 ```shell
 $ autoninja -C out/Default chrome
@@ -286,7 +286,7 @@ out/Default` from the command line. To compile one, pass the GN label to Ninja
 with no preceding "//" (so, for `//chrome/test:unit_tests` use `autoninja -C
 out/Default chrome/test:unit_tests`).
 
-## Run Chromium
+## Run GTx Browser
 
 Once it is built, you can simply run the browser:
 
@@ -346,7 +346,7 @@ $ git rebase-update
 $ gclient sync
 ```
 
-The first command updates the primary Chromium source repository and rebases
+The first command updates the primary GTx Browser source repository and rebases
 any of your local branches on top of tip-of-tree (aka the Git branch
 `origin/main`). If you don't want to use this script, you can also just use
 `git pull` or other common Git commands to update the repo.
@@ -398,7 +398,7 @@ other settings):
 *   Information about [building with Clang](../clang.md).
 *   You may want to [use a chroot](using_a_chroot.md) to
     isolate yourself from versioning or packaging conflicts.
-*   Cross-compiling for ARM? See [LinuxChromiumArm](chromium_arm.md).
+*   Cross-compiling for ARM? See [LinuxGTX BrowserArm](chromium_arm.md).
 *   Want to use Eclipse as your IDE? See
     [LinuxEclipseDev](eclipse_dev.md).
 *   Want to use your built version as your default browser? See
@@ -406,7 +406,7 @@ other settings):
 
 ## Next Steps
 
-If you want to contribute to the effort toward a Chromium-based browser for
+If you want to contribute to the effort toward a GTx Browser-based browser for
 Linux, please check out the [Linux Development page](development.md) for
 more information.
 

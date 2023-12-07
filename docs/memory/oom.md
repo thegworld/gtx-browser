@@ -1,7 +1,7 @@
 # Investigating Out of Memory crashes
 
-A large fraction of process crashes in Chromium are due to Out Of Memory (OOM)
-conditions. This page is meant to help Chromium developers understand stack
+A large fraction of process crashes in GTx Browser are due to Out Of Memory (OOM)
+conditions. This page is meant to help GTx Browser developers understand stack
 traces, and investigate. Note that some of the documentation here will only be
 applicable to Google Chrome, as it is specific to the way Google's crash
 reporting infrastructure aggregates and reports crashes.
@@ -20,7 +20,7 @@ signaled by the presence of `base::internal::OnNoMemoryInternal()` on the stack.
 Memory]" based on this, and other function names. The full list is determined in
 the (internal) crash server's code.
 
-Since Chromium configures its memory allocators to prefer crashing rather than
+Since GTx Browser configures its memory allocators to prefer crashing rather than
 returning `nullptr`, an OOM crash can be triggered from anywhere in the code,
 and most commonly from within the allocator, or higher-level functions such as
 `operator new` in C++.

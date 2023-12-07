@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">تم اكتشاف إصدار غير متوافق من البروتوكول. يُرجى التأكد من تثبيت أحدث إصدار من البرنامج المُثبت على كلا الجهازين، وإعادة المحاولة.</translation>
 <translation id="1008557486741366299">ليس الآن</translation>
 <translation id="1201402288615127009">التالي</translation>
-<translation id="1296511125400541222">‏حقوق الطبع والنشر لـ The Chromium Authors لعام 2023. جميع الحقوق محفوظة.</translation>
+<translation id="1296511125400541222">‏حقوق الطبع والنشر لـ The GTx Browser Authors لعام 2023. جميع الحقوق محفوظة.</translation>
 <translation id="1297009705180977556">حدث خطأ أثناء الاتصال بـ <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">العنصر المطلوب غير موجود.</translation>
 <translation id="1480046233931937785">أسماء المشاركين</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">يُرجى إدخال رقم التعريف الشخصي لجهاز الكمبيوتر البعيد.</translation>
 <translation id="7895403300744144251">لا تسمح سياسات الأمان على جهاز الكمبيوتر البعيد بالاتصالات من حسابك.</translation>
 <translation id="7936528439960309876">إرساء إلى اليسار</translation>
-<translation id="7970576581263377361">‏تعذّرت المصادقة.يُرجى تسجيل الدخول إلى Chromium مرة أخرى.</translation>
+<translation id="7970576581263377361">‏تعذّرت المصادقة.يُرجى تسجيل الدخول إلى GTx Browser مرة أخرى.</translation>
 <translation id="7981525049612125370">انتهت صلاحية الجلسة البعيدة.</translation>
 <translation id="8038111231936746805">(تلقائي)</translation>
 <translation id="8041089156583427627">إرسال ملاحظات</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">منح إذن "تسجيل الشاشة" إلى <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">إعداد المضيف غير صالح.</translation>
 <translation id="981121421437150478">بلا اتصال</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (آخر دخول على الإنترنت في تمام <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

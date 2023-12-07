@@ -78,10 +78,10 @@ if (is_win) {
 
     # See comment in chrome_dll.gypi in the hardlink_to_output
     # target for why this cannot be 'initial' like the DLL.
-    inputs = [ "$root_out_dir/initialexe/chrome.exe" ]
+    inputs = [ "$root_out_dir/initialexe/gtxbrowser.exe" ]
     outputs = [
-      "$root_out_dir/chrome.exe",
-      "$root_out_dir/chrome.exe.pdb",
+      "$root_out_dir/gtxbrowser.exe",
+      "$root_out_dir/gtxbrowser.exe.pdb",
     ]
     args = [
       "-i",
@@ -129,7 +129,7 @@ if (!is_android && !is_mac) {
     # such as `ninja chrome` causes chrome_initial to be built instead. All
     # deps and data_deps should be added to the chrome_initial target instead.
     # Targets added here can only be built by explicitly using //chrome:chrome.
-    # Windows-only deps are OK because chrome_initial uses initialexe/chrome as
+    # Windows-only deps are OK because chrome_initial uses initialexe/gtxbrowser as
     # the output name for that platform.
     # See crbug.com/1146571.
     if (is_win) {
@@ -148,9 +148,9 @@ if (!is_android && !is_mac) {
       configs -= [ "//build/config/compiler:thinlto_optimize_default" ]
       configs += [ "//build/config/compiler:thinlto_optimize_max" ]
       if (is_win) {
-        output_name = "initialexe/chrome"
+        output_name = "initialexe/gtxbrowser"
       } else {
-        output_name = "chrome"
+        output_name = "gtxbrowser"
       }
 
       # Because the sources list varies so significantly per-platform, generally
@@ -776,7 +776,7 @@ if (is_win) {
       ]
 
       if (defined(invoker.deps)) {
-        deps += invoker.deps
+        deps += invoker.deps  
       }
 
       ldflags = []
@@ -1030,6 +1030,7 @@ if (is_win) {
       outputs = [ "{{bundle_contents_dir}}/Libraries/{{source_file_part}}" ]
       public_deps = [ "//ui/gl:swiftshader_vk_library_copy" ]
     }
+
   }
 
   group("angle_library") {
@@ -1743,7 +1744,7 @@ if (is_linux || is_chromeos) {
       }
     }
     extract_symbols("chrome_symbols") {
-      binary = "$root_out_dir/chrome"
+      binary = "$root_out_dir/gtxbrowser"
 
       if (current_cpu == "x86") {
         # GYP used "ia32" so keep that naming for back-compat.

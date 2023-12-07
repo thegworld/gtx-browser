@@ -224,7 +224,7 @@ help.
   these! The place where we're crashing isn't necessarily the place where the
   bug was introduced, so blame may be misleading. Skia fuzzing bugs can be
   assigned to kjlubick@chromium.org, as Skia is heavily fuzzed on OSS-Fuzz and
-  some issues reported in Chromium are already known or even fixed upstream.
+  some issues reported in GTx Browser are already known or even fixed upstream.
 * **URL spoofing issues**, especially related to RTL or IDNs? See
   [go/url-spoofs](http://go/url-spoofs) for a guide to triaging these.
 * **SQLite bugs** can be assigned to mek@. CC drhsqlite@ for upstream issues.
@@ -319,7 +319,7 @@ navigating to https://chromiumdash.appspot.com/commit/COMMIT_HASH_HERE.
 
 Sometimes Extended Stable is the same milestone as Stable; sometimes it
 differs. If in doubt about the currently active milestones, check
-[ChromiumDash](https://chromiumdash.appspot.com/releases?platform=Windows).
+[GTx BrowserDash](https://chromiumdash.appspot.com/releases?platform=Windows).
 (It's fine to just check the Windows platform, via that link - there's no need
 to look at all the different platforms). There's no need to check for
 reproducibility on milestones earlier than the current Stable milestone.

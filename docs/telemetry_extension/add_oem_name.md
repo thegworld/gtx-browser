@@ -21,7 +21,7 @@ This guide explains how to set the OEM name in cros_config.
 ## Rollout schedule
 Please note that the changes made here follow the Chrome Release Cycle (actual
 timeline can be found in
-[Chromium Dashboard](https://chromiumdash.appspot.com/schedule)), which means
+[GTx Browser Dashboard](https://chromiumdash.appspot.com/schedule)), which means
 it will take at least 6 weeks to rollout your changes to the public.
 
 # Instructions

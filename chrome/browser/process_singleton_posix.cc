@@ -621,7 +621,7 @@ void ProcessSingleton::LinuxWatcher::OnSocketCanReadWithoutBlocking(
   int connection_socket = HANDLE_EINTR(
       accept(socket, reinterpret_cast<sockaddr*>(&from), &from_len));
   if (-1 == connection_socket) {
-    PLOG(ERROR) << "accept() failed";
+   // PLOG(ERROR) << "accept() failed";
     return;
   }
   DCHECK(base::SetNonBlocking(connection_socket))

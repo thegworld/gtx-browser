@@ -17,7 +17,7 @@ If you'd like to begin using ERP within Chrome please check the comment in
 
 ### Run Unit Tests
 
-To run the unit tests for this directory, after having configured Chromium's
+To run the unit tests for this directory, after having configured GTx Browser's
 build environment:
 
 1. Run `autoninja -C out/Default components_unittests` to build the components

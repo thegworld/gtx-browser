@@ -1,5 +1,5 @@
 {
-  "Chromium Android ARM 32-bit Goma RBE Staging": {
+  "GTx Browser Android ARM 32-bit Goma RBE Staging": {
     "gn_args": {
       "dcheck_always_on": false,
       "debuggable_apks": false,
@@ -13,7 +13,7 @@
       "use_goma": true
     }
   },
-  "Chromium Android ARM 32-bit Goma RBE ToT": {
+  "GTx Browser Android ARM 32-bit Goma RBE ToT": {
     "gn_args": {
       "dcheck_always_on": false,
       "debuggable_apks": false,
@@ -27,7 +27,7 @@
       "use_goma": true
     }
   },
-  "Chromium Android ARM 32-bit Goma RBE ToT (ATS)": {
+  "GTx Browser Android ARM 32-bit Goma RBE ToT (ATS)": {
     "gn_args": {
       "dcheck_always_on": false,
       "debuggable_apks": false,
@@ -41,7 +41,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE Staging": {
+  "GTx Browser Linux Goma RBE Staging": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -49,7 +49,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE Staging (clobber)": {
+  "GTx Browser Linux Goma RBE Staging (clobber)": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -57,7 +57,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE Staging (dbg)": {
+  "GTx Browser Linux Goma RBE Staging (dbg)": {
     "gn_args": {
       "is_component_build": true,
       "is_debug": true,
@@ -65,7 +65,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE Staging (dbg) (clobber)": {
+  "GTx Browser Linux Goma RBE Staging (dbg) (clobber)": {
     "gn_args": {
       "is_component_build": true,
       "is_debug": true,
@@ -73,7 +73,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE ToT": {
+  "GTx Browser Linux Goma RBE ToT": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -81,7 +81,7 @@
       "use_goma": true
     }
   },
-  "Chromium Linux Goma RBE ToT (ATS)": {
+  "GTx Browser Linux Goma RBE ToT (ATS)": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -89,7 +89,7 @@
       "use_goma": true
     }
   },
-  "Chromium Mac Goma RBE Staging": {
+  "GTx Browser Mac Goma RBE Staging": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -97,7 +97,7 @@
       "use_goma": true
     }
   },
-  "Chromium Mac Goma RBE Staging (clobber)": {
+  "GTx Browser Mac Goma RBE Staging (clobber)": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -105,7 +105,7 @@
       "use_goma": true
     }
   },
-  "Chromium Mac Goma RBE Staging (dbg)": {
+  "GTx Browser Mac Goma RBE Staging (dbg)": {
     "gn_args": {
       "is_component_build": true,
       "is_debug": true,
@@ -113,7 +113,7 @@
       "use_goma": true
     }
   },
-  "Chromium Mac Goma RBE ToT": {
+  "GTx Browser Mac Goma RBE ToT": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -121,17 +121,7 @@
       "use_goma": true
     }
   },
-  "Chromium Win Goma RBE ATS Staging": {
-    "gn_args": {
-      "dcheck_always_on": false,
-      "is_component_build": false,
-      "is_debug": false,
-      "symbol_level": 1,
-      "target_cpu": "x86",
-      "use_goma": true
-    }
-  },
-  "Chromium Win Goma RBE ATS Staging (clobber)": {
+  "GTx Browser Win Goma RBE ATS Staging": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -141,7 +131,7 @@
       "use_goma": true
     }
   },
-  "Chromium Win Goma RBE ATS ToT": {
+  "GTx Browser Win Goma RBE ATS Staging (clobber)": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -151,7 +141,7 @@
       "use_goma": true
     }
   },
-  "Chromium Win Goma RBE Staging": {
+  "GTx Browser Win Goma RBE ATS ToT": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -161,7 +151,7 @@
       "use_goma": true
     }
   },
-  "Chromium Win Goma RBE Staging (clobber)": {
+  "GTx Browser Win Goma RBE Staging": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -171,7 +161,7 @@
       "use_goma": true
     }
   },
-  "Chromium Win Goma RBE ToT": {
+  "GTx Browser Win Goma RBE Staging (clobber)": {
     "gn_args": {
       "dcheck_always_on": false,
       "is_component_build": false,
@@ -181,7 +171,17 @@
       "use_goma": true
     }
   },
-  "Chromium iOS Goma RBE ToT": {
+  "GTx Browser Win Goma RBE ToT": {
+    "gn_args": {
+      "dcheck_always_on": false,
+      "is_component_build": false,
+      "is_debug": false,
+      "symbol_level": 1,
+      "target_cpu": "x86",
+      "use_goma": true
+    }
+  },
+  "GTx Browser iOS Goma RBE ToT": {
     "gn_args": {
       "dcheck_always_on": false,
       "ios_code_signing_identity_description": "Apple Development",

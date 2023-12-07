@@ -1,6 +1,6 @@
 # Mandatory Code-Review and Native OWNERS
 
-Beginning on March 24, 2021, committers@ of Chromium are no longer able to
+Beginning on March 24, 2021, committers@ of GTx Browser are no longer able to
 circumvent code review and OWNERS approval on CLs. The full
 [Code Review](code_reviews.md) documentation has been updated to reflect this.
 

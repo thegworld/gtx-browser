@@ -385,6 +385,9 @@ PermissionsData::PageAccess
 ExtensionActionRunner::RequiresUserConsentForScriptInjection(
     const Extension* extension,
     mojom::InjectionType type) {
+
+  LOG(INFO) << "chrome/browser/extensions/extension_action_runner.cc: "
+            << "ExtensionActionRunner::RequiresUserConsentForScriptInjection";
   CHECK(extension);
 
   // Allow the extension if it's been explicitly granted permission.

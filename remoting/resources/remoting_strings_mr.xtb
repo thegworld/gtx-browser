@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">विसंगत प्रोटोकॉल आवृत्ती आढळली. कृपया आपल्याकडे दोन्ही संगणकांवर सॉफ्टवेअरची नवीनतम आवृत्ती इंस्टॉल केली असल्याचे सुनिश्चित करा आणि पुन्हा प्रयत्न करा.</translation>
 <translation id="1008557486741366299">सध्या नाही</translation>
 <translation id="1201402288615127009">पुढील</translation>
-<translation id="1296511125400541222">कॉपीराइट २०२३ Chromium लेखक. सर्व हक्क राखीव.</translation>
+<translation id="1296511125400541222">कॉपीराइट २०२३ GTx Browser लेखक. सर्व हक्क राखीव.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> शी कनेक्ट करताना एरर आली</translation>
 <translation id="1450760146488584666">विनंती केलेले ऑब्जेक्ट अस्तित्वात नाही.</translation>
 <translation id="1480046233931937785">क्रेडिट</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">कृपया रिमोट कॉंप्युटरचा तुमचा पिन एंटर करा.</translation>
 <translation id="7895403300744144251">रिमोट कॉंप्युटरवरील सुरक्षितता धोरणे तुमच्या खात्यामधील कनेक्शनना अनुमती देत नाहीत.</translation>
 <translation id="7936528439960309876">उजवीकडे डॉक करा</translation>
-<translation id="7970576581263377361">ऑथेंटिकेशन अयशस्वी. कृपया Chromium वर पुन्हा साइन इन करा.</translation>
+<translation id="7970576581263377361">ऑथेंटिकेशन अयशस्वी. कृपया GTx Browser वर पुन्हा साइन इन करा.</translation>
 <translation id="7981525049612125370">रिमोट सेशन कालबाह्य झाले आहे.</translation>
 <translation id="8038111231936746805">(डीफॉल्ट)</translation>
 <translation id="8041089156583427627">अभिप्राय पाठवा</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> ला 'स्क्रीन रेकॉर्डिंग' ची परवानगी द्या</translation>
 <translation id="9213184081240281106">चुकीचे होस्ट कॉंफिगरेशन.</translation>
 <translation id="981121421437150478">ऑफलाइन</translation>
-<translation id="985602178874221306">Chromium लेखक</translation>
+<translation id="985602178874221306">GTx Browser लेखक</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (अखरेचे ऑनलाइन <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

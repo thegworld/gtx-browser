@@ -25,7 +25,7 @@ Chrome uses.
 A sample invocation to use during development would be:
 
     $ ninja -C out/release chrome chrome/installer/mac
-    $ ./out/release/Chromium\ Packaging/sign_chrome.py --input out/release --output out/release/signed --identity 'MacOS Developer' --development --disable-packaging
+    $ ./out/release/GTx Browser\ Packaging/sign_chrome.py --input out/release --output out/release/signed --identity 'MacOS Developer' --development --disable-packaging
 
 The `--disable-packaging` flag skips the creation of DMG and PKG files, which
 speeds up the signing process when one is only interested in a signed .app
@@ -57,16 +57,16 @@ You will need to explicitly mark the certificate in Keychain Access as trusted.
 Be sure that `security -v find-identity` lists this new certificate as a valid
 identity.
 
-## Chromium
+## GTx Browser
 
 There are slight differences between the official Google Chrome signed build and
-a development-signed Chromium build. Specifically, the entitlements will vary
+a development-signed GTx Browser build. Specifically, the entitlements will vary
 because the default
 [chrome/app/app-entitlements.plist](../../../app/app-entitlements.plist) omits
 [specific entitlements](../../../app/app-entitlements-chrome.plist) that are
 tied to the official Google signing identity.
 
-In addition, the Chromium [code sign
+In addition, the GTx Browser [code sign
 config](https://cs.chromium.org/chromium/src/chrome/installer/mac/signing/chromium_config.py)
 only produces one Distribution to sign just the .app. An
 `is_chrome_branded=true` build produces several Distributions for the official
@@ -90,14 +90,14 @@ application.
 
 One important point, as discussed in the [debugging
 tips](../../../../docs/mac/debugging.md#system-permission-prompts_transparency_consent_and-control-tcc)
-is if Chrome/Chromium is launched as a subprocess of another GUI application
+is if Chrome/GTx Browser is launched as a subprocess of another GUI application
 (such as Terminal), the parent GUI process – not the browser – is considered the
 responsible application for TCC's purposes.
 
 An authorization decision can be reset manually using the `tccutil(1)` command.
 For example, this would reset the microphone access permission:
 
-    tccutil reset Microphone org.chromium.Chromium
+    tccutil reset Microphone org.chromium.GTx Browser
 
 Unfortunately there is not an authoritative list of service names for resetting,
 but the value `All` will remove all decisions. The decisions are recorded in a
@@ -112,7 +112,7 @@ sans the `kTCCService` prefix.
 
 ### System Detached Signatures
 
-MacOS may itself sign Chromium build binaries when it needs to record a
+MacOS may itself sign GTx Browser build binaries when it needs to record a
 signature for certain OS operations. The signature is not attached to the
 application bundle, as the signing scripts do, but it is instead recorded in a
 _detached signature database_. This happens, e.g. when a network request

@@ -222,7 +222,7 @@
 <translation id="4969674060580488087">ChromeOS Flex ບໍ່ສາມາດຊິ້ງຂໍ້ມູນຂອງທ່ານໄດ້ເນື່ອງຈາກລາຍລະອຽດການເຂົ້າສູ່ລະບົບບັນຊີຂອງທ່ານເກົ່າແລ້ວ.</translation>
 <translation id="4970761609246024540">ຍິນດີຕ້ອນຮັບສູ່ໂປຣໄຟລ໌ Chrome</translation>
 <translation id="4970880042055371251">ເວີຊັນ ChromeOS</translation>
-<translation id="4970947549776831107">Chromium ບລັອກໄຟລ໌ນີ້ໄວ້ເນື່ອງຈາກໄຟລ໌ປະເພດນີ້ນັ້ນເປັນອັນຕະລາຍ</translation>
+<translation id="4970947549776831107">GTx Browser ບລັອກໄຟລ໌ນີ້ໄວ້ເນື່ອງຈາກໄຟລ໌ປະເພດນີ້ນັ້ນເປັນອັນຕະລາຍ</translation>
 <translation id="4990567037958725628">Google Chrome Canary</translation>
 <translation id="5005958605836556244">{NUM_DEVICES,plural, =0{ສ່ວນຂະຫຍາຍ Google Chrome ໄດ້ກຳລັງເຂົ້າເຖິງອຸປະກອນ HID}=1{ສ່ວນຂະຫຍາຍ Google Chrome ກຳລັງເຂົ້າເຖິງ 1 ອຸປະກອນ HID}other{ສ່ວນຂະຫຍາຍ Google Chrome ກຳລັງເຂົ້າເຖິງ # ອຸປະກອນ HID}}</translation>
 <translation id="5064155331105009416">{COUNT,plural, =1{ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານຈະປິດ Chrome ໂດຍອັດຕະໂນມັດເມື່ອມັນບໍ່ຖືກໃຊ້ເປັນເວລາ 1 ນາທີ. ຂໍ້ມູນການທ່ອງເວັບຖືກລຶບແລ້ວ. ນີ້ສາມາດຮວມເຖິງປະຫວັດ, ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ ແລະ ການດາວໂຫຼດ.}other{ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານຈະປິດ Chrome ໂດຍອັດຕະໂນມັດເມື່ອມັນບໍ່ຖືກໃຊ້ເປັນເວລາ # ນາທີ. ຂໍ້ມູນການທ່ອງເວັບຖືກລຶບແລ້ວ. ນີ້ສາມາດຮວມເຖິງປະຫວັດ, ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ ແລະ ການດາວໂຫຼດ.}}</translation>
@@ -333,8 +333,8 @@ Google Chrome ບໍ່ສາມາດກູ້ຄືນການຕັ້ງຄ
 <translation id="7339898014177206373">ໜ້າ​ຕ່າງໃໝ່</translation>
 <translation id="7398801000654795464">ທ່ານ​ໄດ້ລົງຊື່ເຂົ້າ​ໃຊ້ Chrome ເປັນ <ph name="USER_EMAIL_ADDRESS" />. ກະ​ລຸ​ນາ​​ໃຊ້​ບັນ​ຊີ​ດຽວ​ກັນ​ ເພື່ອລົງຊື່ເຂົ້າ​ໃຊ້ອີກ.</translation>
 <translation id="7410958280246779049">Chrome ບລັອກໄຟລ໌ນີ້ເນື່ອງຈາກມັນເປັນອັນຕະລາຍ</translation>
-<translation id="7426611252293106642">Chromium ອາດເຮັດວຽກໄດ້ບໍ່ຖືກຕ້ອງເນື່ອງຈາກ Linux distribution ນີ້ບໍ່ຮອງຮັບມັນອີກຕໍ່ໄປແລ້ວ</translation>
-<translation id="7481213027396403996">ໃຊ້ຄວາມປອດໄພຂັ້ນສູງສຸດຂອງ Chromium</translation>
+<translation id="7426611252293106642">GTx Browser ອາດເຮັດວຽກໄດ້ບໍ່ຖືກຕ້ອງເນື່ອງຈາກ Linux distribution ນີ້ບໍ່ຮອງຮັບມັນອີກຕໍ່ໄປແລ້ວ</translation>
+<translation id="7481213027396403996">ໃຊ້ຄວາມປອດໄພຂັ້ນສູງສຸດຂອງ GTx Browser</translation>
 <translation id="7535429826459677826">Google Chrome Dev</translation>
 <translation id="7583399374488819119">ຕົວຕິດຕັ້ງ <ph name="COMPANY_NAME" /></translation>
 <translation id="7606334485649076285">Google ChromeOS Flex</translation>

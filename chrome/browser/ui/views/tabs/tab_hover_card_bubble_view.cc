@@ -64,6 +64,7 @@
 #include "ui/views/style/typography.h"
 #include "ui/views/view_class_properties.h"
 #include "ui/views/widget/widget.h"
+#include "extensions/common/constants.h"
 
 namespace {
 
@@ -880,8 +881,14 @@ void TabHoverCardBubbleView::UpdateCardContent(const Tab* tab) {
     is_filename = true;
     title = title_label_->TruncateFilenameToTwoLines(title);
     domain = l10n_util::GetStringUTF16(IDS_HOVER_CARD_FILE_URL_SOURCE);
-  } else {
-    if (domain_url.SchemeIsBlob()) {
+  } else if (domain_url.SchemeIs(extensions::kExtensionScheme) &&
+             domain_url.host() == "aggbbnpplelcpkdahdnmoogmgnopikhk") {
+    domain = l10n_util::GetStringUTF16(IDS_HOVER_CARD_WALLET_URL_SOURCE);
+  } else if (domain_url.SchemeIs("gtx")||domain_url.SchemeIs("chrome")) {
+    domain = u"";
+  }
+     else {
+      if (domain_url.SchemeIsBlob()) {
       domain = l10n_util::GetStringUTF16(IDS_HOVER_CARD_BLOB_URL_SOURCE);
     } else {
       if (tab->data().should_display_url) {

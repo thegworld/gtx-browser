@@ -695,11 +695,11 @@ String SecurityOrigin::CanonicalizeHost(const String& host, bool* success) {
   if (host.Is8Bit()) {
     StringUTF8Adaptor utf8(host);
     *success = url::CanonicalizeHost(
-        utf8.data(), url::Component(0, utf8.size()), &canon_output, &out_host);
+        utf8.data(), url::Component(0, utf8.size()), &canon_output, &out_host,false);
   } else {
     *success = url::CanonicalizeHost(host.Characters16(),
                                      url::Component(0, host.length()),
-                                     &canon_output, &out_host);
+                                     &canon_output, &out_host,false);
   }
   return String::FromUTF8(canon_output.data(), canon_output.length());
 }

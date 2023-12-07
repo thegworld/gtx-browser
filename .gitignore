@@ -25,6 +25,7 @@
 *.vpj
 *.vpw
 *.vpwhistu
+third_party/ninja/
 *.vtg
 *.xcodeproj
 *.xcworkspace
@@ -362,3 +363,4 @@ vs-chromium-project.txt
 
 # Ignore the default results output directory for tools/run-swarmed.py
 /results
+tools/stats_viewer/obj/Debug/stats_viewer.csproj.AssemblyReference.cache

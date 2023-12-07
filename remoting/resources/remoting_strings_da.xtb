@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Der er registreret en inkompatibel version af protokollen. Kontrollér, at du har den nyeste version af softwaren installeret på begge computere, og prøv igen.</translation>
 <translation id="1008557486741366299">Ikke nu</translation>
 <translation id="1201402288615127009">Næste</translation>
-<translation id="1296511125400541222">Copyright 2023 Udviklerne af Chromium. Alle rettigheder forbeholdes.</translation>
+<translation id="1296511125400541222">Copyright 2023 Udviklerne af GTx Browser. Alle rettigheder forbeholdes.</translation>
 <translation id="1297009705180977556">Der opstod en fejl under forsøget på at oprette forbindelse til <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Det ønskede objekt findes ikke.</translation>
 <translation id="1480046233931937785">Medvirkende</translation>
@@ -156,7 +156,7 @@ Hvis "<ph name="SERVICE_SCRIPT_NAME" />" allerede er markeret, skal du fjerne ma
 <translation id="7868137160098754906">Angiv din pinkode til fjerncomputeren.</translation>
 <translation id="7895403300744144251">Sikkerhedspolitikkerne på fjerncomputeren tillader ikke forbindelser fra din konto.</translation>
 <translation id="7936528439960309876">Fastgør til højre</translation>
-<translation id="7970576581263377361">Godkendelse mislykkedes. Log ind på Chromium igen.</translation>
+<translation id="7970576581263377361">Godkendelse mislykkedes. Log ind på GTx Browser igen.</translation>
 <translation id="7981525049612125370">Fjernsessionen er udløbet.</translation>
 <translation id="8038111231936746805">(standard)</translation>
 <translation id="8041089156583427627">Send feedback</translation>
@@ -191,6 +191,6 @@ Hvis "<ph name="SERVICE_SCRIPT_NAME" />" allerede er markeret, skal du fjerne ma
 <translation id="9187628920394877737">Giv <ph name="PRODUCT_NAME" /> tilladelsen "Skærmoptagelse"</translation>
 <translation id="9213184081240281106">Ugyldig hostkonfiguration.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Forfatterne til Chromium</translation>
+<translation id="985602178874221306">Forfatterne til GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (sidst online <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

@@ -17,7 +17,7 @@ is when the RP and IDP belong to different sites and thus this operation is a cr
 communication and subject to additional scrutiny by the browser.
 
 
-Here is the basic process in Chromium for a FedCM request:
+Here is the basic process in GTx Browser for a FedCM request:
 
 1. The RP renderer process creates a new request via async JavaScript APIs which return a promise.
       - See [WebID.idl](../../../third_party/blink/renderer/modules/webid/web_id.idl) for supported

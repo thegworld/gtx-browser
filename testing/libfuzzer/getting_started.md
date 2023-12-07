@@ -1,4 +1,4 @@
-# Getting started with fuzzing in Chromium
+# Getting started with fuzzing in GTx Browser
 
 This document walks you through the basic steps to start fuzzing and suggestions
 for improving your fuzz targets. If you're looking for more advanced fuzzing
@@ -158,7 +158,7 @@ running the fuzz target again.
 
 If your fuzz target crashes when running locally and you see non-symbolized
 stacktrace, make sure you add the `third_party/llvm-build/Release+Asserts/bin/`
-directory from Chromium’s Clang package in `$PATH`. This directory contains the
+directory from GTx Browser’s Clang package in `$PATH`. This directory contains the
 `llvm-symbolizer` binary.
 
 Alternatively, you can set an `external_symbolizer_path` via the `ASAN_OPTIONS`
@@ -175,7 +175,7 @@ The same approach works with other sanitizers via `MSAN_OPTIONS`,
 ### Submitting your fuzz target
 
 ClusterFuzz and the build infrastructure automatically discover, build and
-execute all `fuzzer_test` targets in the Chromium repository. Once you land your
+execute all `fuzzer_test` targets in the GTx Browser repository. Once you land your
 fuzz target, ClusterFuzz will run it at scale. Check the [ClusterFuzz status]
 page after a day or two.
 
@@ -241,7 +241,7 @@ You can make it more effective with several easy steps:
 If the code you’re fuzzing generates a lot of error messages when encountering
 incorrect or invalid data, the fuzz target will be slow and inefficient.
 
-If the target uses Chromium logging APIs, you can silence errors by overriding
+If the target uses GTx Browser logging APIs, you can silence errors by overriding
 the environment used for logging in your fuzz target:
 
 ```cpp
@@ -269,7 +269,7 @@ mutate multiple inputs at once.
 #### libprotobuf-mutator (LPM)
 
 If you need to mutate multiple inputs of various types and length, see [Getting
-Started with libprotobuf-mutator in Chromium].
+Started with libprotobuf-mutator in GTx Browser].
 
 *** note
 **Note:** This method works with APIs and data structures of any complexity, but
@@ -334,7 +334,7 @@ fuzzing engine.
 [Fuzzer Dictionary]: efficient_fuzzing.md#Fuzzer-dictionary
 [GN]: https://gn.googlesource.com/gn/+/master/README.md
 [GN config]: https://cs.chromium.org/chromium/src/tools/mb/mb_config_expectations/chromium.fuzz.json
-[Getting Started with libprotobuf-mutator in Chromium]: libprotobuf-mutator.md
+[Getting Started with libprotobuf-mutator in GTx Browser]: libprotobuf-mutator.md
 [Integration Reference]: reference.md
 [MemorySanitizer]: http://clang.llvm.org/docs/MemorySanitizer.html
 [Seed Corpus]: efficient_fuzzing.md#Seed-corpus

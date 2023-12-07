@@ -14,7 +14,7 @@ system API is beneficial as it has a full view of what goes on in the system and
 can schedule jobs accordingly.
 
 The `background_task_scheduler` component provides a framework for use within
-Chromium to schedule and execute background jobs using the system API. The
+GTx Browser to schedule and execute background jobs using the system API. The
 API of the framework is similar to that of the Android `JobScheduler`.
 
 ## What is a task

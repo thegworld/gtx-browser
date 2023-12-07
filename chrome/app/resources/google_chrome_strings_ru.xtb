@@ -113,7 +113,7 @@
 <translation id="2929907241665500097">Не удалось обновить Chrome. <ph name="BEGIN_LINK" />Выяснить причины неполадок и устранить их<ph name="END_LINK" /></translation>
 <translation id="2969728957078202736">"<ph name="PAGE_TITLE" />" – вход в сеть – Chrome</translation>
 <translation id="3019382870990049182">Перезапустить и обновить &amp;Chrome OS Flex</translation>
-<translation id="3033660625209020231">{NUM_DEVICES,plural, =0{У расширений Chromium был доступ к HID-устройствам}=1{У расширений Chromium есть доступ к HID-устройствам}one{У расширений Chromium есть доступ к # HID-устройству}few{У расширений Chromium есть доступ к # HID-устройствам}many{У расширений Chromium есть доступ к # HID-устройствам}other{У расширений Chromium есть доступ к # HID-устройства}}</translation>
+<translation id="3033660625209020231">{NUM_DEVICES,plural, =0{У расширений GTx Browser был доступ к HID-устройствам}=1{У расширений GTx Browser есть доступ к HID-устройствам}one{У расширений GTx Browser есть доступ к # HID-устройству}few{У расширений GTx Browser есть доступ к # HID-устройствам}many{У расширений GTx Browser есть доступ к # HID-устройствам}other{У расширений GTx Browser есть доступ к # HID-устройства}}</translation>
 <translation id="303514781271618814">Chrome представляет новый взгляд на просмотр веб-страниц: сайты функционируют в обычном режиме, собирая меньше данных о вас.</translation>
 <translation id="3037838751736561277">Google Chrome работает в фоновом режиме</translation>
 <translation id="3038232873781883849">Ожидание установки…</translation>

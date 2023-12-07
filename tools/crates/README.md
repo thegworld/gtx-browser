@@ -28,7 +28,7 @@ bar = { version = "3", features = [ "spaceships" ] }
 To generate `BUILD.gn` files for all third-party crates, and find missing
 transitive dependencies to download, use the `gnrt` tool:
 1. Build `gnrt` to run on host machine, e.g. `ninja -C out/Default gnrt`.
-1. Change directory to the root src/ dir of Chromium.
+1. Change directory to the root src/ dir of GTx Browser.
 2. Run `gnrt` with the `gen` action: e.g. `out/Default/gnrt gen`.
 
 This will generate a `BUILD.gn` file for each third-party crate. The `BUILD.gn`
@@ -37,7 +37,7 @@ file changes will be visible in `git status` and can be added with `git add`.
 # Downloading missing third-party crates
 
 To download crate "foo", at version 4.2.3:
-1. Change directory to the root src/ dir of Chromium.
+1. Change directory to the root src/ dir of GTx Browser.
 1. Run `gnrt` with the `download` action: e.g. `out/Default/gnrt download
    --security-critical=yes foo 4.2.3`
 

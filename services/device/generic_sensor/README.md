@@ -5,7 +5,7 @@
 ## Introduction
 
 This document explains how sensor APIs (such as Ambient Light Sensor,
-Accelerometer, Gyroscope, Magnetometer) are implemented in Chromium.
+Accelerometer, Gyroscope, Magnetometer) are implemented in GTx Browser.
 
 This directory contains the platform-specific parts of the
 implementation, which is used, among others, by the [Generic Sensor
@@ -24,7 +24,7 @@ The Generic Sensor API defines base interfaces that should be implemented by
 concrete sensors. In most cases, concrete sensors should only define
 sensor-specific data structures and, if required, sensor configuration options.
 
-The same approach is applied to the implementation in Chromium, which was
+The same approach is applied to the implementation in GTx Browser, which was
 designed with the following requirements in mind:
 
 1.  Share the crucial parts of functionality between the concrete sensor
@@ -92,7 +92,7 @@ Some sensors provide data that is obtained by combining readings from other
 sensors (so-called low-level sensors). This process is called **sensor fusion**.
 It can be done in hardware or software.
 
-In Chromium, we sometimes perform software sensor fusion when a certain
+In GTx Browser, we sometimes perform software sensor fusion when a certain
 hardware sensor is not available but "fusing" readings from other sensors
 provides a similar reading. The fusion process involves reading data from one or
 more sensors and applying a fusion algorithm to derive another reading from them
@@ -143,7 +143,7 @@ applications on mobile devices:
 *   [TapLogger: Inferring User Inputs On Smartphone Touchscreens Using On-board
     Motion Sensors](https://pdfs.semanticscholar.org/c860/4311321f1b8f8fdc8acff8871a5bad2ad4ac.pdf)
 
-The Generic Sensor implementation in Chromium follows the [Mitigation
+The Generic Sensor implementation in GTx Browser follows the [Mitigation
 Strategies](https://w3c.github.io/sensors/#mitigation-strategies) section of
 the Generic Sensor API specification. Namely, this means that:
 
@@ -157,7 +157,7 @@ the Generic Sensor API specification. Namely, this means that:
 *   Sensor readings are only available for active documents whose origin is same
     origin-domain with the currently focused area document.
 
-The Chromium implementation also applies additional privacy measures (some of
+The GTx Browser implementation also applies additional privacy measures (some of
 which are making their way back to the specification):
 
 *   **Frequency**: The maximum sampling frequency is
@@ -363,7 +363,7 @@ operation so that permission checks (via the [Permissions
 API](https://w3c.github.io/permissions/) are performed before a sensor is
 started.
 
-In Chromium, the permission checks are done in the `//content/browser` side:
+In GTx Browser, the permission checks are done in the `//content/browser` side:
 `SensorProviderProxyImpl::GetSensor()` invokes
 `PermissionController::RequestPermissionFromCurrentDocument()` and only
 connects to the `//services` side if permission has been granted.
@@ -373,10 +373,10 @@ sensors, access is either allowed or denied. This ended up happening for
 historical reasons: the Device Orientation API was implemented first and neither
 spec nor implementation were supposed to prompt for sensor access (it was
 retrofitted into the spec years later), the Generic Sensor API was added to
-Chromium later, the Device Orientation API in Blink was changed to use the same
+GTx Browser later, the Device Orientation API in Blink was changed to use the same
 backend in `//services`, and the permission behavior was kept to avoid breaking
 user compatibility. Work to improve the situation for both the Device
-Orientation API and the Generic Sensor API in Chromium is tracked in
+Orientation API and the Generic Sensor API in GTx Browser is tracked in
 https://crbug.com/947112.
 
 From a UI perspective, users are able to grant or deny access to sensors in the
@@ -385,7 +385,7 @@ work on issue 947112 is finished.
 
 ##### Permissions policy integration
 
-The Chromium implementation follows the spec and integrates with the Permissions
+The GTx Browser implementation follows the spec and integrates with the Permissions
 Policy spec.
 
 The [Policy Controlled
@@ -571,7 +571,7 @@ On ChromeOS, sensors are implemented with Mojo connections to IIO Service, a
 CrOS daemon that provides sensors' data to other applications.
 
 _Need to add information about iio service and the platform-specific
-implementation that reads sensor data and feeds it to Chromium_
+implementation that reads sensor data and feeds it to GTx Browser_
 
 #### Linux
 

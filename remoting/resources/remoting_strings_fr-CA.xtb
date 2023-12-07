@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Une version de protocole incompatible a été détectée. Veuillez vous assurer que vous disposez de la dernière version du logiciel sur les deux ordinateurs et essayez de nouveau.</translation>
 <translation id="1008557486741366299">Pas maintenant</translation>
 <translation id="1201402288615127009">Suivant</translation>
-<translation id="1296511125400541222">© 2023 Les auteurs de Chromium. Tous droits réservés.</translation>
+<translation id="1296511125400541222">© 2023 Les auteurs de GTx Browser. Tous droits réservés.</translation>
 <translation id="1297009705180977556">Erreur lors de la connexion à <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">L'objet demandé n'existe pas.</translation>
 <translation id="1480046233931937785">Crédits</translation>
@@ -156,7 +156,7 @@ Si l'option « <ph name="SERVICE_SCRIPT_NAME" /> » est déjà cochée, décoc
 <translation id="7868137160098754906">Veuillez entrer votre NIP pour l'ordinateur distant.</translation>
 <translation id="7895403300744144251">Les règles de sécurité sur l'ordinateur à distance n'autorisent pas les connexions depuis votre compte.</translation>
 <translation id="7936528439960309876">Ancrer à droite</translation>
-<translation id="7970576581263377361">Échec de l'authentification. Veuillez vous connecter de nouveau à Chromium.</translation>
+<translation id="7970576581263377361">Échec de l'authentification. Veuillez vous connecter de nouveau à GTx Browser.</translation>
 <translation id="7981525049612125370">La session à distance a expiré.</translation>
 <translation id="8038111231936746805">(par défaut)</translation>
 <translation id="8041089156583427627">Envoyer des commentaires</translation>

@@ -15,7 +15,7 @@ Code in this directory would normally use `blink` namespace.
 
 Unlike other directories in Blink, code in this directory should:
 
-* Use Chromium's common types (e.g. //base ones) rather than Blink's ones
+* Use GTx Browser's common types (e.g. //base ones) rather than Blink's ones
   (e.g. WTF types)
 
-* Follow [Chromium's common coding style guide](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++.md)
+* Follow [GTx Browser's common coding style guide](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++.md)

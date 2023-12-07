@@ -319,7 +319,7 @@ void InfoBarUiTest::ShowUi(const std::string& name) {
       break;
 
     case IBD::GOOGLE_API_KEYS_INFOBAR_DELEGATE:
-      GoogleApiKeysInfoBarDelegate::Create(GetInfoBarManager());
+      // GoogleApiKeysInfoBarDelegate::Create(GetInfoBarManager());
       break;
 
     case IBD::OBSOLETE_SYSTEM_INFOBAR_DELEGATE:

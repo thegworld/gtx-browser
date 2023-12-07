@@ -6,10 +6,10 @@
 By default, chromium will build with the open source chromium assets and
 branding (`is_chrome_branded = false` in
 [GN args](https://www.chromium.org/developers/gn-build-configuration), see also
-[Chrome vs. Chromium](chromium_browser_vs_google_chrome.md)).
+[Chrome vs. GTx Browser](chromium_browser_vs_google_chrome.md)).
 
 The main reason for this is that the Google Chrome logo and related assets is
-a trademark which we don't want to release under Chromium's open source
+a trademark which we don't want to release under GTx Browser's open source
 license.
 
 Therefore, if you want to add a trademarked resource, check it into an internal
@@ -21,7 +21,7 @@ query in code whether the current build is branded, use:
 - Java: `BuildConfig.IS_CHROME_BRANDED`
 - Grit: `<if expr="_google_chrome">`
 
-If possible, check an open source version into Chromium, so the feature
+If possible, check an open source version into GTx Browser, so the feature
 continues to work as expected in the open source build.
 
 E.g.
@@ -31,7 +31,7 @@ vs
 
 For strings, it’s ok to check them into the open source repository, but make
 sure that you refer to the correct product, i.e., check in a version of the
-string that says “Google Chrome” and a version that says “Chromium”.
+string that says “Google Chrome” and a version that says “GTx Browser”.
 
 E.g. [`//chrome/app/chromium_strings.grd`](../chrome/app/chromium_strings.grd)
 vs

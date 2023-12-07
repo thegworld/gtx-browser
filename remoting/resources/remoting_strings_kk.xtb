@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Протоколдың үйлесімсіз нұсқасы анықталды. Компьютерлердің екеуінде де бағдарламалық жасақтаманың соңғы нұсқасының орнатылғанына көз жеткізіңіз және қайталап көріңіз.</translation>
 <translation id="1008557486741366299">Қазір емес</translation>
 <translation id="1201402288615127009">Келесі</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Барлық құқығы қорғалған.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Барлық құқығы қорғалған.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> хостына байланыс орнатылмады</translation>
 <translation id="1450760146488584666">Сұралған нысан жоқ.</translation>
 <translation id="1480046233931937785">Авторлар</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Қашықтағы компьютерге арналған PIN кодын енгізіңіз.</translation>
 <translation id="7895403300744144251">Қашықтағы компьютердегі қауіпсіздік саясаттары аккаунтыңыздан байланыс орнатуға тыйым салады.</translation>
 <translation id="7936528439960309876">Оң жаққа қондыру</translation>
-<translation id="7970576581263377361">Аутентификация сәтсіз аяқталды. Chromium жүйесіне қайта кіріңіз.</translation>
+<translation id="7970576581263377361">Аутентификация сәтсіз аяқталды. GTx Browser жүйесіне қайта кіріңіз.</translation>
 <translation id="7981525049612125370">Қашықтағы сеанстың мерзімі аяқталды.</translation>
 <translation id="8038111231936746805">(әдепкі)</translation>
 <translation id="8041089156583427627">Пікір жіберу</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> қызметіне экранды жазуға рұқсат беріңіз</translation>
 <translation id="9213184081240281106">Хост конфигурациясы жарамсыз.</translation>
 <translation id="981121421437150478">Желіден тыс</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (желіде соңғы рет: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

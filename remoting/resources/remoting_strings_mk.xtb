@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Откривме некомпатибилна верзија на протоколот. Проверете дали ја имате инсталирано најновата верзија на софтверот на двата компјутера и обидете се повторно.</translation>
 <translation id="1008557486741366299">Не сега</translation>
 <translation id="1201402288615127009">Следно</translation>
-<translation id="1296511125400541222">Авторски права за 2023 г. на The Chromium Authors. Сите права се задржани.</translation>
+<translation id="1296511125400541222">Авторски права за 2023 г. на The GTx Browser Authors. Сите права се задржани.</translation>
 <translation id="1297009705180977556">Грешка при поврзување со <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Бараниот објект не постои.</translation>
 <translation id="1480046233931937785">Заслуги</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Внесете го PIN-бројот за далечинскиот компјутер.</translation>
 <translation id="7895403300744144251">Правилата за безбедност на далечинскиот компјутер не дозволуваат врски од вашата сметка.</translation>
 <translation id="7936528439960309876">Приклучи десно</translation>
-<translation id="7970576581263377361">Автентикацијата не успеа. Најавете се повторно на Chromium.</translation>
+<translation id="7970576581263377361">Автентикацијата не успеа. Најавете се повторно на GTx Browser.</translation>
 <translation id="7981525049612125370">Далечинската сесија истече.</translation>
 <translation id="8038111231936746805">(стандардно)</translation>
 <translation id="8041089156583427627">Испратете повратни информации</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Одобрете дозвола за „Снимање на екранот“ на <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Неважечка конфигурација на домаќинот.</translation>
 <translation id="981121421437150478">Без мрежа</translation>
-<translation id="985602178874221306">Автори на Chromium</translation>
+<translation id="985602178874221306">Автори на GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (последен пат онлајн <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

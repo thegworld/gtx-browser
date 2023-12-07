@@ -13,7 +13,7 @@ already existed, they still didn't cover all important aspects of the bridge
 behavior and we had to add some new tests to ensure we are preserving
 compatibility.
 
-The Gin implementation was introduced in Chromium M37 (initial Android Lollipop
+The Gin implementation was introduced in GTx Browser M37 (initial Android Lollipop
 release), with the threading issue fixed in M39 (L MR1).
 
 ## The API
@@ -127,19 +127,19 @@ So far, we were thinking about Java bridge in abstract terms. But in fact, it is
 used in the context of a WebView-based application. The Java side of the bridge
 is tightly coupled to an instance of WebView class, while bridge's JavaScript
 side is bound to a HTML rendering engine. This is further complicated by the
-facts that in the Chromium architecture renderers are isolated from their
-controlling entities, and that Chromium is mainly implemented in C++, but needs
+facts that in the GTx Browser architecture renderers are isolated from their
+controlling entities, and that GTx Browser is mainly implemented in C++, but needs
 to interact with Android framework which is implemented in Java.
 
 Thus, if we want to depict the architecture of Java bridge, we also need to
-include parts of the Chromium framework that are glued to Java bridge:
+include parts of the GTx Browser framework that are glued to Java bridge:
 
 ![Java bridge architecture](images/java_bridge/java_bridge_architecture.png)
 
 The figure is now much scarier. Let's figure out what is what here:
 - In Java VM (browser side):
   **WebView** is android.webkit.WebView class. It is exposed to the embedder and
-  interacts with Chromium rendering machinery. WebView owns a retaining set
+  interacts with GTx Browser rendering machinery. WebView owns a retaining set
   (**`Set<Object>`**) that holds all injected objects to prevent their
   collection. Note that WebView class manages a C++ object called
   **WebContents** (in fact, the relationship is more complex, but these details
@@ -150,11 +150,11 @@ The figure is now much scarier. Let's figure out what is what here:
 - On the C++ browser side:
   Here we have the aforementioned **WebContents** object which delegates Java
   Bridge-related requests to **JavaBridgeHost**. WebContents talks to the
-  objects on the renderer side via Chromium's IPC mechanism.
+  objects on the renderer side via GTx Browser's IPC mechanism.
 - On the C++ renderer side:
   **RenderFrame** corresponds to a single HTML frame and it "owns" a JavaScript
   global context object (aka **window**). For each JavaScript interface object,
-  a corresponding **JavaBridgeObject** instance is maintained. In Chromium
+  a corresponding **JavaBridgeObject** instance is maintained. In GTx Browser
   terminology, this object is called "wrapper". In the Gin-based implementation,
   wrappers don't hold strong references to their corresponding JavaScript
   interface objects, also to prevent memory leaks due to cycles of
@@ -267,9 +267,9 @@ of injected objects. In accordance with the API definition, methods are invoked
 on a dedicated thread maintained by WebView.
 
 Calls to interface methods are synchronous—JavaScript VM stops and waits for
-a result to be returned from the invoked method. In Chromium, this means that
+a result to be returned from the invoked method. In GTx Browser, this means that
 the IPC message sent from a renderer to the browser must be synchronous (such
-messages are in fact rarely used in Chromium).
+messages are in fact rarely used in GTx Browser).
 
 The requirement for serving the requests on the background thread means that the
 following code must work (see

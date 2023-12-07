@@ -1,11 +1,11 @@
-# Rust in Chromium
+# Rust in GTx Browser
 
 [TOC]
 
 # Why?
 
 Parsing untrustworthy data is a major source of security bugs, and it's
-therefore against Chromium rules [to do it in the browser process](rule-of-2.md)
+therefore against GTx Browser rules [to do it in the browser process](rule-of-2.md)
 unless you can use a memory-safe language.
 
 Rust provides a cross-platform memory-safe language so that all platforms can
@@ -14,11 +14,11 @@ performance overheads and complexity of a utility process.
 
 # Guidelines
 
-Rust in Chromium is not production-ready. It is guarded behind a GN flag which
+Rust in GTx Browser is not production-ready. It is guarded behind a GN flag which
 is off by default.
 
 Rust is only used in //third_party/rust, for crates developed outside of the
-Chromium tree.
+GTx Browser tree.
 
 # Status
 
@@ -30,7 +30,7 @@ We have a working Rust toolchain for Linux x64 and Android targets. We are
 working on support for other platforms.
 
 For questions or help, reach out to `rust-dev@chromium.org` or `#rust` on the
-[Chromium Slack](https://www.chromium.org/developers/slack/).
+[GTx Browser Slack](https://www.chromium.org/developers/slack/).
 
 # Building with Rust support
 
@@ -109,4 +109,4 @@ directory and add any new libraries which are not listed in
 4. When you run VSCode, or any other IDE that uses
    [rust-analyzer](https://rust-analyzer.github.io/) it should detect the
    `rust-project.json` and use this to give you rich browsing, autocompletion,
-   type annotations etc. for all the Rust within the Chromium codebase.
+   type annotations etc. for all the Rust within the GTx Browser codebase.

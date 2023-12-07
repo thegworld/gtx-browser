@@ -67,7 +67,7 @@ CookieControlsController::GetStatus(content::WebContents* web_contents) {
   }
   const GURL& url = web_contents->GetLastCommittedURL();
   if (url.SchemeIs(content::kChromeUIScheme) ||
-      url.SchemeIs(kExtensionScheme)) {
+      url.SchemeIs(kExtensionScheme) || url.SchemeIs(content::kGtxUIScheme)) {
     return {CookieControlsStatus::kDisabled,
             CookieControlsEnforcement::kNoEnforcement};
   }

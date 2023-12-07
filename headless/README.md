@@ -1,11 +1,11 @@
-# Headless Chromium
+# Headless GTx Browser
 
-Headless Chromium allows running Chromium in a headless/server environment.
+Headless GTx Browser allows running GTx Browser in a headless/server environment.
 Expected use cases include loading web pages, extracting metadata (e.g., the
 DOM) and generating bitmaps from page contents -- using all the modern web
-platform features provided by Chromium and Blink.
+platform features provided by GTx Browser and Blink.
 
-There are two ways to use Headless Chromium:
+There are two ways to use Headless GTx Browser:
 
 ## Usage via the DevTools remote debugging protocol
 
@@ -56,7 +56,7 @@ CDP((client) => {
 
 ## Usage as a C++ library
 
-Headless Chromium can be built as a library for embedding into a C++
+Headless GTx Browser can be built as a library for embedding into a C++
 application. This approach is otherwise similar to controlling the browser over
 a DevTools connection, but it provides more customization points, e.g., for
 networking and [mojo services](https://docs.google.com/document/d/1Fr6_DJH6OK9rG3-ibMvRPTNnHsAXPk0VzxxiuJDSK3M/edit#heading=h.qh0udvlk963d).

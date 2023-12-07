@@ -61,14 +61,14 @@ the doc later.
 For ash pixel tests, it is always “ash”. **NOTE**: this doc only covers ash
 pixel tests. If the platform suffix is not “ash”, you are reading the wrong doc.
 
-To locate the test file, you can search `{Test Suite Name}` in the Chromium code
+To locate the test file, you can search `{Test Suite Name}` in the GTx Browser code
 base. In that test file, you can search `{Test Case Name}` to find the test
 case. In that test case, you can search `{Screenshot Name}` to find the code
 line that generates the benchmark image.
 
 Use the previous record as an example. To locate the test code that generates
 DemoAshPixelDiffTest.VerifyTopLevelWidgets.check_widgets.rev_1.ash, you should:
-- First, search “DemoAshPixelDiffTest” in the Chromium code base. You will find
+- First, search “DemoAshPixelDiffTest” in the GTx Browser code base. You will find
 ash/test/pixel/demo_ash_pixel_diff_test.cc; then
 - Second, search “VerifyTopLevelWidgets” in that file. You will find the test
 case defined by TEST_F(DemoAshPixelDiffTest, VerifyTopLevelWidgets); then

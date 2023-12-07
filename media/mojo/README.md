@@ -13,7 +13,7 @@ can use the “media” target without having to pull in mojo dependency.
 
 ### Media Components
 
-Media Player (`WebMediaPlayer`) supports HTML5 \<video\> playback in Chromium.
+Media Player (`WebMediaPlayer`) supports HTML5 \<video\> playback in GTx Browser.
 Internally, it depends on many **media components** to perform some specific
 tasks, e.g. **media renderer**, **audio decoder**, **video decoder**, and
 **content decryption module** (CDM). A CDM is required for a *media renderer*,
@@ -34,7 +34,7 @@ For example:
 * A CDM contains third-party code and should run in its own sandboxed process.
 
 Here we provide a generic framework to support most out-of-process (OOP) media
-component use cases in Chromium.
+component use cases in GTx Browser.
 
 ### Media Player Mojo Interfaces
 
@@ -121,7 +121,7 @@ media components should run. For example, a hardware decoder typically should
 run in the GPU process. The `ServiceManagerContext` provides the ability to run
 a service in-process (browser) or in the GPU process. Therefore, by using a
 `MediaService`, it’s very easy to support hosting remote media components
-interfaces in most common Chromium process types (Browser/GPU). This can by set
+interfaces in most common GTx Browser process types (Browser/GPU). This can by set
 using the gn argument  `mojo_media_host`,
 e.g.
 ```
@@ -164,7 +164,7 @@ support and we’ll only add it when we need it.
 #### Site Isolation
 
 In Blink, both media element and EME MediaKeys belong to a `WebLocalFrame`. In
-Chromium, this translates to media player and CDM belonging to a `RenderFrame`.
+GTx Browser, this translates to media player and CDM belonging to a `RenderFrame`.
 In the render process, this is clear. However, when hosting all remote media
 components in a single `MediaService` (service manager only supports one service
 instance per process), the Frame boundary could get fuzzy. This will be

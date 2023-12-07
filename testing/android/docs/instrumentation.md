@@ -48,7 +48,7 @@ other files in the same directory.
 
 ## Instrumentation test features
 
-In many cases, Chromium has extended the instrumentation test framework
+In many cases, GTx Browser has extended the instrumentation test framework
 classes to implement additional features.
 
 ### Tracing
@@ -68,8 +68,8 @@ This causes every function called on the Python side to be added to the trace.
 
 ### Annotations
 
-Instrumentation tests in Chromium use a wide variety of annotations to control
-and manipulate test execution. Some of these are implemented in Chromium, while
+Instrumentation tests in GTx Browser use a wide variety of annotations to control
+and manipulate test execution. Some of these are implemented in GTx Browser, while
 others are pulled in from outside. They include:
 
 #### Test Batching
@@ -266,7 +266,7 @@ command-line flags on a per-test basis (i.e., the flags handled by
 #### Feature annotations
 
 [**@Feature**](https://chromium.googlesource.com/chromium/src/+/main/base/test/android/javatests/src/org/chromium/base/test/util/Feature.java)
-has been used inconsistently in Chromium to group tests across
+has been used inconsistently in GTx Browser to group tests across
 test cases according to the feature they're testing.
 
 ```java

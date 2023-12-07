@@ -1,7 +1,7 @@
 {
 	"archive_datas": [
         {
-            "dirs": ["Chromium.app"],
+            "dirs": ["GTx Browser.app"],
             "rename_dirs": [
                 {"from_dir": ".", "to_dir": "chrome-mac"}
             ],

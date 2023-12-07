@@ -17,9 +17,12 @@ extern const char kAppScheme[];
 // since it's used by iOS too.
 COMPONENT_EXPORT(UKM_RECORDER)
 extern const char kChromeUIScheme[];
+extern const char kGtxUIScheme[];
+
 // kExtensionScheme is defined in extensions which also isn't available here.
 COMPONENT_EXPORT(UKM_RECORDER)
 extern const char kExtensionScheme[];
+extern const char kGtxExtensionScheme[];
 
 }  // namespace ukm
 

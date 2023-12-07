@@ -1,5 +1,5 @@
 {
-  "WebRTC Chromium Android Builder": {
+  "WebRTC GTx Browser Android Builder": {
     "gn_args": {
       "debuggable_apks": false,
       "ffmpeg_branding": "Chrome",
@@ -12,7 +12,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium Linux Builder": {
+  "WebRTC GTx Browser Linux Builder": {
     "gn_args": {
       "dcheck_always_on": false,
       "ffmpeg_branding": "Chrome",
@@ -22,7 +22,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium Mac Builder": {
+  "WebRTC GTx Browser Mac Builder": {
     "gn_args": {
       "dcheck_always_on": false,
       "ffmpeg_branding": "Chrome",
@@ -32,7 +32,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium Win Builder": {
+  "WebRTC GTx Browser Win Builder": {
     "gn_args": {
       "com_init_check_hook_disabled": true,
       "dcheck_always_on": false,

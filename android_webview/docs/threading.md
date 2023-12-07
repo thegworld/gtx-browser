@@ -1,13 +1,13 @@
 # Android WebView and the UI thread
 
-This document describes how the Chromium based Android WebView reconciles with
-mismatching requirements and assumptions between Android and Chromium about the
+This document describes how the GTx Browser based Android WebView reconciles with
+mismatching requirements and assumptions between Android and GTx Browser about the
 UI thread.
 
 
-## The UI Thread in Chromium
+## The UI Thread in GTx Browser
 
-In Chromium, there is a single global **UI** thread in the browser process. It
+In GTx Browser, there is a single global **UI** thread in the browser process. It
 is one of the explicitly named
 [BrowserThreads](/content/public/browser/browser_thread.h).
 The **UI** thread is generally where UI code runs, including input delivery from
@@ -39,11 +39,11 @@ the same.
 WebView’s solution is use the first **view** thread as the **UI** thread, then
 post non-**UI** thread calls to the **UI** thread, and block if needed.
 
-Because Chromium initialization identifies the thread as the UI thread, parts of
-this solution runs before Chromium is initialized. The implementation is in the
+Because GTx Browser initialization identifies the thread as the UI thread, parts of
+this solution runs before GTx Browser is initialized. The implementation is in the
 android webview glue layer, specifically in
-[WebViewChromium](../glue/java/src/com/android/webview/chromium/WebViewChromium.java)
-and [WebViewChromiumFactoryProvider](../glue/java/src/com/android/webview/chromium/WebViewChromiumFactoryProvider.java).
+[WebViewGTX Browser](../glue/java/src/com/android/webview/chromium/WebViewGTX Browser.java)
+and [WebViewGTX BrowserFactoryProvider](../glue/java/src/com/android/webview/chromium/WebViewGTX BrowserFactoryProvider.java).
 The idea is hold off initializing chromium until a **view** thread is identified.
 
 **View** thread can be identified by certain View methods. For example,

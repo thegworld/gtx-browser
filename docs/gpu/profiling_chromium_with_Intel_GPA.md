@@ -1,20 +1,20 @@
-# Profile Chromium with Intel&reg; Graphics Performance Analyzers
+# Profile GTx Browser with Intel&reg; Graphics Performance Analyzers
 
-This page documents how to do graphics profiling on Chromium with **Intel&reg; Graphics Performance Analyzers (GPA)**.
+This page documents how to do graphics profiling on GTx Browser with **Intel&reg; Graphics Performance Analyzers (GPA)**.
 
 ## Introduction to Intel&reg; GPA
 
 Intel&reg; GPA is a toolset for graphics performance analysis and optimizations for graphics-intensive applications.
 
-Currently Intel&reg; GPA works best on Windows when analyzing Chromium. In this document, we will mainly talk about the best practice on how to profile Chromium with latest Intel&reg; GPA on Windows with Intel D3D drivers. We will also keep this document up-to-date when there are any big updates about Intel&reg; GPA in the future.
+Currently Intel&reg; GPA works best on Windows when analyzing GTx Browser. In this document, we will mainly talk about the best practice on how to profile GTx Browser with latest Intel&reg; GPA on Windows with Intel D3D drivers. We will also keep this document up-to-date when there are any big updates about Intel&reg; GPA in the future.
 
 ## Download Intel&reg; GPA
 
 The official link to download Intel&reg; GPA is [here](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/download.html).
 
-## Profile Chromium with Intel&reg; GPA
+## Profile GTx Browser with Intel&reg; GPA
 
-Currently Intel&reg; GPA **doest't support capturing frame of Chromium with Graphics Monitor**. Instead we can do performance profiling by recording multi-frame streams with the command line tool **gpa-injector.exe** (under the folder 'Streams/' of the install directory of Intel&reg; GPA ).
+Currently Intel&reg; GPA **doest't support capturing frame of GTx Browser with Graphics Monitor**. Instead we can do performance profiling by recording multi-frame streams with the command line tool **gpa-injector.exe** (under the folder 'Streams/' of the install directory of Intel&reg; GPA ).
 
 The steps to record multi-frame streams for D3D11 (for example, WebGL) and D3D12 (for example WebGPU) based graphics applications are different due to some known issues in Intel&reg; GPA. Let's introduce them for you one by one.
 
@@ -69,7 +69,7 @@ gpa-injector.exe --injection-mode 1 --hook-d3d11on12 -t "C:\Program Files\Google
 
 ## Known Issues
 
-Currently [Intel&reg; GPA Shader Profiler](https://www.intel.com/content/www/us/en/develop/documentation/gpa-user-guide/top/analyze-desktop-apps/optimize-specific-domains/optimize-shaders.html) doesn't work with Chromium.
+Currently [Intel&reg; GPA Shader Profiler](https://www.intel.com/content/www/us/en/develop/documentation/gpa-user-guide/top/analyze-desktop-apps/optimize-specific-domains/optimize-shaders.html) doesn't work with GTx Browser.
 
 ## More Information
 

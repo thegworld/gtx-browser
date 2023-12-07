@@ -1,4 +1,4 @@
-# Chromium Interaction Library
+# GTx Browser Interaction Library
 
 Note: for **Interactive Testing**, see the
 [Interactive Test Documentation](/chrome/test/interaction/README.md)

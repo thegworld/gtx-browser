@@ -1,6 +1,6 @@
 # Screen Time
 
-This directory contains the integration between Chromium and the macOS
+This directory contains the integration between GTx Browser and the macOS
 ScreenTime system, which is a digital wellbeing tool allowing users to restrict
 their own use of apps and websites by category. ScreenTime was introduced in
 macOS 11, but we only support it for macOS 12.1+ due to an
@@ -14,7 +14,7 @@ The most pertinent class is `STWebpageController`, which is an
 view tree in such a way that it covers the web contents. The NSView becomes
 opaque when screen time for that tab or website has been used up.
 
-The public interface to ScreenTime within Chromium is the
+The public interface to ScreenTime within GTx Browser is the
 `screentime::TabHelper` class, which is a
 [TabHelper](../../../../../docs/tab_helpers.md) that binds an
 STWebpageController to a WebContents.

@@ -33,7 +33,7 @@ Sending more than one message of this type during a test is considered an error.
     'vendor': 'NVIDIA',
     'architecture': 'Turing',
     'device': '2184',
-    'description': 'GTX 1660',
+    'description': 'GTx 1660',
   },
 }
 ```

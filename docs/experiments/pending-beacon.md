@@ -119,6 +119,6 @@ your web server that hosts the page.
 - [Pending Beacon Explainer on GitHub](https://github.com/WICG/pending-beacon#readme)
 - [Pending Beacon API Spec (draft)](https://wicg.github.io/pending-beacon/)
 - Ask questions about API & Spec via [new issue](https://github.com/WICG/pending-beacon/issues/new)
-- [Pending Beacon Design Doc in Chromium](https://docs.google.com/document/d/1QIFUu6Ne8x0W62RKJSoTtZjSd_bIM2yXZSELxdeuTFo/edit#)
+- [Pending Beacon Design Doc in GTx Browser](https://docs.google.com/document/d/1QIFUu6Ne8x0W62RKJSoTtZjSd_bIM2yXZSELxdeuTFo/edit#)
 
 [status]: https://chromestatus.com/feature/5690553554436096

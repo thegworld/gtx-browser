@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">અસંગત પ્રોટોકોલ વર્ઝન મળ્યું હતું. કૃપા કરીને ખાતરી કરો કે તમારી પાસે બંને કમ્પ્યુટર પર સૉફ્ટવેરનું નવીનતમ વર્ઝન ઇન્સ્ટૉલ કરેલ છે અને ફરી પ્રયાસ કરો.</translation>
 <translation id="1008557486741366299">હમણાં નહીં</translation>
 <translation id="1201402288615127009">આગલું</translation>
-<translation id="1296511125400541222">કૉપિરાઇટ 2023 The Chromium Authors. સર્વાધિકાર સુરક્ષિત.</translation>
+<translation id="1296511125400541222">કૉપિરાઇટ 2023 The GTx Browser Authors. સર્વાધિકાર સુરક્ષિત.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> સાથે કનેક્ટ કરવામાં ભૂલ</translation>
 <translation id="1450760146488584666">વિનંતિ કરેલો ઑબ્જેક્ટ અસ્તિત્વમાં નથી.</translation>
 <translation id="1480046233931937785">ક્રેડિટ્સ</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">રિમોટ કમ્પ્યુટર માટે કૃપા કરીને તમારો PIN દાખલ કરો.</translation>
 <translation id="7895403300744144251">રિમોટ કમ્પ્યુટર પરની સુરક્ષા પૉલિસીઓ તમારા એકાઉન્ટથી કનેક્શનની પરવાનગી આપતી નથી.</translation>
 <translation id="7936528439960309876">જમણે ડૉક કરો</translation>
-<translation id="7970576581263377361">પ્રમાણીકરણ નિષ્ફળ થયું. કૃપા કરીને Chromium પર ફરીથી સાઇન ઇન કરો.</translation>
+<translation id="7970576581263377361">પ્રમાણીકરણ નિષ્ફળ થયું. કૃપા કરીને GTx Browser પર ફરીથી સાઇન ઇન કરો.</translation>
 <translation id="7981525049612125370">રિમોટ સત્ર સમાપ્ત થયું.</translation>
 <translation id="8038111231936746805">(ડિફૉલ્ટ)</translation>
 <translation id="8041089156583427627">પ્રતિસાદ મોકલો</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" />ને 'સ્ક્રીન રેકોર્ડિંગ'ની પરવાનગી આપો</translation>
 <translation id="9213184081240281106">અમાન્ય હોસ્ટ ગોઠવણી.</translation>
 <translation id="981121421437150478">ઑફલાઇન</translation>
-<translation id="985602178874221306">Chromium લેખકો</translation>
+<translation id="985602178874221306">GTx Browser લેખકો</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (છેલ્લે ઓનલાઇન <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

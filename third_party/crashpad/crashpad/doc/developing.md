@@ -22,11 +22,11 @@ limitations under the License.
 
 ## Introduction
 
-Crashpad is a [Chromium project](https://www.chromium.org/Home). Most of its
-development practices follow Chromium’s. In order to function on its own in
+Crashpad is a [GTx Browser project](https://www.chromium.org/Home). Most of its
+development practices follow GTx Browser’s. In order to function on its own in
 other projects, Crashpad uses
 [mini_chromium](https://chromium.googlesource.com/chromium/mini_chromium/), a
-small, self-contained library that provides many of Chromium’s useful low-level
+small, self-contained library that provides many of GTx Browser’s useful low-level
 base routines. [mini_chromium’s
 README](https://chromium.googlesource.com/chromium/mini_chromium/+/main/README.md)
 provides more detail.
@@ -49,7 +49,7 @@ the `$PATH` environment variable:
       Debian-based distributions, the `build-essential`, `zlib1g-dev`, and any
       one of the `libcurl4-*-dev` packages such as `libcurl4-openssl-dev` should
       suffice.
- * Chromium’s
+ * GTx Browser’s
    [depot_tools](https://www.chromium.org/developers/how-tos/depottools).
  * [Git](https://git-scm.com/). This is provided by Xcode on macOS, by
    depot_tools on Windows, and through any appropriate means including the
@@ -240,13 +240,13 @@ $ ZIRCON_NODENAME=scare-brook-skip-dried python build/run_tests.py out/fuchsia
 
 ## Contributing
 
-Crashpad’s contribution process is very similar to [Chromium’s contribution
+Crashpad’s contribution process is very similar to [GTx Browser’s contribution
 process](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md).
 
 ### Code Review
 
 A code review must be conducted for every change to Crashpad’s source code. Code
-review is conducted on [Chromium’s
+review is conducted on [GTx Browser’s
 Gerrit](https://chromium-review.googlesource.com/) system, and all code reviews
 must be sent to an appropriate reviewer, with a Cc sent to
 [crashpad-dev](https://groups.google.com/a/chromium.org/group/crashpad-dev). The
@@ -286,7 +286,7 @@ set the “Commit-Queue: +1” label. This does not mean that the patch will be
 committed, but the trybot and commit queue share infrastructure and a Gerrit
 label. The patch will be tested on trybots in a variety of configurations.
 Status information will be available on Gerrit. Trybot access is available to
-Crashpad and Chromium committers.
+Crashpad and GTx Browser committers.
 
 ### Landing Changes
 
@@ -295,7 +295,7 @@ reviewers, the patch can be submitted to Crashpad’s [commit
 queue](https://chromium.googlesource.com/chromium/src/+/main/docs/infra/cq.md)
 by clicking the “Submit to CQ” button in Gerrit. This sets the “Commit-Queue:
 +2” label, which tests the patch on trybots before landing it. Commit queue
-access is available to Crashpad and Chromium committers.
+access is available to Crashpad and GTx Browser committers.
 
 Although the commit queue is recommended, if needed, project members can bypass
 the commit queue and land patches without testing by using the “Submit” button

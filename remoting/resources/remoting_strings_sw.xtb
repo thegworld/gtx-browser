@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Toleo lisilooana la itifaki liligunduliwa. Tafadhali hakikisha kuwa umesakinisha toleo jipya la programu kwenye kompyuta zote mbili na ujaribu tena.</translation>
 <translation id="1008557486741366299">Si Sasa</translation>
 <translation id="1201402288615127009">Endelea</translation>
-<translation id="1296511125400541222">Hakimiliki 2023 Waandishi wa Chromium. Haki Zote zimehifadhiwa.</translation>
+<translation id="1296511125400541222">Hakimiliki 2023 Waandishi wa GTx Browser. Haki Zote zimehifadhiwa.</translation>
 <translation id="1297009705180977556">Hitilafu imetokea wakati wa kuunganisha kwenye <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Kipengele kilichoombwa hakipo.</translation>
 <translation id="1480046233931937785">Mikopo</translation>
@@ -156,7 +156,7 @@ Ikiwa '<ph name="SERVICE_SCRIPT_NAME" />' tayari imechaguliwa, batilisha uteuzi 
 <translation id="7868137160098754906">Tafadhali weka PIN yako ya kompyuta ya mbali.</translation>
 <translation id="7895403300744144251">Sera za faragha kuhusu kompyuta ya mbali haziruhusu miunganisho kutoka akaunti yako.</translation>
 <translation id="7936528439960309876">Isalie Kulia</translation>
-<translation id="7970576581263377361">Uidhinishaji haujafaulu. Tafadhali ingia kwenye Chromium tena.</translation>
+<translation id="7970576581263377361">Uidhinishaji haujafaulu. Tafadhali ingia kwenye GTx Browser tena.</translation>
 <translation id="7981525049612125370">Kipindi cha mbali kimekwisha muda.</translation>
 <translation id="8038111231936746805">(chaguomsingi)</translation>
 <translation id="8041089156583427627">Tuma Maoni</translation>
@@ -191,6 +191,6 @@ Ikiwa '<ph name="SERVICE_SCRIPT_NAME" />' tayari imechaguliwa, batilisha uteuzi 
 <translation id="9187628920394877737">Ipe <ph name="PRODUCT_NAME" /> idhinisha ya 'Kurekodi Skrini'</translation>
 <translation id="9213184081240281106">Usanidi wa seva pangishi si sahihi.</translation>
 <translation id="981121421437150478">Nje ya mtandao</translation>
-<translation id="985602178874221306">Waandishi wa Chromium</translation>
+<translation id="985602178874221306">Waandishi wa GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (mara ya mwisho mtandaoni <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

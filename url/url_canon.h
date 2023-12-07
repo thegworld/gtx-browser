@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <string>
+
 #include "base/component_export.h"
 #include "base/export_template.h"
 #include "base/memory/raw_ptr_exclusion.h"
@@ -395,12 +397,14 @@ COMPONENT_EXPORT(URL)
 bool CanonicalizeHost(const char* spec,
                       const Component& host,
                       CanonOutput* output,
-                      Component* out_host);
+                      Component* out_host,
+                      bool is_ipfs = false);
 COMPONENT_EXPORT(URL)
 bool CanonicalizeHost(const char16_t* spec,
                       const Component& host,
                       CanonOutput* output,
-                      Component* out_host);
+                      Component* out_host,
+                      bool is_ipfs = false);
 
 // Extended version of CanonicalizeHost, which returns additional information.
 // Use this when you need to know whether the hostname was an IP address.
@@ -600,7 +604,8 @@ bool CanonicalizeStandardURL(const char* spec,
                              SchemeType scheme_type,
                              CharsetConverter* query_converter,
                              CanonOutput* output,
-                             Parsed* new_parsed);
+                             Parsed* new_parsed,
+                             bool is_ipfs = false);
 COMPONENT_EXPORT(URL)
 bool CanonicalizeStandardURL(const char16_t* spec,
                              int spec_len,
@@ -608,7 +613,8 @@ bool CanonicalizeStandardURL(const char16_t* spec,
                              SchemeType scheme_type,
                              CharsetConverter* query_converter,
                              CanonOutput* output,
-                             Parsed* new_parsed);
+                             Parsed* new_parsed,
+                             bool is_ipfs = false);
 
 // Use for file URLs.
 COMPONENT_EXPORT(URL)

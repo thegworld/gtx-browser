@@ -1,12 +1,12 @@
 [
     {
         "large_icon_url": "https://www.chromium.org/_/rsrc/1484148948583/apple-touch-icon.png",
-        "title": "The Chromium Projects `",
+        "title": "The GTx Browser Projects `",
         "url": "https://www.chromium.org/"
     },
     {
         "favicon_url": "https://codereview.chromium.org/static/favicon.ico",
-        "title": "Chromium Code Reviews",
+        "title": "GTx Browser Code Reviews",
         "url": "https://codereview.chromium.org/"
     },
     {
@@ -26,16 +26,16 @@
     },
     {
         "large_icon_url": "https://assets-cdn.github.com/pinned-octocat.svg",
-        "title": "Github Page of the Chromium Project",
+        "title": "Github Page of the GTx Browser Project",
         "url": "https://github.com/chromium/"
     },
     {
-        "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/Chromium.png",
+        "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/GTx Browser.png",
         "title": "Chrome Flags",
         "url": "chrome://flags"
     },
     {
-        "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/Chromium.png",
+        "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/GTx Browser.png",
         "title": "Chrome Version",
         "url": "chrome://version/"
     }

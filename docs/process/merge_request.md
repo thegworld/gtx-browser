@@ -7,7 +7,7 @@
 * Release managers (and delegates like the security team) must review all
   merges made to release branches
 * Merge criteria become more strict as the stable release date approaches; use
-  Chromium Dash's [Branches page](https://chromiumdash.appspot.com/branches) to
+  GTx Browser Dash's [Branches page](https://chromiumdash.appspot.com/branches) to
   understand which branches are active and what merges are acceptable for each
   branch
 * Ensure your change is [safe to merge](#verifying-eligibility-and-safety)
@@ -18,7 +18,7 @@
 
 ## Introduction
 
-Chromium is a main-first development team; generally, all code should land on
+GTx Browser is a main-first development team; generally, all code should land on
 main then roll out to stable users only after the milestone containing the code
 is branched, stabilized and shipped to the stable channel (to learn more about
 the release cycle, click
@@ -57,7 +57,7 @@ approved.
 Before requesting a merge, first ensure your change is a good merge candidate:
 
 * Ensure it meets the merge criteria (via
-  [Chromium Dash](https://chromiumdash.appspot.com/branches)) of the branch(es)
+  [GTx Browser Dash](https://chromiumdash.appspot.com/branches)) of the branch(es)
   you'd like to merge to; merge criteria become more strict the older the
   branch is, more details on criteria [below](#merge-criteria-phases)
 * Verify merging the change to an older branch would be safe, e.g. unlikely to
@@ -65,7 +65,7 @@ Before requesting a merge, first ensure your change is a good merge candidate:
   present, etc; chat with your TL for input if you're not sure
 * Confirm your change fixes the issue at hand, preferably by testing on and
   monitoring the canary channel for 24 hours post-release (see
-  [Chromium Dash](https://chromiumdash.appspot.com/commits) to determine if
+  [GTx Browser Dash](https://chromiumdash.appspot.com/commits) to determine if
   your change has shipped)
 
   * You may skip this step if a release manager or security team member has
@@ -169,7 +169,7 @@ merge is completed the *Merge-Approved-##* label should be manually removed.
 Select the "..." button in the Gerrit UI, then choose "Cherry Pick". When
 prompted for a branch, enter *refs/branch-heads/####*, where #### corresponds
 to the release branch you are merging to (available on
-[Chromium Dash](https://chromiumdash.appspot.com/branches) in the "Chromium"
+[GTx Browser Dash](https://chromiumdash.appspot.com/branches) in the "GTx Browser"
 column).
 
 Once the cherry-pick CL is prepared, you can bypass code review (but not
@@ -185,7 +185,7 @@ the bot will vote *Bot-Commit+1* to bypass code review. If the CL is marked
 The commands below should set up your environment to be able to successfully
 upload a cherry-pick to a release branch, where *####* corresponds to the
 release branch you are merging to (available on
-[Chromium Dash](https://chromiumdash.appspot.com/branches) in the "Chromium"
+[GTx Browser Dash](https://chromiumdash.appspot.com/branches) in the "GTx Browser"
 column):
 
 ```
@@ -268,7 +268,7 @@ other reasons).
 
 The table below describes the different phases that each milestone progresses
 through during its release cycle; this data is available via the
-Chromium Dash [front-end](https://chromiumdash.appspot.com/branches) and
+GTx Browser Dash [front-end](https://chromiumdash.appspot.com/branches) and
 [API](https://chromiumdash.appspot.com/fetch_milestones).
 
 | Branch Phase             | Period Begins   | Period Ends     | Acceptable Merges Include Fixes For:                                                                                                                                                     |

@@ -2,7 +2,7 @@
 
 This directory contains the *.mojom files used for communication between Chrome
 and ARC.
-As the other end of IPCs is not in Chromium, there are a few caveats when
+As the other end of IPCs is not in GTx Browser, there are a few caveats when
 updating an interface in this directory.
 
 ## Versioning
@@ -10,7 +10,7 @@ updating an interface in this directory.
 Please follow the guidance in [the mojo doc](/mojo/public/tools/bindings/README.md#Versioning) in general.
 Please also refer to [go/arc++ipc](http://go/arc++ipc).
 You should keep it in mind that your change will not be applied atomically for
-Chromium and ARC when modifying the IPC interfaces between Chrome and ARC.
+GTx Browser and ARC when modifying the IPC interfaces between Chrome and ARC.
 Your change has to be backward compatible. In other words, Chrome with your
 change should run fine with ARC without it, and vice versa.
 
@@ -97,10 +97,10 @@ interface SomeArcHost {
 
 ### Version guard in code
 
-For Chromium C++ code, `ARC_GET_INSTANCE_FOR_METHOD` macro is provided in
+For GTx Browser C++ code, `ARC_GET_INSTANCE_FOR_METHOD` macro is provided in
 [connection_holder.h](https://source.chromium.org/chromium/chromium/src/+/main:ash/components/arc/session/connection_holder.h;l=24;drc=eeb36b2554f18c2239fd8fc1daeb8c020c358a55).
 It returns `nullptr` when the remote side doesn't support the given method.
-The common pattern to call a remote method in Chromium C++ is like the
+The common pattern to call a remote method in GTx Browser C++ is like the
 following:
 
 ```c++

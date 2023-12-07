@@ -33,7 +33,7 @@ The policy can be enabled in several ways.
 
 Pass the `--enable-features=PermissionsPolicyUnload` command line flag.
 
-### Using the Chromium UI
+### Using the GTx Browser UI
 
 Enable the flag chrome://flags/#enable-experimental-web-platform-features .
 

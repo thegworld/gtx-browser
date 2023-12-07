@@ -1,5 +1,5 @@
 Name: GTXiLib
-Short Name: GTX
+Short Name: GTx
 URL: https://github.com/google/GTXiLib
 Version: 1
 License: Apache 2.0
@@ -7,4 +7,4 @@ License File: NOT_SHIPPED
 Security Critical: no
 
 Description:
-Google Toolbox for Accessibility for the iOS platform or simply GTX-eye is a framework for iOS accessibility testing.
+Google Toolbox for Accessibility for the iOS platform or simply GTx-eye is a framework for iOS accessibility testing.

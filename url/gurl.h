@@ -243,6 +243,9 @@ class COMPONENT_EXPORT(URL) GURL {
   // Returns true if the scheme is "http" or "https".
   bool SchemeIsHTTPOrHTTPS() const;
 
+  // Returns true if the scheme is "ipfs".
+  bool SchemeIsIpfs() const;
+
   // Returns true is the scheme is "ws" or "wss".
   bool SchemeIsWSOrWSS() const;
 
@@ -294,13 +297,11 @@ class COMPONENT_EXPORT(URL) GURL {
 
   // Not including the colon. If you are comparing schemes, prefer SchemeIs.
   bool has_scheme() const { return parsed_.scheme.is_valid(); }
-  std::string scheme() const {
-    return ComponentString(parsed_.scheme);
-  }
-  base::StringPiece scheme_piece() const {
-    return ComponentStringPiece(parsed_.scheme);
-  }
-
+  
+  std::string scheme() const;
+  
+  base::StringPiece scheme_piece() const;
+  
   bool has_username() const { return parsed_.username.is_valid(); }
   std::string username() const {
     return ComponentString(parsed_.username);

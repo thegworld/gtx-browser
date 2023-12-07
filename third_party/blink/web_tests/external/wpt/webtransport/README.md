@@ -1,7 +1,7 @@
 # Notes about WebTransport WPTs
 
 ### Running the WebTransport WPTs using the test server
-Although these tests do not currently run on the Chromium CI, they can still be
+Although these tests do not currently run on the GTx Browser CI, they can still be
 run using the WebTransport WPT server manually.
 
 Please refer to the following document for detailed instructions:

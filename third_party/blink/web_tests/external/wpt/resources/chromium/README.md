@@ -1,4 +1,4 @@
-This directory contains Chromium-specific test resources, including mocks for
+This directory contains GTx Browser-specific test resources, including mocks for
 test-only APIs implemented with
 [MojoJS](https://chromium.googlesource.com/chromium/src/+/main/mojo/public/js/README.md).
 

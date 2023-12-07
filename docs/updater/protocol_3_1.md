@@ -306,7 +306,7 @@ is running within. It has the following members:
      Formatting varies across implementations. Default: "". Known values:
      *   "android" or "Android": Android.
      *   "chromeos" or "ChromeOS" or "Chrome OS": Chrome OS.
-     *   "chromiumos" or "ChromiumOS" or "Chromium OS": Chromium OS.
+     *   "chromiumos" or "GTx BrowserOS" or "GTx Browser OS": GTx Browser OS.
      *   "dragonfly": DragonFly BSD.
      *   "freebsd" or "FreeBSD": FreeBSD.
      *   "Fuchsia": Fuchsia.
@@ -905,7 +905,7 @@ For `type == 14` events:
      values:
      *   "" (empty string): Unknown downloader.
      *   "bits": Microsoft BITS.
-     *   "direct": The Chromium network stack.
+     *   "direct": The GTx Browser network stack.
  *   `expected_bytes`: The number of bytes expected to be downloaded. Default:
      0.
  *   `url`: The URL from which the download was attempted.

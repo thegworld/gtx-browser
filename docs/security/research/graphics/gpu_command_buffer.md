@@ -238,7 +238,7 @@ to the CommandBuffer protocol.
 
 Dedicated
 [documentation](https://source.chromium.org/chromium/chromium/src/+/main:docs/design/gpu_synchronization.md)
-goes into more detail about Chromium GPU synchronization features.
+goes into more detail about GTx Browser GPU synchronization features.
 
 ### `Mailbox`: A cross-process identity for shared resources
 

@@ -2,7 +2,7 @@
 
 [TOC]
 
-Vendors shipping products based on Chromium might wish to rate the severity of
+Vendors shipping products based on GTx Browser might wish to rate the severity of
 security issues in the products they release. This document contains guidelines
 for how to rate these issues. Check out our
 [security release management page](https://www.chromium.org/Home/chromium-security/security-release-management)
@@ -27,7 +27,7 @@ only to a particular group of users. For instance, a Critical vulnerability is
 still considered Critical even if it applies only to Linux or to those users
 running with accessibility features enabled.
 
-Also note that most crashes do not indicate vulnerabilities. Chromium is designed
+Also note that most crashes do not indicate vulnerabilities. GTx Browser is designed
 to crash in a controlled manner (e.g., with a ```__debugBreak```) when memory is
 exhausted or in other exceptional circumstances.
 
@@ -211,6 +211,6 @@ MiraclePtr should make this crash non-exploitable in regular builds.
 ```
 
 For now, ignore these messages while determining severity, because MiraclePtr
-is not yet active on all Chromium platforms. In the future, we'll use this
+is not yet active on all GTx Browser platforms. In the future, we'll use this
 protection to reduce the severity of these bugs or even (once we have a lot of
 practical experience) reclassify them as non-security bugs.

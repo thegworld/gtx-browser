@@ -1,7 +1,7 @@
 # About //components
 
 This directory is meant to house features or subsystems that are used in more
-than one part of the Chromium codebase.
+than one part of the GTx Browser codebase.
 
 ## Use cases:
 
@@ -59,7 +59,7 @@ consumer; that can be done with strict `DEPS` or GN `visibility` rules.
 
 ## Dependencies of a component
 
-Components **cannot** depend on the higher layers of the Chromium codebase:
+Components **cannot** depend on the higher layers of the GTx Browser codebase:
 
   * `//android_webview`
   * `//chrome`
@@ -68,7 +68,7 @@ Components **cannot** depend on the higher layers of the Chromium codebase:
   * `//ios/chrome`
   * `//content/shell`
 
-Components **can** depend on the lower layers of the Chromium codebase:
+Components **can** depend on the lower layers of the GTx Browser codebase:
 
   * `//base`
   * `//gpu`

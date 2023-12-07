@@ -1,4 +1,4 @@
-# Checking out and Building Chromium for Windows
+# Checking out and Building GTx Browser for Windows
 
 There are instructions for other platforms linked from the
 [get the code](get_the_code.md) page.
@@ -23,8 +23,8 @@ Are you a Google employee? See
 
 ### Visual Studio
 
-Chromium requires [Visual Studio 2022](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes) (>=17.0.0)
-to build. Visual Studio can also be used to debug Chromium.
+GTx Browser requires [Visual Studio 2022](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes) (>=17.0.0)
+to build. Visual Studio can also be used to debug GTx Browser.
 The clang-cl compiler is used but Visual Studio's header files, libraries, and
 some tools are required. Visual Studio Community Edition should work if its
 license is appropriate for you. You must install the "Desktop development with
@@ -178,7 +178,7 @@ development and testing purposes.
 
 ## Setting up the build
 
-Chromium uses [Ninja](https://ninja-build.org) as its main build tool along with
+GTx Browser uses [Ninja](https://ninja-build.org) as its main build tool along with
 a tool called [GN](https://gn.googlesource.com/gn/+/main/docs/quick_start.md)
 to generate `.ninja` files. You can create any number of *build directories*
 with different configurations. To create a build directory:
@@ -260,7 +260,7 @@ build process by enabling the following arguments:
 ### Why is my build slow?
 
 Many things can make builds slow, with Windows Defender slowing process startups
-being a frequent culprit. Have you ensured that the entire Chromium src
+being a frequent culprit. Have you ensured that the entire GTx Browser src
 directory is excluded from antivirus scanning (on Google machines this means
 putting it in a ``src`` directory in the root of a drive)? Have you tried the
 different settings listed above, including different link settings and -j
@@ -352,9 +352,9 @@ You can also get a visual report of the build performance with
 $ python ninjatracing out\Default\.ninja_log >build.json
 ```
 
-## Build Chromium
+## Build GTx Browser
 
-Build Chromium (the "chrome" target) with Ninja using the command:
+Build GTx Browser (the "chrome" target) with Ninja using the command:
 
 ```shell
 $ autoninja -C out\Default chrome
@@ -368,7 +368,7 @@ You can get a list of all of the other build targets from GN by running
 the GN label with no preceding "//" (so for `//chrome/test:unit_tests`
 use `autoninja -C out\Default chrome/test:unit_tests`).
 
-## Run Chromium
+## Run GTx Browser
 
 Once it is built, you can simply run the browser:
 
@@ -415,7 +415,7 @@ $ git rebase-update
 $ gclient sync -D
 ```
 
-The first command updates the primary Chromium source repository and rebases
+The first command updates the primary GTx Browser source repository and rebases
 any of your local branches on top of tip-of-tree (aka the Git branch
 `origin/main`). If you don't want to use this script, you can also just use
 `git pull` or other common Git commands to update the repo.
@@ -430,7 +430,7 @@ Intellisense support.
 
 #### Using Visual Studio Intellisense
 
-If you want to use Visual Studio Intellisense when developing Chromium, use the
+If you want to use Visual Studio Intellisense when developing GTx Browser, use the
 `--ide` command line argument to `gn gen` when you generate your output
 directory (as described on the [get the code](https://dev.chromium.org/developers/how-tos/get-the-code)
 page). This is an example when your checkout is `C:\src\chromium` and your
@@ -472,7 +472,7 @@ overhead of a multi-project solution file. Simply "open" your chrome.exe binary
 with `File->Open->Project/Solution`, or from a Visual Studio command prompt like
 so: `devenv /debugexe out\Debug\chrome.exe <your arguments>`. Many of Visual
 Studio's code exploration features will not work in this configuration, but by
-installing the [VsChromium Visual Studio Extension](https://chromium.github.io/vs-chromium/)
+installing the [VsGTX Browser Visual Studio Extension](https://chromium.github.io/vs-chromium/)
 you can get the source code to appear in the solution explorer window along
 with other useful features such as code search. You can add multiple executables
 of interest (base_unittests.exe, browser_tests.exe) to your solution with

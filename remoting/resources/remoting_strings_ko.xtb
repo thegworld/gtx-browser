@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">호환되지 않는 프로토콜 버전이 감지되었습니다. 양쪽 컴퓨터 모두에서 소프트웨어가 최신 버전인지 확인한 뒤 다시 시도해 주세요.</translation>
 <translation id="1008557486741366299">나중에 하기</translation>
 <translation id="1201402288615127009">다음</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. All Rights Reserved.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. All Rights Reserved.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> 연결 중 오류가 발생했습니다</translation>
 <translation id="1450760146488584666">요청한 개체가 없습니다.</translation>
 <translation id="1480046233931937785">크레딧</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">원격 컴퓨터의 PIN을 입력하세요.</translation>
 <translation id="7895403300744144251">원격 컴퓨터의 보안 정책으로 인해 내 계정에서 연결할 수 없습니다.</translation>
 <translation id="7936528439960309876">오른쪽에 고정</translation>
-<translation id="7970576581263377361">인증에 실패했습니다. Chromium에 다시 로그인하세요.</translation>
+<translation id="7970576581263377361">인증에 실패했습니다. GTx Browser에 다시 로그인하세요.</translation>
 <translation id="7981525049612125370">원격 세션이 만료되었습니다.</translation>
 <translation id="8038111231936746805">(기본값)</translation>
 <translation id="8041089156583427627">의견 보내기</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" />에 '화면 녹화' 권한 부여</translation>
 <translation id="9213184081240281106">호스트 구성이 잘못되었습니다.</translation>
 <translation id="981121421437150478">오프라인</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" />(최근 연결: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

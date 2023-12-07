@@ -7,14 +7,14 @@ their configuration, and how to both modify their behavior and add new bots.
 
 ## Overview of the GPU bots' setup
 
-Chromium's GPU bots, compared to the majority of the project's test machines,
+GTx Browser's GPU bots, compared to the majority of the project's test machines,
 are physical pieces of hardware. When end users run the Chrome browser, they
 are almost surely running it on a physical piece of hardware with a real
 graphics processor. There are some portions of the code base which simply can
 not be exercised by running the browser in a virtual machine, or on a software
 implementation of the underlying graphics libraries. The GPU bots were
 developed and deployed in order to cover these code paths, and avoid
-regressions that are otherwise inevitable in a project the size of the Chromium
+regressions that are otherwise inevitable in a project the size of the GTx Browser
 browser.
 
 The GPU bots are utilized on the [chromium.gpu] and [chromium.gpu.fyi]
@@ -85,7 +85,7 @@ Adding a new test step to the bots requires that the test run via an isolate.
 Isolates describe both the binary and data dependencies of an executable, and
 are the underpinning of how the Swarming system works. See the [LUCI]
 documentation for background on [Isolates] and [Swarming]. Note that with the
-transition towards less Chromium-specific tools, you may see terms such as
+transition towards less GTx Browser-specific tools, you may see terms such as
 "CAS inputs" instead of "isolate". These newer systems are functionally
 identical to the older ones from a user's perspective, so the terms can be
 safely interchanged.
@@ -198,7 +198,7 @@ sorry):
 
 *   [`gpu.star`][gpu.star]
     *   Defines a `chromium.tests.gpu` Swarming pool which contains all of the
-        specialized hardware, except some hardware shared with Chromium:
+        specialized hardware, except some hardware shared with GTx Browser:
         for example, the Windows and Linux NVIDIA
         bots, the Windows AMD bots, and the MacBook Pros with NVIDIA and AMD
         GPUs. New GPU hardware should be added to this pool.
@@ -351,7 +351,7 @@ Builder].
     new virtual machine
     instances](#How-to-set-up-new-virtual-machine-instances).
 
-1.  Create a CL in the Chromium workspace which does the following. Here's an
+1.  Create a CL in the GTx Browser workspace which does the following. Here's an
     [example CL](https://chromium-review.googlesource.com/c/chromium/src/+/1752291).
     1.  Adds the new machines to [`waterfalls.pyl`][waterfalls.pyl] directly or
         to [`mixins.pyl`][mixins.pyl], referencing the new mixin in
@@ -475,7 +475,7 @@ trybot for the Win7 NVIDIA GPUs in Release mode. We will call the new bot
     [How to set up new virtual machine instances](#How-to-set-up-new-virtual-machine-instances),
     following the "Manually-triggered GPU trybots" instructions.
 
-1.  Create a CL in the Chromium workspace which does the following. Here's a
+1.  Create a CL in the GTx Browser workspace which does the following. Here's a
     [reference CL](https://chromium-review.googlesource.com/c/chromium/src/+/2191276)
     exemplifying the new "GCE pool per GPU hardware pool" way.
     1.  Updates [`gpu.try.star`][gpu.try.star] and its related generated file
@@ -511,8 +511,8 @@ chrome-infra team if this doesn't work as expected.)
 
 ### How to add a new try bot that runs a subset of tests or extra tests
 
-Several projects (ANGLE, Dawn) run custom tests using the Chromium recipes. They
-use try bot bot configs that run subsets of Chromium or additional slower tests
+Several projects (ANGLE, Dawn) run custom tests using the GTx Browser recipes. They
+use try bot bot configs that run subsets of GTx Browser or additional slower tests
 that can't be run on the main CQ.
 
 These trybots are a little different because they do not mirror any waterfall
@@ -526,7 +526,7 @@ slightly different files.
     [How to set up new virtual machine instances](#How-to-set-up-new-virtual-machine-instances).
 1.  Make sure there is enough hardware capacity using the available tools to
     report utilization of the Swarming pool.
-1.  Create a CL in the Chromium workspace the does the following.
+1.  Create a CL in the GTx Browser workspace the does the following.
     1.  Add your new bot `android_optional_gpu_tests_rel` to the
         tryserver.chromium.android waterfall in
         [`waterfalls.pyl`][waterfalls.pyl].
@@ -557,7 +557,7 @@ slightly different files.
 
 Let's say that you want to roll out an update to the graphics drivers or the OS
 on one of the configurations like the Linux NVIDIA bots. In order to verify
-that the new driver or OS won't destabilize Chromium's commit queue,
+that the new driver or OS won't destabilize GTx Browser's commit queue,
 it's necessary to run the new driver or OS on one of the waterfalls for a day
 or two to make sure the tests are reliably green before rolling out the driver
 or OS update. To do this:
@@ -635,7 +635,7 @@ server, the swarming server, and cloud storage.
 ### Isolate server credentials
 
 To upload and download isolates you must first authenticate to the isolate
-server. From a Chromium checkout, run:
+server. From a GTx Browser checkout, run:
 
 *   `./src/tools/luci-go/isolate login`
 

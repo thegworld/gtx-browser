@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Une version de protocole incompatible a été détectée. Veuillez vous assurer que vous utilisez la dernière version du logiciel sur les deux ordinateurs, puis réessayer.</translation>
 <translation id="1008557486741366299">Pas maintenant</translation>
 <translation id="1201402288615127009">Suivant</translation>
-<translation id="1296511125400541222">Copyright 2023 - Auteurs de Chromium. Tous droits réservés.</translation>
+<translation id="1296511125400541222">Copyright 2023 - Auteurs de GTx Browser. Tous droits réservés.</translation>
 <translation id="1297009705180977556">Erreur de connexion à <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">L'objet demandé n'existe pas.</translation>
 <translation id="1480046233931937785">Remerciements</translation>
@@ -156,7 +156,7 @@ Si la case "<ph name="SERVICE_SCRIPT_NAME" />" est déjà cochée, décochez-la,
 <translation id="7868137160098754906">Veuillez saisir le code d'accès de l'ordinateur distant.</translation>
 <translation id="7895403300744144251">Les règles de sécurité de l'ordinateur distant n'autorisent pas les connexions à partir de votre compte.</translation>
 <translation id="7936528439960309876">Ancrer à droite</translation>
-<translation id="7970576581263377361">Échec de l'authentification. Veuillez vous connecter de nouveau à Chromium.</translation>
+<translation id="7970576581263377361">Échec de l'authentification. Veuillez vous connecter de nouveau à GTx Browser.</translation>
 <translation id="7981525049612125370">La session à distance est arrivée à expiration.</translation>
 <translation id="8038111231936746805">(par défaut)</translation>
 <translation id="8041089156583427627">Envoyer</translation>
@@ -191,6 +191,6 @@ Si la case "<ph name="SERVICE_SCRIPT_NAME" />" est déjà cochée, décochez-la,
 <translation id="9187628920394877737">Accorder l'autorisation "Enregistrement de l'écran" à <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Configuration d'hôte incorrecte.</translation>
 <translation id="981121421437150478">Hors connexion</translation>
-<translation id="985602178874221306">Auteurs de Chromium</translation>
+<translation id="985602178874221306">Auteurs de GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (dernière connexion : <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

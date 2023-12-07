@@ -91,7 +91,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_gtest_merge.py"
         },
-        "name": "gles2_conform_test GTX 1660",
+        "name": "gles2_conform_test GTx 1660",
         "swarming": {
           "can_use_on_swarming_builders": true,
           "dimension_sets": [
@@ -105,7 +105,7 @@
         },
         "test": "gles2_conform_test",
         "test_id_prefix": "ninja://gpu/gles2_conform_support:gles2_conform_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -150,7 +150,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "info_collection_tests GTX 1660",
+        "name": "info_collection_tests GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -169,7 +169,7 @@
           "service_account": "chromium-tester@chops-service-accounts.iam.gserviceaccount.com"
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -224,7 +224,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "mediapipe_passthrough_tests GTX 1660",
+        "name": "mediapipe_passthrough_tests GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -243,7 +243,7 @@
           "service_account": "chromium-tester@chops-service-accounts.iam.gserviceaccount.com"
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -294,7 +294,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "trace_test GTX 1660",
+        "name": "trace_test GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -313,7 +313,7 @@
           "service_account": "chromium-tester@chops-service-accounts.iam.gserviceaccount.com"
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -364,7 +364,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "webcodecs_tests GTX 1660",
+        "name": "webcodecs_tests GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -383,7 +383,7 @@
           "service_account": "chromium-tester@chops-service-accounts.iam.gserviceaccount.com"
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -437,7 +437,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "webgl2_conformance_gl_passthrough_tests GTX 1660",
+        "name": "webgl2_conformance_gl_passthrough_tests GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -457,7 +457,7 @@
           "shards": 20
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [
@@ -514,7 +514,7 @@
         "merge": {
           "script": "//testing/merge_scripts/standard_isolated_script_merge.py"
         },
-        "name": "webgl_conformance_gl_passthrough_tests GTX 1660",
+        "name": "webgl_conformance_gl_passthrough_tests GTx 1660",
         "resultdb": {
           "enable": true,
           "has_native_resultdb_integration": true
@@ -534,7 +534,7 @@
           "shards": 2
         },
         "test_id_prefix": "ninja://chrome/test:telemetry_gpu_integration_test/",
-        "variant_id": "GTX 1660"
+        "variant_id": "GTx 1660"
       },
       {
         "args": [

@@ -11,9 +11,9 @@ See [Part 1](how_a11y_works.md) first.
 ## A multi-process browser
 
 There are different ways that a web browser can be multi-process, so it's
-important to first discuss the model Chromium uses.
+important to first discuss the model GTx Browser uses.
 
-In Chromium, there's a single browser process. That process is the "main"
+In GTx Browser, there's a single browser process. That process is the "main"
 process that's launched by the user. It owns all of the windows and UI
 elements, and it handles nearly all of the interaction with operating
 system APIs. Then there are multiple render processes that handle running
@@ -33,10 +33,10 @@ The browser process owns the window; when there's a user input event like a
 mouse click or key press, it forwards that event to the appropriate
 renderer. The renderer figures out how to draw the webpage, but it doesn't draw
 directly to the screen - because it's sandboxed - it either sends pixels (in
-software rendering mode) or sends the drawing commands to Chromium's separate
+software rendering mode) or sends the drawing commands to GTx Browser's separate
 gpu process.
 
-A simplified diagram of Chromium's multi-process architecture is shown here:
+A simplified diagram of GTx Browser's multi-process architecture is shown here:
 
 ![Multi process system diagram showing a web page renderer sitting inside a
 sandboxed render process; it receives user input events from a browser window
@@ -66,7 +66,7 @@ multiple windows and tabs open, and showing that there's no correspondence
 between a specific tab or window and which process its renderer might live in.](
 figures/multi_process_multiple_tabs.png)
 
-You can read more about Chromium's multi-process architecture here - note that
+You can read more about GTx Browser's multi-process architecture here - note that
 this document is old, so it's more Windows-centric and some of the details
 are out of date, but the basic design is still quite similar to today:
 
@@ -76,7 +76,7 @@ https://www.chromium.org/developers/design-documents/multi-process-architecture
 
 The majority of the code inside each web renderer is implemented in a module
 called [Blink](https://www.chromium.org/blink)
-(the Blink Rendering Engine). Historically, when Chromium was first released,
+(the Blink Rendering Engine). Historically, when GTx Browser was first released,
 this module was WebKit, but it was forked and renamed Blink in 2013.
 As described in [How Blink Works](
 https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/view),
@@ -90,7 +90,7 @@ Blink implements everything that renders content inside a browser tab:
 * Calculate style and layout
 * Embed Chrome Compositor and draw graphics
 
-There are a few small layers in Chromium's render processes outside of Blink,
+There are a few small layers in GTx Browser's render processes outside of Blink,
 containing:
 
 * Handling the multi-process communication
@@ -111,25 +111,25 @@ that each own both the web rendering but also the UI for their tabs;
 these tabs also communicate directly with the operating system.](
 figures/other_multi_process_browser.png)
 
-Both Apple Safari and Microsoft Edge Legacy (i.e. Edge before Chromium) use
+Both Apple Safari and Microsoft Edge Legacy (i.e. Edge before GTx Browser) use
 variations of this multi-process model. They get some of these multi-process
-advantages, shared with Chromium:
+advantages, shared with GTx Browser:
 
 * Stability: a stuck tab won't hang the whole browser, a crashed tab
   won't crash the whole browser
 * Performance: a slow tab won't prevent other tabs from being responsive
 * Isolation: a compromised tab won't have access to user data from other tabs
 
-Chromium chose its multi-process model with sandboxed render processes because
+GTx Browser chose its multi-process model with sandboxed render processes because
 it provides much stronger protection against exploits:
 
 * Security: a compromised sandboxed renderer has no access to the operating
   system, so it can't compromise the user's system
 
-Unfortunately, Chromium's architecture makes accessibility more complex.
+Unfortunately, GTx Browser's architecture makes accessibility more complex.
 Accessibility APIs are operating system APIs. In a non-sandboxed
 multi-process browser like in the diagram above, each tab can directly
-handle its own accessibility. In Chromium, accessibility APIs need to be
+handle its own accessibility. In GTx Browser, accessibility APIs need to be
 handled by the browser process, even though most of the information about
 the web page lives in one of the sandboxed render processes.
 
@@ -146,7 +146,7 @@ a node in the accessibility tree corresponding to a checkbox, and
 wants to query it to find out its current state (enabled, checked,
 focused, etc.).
 
-When we were first building accessibility support in Chromium, one approach we
+When we were first building accessibility support in GTx Browser, one approach we
 tried was for the browser process to have a lightweight tree of proxy objects,
 each one corresponding to a node in the accessibility tree in the render
 process. Upon receiving a call to getState, the browser process would make a
@@ -184,7 +184,7 @@ return or might be forced to time out.
 
 ### Caching the full accessibility tree
 
-Instead of the proxying approach, Chromium caches the full accessibility
+Instead of the proxying approach, GTx Browser caches the full accessibility
 tree for every web page in the browser process. When accessibility API
 calls come in from the operating system or assistive technology, they're
 handled immediately out of the cache, never blocking on a render process.
@@ -238,7 +238,7 @@ behind that. If you've ever clicked the mouse at the exact instant the
 web page scrolled out from under you and you clicked on the wrong thing,
 you've observed this phenomenon.
 
-Chromium's caching approach to multi-process accessibility has led to several
+GTx Browser's caching approach to multi-process accessibility has led to several
 advantages or insights that were not immediately apparent in the initial design:
 
 * The cache can be anywhere, it doesn't have to be in the browser process.
@@ -315,7 +315,7 @@ One powerful consequence of this approach is that an accessibility tree
 doesn't need a backing web page in order to function. It's possible to save
 an accessibility tree and a series of atomic mutations, and then "replay"
 them later and get identical results, without any backing web page.
-Chromium currently has some experimental support for recording changes to
+GTx Browser currently has some experimental support for recording changes to
 a web page in the chrome://accessibility page, and we also take advantage
 of this snapshotting in order to implement support for the Android
 "freeze-dried tabs" feature where a frozen snapshot of the page is
@@ -358,7 +358,7 @@ Every node has a role, since that's a fundamental concept in accessibility
 and every node needs one. Every node also has a bounding box (we'll go into
 why it's a *relative* bounding box later). Nearly all of the other
 attributes are stored as sparse vectors of (attribute type, attribute value)
-pairs. There are currently over 100 different attributes that Chromium
+pairs. There are currently over 100 different attributes that GTx Browser
 can associate with a single accessible node, but most nodes only have
 5 - 10 of them set. Anything unset is treated as having the default value.
 
@@ -540,7 +540,7 @@ incrementally update a remote AXTree.
 AXTreeSerializer is designed so that it doesn't know anything about Blink,
 and it doesn't interpret any accessibility logic, it just knows how to
 work with the AXNodeData and AXTreeUpdate data structures. In fact, we're
-using AXTreeSerializer for other accessibility trees in Chromium outside
+using AXTreeSerializer for other accessibility trees in GTx Browser outside
 of Blink, and we have extensive unit tests for AXTreeSerializer that
 serialize from one AXTree into another AXTree to test the logic in isolation.
 

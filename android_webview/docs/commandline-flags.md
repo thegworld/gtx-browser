@@ -33,7 +33,7 @@ If the above outputs "user," then you have two options:
 
 ## Overview
 
-WebView (and Chromium in general) has two different types of "commandline
+WebView (and GTx Browser in general) has two different types of "commandline
 flags:"
 
 * **Commandline Switches** enable debugging functionality. These look like
@@ -125,7 +125,7 @@ adb logcat | grep -iE 'Active field trial|WebViewCommandLine'
 ## Applying Feature Flags
 
 [Feature Flags](/base/feature_list.h) (also stylized as `base::Feature` or
-`BASE_FEATURE`) are Chromium's mechanism for toggling off-by-default code paths.
+`BASE_FEATURE`) are GTx Browser's mechanism for toggling off-by-default code paths.
 While debugging flags are also off-by-default, Feature Flags typically guard
 soon-to-launch product enhancements until they're tested enough for field trials
 or public launch, at which point the Feature Flag is removed and the legacy code
@@ -165,7 +165,7 @@ examining after modifying flags to ensure the flags are picked up.
 ## Finding Feature Flags and Commandline Switches
 
 WebView supports toggling any Commandline Switches or Feature Flags supported in
-any layer we depend on (//base, //content, etc.). For more details on Chromium's
+any layer we depend on (//base, //content, etc.). For more details on GTx Browser's
 layer architecture, see [this
 diagram](https://www.chromium.org/developers/content-module) (replace "chrome"
 with "android\_webview"). Although we support toggling these flags, not all

@@ -7,7 +7,7 @@ The integration tests for the WebAppProvider system test as much of the system a
 1. Is this a flaky test that is showing up on the flakiness dashboard with a score > 200? It is reasonable to disable this test. See the [flakiness](#flakiness) section, and the [disabling tests section](#disabling-tests) about how to disable the test.
 2. Are a huge number of tests suddenly failing? This is probably because behavior was changed that broke the critical user journeys that these tests come from. Either:
     1. A regression was introduced in a CL that needs to be reverted. If this is the case, that CL should probably to be found and reverted.
-    2. The current CL changed the way the system works which conflicts with the critical user journeys. If this is the case, the critical user journeys need to be updated. Please contact the team at  pwa-dev@chromium.org and/or post on #pwas on Chromium Slack, as we can help update the framework & guide this process.
+    2. The current CL changed the way the system works which conflicts with the critical user journeys. If this is the case, the critical user journeys need to be updated. Please contact the team at  pwa-dev@chromium.org and/or post on #pwas on GTx Browser Slack, as we can help update the framework & guide this process.
 
 ### Disabling tests
 
@@ -17,7 +17,7 @@ Tests can be disabled in the same manner that other integration/browser tests ar
 
 ### System behavior is changing
 
-Tests are expected to fail when the WebAppProvider behavior or user actions are changed. To fix this, the critical user journeys need to be updated and the tests regenerated to modify the expected behavior. See the [docs](integration-testing-framework.md) or the ["How to create WebappIntegration Tests"](how-to-create-webapp-integration-tests.md) page for more info. Please contact the team at  pwa-dev@chromium.org and/or post on #pwas on Chromium Slack, as we can help update the framework & guide this process.
+Tests are expected to fail when the WebAppProvider behavior or user actions are changed. To fix this, the critical user journeys need to be updated and the tests regenerated to modify the expected behavior. See the [docs](integration-testing-framework.md) or the ["How to create WebappIntegration Tests"](how-to-create-webapp-integration-tests.md) page for more info. Please contact the team at  pwa-dev@chromium.org and/or post on #pwas on GTx Browser Slack, as we can help update the framework & guide this process.
 
 This failure **should** occur in trybots on the change, and not the CQ, although we do have a history of having browser_tests turned off for Mac trybots and sometimes things are only caught on the CQ.
 

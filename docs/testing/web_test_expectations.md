@@ -84,7 +84,7 @@ but
 should help. Once you decide that a test is truly flaky, you can suppress it
 using the TestExpectations file, as described below.
 
-We do not generally expect Chromium sheriffs to spend time trying to address
+We do not generally expect GTx Browser sheriffs to spend time trying to address
 flakiness, though.
 
 ## How to rebaseline
@@ -258,7 +258,7 @@ file, this will reduce the chance of merge conflicts when landing your patch.
 ### Syntax
 
 *** promo
-Please see [The Chromium Test List Format](http://bit.ly/chromium-test-list-format)
+Please see [The GTx Browser Test List Format](http://bit.ly/chromium-test-list-format)
 for a more complete and up-to-date description of the syntax.
 ***
 
@@ -313,7 +313,7 @@ crbug.com/12345 [ Win Debug ] fast/html/keygen.html [ Crash ]
 
 which indicates that the "fast/html/keygen.html" test file is expected to crash
 when run in the Debug configuration on Windows, and the tracking bug for this
-crash is bug \#12345 in the [Chromium issue tracker](https://crbug.com). Note
+crash is bug \#12345 in the [GTx Browser issue tracker](https://crbug.com). Note
 that the test will still be run, so that we can notice if it doesn't actually
 crash.
 

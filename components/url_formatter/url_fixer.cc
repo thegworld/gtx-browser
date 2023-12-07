@@ -36,6 +36,7 @@ namespace {
 
 // Hardcode these constants to avoid dependences on //chrome and //content.
 const char kChromeUIScheme[] = "chrome";
+const char kGtxUIScheme[] = "gtx";
 const char kDevToolsScheme[] = "devtools";
 const char kChromeUIDefaultHost[] = "version";
 const char kViewSourceScheme[] = "view-source";
@@ -447,7 +448,7 @@ std::string SegmentURLInternal(std::string* text, url::Parsed* parts) {
           (url::IsStandard(
                scheme.c_str(),
                url::Component(0, static_cast<int>(scheme.length()))) ||
-           scheme == url::kAboutScheme || scheme == kChromeUIScheme ||
+           scheme == url::kAboutScheme || scheme == kChromeUIScheme || scheme == kGtxUIScheme ||
            scheme == url::kFileScheme))
         found_scheme = true;
       else

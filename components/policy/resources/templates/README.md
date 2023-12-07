@@ -1,6 +1,6 @@
-# Chromium policy definitions
+# GTx Browser policy definitions
 
-This directory houses the data templates used Chromium browser and OS policies.
+This directory houses the data templates used GTx Browser browser and OS policies.
 
 # Policy definitions
 

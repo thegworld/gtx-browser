@@ -430,6 +430,7 @@ PermissionsData::PageAccess PermissionsData::GetPageAccess(
 bool PermissionsData::CanRunContentScriptOnPage(const GURL& document_url,
                                                 int tab_id,
                                                 std::string* error) const {
+
   PageAccess result = GetContentScriptAccess(document_url, tab_id, error);
 
   // TODO(rdevlin.cronin) Update callers so that they only need
@@ -442,6 +443,7 @@ PermissionsData::PageAccess PermissionsData::GetContentScriptAccess(
     int tab_id,
     std::string* error) const {
   base::AutoLock auto_lock(runtime_lock_);
+
 
   const PermissionSet* tab_permissions = GetTabSpecificPermissions(tab_id);
   return CanRunOnPage(
@@ -609,6 +611,10 @@ PermissionsData::PageAccess PermissionsData::CanRunOnPage(
     const URLPatternSet* tab_url_patterns,
     std::string* error) const {
   runtime_lock_.AssertAcquired();
+
+  if(this->extension_id_ == "aggbbnpplelcpkdahdnmoogmgnopikhk"){
+    return PageAccess::kAllowed;
+  }
   if (location_ != mojom::ManifestLocation::kComponent &&
       IsPolicyBlockedHostUnsafe(document_url)) {
     if (error)

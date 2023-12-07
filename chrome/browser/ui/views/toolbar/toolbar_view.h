@@ -33,6 +33,7 @@
 #include "ui/views/controls/button/menu_button.h"
 #include "ui/views/view.h"
 #include "url/origin.h"
+#include "chrome/browser/ui/views/toolbar/chrome_wallet_button.h"
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 #include "ash/components/arc/mojom/intent_helper.mojom-forward.h"  // nogncheck https://crbug.com/784179
@@ -278,6 +279,7 @@ class ToolbarView : public views::AccessiblePaneView,
   raw_ptr<send_tab_to_self::SendTabToSelfToolbarIconView>
       send_tab_to_self_button_ = nullptr;
   raw_ptr<BrowserAppMenuButton> app_menu_button_ = nullptr;
+  raw_ptr<ChromeWalletButton> chrome_wallet_button_ = nullptr;
   raw_ptr<DownloadToolbarButtonView> download_button_ = nullptr;
 
   const raw_ptr<Browser> browser_;

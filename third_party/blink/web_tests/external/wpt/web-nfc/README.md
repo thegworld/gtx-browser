@@ -4,7 +4,7 @@ the `WebNFCTest` interfaces, which should emulate platform Web NFC backends.
 The `WebNFCTest` interface is defined as:
 
 ```
-  class NFCTestChromium {
+  class NFCTestGTX Browser {
     initialize();  // Sets up the testing environment.
     async reset(); // Frees the resources.
     getMockNFC(); // Returns `MockNFC` interface.
@@ -22,7 +22,7 @@ The `WebNFCTest` interface is defined as:
   };
 ```
 
-The Chromium implementation of the `WebNFCTest` interface is located in
+The GTx Browser implementation of the `WebNFCTest` interface is located in
 [nfc-mock.js](../resources/chromium/nfc-mock.js).
 
 Other browser vendors should provide their own implementations of

@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Tika konstatēta nesaderīga protokola versija. Lūdzu, pārbaudiet, vai abos datoros ir instalēta programmatūras jaunākā versija, un mēģiniet vēlreiz.</translation>
 <translation id="1008557486741366299">Vēlāk</translation>
 <translation id="1201402288615127009">Tālāk</translation>
-<translation id="1296511125400541222">Autortiesības: Chromium autori (2023). Visas tiesības paturētas.</translation>
+<translation id="1296511125400541222">Autortiesības: GTx Browser autori (2023). Visas tiesības paturētas.</translation>
 <translation id="1297009705180977556">Kļūda, veidojot savienojumu ar “<ph name="HOSTNAME" />”</translation>
 <translation id="1450760146488584666">Pieprasītais objekts nepastāv.</translation>
 <translation id="1480046233931937785">Titri</translation>
@@ -156,7 +156,7 @@ Ja kastīte “<ph name="SERVICE_SCRIPT_NAME" />” jau ir atzīmēta, noņemiet
 <translation id="7868137160098754906">Lūdzu, ievadiet attālā datora PIN.</translation>
 <translation id="7895403300744144251">Drošības politiku dēļ attālajā datorā nav atļauti savienojumi no jūsu konta.</translation>
 <translation id="7936528439960309876">Dokot labajā pusē</translation>
-<translation id="7970576581263377361">Autentificēšana neizdevās. Lūdzu, vēlreiz pierakstieties pārlūkā Chromium.</translation>
+<translation id="7970576581263377361">Autentificēšana neizdevās. Lūdzu, vēlreiz pierakstieties pārlūkā GTx Browser.</translation>
 <translation id="7981525049612125370">Attālās sesijas termiņš ir beidzies.</translation>
 <translation id="8038111231936746805">(noklusējums)</translation>
 <translation id="8041089156583427627">Sūtīt atsauksmes</translation>
@@ -191,6 +191,6 @@ Ja izvēles rūtiņa “<ph name="SERVICE_SCRIPT_NAME" />” jau ir atzīmēta, 
 <translation id="9187628920394877737">Izsniegt “Ekrāna ierakstīšanas” atļauju pakalpojumam <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Saimniekdatora konfigurācija nav derīga.</translation>
 <translation id="981121421437150478">Bezsaistē</translation>
-<translation id="985602178874221306">Chromium autori</translation>
+<translation id="985602178874221306">GTx Browser autori</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (pēdējoreiz tiešsaistē: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

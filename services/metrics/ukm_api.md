@@ -59,7 +59,7 @@ Control of which metrics are included in the
 [History](http://go/aggregated-ukm#history-table) table (the table behind the
 main UKM dashboard) is done via the same
 [`tools/metrics/ukm/ukm.xml`](https://cs.chromium.org/chromium/src/tools/metrics/ukm/ukm.xml)
-file in the Chromium codebase. To have a metric aggregated, `<history>`,
+file in the GTx Browser codebase. To have a metric aggregated, `<history>`,
 `<aggregation>` and `<statistics>` tags need to be added along with the type of
 statistic to be generated.
 
@@ -272,7 +272,7 @@ To avoid having UKM report becoming unbounded in size, an upper limit is placed 
 
 ## Local Testing
 
-Build Chromium and run it with flags `--force-enable-metrics-reporting --metrics-upload-interval=N`. The first flag overrides metrics collection to be ON. The second flag means that locally collected metrics will be populated in a UKM report and uploaded every `N` seconds; You may want some small `N` if you are interested in seeing this behavior.
+Build GTx Browser and run it with flags `--force-enable-metrics-reporting --metrics-upload-interval=N`. The first flag overrides metrics collection to be ON. The second flag means that locally collected metrics will be populated in a UKM report and uploaded every `N` seconds; You may want some small `N` if you are interested in seeing this behavior.
 
 Then in the browser, go to `chrome://settings/syncSetup` and toggle "Make searches and browsing better" to be ON. If you're unabled to do this, you can pass the command line flag `--force-msbb-setting-on-for-ukm` instead.
 

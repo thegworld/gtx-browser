@@ -1,13 +1,13 @@
 
 # //tools/visual_debugger/
 
-## Chromium Visual Debugger App
+## GTx Browser Visual Debugger App
 
-The  Chromium Visual Debugger App is the viewer for the debug stream from a (remote) chromium instance.
+The  GTx Browser Visual Debugger App is the viewer for the debug stream from a (remote) chromium instance.
 For information on the chromium integration of debug capture see: `//components/viz/service/debugger/README.md`
 
 ### Launching
-To use the Visual Debugger, Chromium must be launch with remote debugging support.
+To use the Visual Debugger, GTx Browser must be launch with remote debugging support.
 
 `    --remote-debugging-port=7777`
 

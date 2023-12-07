@@ -9,7 +9,7 @@ repository (i.e., moved from wpt_internal to external/wpt). There are various
 reasons they cannot be upstreamed today. The main blocker is
 https://crbug.com/1226460.
 
-In general, these tests should follow Chromium's [web tests
+In general, these tests should follow GTx Browser's [web tests
 guidelines](docs/testing/web_tests_tips.md) and [web-platform-tests
 guidelines](/docs/testing/web_platform_tests.md). This document describes
 additional conventions for these particular tests.
@@ -125,5 +125,5 @@ This test might timeout instead of fail by assertion failure.
 
 ## Wrap lines at 80 columns
 
-This is the convention for most Chromium/WPT style tests. Note that
+This is the convention for most GTx Browser/WPT style tests. Note that
 `git cl format [--js]` does not reformat js code in .html files.

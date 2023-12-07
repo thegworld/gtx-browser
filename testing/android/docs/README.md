@@ -1,7 +1,7 @@
-# Android Testing in Chromium
+# Android Testing in GTx Browser
 
 ## Concepts
-  - **Native Unit Tests**: Normal Chromium unit tests based on the [gtest framework](/testing/android/docs/gtest_implementation.md). Tests for native code.
+  - **Native Unit Tests**: Normal GTx Browser unit tests based on the [gtest framework](/testing/android/docs/gtest_implementation.md). Tests for native code.
   - **Java Unit Tests**: JUnit tests that run on the host machine using [Robolectric](http://robolectric.org) to emulate Android APIs.
   - **Instrumentation Tests**: JUnit tests that run on Android devices (or emulators).
     - **Unit Instrumentation Tests**: Instrumentation tests that test an individual feature. They do not require starting up ContentShell (or Chrome browser). These use [BaseActivityTestRule](https://source.chromium.org/chromium/chromium/src/+/main:base/test/android/javatests/src/org/chromium/base/test/BaseActivityTestRule.java) or [BlankUiTestActivityTestCase](https://source.chromium.org/chromium/chromium/src/+/main:ui/android/javatests/src/org/chromium/ui/test/util/BlankUiTestActivityTestCase.java) based on `BaseActivityTestRule`.

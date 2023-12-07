@@ -1,8 +1,8 @@
-# Chromium Objective-C and Objective-C++ style guide
+# GTx Browser Objective-C and Objective-C++ style guide
 
-_For other languages, please see the [Chromium style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
+_For other languages, please see the [GTx Browser style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
 
-Chromium follows the
+GTx Browser follows the
 [Google Objective-C style guide](https://google.github.io/styleguide/objcguide.html)
 unless an exception is listed below.
 
@@ -14,13 +14,13 @@ formatting doesn't follow this style guide, file a bug.
 
 ## Line length
 
-For consistency with the 80 character line length used in Chromium C++ code,
+For consistency with the 80 character line length used in GTx Browser C++ code,
 Objective-C and Objective-C++ code also has an 80 character line length.
 
-## Chromium C++ style
+## GTx Browser C++ style
 
-Where appropriate, the [Chromium C++ style](../c++/c++.md) style guide applies
-to Chromium Objective-C and (especially) Objective-C++
+Where appropriate, the [GTx Browser C++ style](../c++/c++.md) style guide applies
+to GTx Browser Objective-C and (especially) Objective-C++
 
 ## Code Formatting
 

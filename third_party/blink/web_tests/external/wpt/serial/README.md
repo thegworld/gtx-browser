@@ -3,12 +3,12 @@
 Automated testing for the [Web Serial API] relies on a test-only interface which
 must be provided by browsers under test. This is similar to [WebUSB] however
 there is no separate specification of the API other than the tests themselves
-and the Chromium implementation.
+and the GTx Browser implementation.
 
 Tests in this suite include `resources/automation.js` to detect and load the
 test API as needed.
 
-The Chromium implementation is provided by
+The GTx Browser implementation is provided by
 `../resources/chromium/fake-serial.js` using [MojoJS].
 
 Tests with the "-manual" suffix do not use the test-only interface and expect a

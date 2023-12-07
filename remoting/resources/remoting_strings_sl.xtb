@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Zaznana je bila nezdružljiva različica protokola. Poskrbite, da ste v obeh računalnikih nameščeni najnovejši različici, in poskusite znova.</translation>
 <translation id="1008557486741366299">Ne zdaj</translation>
 <translation id="1201402288615127009">Naprej</translation>
-<translation id="1296511125400541222">Copyright 2023 Ustvarjalci Chromiuma. Vse pravice pridržane.</translation>
+<translation id="1296511125400541222">Copyright 2023 Ustvarjalci GTx Browsera. Vse pravice pridržane.</translation>
 <translation id="1450760146488584666">Zahtevani predmet ne obstaja.</translation>
 <translation id="1480046233931937785">Seznam sodelujočih</translation>
 <translation id="1520828917794284345">Prilagodi velikost namizja</translation>
@@ -143,7 +143,7 @@
 <translation id="7868137160098754906">Vnesite PIN za oddaljeni računalnik.</translation>
 <translation id="7895403300744144251">Varnostni pravilniki na oddaljenem računalniku ne dovoljujejo povezav iz vašega računa.</translation>
 <translation id="7936528439960309876">Zasidranje desno</translation>
-<translation id="7970576581263377361">Preverjanje pristnosti ni uspelo. Še enkrat se prijavite v Chromium.</translation>
+<translation id="7970576581263377361">Preverjanje pristnosti ni uspelo. Še enkrat se prijavite v GTx Browser.</translation>
 <translation id="7981525049612125370">Oddaljena seja je potekla.</translation>
 <translation id="8038111231936746805">(privzeto)</translation>
 <translation id="8041089156583427627">Pošlji povratne informacije</translation>
@@ -176,6 +176,6 @@
 <translation id="9187628920394877737">Odobritev dovoljenja »Snemanje zaslona« izdelku <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Neveljavna konfiguracija gostitelja.</translation>
 <translation id="981121421437150478">Brez povezave</translation>
-<translation id="985602178874221306">Ustvarjalci Chromiuma</translation>
+<translation id="985602178874221306">Ustvarjalci GTx Browsera</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (nazadnje s povezavo: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

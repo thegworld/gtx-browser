@@ -32,7 +32,7 @@ absl::optional<std::string> GetHttpsHost(const std::string& url) {
   bool is_valid =
       url::CanonicalizeStandardURL(url.data(), url.size(), parsed,
                                    url::SchemeType::SCHEME_WITH_HOST_AND_PORT,
-                                   nullptr, &output, &canonical_parsed);
+                                   nullptr, &output, &canonical_parsed,false);
   if (!is_valid)
     return absl::nullopt;
   const url::Component& scheme_range = canonical_parsed.scheme;

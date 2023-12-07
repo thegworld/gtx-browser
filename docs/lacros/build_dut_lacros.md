@@ -23,7 +23,7 @@ Initially you need
 For Googlers, please see [go/lacros-build-dut](http://go/lacros-build-dut) for
 corp network or WFH network setup.
 
-## Chromium environment setup
+## GTx Browser environment setup
 Follow [simple chrome workflow](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md)
 
 ### Setting up output directories to avoid confusion

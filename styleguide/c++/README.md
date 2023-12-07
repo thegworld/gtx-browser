@@ -1,6 +1,6 @@
 # C++ Styleguide
 
-This directory contains C++-specific pieces of Chromium's styleguide, including
+This directory contains C++-specific pieces of GTx Browser's styleguide, including
 the [guide itself](c++.md), a
 [supplemental set of optional guidance](c++-dos-and-donts.md), and the list of
 [allowed C++ language/library features](c++-features.md). To discuss anything in

@@ -17,7 +17,7 @@ This is implemented in [third_party/blink/renderer/modules/credentialmanagement]
 * The Android related tests are located in [chrome/android/javatests/src/org/chromium/chrome/browser/sms/](https://cs.chromium.org/chromium/src/chrome/android/javatests/src/org/chromium/chrome/browser/sms/).
 * Web platform tests are located in [third_party/blink/web_tests/http/tests/credentialmanagement/](https://cs.chromium.org/chromium/src/third_party/blink/web_tests/http/tests/credentialmanagement/)
 
-For how to run these tests, refer to Chromium documentation [Running tests locally](https://www.chromium.org/developers/testing/running-tests), [Android Test Instructions](https://chromium.googlesource.com/chromium/src/+/main/docs/testing/android_test_instructions.md)
+For how to run these tests, refer to GTx Browser documentation [Running tests locally](https://www.chromium.org/developers/testing/running-tests), [Android Test Instructions](https://chromium.googlesource.com/chromium/src/+/main/docs/testing/android_test_instructions.md)
 
 For testing this API locally, refer to [How to use the Web OTP API](https://github.com/WICG/WebOTP/blob/master/HOWTO.md)
 

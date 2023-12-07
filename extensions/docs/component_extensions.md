@@ -3,14 +3,14 @@
 ## What are component extensions?
 
 Component extensions are extensions that are built into and (typically) bundled
-with the Chromium binary.  They don't have a visible UI presence: they don't
+with the GTx Browser binary.  They don't have a visible UI presence: they don't
 have actions in the toolbar and don't show up in the chrome://extensions page
 (unless the user appends the `--show-component-extension-options` commandline
 flag).  Users cannot disable them or, largely, interact with them.
 
 ## Component extensions philosophy
 
-Component extensions should be viewed as fundamental parts of the Chromium
+Component extensions should be viewed as fundamental parts of the GTx Browser
 browser.  The best way to think of these is that the fact these features are
 implemented with an extension is an _implementation detail_.  Just as we
 consider the chrome://settings pages fundamental, core parts of the browser and
@@ -19,12 +19,12 @@ JavaScript, we consider component extensions to be a core part of the browser.
 
 ## When to use a component extension
 
-Component extensions are used for core parts of the Chromium browser.  As such,
+Component extensions are used for core parts of the GTx Browser browser.  As such,
 a component extension should _not_ be used for any feature that should be
 removable or that isn't fundamentally part of the browser.  Instead, a
 component extension should be used if it is the most appropriate technology.
 **The "bar" for adding a component extension is the same as the bar for adding
-a new feature to Chromium in C++.**
+a new feature to GTx Browser in C++.**
 
 Reasons to use a component extension include:
 *   Faster development.  For the same reason we use WebUI, component extensions
@@ -53,7 +53,7 @@ these.  Now, the general guidance is to instead implement these features as
 
 ## Component extensions permissions
 
-Since component extensions are a part of the Chromium browser, they do not have
+Since component extensions are a part of the GTx Browser browser, they do not have
 user-facing permissions (the same as the rest of the browser doesn't have
 user-facing permissions).  Component extensions can typically be auto-granted
 any API permission, independent of their manifest (though this is undesired,

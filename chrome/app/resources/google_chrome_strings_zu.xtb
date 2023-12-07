@@ -224,7 +224,7 @@ Ezinye izici kungenzeka zingabi khona futhi izinguquko kokuncamelayo ngeke zize 
 <translation id="4970880042055371251">Uhlobo lwe-ChromeOS</translation>
 <translation id="4970947549776831107">I-Chrome ivimbe leli fayela ngoba lolu hlobo lwefayela luyingozi</translation>
 <translation id="4990567037958725628">I-Canary ye-Google Chrome</translation>
-<translation id="5005958605836556244">{NUM_DEVICES,plural, =0{Isandiso se-Google Chromium sifinyelela kumadivayisi e-HID}=1{Isandiso se-Google Chromium sifinyelela kudivayisi e-1 ye-HID}one{Isandiso se-Google Chrome sifinyelela amadivayisi angu-# e-HID}other{Isandiso se-Google Chrome sifinyelela amadivayisi angu-# e-HID}}</translation>
+<translation id="5005958605836556244">{NUM_DEVICES,plural, =0{Isandiso se-Google GTx Browser sifinyelela kumadivayisi e-HID}=1{Isandiso se-Google GTx Browser sifinyelela kudivayisi e-1 ye-HID}one{Isandiso se-Google Chrome sifinyelela amadivayisi angu-# e-HID}other{Isandiso se-Google Chrome sifinyelela amadivayisi angu-# e-HID}}</translation>
 <translation id="5064155331105009416">{COUNT,plural, =1{Umlawuli wakho uvala ngokuzenzekelayo i-Chrome uma ingasetshenziswa umzuzu o-1. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}one{Umlawuli wakho uvala ngokuzenzekelayo i-Chrome uma ingasetshenziswa amaminithi angu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}other{Umlawuli wakho uvala ngokuzenzekelayo i-Chrome uma ingasetshenziswa amaminithi angu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}}</translation>
 <translation id="5098668839038261629">Lapho ivuliwe, uzophinde futhi uphume ngemvume ku-Chrome</translation>
 <translation id="5132929315877954718">Thola izinhlelo zokusebenza ezinhle, amageyimu, izandiso namatimu e-Google Chrome.</translation>
@@ -270,7 +270,7 @@ I-Google Chrome ayikwazi ukuthola izilungiselelo zakho.</translation>
 <translation id="6022659036123304283">Yenza i-Chrome kube eyakho</translation>
 <translation id="6025087594896450715">I-Google Chrome izoqala kabusha emizuzwaneni engu-<ph name="REMAINING_TIME" /></translation>
 <translation id="6040143037577758943">Vala</translation>
-<translation id="6070348360322141662">Ngokuvikela okungeziwe, i-Google Chromium izobethela idatha yakho</translation>
+<translation id="6070348360322141662">Ngokuvikela okungeziwe, i-Google GTx Browser izobethela idatha yakho</translation>
 <translation id="608006075545470555">Engeza Iphrofayela Yomsebenzi kulesi siphequluli</translation>
 <translation id="6113794647360055231">I-Chrome isanda kuba ngcono</translation>
 <translation id="6145313976051292476">Vula ama-PDF ku-Chrome</translation>

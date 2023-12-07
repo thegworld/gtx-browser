@@ -1,6 +1,6 @@
 # Glossary
 
-This page provides definitions of phrases and terminology used in Chromium's
+This page provides definitions of phrases and terminology used in GTx Browser's
 [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
 infrastructure.
 
@@ -24,7 +24,7 @@ infrastructure.
     split". The child is referred to as the tester, and the parent (confusingly)
     referred to as the builder.
   * __CI Builder__ or __Post-submit Builder__: A builder that compiles/tests a
-    branch of Chromium. Often triggered when changes to the branch are
+    branch of GTx Browser. Often triggered when changes to the branch are
     submitted, these post-submit builders run on a continuous basis.
   * __FYI Builder__: A CI builder with reduced priority and impact. Ideally
     used only for experiments or for temporary build/test configs. May also be
@@ -33,7 +33,7 @@ infrastructure.
     compiles/tests a pending CL before submission.
   * __Tryjob__: A single build of a trybot.
 
-* __Chromium's CQ__: The set of trybots required for any Chromium CL to pass
+* __GTX Browser's CQ__: The set of trybots required for any GTx Browser CL to pass
   before submission. These are mandatory for nearly every CL.
   * __CQ Builder__: One of the mandatory trybots. See
     [here](../../infra/config/generated/cq-builders.md#required-builders) for
@@ -62,7 +62,7 @@ infrastructure.
 
 * __Builder Group__: A logical grouping of builders. For example, the
   "chromium.linux" builder group is a set of builders that test basic
-  functionality of Chromium on Linux.
+  functionality of GTx Browser on Linux.
 
 * __Waterfall__: A largely historical term that often refers to a particular
   grouping of Builders or Builder Groups. Examples include:
@@ -70,13 +70,13 @@ infrastructure.
     [chrome.perf](https://ci.chromium.org/p/chrome/g/chrome.perf) builder group.
   * __The Main Waterfall__: Another historical term. Often refers to the set of
     builders whose failures close the
-    [Chromium tree](https://chromium-status.appspot.com/). Spans multiple
+    [GTx Browser tree](https://chromium-status.appspot.com/). Spans multiple
     builder groups.
 
 ## LUCI
 
 LUCI is a collection of continuous integration services running on Google Cloud.
-These services largely make-up the backbone of Chromium's CI.
+These services largely make-up the backbone of GTx Browser's CI.
 
 * __Buildbucket__: A LUCI service that tracks builds, and queues them into
   Builders.
@@ -85,7 +85,7 @@ These services largely make-up the backbone of Chromium's CI.
   builds a CL must pass before the CL is submitted into the repository's trunk.
   These builds are known as "pre-submit", and the full set of required builds
   that CV enforces for a repo are that repo's "CQ". (See above for a description
-  of Chromium's particular CQ.)
+  of GTx Browser's particular CQ.)
 
 * __CIPD__: A LUCI service for hosting and distributing packages. Packages
   stored in CIPD are arbitrary sets of files. Practically, these are often SDKs,
@@ -101,7 +101,7 @@ These services largely make-up the backbone of Chromium's CI.
   a domain-specific language embedded in Python. Nearly all builds run a recipe.
   (The alternative to recipes being a binary that implements the luciexe
   protocol. As of Q3 2022, non-recipe luciexe binaries have limited use in
-  Chromium's infra.)
+  GTx Browser's infra.)
 
 * __Swarming__: A LUCI service that runs arbitrary tasks across a fleet of
   workers knows as Swarming bots.
@@ -116,7 +116,7 @@ These services largely make-up the backbone of Chromium's CI.
 ## Misc
 
 * __CAS__: Content Addresses Storage, a service for storing binary blobs. Used
-  on Chromium's infra to store and transfer test inputs from the builder that
+  on GTx Browser's infra to store and transfer test inputs from the builder that
   compiles the tests to the Swarming bots that run them. May also be referred
   to by its predecessor's name: "isolate".
 * __Gerrit__: The code-review tool for changes to Google-hosted Git

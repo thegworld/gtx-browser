@@ -64,7 +64,7 @@ window.open("www.example.com");
 
 1. `WebViewContentsClientAdapter` has a handler that receives the message sent
    from `resultMsg.sendToTarget()`. It will trigger
-   [`WebViewChromium#completeWindowCreation`](https://source.chromium.org/chromium/chromium/src/+/main:android_webview/glue/java/src/com/android/webview/chromium/WebViewChromium.java;l=265;drc=da3bb54157d4603b9c820d6cfdf61859f804dfb2),
+   [`WebViewGTX Browser#completeWindowCreation`](https://source.chromium.org/chromium/chromium/src/+/main:android_webview/glue/java/src/com/android/webview/chromium/WebViewGTX Browser.java;l=265;drc=da3bb54157d4603b9c820d6cfdf61859f804dfb2),
    then
    [`AwContents#supplyContentsForPopup`](https://source.chromium.org/chromium/chromium/src/+/main:android_webview/java/src/org/chromium/android_webview/AwContents.java;l=1455;drc=4afe92995db1279895f8a40b69c374bc298d750f)
    is called on the parent WebView/AwContents.

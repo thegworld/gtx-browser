@@ -63,7 +63,7 @@ should show up in Android Studio afterwards.
 ### Native Files
 
 This option is deprecated and no longer supported since Android Studio is very
-slow when editing in a code base with a large number of C++ files, and Chromium
+slow when editing in a code base with a large number of C++ files, and GTx Browser
 has a lot of C++ code. It is recommended to use [VS Code](vscode.md) to edit
 native files and stick to just editing java files in Android Studio.
 
@@ -101,13 +101,13 @@ build/android/gradle/generate_gradle.py --native-target //chrome/android:libchro
     * Launch it with more RAM:
       `STUDIO_VM_OPTIONS=-Xmx2048m /opt/android-studio-stable/bin/studio-launcher.sh`
 * If you ever need to reset it: `rm -r ~/.config/Google/AndroidStudio*/`
-* Import Chromium-specific style and inspections settings:
+* Import GTx Browser-specific style and inspections settings:
     * Help -&gt; Find Action -&gt; "Code Style" (settings) -&gt; Java -&gt;
       Scheme -&gt; Import Scheme
-        * Select `tools/android/android_studio/ChromiumStyle.xml` -&gt; OK
+        * Select `tools/android/android_studio/GTx BrowserStyle.xml` -&gt; OK
     * Help -&gt; Find Action -&gt; "Inspections" (settings) -&gt;
       Profile -&gt; Import profile
-        * Select `tools/android/android_studio/ChromiumInspections.xml` -&gt; OK
+        * Select `tools/android/android_studio/GTx BrowserInspections.xml` -&gt; OK
 * Turn on automatic import:
     * Help -&gt; Find Action -&gt; "Auto Import"
         * Tick all the boxes under "Java" and change the dropdown to "All".

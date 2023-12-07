@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">ተኳሃኝ ያልሆነ የፕሮቶኮል ስሪት ተገኝቷል። እባክዎ በሁለቱም ኮምፒውተሮች ላይ የሶፍትዌሩ የቅርብ ጊዜ ስሪት እንዳለዎት ያረጋግጡና እንደገና ይሞክሩ።</translation>
 <translation id="1008557486741366299">አሁን አይደለም</translation>
 <translation id="1201402288615127009">ቀጣይ</translation>
-<translation id="1296511125400541222">የቅጂ መብት 2023 የChromium ደራሲዎች። ሁሉም መብቶች የተጠበቁ ናቸው።</translation>
+<translation id="1296511125400541222">የቅጂ መብት 2023 የGTX Browser ደራሲዎች። ሁሉም መብቶች የተጠበቁ ናቸው።</translation>
 <translation id="1297009705180977556">ከ<ph name="HOSTNAME" /> ጋር መገናኘት ላይ ስህተት</translation>
 <translation id="1450760146488584666">የተጠየቀው ነገር አይገኝም።</translation>
 <translation id="1480046233931937785">ክሬዲቶች</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">እባክዎ የእርስዎን ፒን ለርቀት ኮምፒውተር ያስገቡ</translation>
 <translation id="7895403300744144251">በርቀት ኮምፒውተሩ ላይ ያሉ የደህንነት መመሪያዎች ከእርስዎ መለያ ጋር ግንኙነቶችን አይፈቅዱም።</translation>
 <translation id="7936528439960309876">መትከያ ወደ ቀኝ</translation>
-<translation id="7970576581263377361">ማረጋገጥ አልተሳካም። እባክዎ እንደገና ወደ Chromium ይግቡ።</translation>
+<translation id="7970576581263377361">ማረጋገጥ አልተሳካም። እባክዎ እንደገና ወደ GTx Browser ይግቡ።</translation>
 <translation id="7981525049612125370">የርቀት ክፍለጊዜውን ጊዜው አልፎበታል።</translation>
 <translation id="8038111231936746805">(ነባሪ)</translation>
 <translation id="8041089156583427627">ግብረ መልስ ላክ</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">ለ<ph name="PRODUCT_NAME" /> የ«ማያ ገፅ ቀረጻ» ፈቃዱን ይስጡ</translation>
 <translation id="9213184081240281106">ልክ ያልሆነ የአስተናጋጅ ውቅር።</translation>
 <translation id="981121421437150478">ከመስመር ውጭ</translation>
-<translation id="985602178874221306">የChromium ደራሲዎች</translation>
+<translation id="985602178874221306">የGTX Browser ደራሲዎች</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (መስመር ላይ የነበረበት <ph name="DATE_OR_TIME" /> መጨረሻ ጊዜ)</translation>
 </translationbundle>

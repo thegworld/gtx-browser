@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">An incompatible protocol version was detected. Please make sure that you have the latest version of the software installed on both computers and try again.</translation>
 <translation id="1008557486741366299">Not Now</translation>
 <translation id="1201402288615127009">Next</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. All rights reserved.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. All rights reserved.</translation>
 <translation id="1297009705180977556">Error connecting to <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">The requested object does not exist.</translation>
 <translation id="1480046233931937785">Credits</translation>
@@ -156,7 +156,7 @@ If '<ph name="SERVICE_SCRIPT_NAME" />' is already ticked, untick it and then tic
 <translation id="7868137160098754906">Please enter your PIN for the remote computer.</translation>
 <translation id="7895403300744144251">Security policies on the remote computer do not allow connections from your account.</translation>
 <translation id="7936528439960309876">Dock Right</translation>
-<translation id="7970576581263377361">Authentication failed. Please sign in to Chromium again.</translation>
+<translation id="7970576581263377361">Authentication failed. Please sign in to GTx Browser again.</translation>
 <translation id="7981525049612125370">The remote session has expired.</translation>
 <translation id="8038111231936746805">(default)</translation>
 <translation id="8041089156583427627">Send Feedback</translation>
@@ -191,6 +191,6 @@ If '<ph name="SERVICE_SCRIPT_NAME" />' is already ticked, untick it and then tic
 <translation id="9187628920394877737">Grant 'Screen Recording' permission to <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Invalid host configuration.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (last online <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

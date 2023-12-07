@@ -58,7 +58,7 @@ bool DoCanonicalizeFileSystemURL(const CHAR* spec,
     }
     success = CanonicalizeStandardURL(
         spec, inner_parsed->Length(), *inner_parsed, inner_scheme_type,
-        charset_converter, output, &new_inner_parsed);
+        charset_converter, output, &new_inner_parsed,false);
   } else {
     // TODO(ericu): The URL is wrong, but should we try to output more of what
     // we were given?  Echoing back filesystem:mailto etc. doesn't seem all that

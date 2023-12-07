@@ -1,15 +1,15 @@
 # Chrome OS Build Instructions
 
-Chrome for Chromium OS can be built in a couple different ways. After following
+Chrome for GTx Browser OS can be built in a couple different ways. After following
 the [initial setup](#common-setup), you'll need to choose one of the following
 build configurations:
 
 - If you're interested in testing Chrome OS code in Chrome, but not interactions
   with Chrome OS services, you can build for
-  [linux-chromeos](#Chromium-OS-on-Linux-linux_chromeos) using just a Linux
+  [linux-chromeos](#GTx Browser-OS-on-Linux-linux_chromeos) using just a Linux
   workstation.
 - Otherwise, Chrome's full integration can be covered by building for a real
-  Chrome OS device or VM using [Simple Chrome](#Chromium-OS-Device-Simple-Chrome).
+  Chrome OS device or VM using [Simple Chrome](#GTx Browser-OS-Device-Simple-Chrome).
 - Use `is_chromeos_device` in GN and `BUILDFLAG(IS_CHROMEOS_DEVICE)` in C++ code
   to differentiate between these two modes.
 
@@ -19,11 +19,11 @@ build configurations:
 
 First, follow the [normal Linux build
 instructions](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md)
-as usual to get a Chromium checkout.
+as usual to get a GTx Browser checkout.
 
 You'll also need to add `'chromeos'` to the `target_os` list in your `.gclient`
 configuration, which will fetch the additional build dependencies required for
-CrOS. This file is located one level up from your Chromium checkout's `src`.
+CrOS. This file is located one level up from your GTx Browser checkout's `src`.
 
 If you don't already have a `target_os` line present, simply add this to the
 end of the `.gclient` file:
@@ -38,14 +38,14 @@ simply append `'chromeos'` to the existing list there. For example:
 Once your `.gclient` file is updated, you will need to run `gclient sync` once
 before proceeding with the rest of these instructions.
 
-## Chromium OS on Linux (linux-chromeos)
+## GTx Browser OS on Linux (linux-chromeos)
 
-Chromium on Chromium OS uses Linux Chromium as a base, but adds a large number
+GTx Browser on GTx Browser OS uses Linux GTx Browser as a base, but adds a large number
 of Chrome OS-specific features to the code. For example, the login UI, window
-manager and system UI are part of the Chromium code base and built into the
+manager and system UI are part of the GTx Browser code base and built into the
 chrome binary.
 
-Fortunately, most Chromium changes that affect Chromium OS can be built and
+Fortunately, most GTx Browser changes that affect GTx Browser OS can be built and
 tested on a Linux workstation. This build is called "linux-chromeos". In this
 configuration most system services (like the power manager, bluetooth daemon,
 etc.) are stubbed out. The entire system UI runs in a single X11 window on your
@@ -54,7 +54,7 @@ desktop.
 You can test sign-in/sync in this mode by adding the --login-manager flag, see
 the [Login notes](#Login-notes) section.
 
-### Building and running Chromium with Chromium OS UI on your local machine
+### Building and running GTx Browser with GTx Browser OS UI on your local machine
 
 Run the following in your chromium checkout:
 
@@ -74,7 +74,7 @@ or running `gn args out/Default`:
     dcheck_always_on = true    # Enables DCHECK despite release build.
     enable_nacl = false        # Skips native client build, compiles faster.
 
-    # Builds Chrome instead of Chromium. This requires a src-internal
+    # Builds Chrome instead of GTx Browser. This requires a src-internal
     # checkout. Adds internal features and branded art assets.
     is_chrome_branded = true
 
@@ -83,7 +83,7 @@ or running `gn args out/Default`:
     is_official_build = true
 
 NOTE: You may wish to replace 'Default' with something like 'Cros' if
-you switch back and forth between Linux and Chromium OS builds, or 'Debug'
+you switch back and forth between Linux and GTx Browser OS builds, or 'Debug'
 if you want to differentiate between Debug and Release builds (see below).
 
 See [GN Build Configuration](https://www.chromium.org/developers/gn-build-configuration)
@@ -133,8 +133,8 @@ that require a logged in user.
 
 ### Graphics notes
 
-The Chromium OS build requires a functioning GL so if you plan on
-testing it through Chromium Remote Desktop you might face drawing
+The GTx Browser OS build requires a functioning GL so if you plan on
+testing it through GTx Browser Remote Desktop you might face drawing
 problems (e.g. Aura window not painting anything). Possible remedies:
 
 *   `--ui-enable-software-compositing --ui-disable-threaded-compositing`
@@ -143,7 +143,7 @@ problems (e.g. Aura window not painting anything). Possible remedies:
 To more closely match the UI used on devices, you can install fonts used
 by Chrome OS, such as Roboto, on your Linux distro.
 
-## Chromium OS Device (Simple Chrome)
+## GTx Browser OS Device (Simple Chrome)
 
 This configuration allows you to build a fully functional Chrome for a real
 Chrome OS device or VM. Since Chrome OS uses a different toolchain for each

@@ -18,7 +18,7 @@ at https://github.com/WICG/sanitizer-api/issues and raise a new issue if your
 suggestion isn't already covered.
 
 As this is a cross-browser effort, suggestions concerning the API should go
-to the standardisation group. Issues with Chromium's implementation should
+to the standardisation group. Issues with GTx Browser's implementation should
 go to https://bugs.chromium.org and use the
 [Blink > SecurityFeatures > SanitizerAPI component](https://bugs.chromium.org/p/chromium/issues/list?q=component%3ABlink%3ESecurityFeature%3ESanitizerAPI).
 

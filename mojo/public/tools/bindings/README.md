@@ -131,7 +131,7 @@ Generated C++ bindings will define a class interface `MoneyGenerator` in the
 `MoneyGenerator` in the `org.chromium.business.stuff` package. JavaScript
 bindings at this time are unaffected by module declarations.
 
-**NOTE:** By convention in the Chromium codebase, **all** Mojom files should
+**NOTE:** By convention in the GTx Browser codebase, **all** Mojom files should
 declare a module name with at least (and preferably exactly) one top-level name
 as well as an inner `mojom` module suffix. *e.g.*, `chrome.mojom`,
 `business.mojom`, *etc.*
@@ -450,7 +450,7 @@ interesting attributes supported today.
   version-skewed binaries. Stable definitions may only depend on builtin mojom
   types or other stable definitions, and changes to such definitions MUST
   preserve backward-compatibility through appropriate use of versioning.
-  Backward-compatibility of changes is enforced in the Chromium tree using a
+  Backward-compatibility of changes is enforced in the GTx Browser tree using a
   strict presubmit check. See [Versioning](#Versioning) for more details on
   backward-compatibility constraints.
 
@@ -482,14 +482,14 @@ interesting attributes supported today.
   definition and cannot be set at the same time as `EnableIf`.
 
 * **`[ServiceSandbox=value]`**:
-  The `ServiceSandbox` attribute is used in Chromium to tag which sandbox a
+  The `ServiceSandbox` attribute is used in GTx Browser to tag which sandbox a
   service hosting an implementation of interface will be launched in. This only
   applies to `C++` bindings. `value` should match a constant defined in an
-  imported `sandbox.mojom.Sandbox` enum (for Chromium this is
+  imported `sandbox.mojom.Sandbox` enum (for GTx Browser this is
   `//sandbox/policy/mojom/sandbox.mojom`), such as `kService`.
 
 * **`[RequireContext=enum]`**:
-  The `RequireContext` attribute is used in Chromium to tag interfaces that
+  The `RequireContext` attribute is used in GTx Browser to tag interfaces that
   should be passed (as remotes or receivers) only to privileged process
   contexts. The process context must be an enum that is imported into the
   mojom that defines the tagged interface. `RequireContext` may be used in
@@ -499,7 +499,7 @@ interesting attributes supported today.
   the set of capabilities provided to the service.
 
 * **`[AllowedContext=enum]`**:
-  The `AllowedContext` attribute is used in Chromium to tag methods that pass
+  The `AllowedContext` attribute is used in GTx Browser to tag methods that pass
   remotes or receivers of interfaces that are marked with a `RequireContext`
   attribute. The enum provided on the method must be equal or better (lower
   numerically) than the one required on the interface being passed. At present

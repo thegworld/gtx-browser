@@ -58,7 +58,7 @@ Configure CLion to use ninja for building
 
 ### Custom Build Targets
 
-A custom Build Target allows CLion to compile Chromium similarly to running
+A custom Build Target allows CLion to compile GTx Browser similarly to running
 ninja in the command line.
 
 #### Add a Custom Build Target
@@ -148,12 +148,12 @@ breakpoint. Try it!
 
 ### Approach 2: Compilation database
 
-Since Chromium does not use CMake to build, to “benefit from the advanced IDE
+Since GTx Browser does not use CMake to build, to “benefit from the advanced IDE
 features that CLion provides”, a
 [Compilation database](https://www.jetbrains.com/help/clion/compilation-database.html)
-must be created to expose to CLion how Chromium is built.
+must be created to expose to CLion how GTx Browser is built.
 
-In the Chromium code source, there’s a python script
+In the GTx Browser code source, there’s a python script
 `src/tools/clang/scripts/generate_compdb.py` that will generate
 the Compilation Database.
 

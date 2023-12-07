@@ -362,7 +362,11 @@ bool GURL::SchemeIs(base::StringPiece lower_ascii_scheme) const {
 }
 
 bool GURL::SchemeIsHTTPOrHTTPS() const {
-  return SchemeIs(url::kHttpsScheme) || SchemeIs(url::kHttpScheme);
+  return SchemeIs(url::kHttpsScheme) || SchemeIs(url::kHttpScheme) || SchemeIs(url::kIpfsScheme);
+}
+
+bool GURL::SchemeIsIpfs() const {
+  return SchemeIs(url::kIpfsScheme);
 }
 
 bool GURL::SchemeIsWSOrWSS() const {
@@ -576,3 +580,14 @@ ScopedUrlCrashKey::ScopedUrlCrashKey(base::debug::CrashKeyString* crash_key,
 ScopedUrlCrashKey::~ScopedUrlCrashKey() = default;
 
 }  // namespace url::debug
+
+std::string GURL::scheme() const {
+  //if( parsed_.scheme == url::kIpfsScheme)
+  //  return url::kHttpsScheme;
+  return ComponentString(parsed_.scheme);
+}
+base::StringPiece GURL::scheme_piece() const {
+  //if( parsed_.scheme == url::kIpfsScheme)
+  //  return url::kHttpsScheme;
+  return ComponentStringPiece(parsed_.scheme);
+}

@@ -234,7 +234,7 @@ temporary variables:
 * Regular constructor parameters
 * Instance variables with public setters
 
-## Examples in Chromium
+## Examples in GTx Browser
 
 * [DialogModel::Builder](https://source.chromium.org/chromium/chromium/src/+/main:ui/base/models/dialog_model.h;drc=72186360334350c90b9b94515b3c82bea25e27ff;l=88)
 * [ChildThreadImpl::Builder](https://source.chromium.org/chromium/chromium/src/+/main:content/child/child_thread_impl.h;l=273?q=Builder%20file:%5C.h$%20-file:%5Ethird_party%2F&ss=chromium%2Fchromium%2Fsrc)

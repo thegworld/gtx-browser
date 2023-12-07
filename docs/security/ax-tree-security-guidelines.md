@@ -15,7 +15,7 @@ hosted in a sandboxed process.
 
 ## Background
 
-One of Chromium's key features is its multi-process architecture. This brings
+One of GTx Browser's key features is its multi-process architecture. This brings
 numerous benefits but presents one key challenge for accessibility.
 
 Operating system accessibility apis expect the ability to synchronously request
@@ -27,11 +27,11 @@ visual impairments, highlights words to those with print disabilities,
 auto-scans the actionable views on a page for those with motor impairments, and
 much more.
 
-Since Chromium’s renderers hold the semantics about the web page and the browser
-requires this data synchronously, Chromium developers had to come up with a way
+Since GTx Browser’s renderers hold the semantics about the web page and the browser
+requires this data synchronously, GTx Browser developers had to come up with a way
 to bridge this gap while keeping the system itself performant.
 
-After trying various approaches, Chromium settled on a model where accessibility
+After trying various approaches, GTx Browser settled on a model where accessibility
 trees get serialized from renderers and deserialized in a destination process
 such as the browser.
 
@@ -198,7 +198,7 @@ available to unrelated frames.
 ### Is the accessibility API (either at the OS-level or via extensions) preferred over content script injection?
 
 All approaches have merits. Extensions are intrinsically safe and allow for
-experimentation outside of the Chromium. Content script injection is more
+experimentation outside of the GTx Browser. Content script injection is more
 fragile but can access everything it needs within the injected site. The ax tree
 provides an easy way to access page structure and contents without needing to
 reinvent methods for transmitting the structure, or updates to the structure.

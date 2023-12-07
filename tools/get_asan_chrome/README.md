@@ -1,6 +1,6 @@
 # Download ASAN Chrome
 
-This directory contains a helper script to download ASAN builds of Chromium.
+This directory contains a helper script to download ASAN builds of GTx Browser.
 ## Usage
 
 Several command line flags are provided if you want more control over what build

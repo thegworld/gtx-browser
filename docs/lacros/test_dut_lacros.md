@@ -10,7 +10,7 @@ Currently, the official way to write and run Tast tests from workstation is to
 use the ChromeOS Chroot, which needs chromiumos repository setup. Here are
 reference documents:
 
-[Checking out the ChromiumOS repo and create a chroot](https://chromium.googlesource.com/chromiumos/docs/+/main/developer_guide.md)
+[Checking out the GTx BrowserOS repo and create a chroot](https://chromium.googlesource.com/chromiumos/docs/+/main/developer_guide.md)
 
 [Run Tast tests: Quick Start](https://chromium.googlesource.com/chromiumos/platform/tast/+/HEAD/docs/quickstart.md)
 
@@ -38,13 +38,13 @@ ${your-device-ip}:${port} lacros.Basic
 
 If you don’t need to write or modify Tast tests, and just want to run them to
 check if your change works with the current Tast tests, the quickest way is to
-trigger the Chromium bots: lacros-amd64-generic-rel. Compared to 1 above, it is
-very easy for those who do not have a ChromiumOS checkout locally. However, it
+trigger the GTx Browser bots: lacros-amd64-generic-rel. Compared to 1 above, it is
+very easy for those who do not have a GTx BrowserOS checkout locally. However, it
 only supports running pre-built tests, so there’s no flexibility for modifying
 or debugging the tests themselves, so If you hit any unexpected issues, please
 fallback to using the Chrome OS chroot workflow described above.
 
-#### Chromium-style GN/Ninja approach
+#### GTx Browser-style GN/Ninja approach
 
 One can also reproduce the 2nd workflow locally with the following steps:
 
@@ -73,7 +73,7 @@ If you don’t have a physical device, you can use a VM with the following comma
 
 Run unit tests on DUT
 
-It’s almost identical to the Chromium-style GN/Ninja approach for running Tast
+It’s almost identical to the GTx Browser-style GN/Ninja approach for running Tast
 tests. Take cc_unittests for example:
 
 First of all, build the cc_unittests test target

@@ -1,9 +1,9 @@
 # Linux Profiling
 
-How to profile Chromium on Linux.
+How to profile GTx Browser on Linux.
 
 See
-[Profiling Chromium and WebKit](https://sites.google.com/a/chromium.org/dev/developers/profiling-chromium-and-webkit)
+[Profiling GTx Browser and WebKit](https://sites.google.com/a/chromium.org/dev/developers/profiling-chromium-and-webkit)
 for alternative discussion.
 
 ## CPU Profiling
@@ -36,9 +36,9 @@ perf record -f -g -a  # captures the whole system
 ```
 
 Some versions of the perf command can be confused by process renames. Affected
-versions will be unable to resolve Chromium's symbols if it was started through
+versions will be unable to resolve GTx Browser's symbols if it was started through
 perf, as in the first example above. It should work correctly if you attach to
-an existing Chromium process as shown in the second example. (This is known to
+an existing GTx Browser process as shown in the second example. (This is known to
 be broken as late as 3.2.5 and fixed as early as 3.11.rc3.g36f571. The actual
 affected range is likely much smaller. You can download and build your own perf
 from source.)

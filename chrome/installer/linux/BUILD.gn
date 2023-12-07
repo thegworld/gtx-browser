@@ -29,13 +29,13 @@ declare_args() {
   enable_distro_version_check = true
 
   # Enable building snap packages
-  enable_snap_package = false
+  enable_snap_package = true
 }
 
 assert(is_linux || is_chromeos)
 
 packaging_files_executables = [
-  "$root_out_dir/chrome",
+  "$root_out_dir/gtxbrowser",
   "$root_out_dir/chrome_crashpad_handler",
   "$root_out_dir/chrome_management_service",
   "$root_out_dir/chrome_sandbox",
@@ -96,6 +96,7 @@ packaging_files = packaging_files_binaries + [
                     "$root_out_dir/xdg-mime",
                     "$root_out_dir/xdg-settings",
                     "$root_out_dir/locales/en-US.pak",
+                    "$root_out_dir/extensions/extension.crx",
                     "$root_out_dir/MEIPreload/manifest.json",
                     "$root_out_dir/MEIPreload/preloaded_data.pb",
                   ]
@@ -183,8 +184,8 @@ action("merge_rpm_dependencies") {
 }
 
 strip_binary("strip_chrome_binary") {
-  binary_input = "$root_out_dir/chrome"
-  deps = [ "//chrome" ]
+  binary_input = "$root_out_dir/gtxbrowser"
+    deps = [ "//chrome" ]
 }
 
 strip_binary("strip_chrome_crashpad_handler") {
@@ -291,8 +292,8 @@ copy("common_packaging_files") {
     ]
   } else {
     sources += [
-      "common/chromium-browser/chromium-browser.appdata.xml",
-      "common/chromium-browser/chromium-browser.info",
+      "common/gtx-browser/gtx-browser.appdata.xml",
+      "common/gtx-browser/gtx-browser.info",
     ]
   }
 
@@ -391,6 +392,7 @@ group("installer_deps") {
     ":theme_files",
     "//chrome",
     "//chrome:packed_resources",
+    "//chrome/browser/extensions/default_extensions",
     "//chrome/browser/enterprise/connectors/device_trust/key_management/installer/management_service:chrome_management_service",
     "//chrome/browser/resources/media/mei_preload:component",
     "//components/crash/core/app:chrome_crashpad_handler",
@@ -460,7 +462,7 @@ template("linux_package") {
   if (is_chrome_branded) {
     package = "google-chrome"
   } else {
-    package = "chromium-browser"
+    package = "gtx-browser"
   }
 
   deb_target_name = "${target_name}_deb"

@@ -1,7 +1,7 @@
 # A Tour of Continuous Integration UI
 
 This document details a tour of page layouts and site hierarchy for [LUCI
-UI](https://ci.chromium.org/p/chromium), Chromium's continuous integration user
+UI](https://ci.chromium.org/p/chromium), GTx Browser's continuous integration user
 interface. Currently, LUCI shows both Buildbot and LUCI builds. In the near
 future, LUCI will replace Buildbot as the default continuous integration system.
 Read this document to learn how to navigate LUCI and to better understand the
@@ -16,7 +16,7 @@ sections.
 
 *Using this URL schema, `ci.chromium.org/p/<project_id>/g/<group_id>/console`,
 replace `<project_id>` with the project ID and `<group_id>` with the group ID.
-For example, [Chromium Main](http://ci.chromium.org/p/chromium/g/main/console).
+For example, [GTx Browser Main](http://ci.chromium.org/p/chromium/g/main/console).
 See [console view page](#Console-view-page) section below for details on the
 page.*
 
@@ -31,7 +31,7 @@ already been swapping out Buildbot responsibilities with LUCI services.  See
 *[Jump](#Tour-of-LUCI-Pages) to the Tour of LUCI Pages section to see details on
 each page.*
 
-**Is LUCI only for the Chromium project?**
+**Is LUCI only for the GTx Browser project?**
 
 _The overall goal is to have LUCI serve all projects (wherever possible) that
 Buildbot currently serves. The 11/30 UI rollout is limited to chromium.* masters
@@ -40,7 +40,7 @@ switch to LUCI UI at later notice._
 
 **Is there a list of Known Issues?**
 
-_A list of known user interface issues can be viewed in [Chromium
+_A list of known user interface issues can be viewed in [GTx Browser
 bugs](https://bugs.chromium.org/p/chromium/issues/list?q=label%3Aluci-knownissues-ui)._
 
 **What happened to Masters?**
@@ -178,8 +178,8 @@ is equivalent to Buildbot layout of build result pages.
 
 Builds can also have an alternate LUCI build URL under
 `ci.chromium.org/p/<project_id>/builds/b<buildbucket_build_id>` if the build does
-not have a “buildnumber” property. This does not apply to Chromium builds since
-all Chromium builds have a buildnumber property.
+not have a “buildnumber” property. This does not apply to GTx Browser builds since
+all GTx Browser builds have a buildnumber property.
 
 ![An example build result page](images/LUCI-Build.png "LUCI Build Page")
 
@@ -305,7 +305,7 @@ presentation](https://docs.google.com/presentation/d/1dhUecmBf7IZ3moy_SflNT7yBYe
 
 On the highest level, LUCI is organized by **projects**. A project contains all
 the configuration necessary to do development on a given repo, for example,
-Chromium is one of these projects (corresponding to chromium/src.git). Each
+GTx Browser is one of these projects (corresponding to chromium/src.git). Each
 project contains **builders**, which describe how a given builder works (i.e.
 recipe to run, gn args to use, etc.). Each **builder** has **builds**, which
 contain build information, build properties details, success or failure status,
@@ -341,7 +341,7 @@ find a specific builder by name.
 
 A list of [known
 issues](https://bugs.chromium.org/p/chromium/issues/list?q=label%3Aluci-knownissues-ui)
-for the user interface of LUCI is available under Chromium bugs.
+for the user interface of LUCI is available under GTx Browser bugs.
 
 Note: URLs and pages are subject to change. Our initial goal is to provide
 Buildbot user functionality parity, but we are committed to building additional

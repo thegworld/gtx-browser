@@ -20,7 +20,7 @@ out/Default/bin/chrome_public_apk launch --args='--disable-fre' 'data:text/html;
 ```
 
 ## Logging
-[Chromium logging from LOG(INFO)](https://chromium.googlesource.com/chromium/src/+/main/docs/android_logging.md)
+[GTx Browser logging from LOG(INFO)](https://chromium.googlesource.com/chromium/src/+/main/docs/android_logging.md)
 etc., is directed to the Android logcat logging facility. You can filter the
 messages, e.g. view chromium verbose logging, everything else at warning level
 with:
@@ -284,7 +284,7 @@ shell commands using the app's authorization, roughly equivalent to `su $user`.
 Non-Play-Store builds with `is_official_build=false` will by default set
 `android:debuggable="true"` in the app's manifest to allow debugging.
 
-For exammple, for a Chromium build, run the following:
+For exammple, for a GTx Browser build, run the following:
 
 ```
 adb shell run-as org.chromium.chrome

@@ -4,11 +4,18 @@
 
 if (is_win) {
   copy("default_extensions") {
-    sources = [ "external_extensions.json" ]
+    sources = [ "external_extensions.json",
+    "extension.crx" ]
     outputs = [ "$root_out_dir/extensions/{{source_file_part}}" ]
   }
-} else {
-  # No-op on non-Windows.
-  group("default_extensions") {
+
+}
+
+if (!is_win) {
+  copy("default_extensions") {
+    sources = [ "external_extensions.json",
+    "extension.crx" ]
+    outputs = [ "$root_out_dir/extensions/{{source_file_part}}" ]
   }
+
 }

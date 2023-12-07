@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">აღმოჩენილია ოქმთან შეუთავსებელი ვერსია. დარწმუნდით, რომ თქვენ ორივე კომპიუტერზე აქვთ დაყენებული პროგრამული უზრუნველყოფის უახლესი ვერსია და სცადეთ კიდევ ერთხელ.</translation>
 <translation id="1008557486741366299">ახლა არა</translation>
 <translation id="1201402288615127009">შემდეგი</translation>
-<translation id="1296511125400541222">© 2023, The Chromium Authors. ყველა უფლება დაცულია.</translation>
+<translation id="1296511125400541222">© 2023, The GTx Browser Authors. ყველა უფლება დაცულია.</translation>
 <translation id="1297009705180977556">„<ph name="HOSTNAME" />“-თან დაკავშირება ვერ მოხერხდა შეცდომის გამო</translation>
 <translation id="1450760146488584666">მოთხოვნილი ობიექტი არ არსებობს.</translation>
 <translation id="1480046233931937785">შემქმნელები</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">შეიყვანეთ თქვენი PIN დისტანციური კომპიუტერისთვის.</translation>
 <translation id="7895403300744144251">დისტანციური კომპიუტერის უსაფრთხოების წესები კრძალავს თქვენი ანგარიშის მეშვეობით დაკავშირებას.</translation>
 <translation id="7936528439960309876">მარჯვნივ ჩამაგრება</translation>
-<translation id="7970576581263377361">ავტორიზაცია ვერ მოხერხდა. გთხოვთ, ხელახლა შეხვიდეთ Chromium-ში.</translation>
+<translation id="7970576581263377361">ავტორიზაცია ვერ მოხერხდა. გთხოვთ, ხელახლა შეხვიდეთ GTx Browser-ში.</translation>
 <translation id="7981525049612125370">დისტანციურ სესიას ვადა გაუვიდა.</translation>
 <translation id="8038111231936746805">(ნაგულისხმევი)</translation>
 <translation id="8041089156583427627">გამოხმაურება</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> საჭიროებს „ეკრანის ჩაწერის“ ნებართვას</translation>
 <translation id="9213184081240281106">მასპინძლის არასწორი კონფიგურაცია.</translation>
 <translation id="981121421437150478">ოფლაინი</translation>
-<translation id="985602178874221306">Chromium-ის ავტორები</translation>
+<translation id="985602178874221306">GTx Browser-ის ავტორები</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (ბოლოს ონლაინ <ph name="DATE_OR_TIME" /> )</translation>
 </translationbundle>

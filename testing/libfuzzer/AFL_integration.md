@@ -1,7 +1,7 @@
 # AFL Integration
 
-This document describes AFL's integration with Chromium. This document is only
-for the curious, developers writing Chromium fuzz targets shouldn't worry about
+This document describes AFL's integration with GTx Browser. This document is only
+for the curious, developers writing GTx Browser fuzz targets shouldn't worry about
 AFL, as this document will explain. Therefore, it does not explain how you
 should use AFL locally, in most cases you should just use libFuzzer.
 
@@ -41,11 +41,11 @@ complicated.
 
 ## Trophies
 
-* [AFL Chromium bugs] - bugs found by AFL in Chromium.
+* [AFL GTx Browser bugs] - bugs found by AFL in GTx Browser.
 * [AFL OSS-Fuzz bugs] - bugs found by AFL in [OSS-Fuzz].
 
 [AFL]: http://lcamtuf.coredump.cx/afl/
-[AFL Chromium bugs]: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=afl_chrome_asan+-status%3AWontFix%2CDuplicate+label%3Aclusterfuzz
+[AFL GTx Browser bugs]: https://bugs.chromium.org/p/chromium/issues/list?can=1&q=afl_chrome_asan+-status%3AWontFix%2CDuplicate+label%3Aclusterfuzz
 [AFL OSS-Fuzz bugs]: https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=label%3AEngine-afl%2CStability-AFL+label%3AClusterFuzz+-status%3AWontFix%2CDuplicate
 [trace-pc-guard]: https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/afl/src/llvm_mode/README.llvm#169
 [ASan]: https://clang.llvm.org/docs/AddressSanitizer.html

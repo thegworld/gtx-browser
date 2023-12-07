@@ -8,7 +8,7 @@
 <translation id="1011206368273183593">Preparing files</translation>
 <translation id="1015730422737071372">Provide additional details.</translation>
 <translation id="1019413721762100891">Off</translation>
-<translation id="1021753677514347426">This problem happens because of a certificate that you or someone else installed on your device. The certificate is known to be used to monitor and intercept networks, and is not trusted by Chromium. While some legitimate cases for monitoring do exist, like on a school or company network, Chromium wants to make sure that you're aware it's happening, even if you can't stop it. Monitoring may happen in any browser or application that accesses the web.</translation>
+<translation id="1021753677514347426">This problem happens because of a certificate that you or someone else installed on your device. The certificate is known to be used to monitor and intercept networks, and is not trusted by GTx Browser. While some legitimate cases for monitoring do exist, like on a school or company network, GTx Browser wants to make sure that you're aware it's happening, even if you can't stop it. Monitoring may happen in any browser or application that accesses the web.</translation>
 <translation id="1024111578869940408">Attackers sometimes mimic sites by making hard-to-see changes to the web address.</translation>
 <translation id="1028781062521375153">See details</translation>
 <translation id="1030706264415084469"><ph name="URL" /> wants to permanently store large data on your device</translation>
@@ -355,7 +355,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="1757773103848038814">Monospace font</translation>
 <translation id="1763864636252898013">This server could not prove that it is <ph name="DOMAIN" />; its security certificate is not trusted by your device's operating system. This may be caused by a misconfiguration or an attacker intercepting your connection.</translation>
 <translation id="1768211456781949159"><ph name="BEGIN_LINK" />Try running Windows Network Diagnostics<ph name="END_LINK" />.</translation>
-<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Learn more about Incognito in Chromium<ph name="END_LINK" /></translation>
+<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Learn more about Incognito in GTx Browser<ph name="END_LINK" /></translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
 <translation id="1791820510173628507"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT" />: press Tab then Enter to manage your info, privacy and security in your Google Account</translation>
@@ -414,7 +414,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="1935995810530254458">Copy anyway</translation>
 <translation id="1939175642807587452">Can ask to send notifications</translation>
 <translation id="1943994668912612445">Design</translation>
-<translation id="1945968466830820669">You could lose access to your organisation's account or experience identity theft. Chromium recommends changing your password now.</translation>
+<translation id="1945968466830820669">You could lose access to your organisation's account or experience identity theft. GTx Browser recommends changing your password now.</translation>
 <translation id="1946849748901605102">12 in x 15 in</translation>
 <translation id="1947454675006758438">Staple top right</translation>
 <translation id="1954847915560574887">A3 x 3</translation>
@@ -817,7 +817,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, currently selected. <ph name="ROW_CONTENT" /></translation>
 <translation id="2978824962390592855">Opera</translation>
 <translation id="2983666748527428214">Open Incognito Tab</translation>
-<translation id="2985306909656435243">If enabled, Chromium will store a copy of your card on this device for faster form filling.</translation>
+<translation id="2985306909656435243">If enabled, GTx Browser will store a copy of your card on this device for faster form filling.</translation>
 <translation id="2985398929374701810">Enter a valid address</translation>
 <translation id="2987034854559945715">No matching features</translation>
 <translation id="2989742184762224133">Dual staple top</translation>
@@ -992,7 +992,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="3423742043356668186">System specified</translation>
 <translation id="3427092606871434483">Allow (default)</translation>
 <translation id="3427342743765426898">&amp;Redo Edit</translation>
-<translation id="342781501876943858">Chromium recommends resetting your password if you reused it on other sites.</translation>
+<translation id="342781501876943858">GTx Browser recommends resetting your password if you reused it on other sites.</translation>
 <translation id="3428151540071562330">One or more of the DnsOverHttpsTemplates server template URIs is invalid and will not be used.</translation>
 <translation id="3431216045099978607">Press |<ph name="ACCELERATOR" />| to exit full screen and see download.</translation>
 <translation id="3432601291244612633">Close page</translation>
@@ -1126,7 +1126,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="3740319564441798148">Long distance bus and rail</translation>
 <translation id="3744111561329211289">Background sync</translation>
 <translation id="3744286742364977428">Files that you download are sent to Google Cloud or third parties for analysis. For example, they might be scanned for sensitive data or malware and might be stored based on company policies.</translation>
-<translation id="3744899669254331632">You cannot visit <ph name="SITE" /> right now because the website sent scrambled credentials that Chromium cannot process. Network errors and attacks are usually temporary, so this page will probably work later.</translation>
+<translation id="3744899669254331632">You cannot visit <ph name="SITE" /> right now because the website sent scrambled credentials that GTx Browser cannot process. Network errors and attacks are usually temporary, so this page will probably work later.</translation>
 <translation id="3748148204939282805">Attackers on <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> may trick you into doing something dangerous like installing software or revealing your personal information (for example, passwords, phone numbers or credit cards). <ph name="BEGIN_LEARN_MORE_LINK" />Learn more<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3748912308089554501">Aviation industry</translation>
 <translation id="3752543821772132562">Ignored because <ph name="POLICY_NAME" /> is not set.</translation>
@@ -1461,7 +1461,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="4556069465387849460">You're using your screen lock for filling in passwords</translation>
 <translation id="4558551763791394412">Try disabling your extensions.</translation>
 <translation id="4566017918361049074">Outdoors</translation>
-<translation id="4567686777917670400">Your administrator can change your browser setup remotely. Activity on this device may also be managed outside of Chromium. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">Your administrator can change your browser setup remotely. Activity on this device may also be managed outside of GTx Browser. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
 <translation id="4568329205873177285">Review a list of cookies and site data in a new window</translation>
 <translation id="457875822857220463">Delivery</translation>
 <translation id="4582204425268416675">Remove card</translation>
@@ -1486,7 +1486,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="4629370161347991046">A4 x 6</translation>
 <translation id="4631649115723685955">Cashback linked</translation>
 <translation id="4636930964841734540">Info</translation>
-<translation id="4638670630777875591">Incognito in Chromium</translation>
+<translation id="4638670630777875591">Incognito in GTx Browser</translation>
 <translation id="464342062220857295">Search features</translation>
 <translation id="4644670975240021822">Reverse order face down</translation>
 <translation id="4646534391647090355">Take me there now</translation>
@@ -1528,7 +1528,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="4731638775147756694">This application has been blocked by your administrator</translation>
 <translation id="4733082559415072992"><ph name="URL" /> wants to use your device's location</translation>
 <translation id="4736491186715342415">Motor vehicles</translation>
-<translation id="4736825316280949806">Restart Chromium</translation>
+<translation id="4736825316280949806">Restart GTx Browser</translation>
 <translation id="4736934858538408121">Virtual card</translation>
 <translation id="473775607612524610">Update</translation>
 <translation id="4738601419177586157"><ph name="TEXT" /> search suggestion</translation>
@@ -1544,7 +1544,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="4754461935447132332">Not allowed for non-secure sites</translation>
 <translation id="4756388243121344051">&amp;History</translation>
 <translation id="4756501505996488486">PRC 16K</translation>
-<translation id="4757993714154412917">You just entered your password on a deceptive site. To secure your accounts, Chromium recommends checking your saved passwords.</translation>
+<translation id="4757993714154412917">You just entered your password on a deceptive site. To secure your accounts, GTx Browser recommends checking your saved passwords.</translation>
 <translation id="4758311279753947758">Add contact info</translation>
 <translation id="4761104368405085019">Use your microphone</translation>
 <translation id="4761869838909035636">Run Chrome Safety Check</translation>
@@ -1683,7 +1683,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="5087580092889165836">Add card</translation>
 <translation id="5088142053160410913">Message to operator</translation>
 <translation id="5093232627742069661">Z-fold</translation>
-<translation id="5094747076828555589">This server could not prove that it is <ph name="DOMAIN" />; its security certificate is not trusted by Chromium. This may be caused by a misconfiguration or an attacker intercepting your connection.</translation>
+<translation id="5094747076828555589">This server could not prove that it is <ph name="DOMAIN" />; its security certificate is not trusted by GTx Browser. This may be caused by a misconfiguration or an attacker intercepting your connection.</translation>
 <translation id="5097099694988056070">Device statistics such as CPU/RAM usage</translation>
 <translation id="5097468150760963273">27 in x 39 in</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -2126,7 +2126,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="6203231073485539293">Check your Internet connection</translation>
 <translation id="6205314730813004066">Ads privacy</translation>
 <translation id="6212314149070368045">US Fanfold</translation>
-<translation id="6218753634732582820">Remove address from Chromium?</translation>
+<translation id="6218753634732582820">Remove address from GTx Browser?</translation>
 <translation id="622039917539443112">Parallel fold</translation>
 <translation id="6221345481584921695">Google Safe Browsing recently <ph name="BEGIN_LINK" />detected malware<ph name="END_LINK" /> on <ph name="SITE" />. Websites that are normally safe are sometimes infected with malware. The malicious content comes from <ph name="SUBRESOURCE_HOST" />, a known malware distributor.</translation>
 <translation id="6221892641068781024">Simplified View</translation>
@@ -2180,7 +2180,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="6348220984832452017">Active variations</translation>
 <translation id="6349101878882523185">Install <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{None}=1{1 password (for <ph name="DOMAIN_LIST" />, synced)}=2{2 passwords (for <ph name="DOMAIN_LIST" />, synced)}other{# passwords (for <ph name="DOMAIN_LIST" />, synced)}}</translation>
-<translation id="6355392890578844978">This browser is not managed by a company or other organisation. Activity on this device may be managed outside of Chromium. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">This browser is not managed by a company or other organisation. Activity on this device may be managed outside of GTx Browser. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">What do these mean?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Checking the proxy, firewall and secure DNS configuration<ph name="END_LINK" /></translation>
@@ -2207,7 +2207,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="6410264514553301377">Enter the expiry date and CVC for <ph name="CREDIT_CARD" /></translation>
 <translation id="6411107829285739505">A4 x 8</translation>
 <translation id="6414888972213066896">You asked your parent if it's OK to visit this site</translation>
-<translation id="6415778972515849510">Chromium can help you protect your Google account and change your password.</translation>
+<translation id="6415778972515849510">GTx Browser can help you protect your Google account and change your password.</translation>
 <translation id="6416877227920300343">EDP</translation>
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Gate fold</translation>
@@ -2304,7 +2304,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="666259744093848177">(x86_64 translated)</translation>
 <translation id="6665553082534466207">Triple punch right</translation>
 <translation id="6668389483194953109">Found paper size name 'custom', but the 'custom_size' property is empty or invalid.</translation>
-<translation id="6671697161687535275">Remove form suggestion from Chromium?</translation>
+<translation id="6671697161687535275">Remove form suggestion from GTx Browser?</translation>
 <translation id="6683717648675961851">Job listings</translation>
 <translation id="6687335167692595844">Font size requested</translation>
 <translation id="6687696737818665306">Acting and theatre</translation>
@@ -2484,7 +2484,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
 <translation id="7118618213916969306">Search for clipboard URL, <ph name="SHORT_URL" /></translation>
 <translation id="7119414471315195487">Close other tabs or programmes</translation>
 <translation id="7124354851782353862">Enter your CVC</translation>
-<translation id="7129355289156517987">When you close all Chromium Incognito tabs, your activity in those tabs is cleared from this device:
+<translation id="7129355289156517987">When you close all GTx Browser Incognito tabs, your activity in those tabs is cleared from this device:
           <ph name="BEGIN_LIST" />
             <ph name="LIST_ITEM" />Browsing activity<ph name="END_LIST_ITEM" />
             <ph name="LIST_ITEM" />Search history<ph name="END_LIST_ITEM" />
@@ -2652,7 +2652,7 @@ Additional details:
 <translation id="7497998058912824456">Create doc button: press Enter to create a new Google Doc quickly</translation>
 <translation id="7501663406926337752">The site ahead is flagged by your organisation</translation>
 <translation id="7501853161948120656">Educational resources</translation>
-<translation id="7506488012654002225">Chromium <ph name="BEGIN_EMPHASIS" />won’t save<ph name="END_EMPHASIS" /> the following information:
+<translation id="7506488012654002225">GTx Browser <ph name="BEGIN_EMPHASIS" />won’t save<ph name="END_EMPHASIS" /> the following information:
           <ph name="BEGIN_LIST" />
             <ph name="LIST_ITEM" />Your browsing history
             <ph name="LIST_ITEM" />Cookies and site data
@@ -2724,7 +2724,7 @@ Additional details:
 <translation id="7630470133768862132">Consent status:</translation>
 <translation id="7631444403134069754">Track and field</translation>
 <translation id="7633909222644580952">Performance data and crash reports</translation>
-<translation id="7637571805876720304">Remove credit card from Chromium?</translation>
+<translation id="7637571805876720304">Remove credit card from GTx Browser?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{None}=1{1 password in your account (for <ph name="DOMAIN_LIST" />)}other{# passwords in your account (for <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Serial ports</translation>
 <translation id="7639968568612851608">Dark grey</translation>
@@ -2900,7 +2900,7 @@ Additional details:
 <translation id="8058603697124206642">Not required</translation>
 <translation id="8064892030280197386">verify it's you so it can fill in your payment info.</translation>
 <translation id="8066225060526005217">Managed by cookies settings</translation>
-<translation id="8067872629359326442">You just entered your password on a deceptive site. Chromium can help. To change your password and notify Google that your account may be at risk, click 'Protect account'.</translation>
+<translation id="8067872629359326442">You just entered your password on a deceptive site. GTx Browser can help. To change your password and notify Google that your account may be at risk, click 'Protect account'.</translation>
 <translation id="8070439594494267500">App icon</translation>
 <translation id="8075736640322370409">Create a new Google Sheet quickly</translation>
 <translation id="8075898834294118863">Manage site settings</translation>
@@ -3102,7 +3102,7 @@ Additional details:
 <translation id="8557066899867184262">The CVC is located behind your card.</translation>
 <translation id="8559762987265718583">A private connection to <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> can't be established because your device's date and time (<ph name="DATE_AND_TIME" />) are incorrect.</translation>
 <translation id="8564182942834072828">Separate documents/Uncollated copies</translation>
-<translation id="8564985650692024650">Chromium recommends resetting your <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> password if you reused it on other sites.</translation>
+<translation id="8564985650692024650">GTx Browser recommends resetting your <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> password if you reused it on other sites.</translation>
 <translation id="8576310925653847813">Home theater systems</translation>
 <translation id="8577348305244205642">Virtual card not available</translation>
 <translation id="858637041960032120">Add phone no.</translation>
@@ -3159,7 +3159,7 @@ Additional details:
 <translation id="8736059027199600831">30 in x 40 in</translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, press tab, then enter to open a new incognito window to browse privately</translation>
 <translation id="8737685506611670901">Open <ph name="PROTOCOL" /> links instead of <ph name="REPLACED_HANDLER_TITLE" /></translation>
-<translation id="8738058698779197622">To establish a secure connection, your clock needs to be set correctly. This is because the certificates that websites use to identify themselves are only valid for specific periods of time. Since your device's clock is incorrect, Chromium cannot verify these certificates.</translation>
+<translation id="8738058698779197622">To establish a secure connection, your clock needs to be set correctly. This is because the certificates that websites use to identify themselves are only valid for specific periods of time. Since your device's clock is incorrect, GTx Browser cannot verify these certificates.</translation>
 <translation id="8740359287975076522"><ph name="HOST_NAME" />’s &lt;abbr id="dnsDefinition"&gt;DNS address&lt;/abbr&gt; could not be found. Diagnosing the problem.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> is your code for <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">Bookmark this tab</translation>
@@ -3179,7 +3179,7 @@ Additional details:
 <translation id="877985182522063539">A4</translation>
 <translation id="8785658048882205566">Motorcycles</translation>
 <translation id="8790007591277257123">&amp;Redo delete</translation>
-<translation id="8792621596287649091">You could lose access to your <ph name="ORG_NAME" /> account or experience identity theft. Chromium recommends changing your password now.</translation>
+<translation id="8792621596287649091">You could lose access to your <ph name="ORG_NAME" /> account or experience identity theft. GTx Browser recommends changing your password now.</translation>
 <translation id="8792626944327216835">microphone</translation>
 <translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> has turned on Chrome Enterprise Connectors on your browser. These connectors have access to some of your data.</translation>
 <translation id="8798099450830957504">Default</translation>
@@ -3302,7 +3302,7 @@ Additional details:
 <translation id="9096679202588811390">TV shows and programmes</translation>
 <translation id="9101630580131696064">Tray 1</translation>
 <translation id="9103537084693478942">Video software</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> normally uses encryption to protect your information. When Chromium tried to connect to <ph name="SITE" /> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE" />, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because Chromium stopped the connection before any data was exchanged.</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> normally uses encryption to protect your information. When GTx Browser tried to connect to <ph name="SITE" /> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE" />, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because GTx Browser stopped the connection before any data was exchanged.</translation>
 <translation id="9107467864910557787">Your browser is managed by <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">Administrator policy disables screen sharing with <ph name="APPLICATION_TITLE" /> when confidential content is visible</translation>
 <translation id="9114524666733003316">Confirming card...</translation>
@@ -3359,7 +3359,7 @@ Additional details:
 <translation id="922152298093051471">Customise Chrome</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="934634059306213385">Allow the <ph name="APP_NAME" /> app to set up Wi-Fi networks?</translation>
-<translation id="936602727769022409">You could lose access to your Google Account. Chromium recommends changing your password now. You'll be asked to sign in.</translation>
+<translation id="936602727769022409">You could lose access to your Google Account. GTx Browser recommends changing your password now. You'll be asked to sign in.</translation>
 <translation id="937457230470581909">Zoos, aquariums and preserves</translation>
 <translation id="937804173274050966"><ph name="BEGIN_BOLD" />What data is used:<ph name="END_BOLD" /> Your ad topics are based on your recent browsing history – a list of sites that you’ve visited using Chrome on this device.</translation>
 <translation id="939736085109172342">New folder</translation>

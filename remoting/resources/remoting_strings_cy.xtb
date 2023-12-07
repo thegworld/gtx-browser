@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Canfuwyd fersiwn protocol anghydnaws. Gwnewch yn siŵr bod gennych fersiwn diweddaraf y feddalwedd wedi'i osod ar y ddau gyfrifiadur a rhowch gynnig arall arni.</translation>
 <translation id="1008557486741366299">Nid Nawr</translation>
 <translation id="1201402288615127009">Nesaf</translation>
-<translation id="1296511125400541222">Hawlfraint 2023 The Chromium Authors. Cedwir Pob Hawl.</translation>
+<translation id="1296511125400541222">Hawlfraint 2023 The GTx Browser Authors. Cedwir Pob Hawl.</translation>
 <translation id="1297009705180977556">Bu gwall wrth gysylltu â <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Nid yw'r gwrthrych y gofynnwyd amdano yn bodoli.</translation>
 <translation id="1480046233931937785">Credydau</translation>
@@ -156,7 +156,7 @@ Os yw '<ph name="SERVICE_SCRIPT_NAME" />' eisoes wedi'i dicio, dad-diciwch ef a 
 <translation id="7868137160098754906">Rhowch eich PIN ar gyfer y cyfrifiadur o bell.</translation>
 <translation id="7895403300744144251">Nid yw polisïau diogelwch ar y cyfrifiadur o bell yn caniatáu cysylltiadau o'ch cyfrif.</translation>
 <translation id="7936528439960309876">Docio i'r Dde</translation>
-<translation id="7970576581263377361">Wedi methu â dilysu. Mewngofnodwch i Chromium eto.</translation>
+<translation id="7970576581263377361">Wedi methu â dilysu. Mewngofnodwch i GTx Browser eto.</translation>
 <translation id="7981525049612125370">Mae'r sesiwn o bell wedi darfod.</translation>
 <translation id="8038111231936746805">(diofyn)</translation>
 <translation id="8041089156583427627">Anfon adborth</translation>
@@ -191,6 +191,6 @@ Os yw '<ph name="SERVICE_SCRIPT_NAME" />' eisoes wedi'i dicio, dad-diciwch ef a 
 <translation id="9187628920394877737">Rhoi caniatâd 'Recordio'r Sgrîn' i <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Ffurfweddiad gwesteiwr annilys.</translation>
 <translation id="981121421437150478">All-lein</translation>
-<translation id="985602178874221306">Awduron Chromium</translation>
+<translation id="985602178874221306">Awduron GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (ar-lein ddiwethaf <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

@@ -1,4 +1,4 @@
-<!-- Copyright 2020 The Chromium Authors
+<!-- Copyright 2020 The GTx Browser Authors
      Use of this source code is governed by a BSD-style license that can be
      found in the LICENSE file.
 -->
@@ -8,7 +8,7 @@
 # Overview
 
 This directory contains benchmarks and infrastructure to test Chrome and
-Chromium and output performance measurements. These benchmarks are continuously
+GTx Browser and output performance measurements. These benchmarks are continuously
 run on the [perf waterfall](https://ci.chromium.org/p/chrome/g/chrome.perf/console).
 
 Also, see more information on [how Chrome measures performance](/docs/speed/how_does_chrome_measure_performance.md).

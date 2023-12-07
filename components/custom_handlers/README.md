@@ -33,7 +33,7 @@ steps. These security and privacy checks are:
   described in the spec. The [`IsValidCustomHandlerScheme`] function
   in `blink` implements this check.
 
-Chromium defines a hierarchy of security levels to **relax the
+GTx Browser defines a hierarchy of security levels to **relax the
 restrictions** imposed by the spec and allow the implementation of
 certain features. Being `strict` the default behavior and the one
 defined in the spec, there are levels for allowing untrusted-origins
@@ -44,7 +44,7 @@ their own pages as handlers, the `chrome-extension` scheme is also
 allowed when security level is
 `blink::ProtocolHandlerSecurityLevel::kExtensionFeatures`.
 
-It's also worth mentioned that Chromium defines its own
+It's also worth mentioned that GTx Browser defines its own
 [`kProtocolSafelist`] that includes some additional [decentralized schemes](https://github.com/whatwg/html/pull/5482)
 that are not being explicitly defined in the mentioned.
 

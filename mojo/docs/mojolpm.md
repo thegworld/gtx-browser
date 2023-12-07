@@ -9,7 +9,7 @@ and we'll try and help.
 
 **Prerequisites:** Knowledge of [libfuzzer] and basic understanding
 of [Protocol Buffers] and [libprotobuf-mutator]. Basic understanding of
-[testing in Chromium].
+[testing in GTx Browser].
 ***
 
 This document will walk you through:
@@ -99,7 +99,7 @@ for your fuzzer. This will allow more code-reuse between fuzzers, and also
 allow corpus-merging between related fuzzers.
 
 ```
-// Copyright 2020 The Chromium Authors
+// Copyright 2020 The GTx Browser Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -205,7 +205,7 @@ mojolpm_fuzzer_test("code_cache_host_mojolpm_fuzzer") {
 Now, the minimal source code to load our testcases:
 
 ```c++
-// Copyright 2020 The Chromium Authors
+// Copyright 2020 The GTx Browser Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -770,6 +770,6 @@ Thread T5 (fuzzer_thread) created by T0 here:
 [libfuzzer]: https://source.chromium.org/chromium/chromium/src/+/main:testing/libfuzzer/getting_started.md
 [Protocol Buffers]: https://developers.google.com/protocol-buffers/docs/cpptutorial
 [libprotobuf-mutator]: https://source.chromium.org/chromium/chromium/src/+/main:testing/libfuzzer/libprotobuf-mutator.md
-[testing in Chromium]: https://source.chromium.org/chromium/chromium/src/+/main:docs/testing/testing_in_chromium.md
+[testing in GTx Browser]: https://source.chromium.org/chromium/chromium/src/+/main:docs/testing/testing_in_chromium.md
 [interfaces]: https://source.chromium.org/search?q=interface%5Cs%2B%5Cw%2B%5Cs%2B%7B%20f:%5C.mojom$%20-f:test
 

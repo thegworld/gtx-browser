@@ -52,6 +52,7 @@ enum class Scheme {
   VIEW_SOURCE = 16,
   EXTERNALFILE = 17,
   ISOLATED_APP = 18,
+  IPFS =19,
   COUNT,
 };
 

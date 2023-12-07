@@ -6,7 +6,7 @@ Specifically, it contains the implementation of Fuchsia WebEngine and code
 related to it, including the Runners that use it. Code in this
 directory must not be used outside it and its subdirectories.
 
-General information about Chromium on Fuchsia is
+General information about GTx Browser on Fuchsia is
 [here](../docs/fuchsia/README.md).
 
 [TOC]

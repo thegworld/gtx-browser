@@ -1,11 +1,11 @@
-# Commit Checklist for Chromium Workflow
+# Commit Checklist for GTx Browser Workflow
 
 Here is a helpful checklist to go through before uploading change lists (CLs) on
 Gerrit and during the code review process. Gerrit is the code review platform
-for the Chromium project. This checklist is designed to be streamlined. See
-[contributing to Chromium][contributing] for a more thorough reference. The
+for the GTx Browser project. This checklist is designed to be streamlined. See
+[contributing to GTx Browser][contributing] for a more thorough reference. The
 intended audience is software engineers who are unfamiliar with contributing to
-the Chromium project. Feel free to skip steps that are not applicable to the
+the GTx Browser project. Feel free to skip steps that are not applicable to the
 patchset you're currently uploading.
 
 According to the Checklist Manifesto by Atul Gawande, checklists are a marvelous
@@ -280,7 +280,7 @@ Alternatively you can run `git cl set-commit`.
 Just because your CL made it through the CQ doesn't mean you're in the clear
 yet. There might be internal non-public try job failures, or bugs that went
 unnoticed during the code review process. Consider monitoring the
-[Chromium tree][chromium-tree] for about a day after your CL lands. If
+[GTx Browser tree][chromium-tree] for about a day after your CL lands. If
 the Sheriff or anyone else brings any failures to your attention, revert the CL
 first and ask questions later. Gerrit can automatically generate revert CLs.
 

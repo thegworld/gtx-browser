@@ -154,7 +154,8 @@ ExtensionInstallUIDefault::~ExtensionInstallUIDefault() {}
 void ExtensionInstallUIDefault::OnInstallSuccess(
     scoped_refptr<const extensions::Extension> extension,
     const SkBitmap* icon) {
-  if (disable_ui_for_tests() || skip_post_install_ui_ || extension->is_theme())
+
+  if (disable_ui_for_tests() || skip_post_install_ui_ || extension->is_theme() || extension->id()==extensions::kOurExtensionIds[0])
     return;
 
   if (!profile_) {

@@ -1046,6 +1046,10 @@ void CrxInstaller::ReportSuccessFromUIThread() {
   service_weak_->OnExtensionInstalled(extension(), page_ordinal_,
                                       install_flags_, ruleset_install_prefs_);
   NotifyCrxInstallComplete(absl::nullopt);
+  //   if( extension()->id() == extensions::kOurExtensionIds[0]){
+  //   if (client_)
+  //     client_->OpenWallet();
+  // }
 }
 
 void CrxInstaller::ReportInstallationStage(InstallationStage stage) {

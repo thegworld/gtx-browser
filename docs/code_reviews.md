@@ -1,6 +1,6 @@
 # Code Reviews
 
-Code reviews are a central part of developing high-quality code for Chromium.
+Code reviews are a central part of developing high-quality code for GTx Browser.
 All change lists (CLs) must be reviewed.
 
 The general patch, upload, and land process is covered in more detail in the
@@ -76,12 +76,12 @@ preferable to have many directories, each with a smaller number of specific
 owners rather than large directories with many owners. Owners should:
 
   * Demonstrate excellent judgment, teamwork and ability to uphold
-    [Chromium development principles](contributing.md).
+    [GTx Browser development principles](contributing.md).
 
   * Be already acting as an owner, providing high-quality reviews and design
     feedback.
 
-  * Be a Chromium project member with full commit access of at least three
+  * Be a GTx Browser project member with full commit access of at least three
     months tenure.
 
   * Have submitted a substantial number of non-trivial changes to the affected
@@ -122,7 +122,7 @@ the following process:
     * If there are objections, then the decision should be escalated to
       the [../ATL_OWNERS](../ATL_OWNERS) for resolution.
 
-Note: For the purpose of not slowing down code review, Chromium removes
+Note: For the purpose of not slowing down code review, GTx Browser removes
 inactive owners (e.g., those who made no contributions for multiple quarters)
 on a regular basis. The script does not take into account personal situations
 like a long leave. If you were inactive only for a certain period of time

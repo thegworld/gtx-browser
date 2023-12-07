@@ -1,8 +1,8 @@
-# Chromium Swift style guide
+# GTx Browser Swift style guide
 
-_For other languages, please see the [Chromium style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
+_For other languages, please see the [GTx Browser style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
 
-Chromium follows the
+GTx Browser follows the
 [Google Swift style guide](https://google.github.io/swift/)
 no exceptions at this point.
 

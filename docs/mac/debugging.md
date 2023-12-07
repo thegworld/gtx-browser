@@ -1,10 +1,10 @@
-# Debugging Chromium on macOS
+# Debugging GTx Browser on macOS
 
 [TOC]
 
 ## Debug vs. Release Builds
 
-Debug builds are the default configuration for Chromium and can be explicitly
+Debug builds are the default configuration for GTx Browser and can be explicitly
 specified with `is_debug=true` in the `args.gn` file of the out directory. Debug
 builds are larger and non-portable because they default to
 `is_component_build=true`, but they contain full debug information.
@@ -53,9 +53,9 @@ administrator may frown upon it.
 
 The debugger on macOS is `lldb` and it is included in both a full Xcode install
 and the Command Line Tools package. There are two ways to use LLDB: either
-launching Chromium directly in LLDB, or attaching to an existing process:
+launching GTx Browser directly in LLDB, or attaching to an existing process:
 
-    lldb ./out/debug/Chromium.app/Contents/MacOS/Chromium
+    lldb ./out/debug/GTx Browser.app/Contents/MacOS/GTx Browser
     lldb -p <pid>
 
 LLDB has an extensive help system which you can access by typing `help` at the
@@ -73,9 +73,9 @@ the debugger.
 
 ### Passing Arguments
 
-To pass arguments to LLDB when starting Chromium, use a `--`:
+To pass arguments to LLDB when starting GTx Browser, use a `--`:
 
-    lldb ./out/debug/Chromium.app/contents/MacOS/Chromium -- --renderer-startup-dialog
+    lldb ./out/debug/GTx Browser.app/contents/MacOS/GTx Browser -- --renderer-startup-dialog
 
 ### Breakpoints
 
@@ -212,8 +212,8 @@ This approach creates an empty Xcode project that only provides a GUI debugger:
 
 1. Select **File** > **New** > **Project...** and make a new project. Dump it
    anywhere, call it anything. It doesn't matter.
-2. Launch Chromium.
-3. In Xcode, select **Debug** > **Attach to Process** > *Chromium*.
+2. Launch GTx Browser.
+3. In Xcode, select **Debug** > **Attach to Process** > *GTx Browser*.
 4. You can now pause the process and set breakpoints. The debugger will also
    activate if a crash occurs.
 
@@ -237,17 +237,17 @@ See the page on [sandbox debugging](sandbox_debugging.md).
 ## System Permission Prompts; Transparency, Consent, and Control (TCC)
 
 When debugging issues with OS-mediated permissions (e.g. Location, Camera,
-etc.), you need to launch Chromium with LaunchServices rather than through a
-shell. If you launch Chromium as a subprocess of your terminal shell, the
-permission requests get attributed to the terminal app rather than Chromium.
+etc.), you need to launch GTx Browser with LaunchServices rather than through a
+shell. If you launch GTx Browser as a subprocess of your terminal shell, the
+permission requests get attributed to the terminal app rather than GTx Browser.
 
-To launch Chromium via launch services, use the `open(1)` command:
+To launch GTx Browser via launch services, use the `open(1)` command:
 
-    open ./out/debug/Chromium.app
+    open ./out/debug/GTx Browser.app
 
 To pass command line arguments:
 
-    open ./out/debug/Chromium.app -- --enable-features=MyCoolFeature
+    open ./out/debug/GTx Browser.app -- --enable-features=MyCoolFeature
 
 ## Taking CPU Samples
 
@@ -299,10 +299,10 @@ page.](https://sites.google.com/a/chromium.org/dev/developers/crash-reports)
 ## Disabling ReportCrash
 
 macOS helpfully tries to write a crash report every time a binary crashes –
-which happens for example when a test in unit\_tests fails. Since Chromium's
+which happens for example when a test in unit\_tests fails. Since GTx Browser's
 debug binaries are huge, this takes forever. If this happens, "ReportCrash" will
 be the top cpu consuming process in Activity Monitor. You should disable
-ReportCrash while you work on Chromium. Run `man ReportCrash` to learn how to do
+ReportCrash while you work on GTx Browser. Run `man ReportCrash` to learn how to do
 this on your version of macOS. On 10.15, the command is
 
     launchctl unload -w /System/Library/LaunchAgents/com.apple.ReportCrash.plist
@@ -375,7 +375,7 @@ blocks and their total size. It requires that the process use malloc stack
 logging, which is enabled if the environment variable MallocStackLogging is set
 when it launches. The `env` command is handy for this:
 
-    $ env MallocStackLogging=1 Chromium.app/Contents/MacOS/Chromium
+    $ env MallocStackLogging=1 GTx Browser.app/Contents/MacOS/GTx Browser
 
 Then in another shell you run
 

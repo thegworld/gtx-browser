@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Открита е несъвместима версия на протокол. Моля, уверете се, че най-новата версия на софтуера е инсталирана и на двата компютъра, и опитайте отново.</translation>
 <translation id="1008557486741366299">Не сега</translation>
 <translation id="1201402288615127009">Напред</translation>
-<translation id="1296511125400541222">Авторски права 2023 г. Авторите на Chromium. Всички права запазени.</translation>
+<translation id="1296511125400541222">Авторски права 2023 г. Авторите на GTx Browser. Всички права запазени.</translation>
 <translation id="1297009705180977556">Грешка при свързването с хоста „<ph name="HOSTNAME" />“</translation>
 <translation id="1450760146488584666">Заявеният обект не съществува.</translation>
 <translation id="1480046233931937785">Признание</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Моля, въведете ПИН кода си за отдалечения компютър.</translation>
 <translation id="7895403300744144251">Правилата за сигурност на отдалечения компютър не разрешават установяването на връзка от профила ви.</translation>
 <translation id="7936528439960309876">Закрепване отдясно</translation>
-<translation id="7970576581263377361">Удостоверяването не бе успешно. Моля, влезте отново в Chromium.</translation>
+<translation id="7970576581263377361">Удостоверяването не бе успешно. Моля, влезте отново в GTx Browser.</translation>
 <translation id="7981525049612125370">Отдалечената сесия изтече.</translation>
 <translation id="8038111231936746805">(по подразбиране)</translation>
 <translation id="8041089156583427627">Изпращане на отзивите</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Предоставяне на разрешение за записване на екрана на <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Невалидна конфигурация на хоста.</translation>
 <translation id="981121421437150478">Офлайн</translation>
-<translation id="985602178874221306">Авторите на Chromium</translation>
+<translation id="985602178874221306">Авторите на GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (последно онлайн: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

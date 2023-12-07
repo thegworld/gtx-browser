@@ -5,7 +5,7 @@ In the back-forward cache tests, the main test HTML usually:
 1. Opens new executor Windows using `window.open()` + `noopener` option,
    because less isolated Windows (e.g. iframes and `window.open()` without
    `noopener` option) are often not eligible for back-forward cache (e.g.
-   in Chromium).
+   in GTx Browser).
 2. Injects scripts to the executor Windows and receives the results via
    `RemoteContext.execute_script()` by
    [/common/dispatcher](../../../../common/dispatcher/README.md).

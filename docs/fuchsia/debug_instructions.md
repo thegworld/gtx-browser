@@ -4,7 +4,7 @@
 
 It is possible to debug Fuchsia binaries using `zxdb`. For the sake of these
 examples, we will be using `base_unittests` as the test suite we wish to
-execute. These instructions assume that your Chromium build has the following gn
+execute. These instructions assume that your GTx Browser build has the following gn
 arguments:
 
 ```
@@ -16,7 +16,7 @@ symbol_level = 2
 
 ## Manual debugging via the command line
 
-1. (From Chromium) Install your package(s) and its symbols onto the device.
+1. (From GTx Browser) Install your package(s) and its symbols onto the device.
 
    ```bash
    out/fuchsia/bin/install_base_unittests --fuchsia-out-dir=/path/to/fuchsia/out/directory
@@ -66,7 +66,7 @@ symbol_level = 2
 1. Install the [zxdb](https://marketplace.visualstudio.com/items?itemName=fuchsia-authors.zxdb)
    extension.
 
-2. Modify the `zxdb.command` setting in your Chromium workspace to this value:
+2. Modify the `zxdb.command` setting in your GTx Browser workspace to this value:
 
    ```bash
    (cd /path/to/fuchsia ; fx debug -- --enable-debug-adapter --build-dir /path/to/chromium/src/out/directory)

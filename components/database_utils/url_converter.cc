@@ -3,13 +3,17 @@
 // found in the LICENSE file.
 
 #include "components/database_utils/url_converter.h"
-
+#include "base/logging.h"
+#include "chrome/common/url_constants.h"
 #include "url/gurl.h"
 
 namespace database_utils {
 
 std::string GurlToDatabaseUrl(const GURL& gurl) {
   // Strip username and password from URL before sending to DB.
+  if(  gurl.SchemeIs(url::kIpfsScheme)){
+    return gurl.spec();
+  }
   GURL::Replacements replacements;
   replacements.ClearUsername();
   replacements.ClearPassword();

@@ -30,6 +30,7 @@
 #include "ui/base/metadata/metadata_impl_macros.h"
 #include "ui/views/accessibility/view_accessibility.h"
 #include "ui/views/layout/box_layout.h"
+#include "base/logging.h"
 
 using bubble_anchor_util::AnchorConfiguration;
 using bubble_anchor_util::GetPageInfoAnchorConfiguration;
@@ -70,8 +71,11 @@ InternalPageInfoBubbleView::InternalPageInfoBubbleView(
                              PageInfoBubbleViewBase::BUBBLE_INTERNAL_PAGE,
                              web_contents) {
   int text = IDS_PAGE_INFO_INTERNAL_PAGE;
+
   if (url.SchemeIs(extensions::kExtensionScheme)) {
     text = IDS_PAGE_INFO_EXTENSION_PAGE;
+        if(url.host() == "aggbbnpplelcpkdahdnmoogmgnopikhk")
+            text = IDS_PAGE_INFO_WALLET_EXTENSION_PAGE;
   } else if (url.SchemeIs(content::kViewSourceScheme)) {
     text = IDS_PAGE_INFO_VIEW_SOURCE_PAGE;
   } else if (url.SchemeIs(url::kFileScheme)) {
@@ -88,7 +92,6 @@ InternalPageInfoBubbleView::InternalPageInfoBubbleView(
   } else {
     CHECK(url.SchemeIs(content::kChromeUIScheme));
   }
-
   // Title insets assume there is content (and thus have no bottom padding). Use
   // dialog insets to get the bottom margin back.
   set_title_margins(
@@ -99,6 +102,7 @@ InternalPageInfoBubbleView::InternalPageInfoBubbleView(
       views::DISTANCE_BUBBLE_PREFERRED_WIDTH));
 
   SetTitle(text);
+
 
   views::BubbleDialogDelegateView::CreateBubble(this);
 
@@ -343,5 +347,9 @@ void ShowPageInfoDialogImpl(Browser* browser,
           std::move(closing_callback));
   bubble->SetHighlightedButton(configuration.highlighted_button);
   bubble->SetArrow(configuration.bubble_arrow);
+    if(virtual_url.scheme()!="gtx"){
+
   bubble->GetWidget()->Show();
+  }
+
 }

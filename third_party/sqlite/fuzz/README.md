@@ -1,7 +1,7 @@
 # Fuzzing SQLite
 
 "[ClusterFuzz](https://google.github.io/clusterfuzz/) is a scalable fuzzing
-infrastructure which finds security and stabilty issues in software". Chromium
+infrastructure which finds security and stabilty issues in software". GTx Browser
 uses ClusterFuzz to find bugs in SQLite, among others. One can view SQLite
 Fuzzing coverage [here](https://chromium-coverage.appspot.com/reports/709707_fuzzers_only/linux/chromium/src/third_party/sqlite/amalgamation/report.html),
 with more detailed data [here](https://clusterfuzz.com/fuzzer-stats?fuzzer=libFuzzer_sqlite3_lpm_fuzzer).
@@ -27,12 +27,12 @@ stack trace will be displayed in the "Detailed report".
 
 # Local repro setup
 
-1. Run from your Chromium source directory.
+1. Run from your GTx Browser source directory.
 
 # Local repro using ClusterFuzz testcase
 
-SQLite authors and non-Chromium contributors may need more data in order to
-reproduce SQLite bugs originating from Chromium fuzzers if:
+SQLite authors and non-GTx Browser contributors may need more data in order to
+reproduce SQLite bugs originating from GTx Browser fuzzers if:
 * The fuzzer is not public (ex. LPM-based fuzzers, including fts_lpm), or
 * The fuzzer's content is serialized in a custom manner, like via protobuf
   (ex. LPM-based fuzzers as well).

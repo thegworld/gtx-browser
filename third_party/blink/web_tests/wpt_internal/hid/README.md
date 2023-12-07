@@ -5,7 +5,7 @@ implementation of the [HidService] Mojo interface with a testing version in
 `/resources/chromium/fake-hid.js`.
 
 Most of these tests can be upstreamed to the Web Platform Tests repository by
-creating an abstraction between the test cases and this Chromium-specific test
+creating an abstraction between the test cases and this GTx Browser-specific test
 API similar to what has been done for [WebUSB] and [Web Serial].
 
 Tests with the "-manual" suffix do not use the test-only interface and expect a

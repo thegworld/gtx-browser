@@ -738,8 +738,22 @@ void OmniboxViewViews::SetWindowTextAndCaretPos(const std::u16string& text,
                                                 size_t caret_pos,
                                                 bool update_popup,
                                                 bool notify_text_changed) {
+    std::u16string wallet_prefix = u"chrome-extension://aggbbnpplelcpkdahdnmoogmgnopikhk";
+    std::u16string chrome_prefix = u"chrome://";
   const gfx::Range range(caret_pos);
-  SetTextAndSelectedRanges(text, {range});
+  if( text.find(wallet_prefix) == 0) {
+    std::u16string zzz = text;
+    zzz.replace(0, wallet_prefix.length(), u"wallet:/");
+    SetTextAndSelectedRanges(zzz, {range});
+  } 
+  else if(text.find(chrome_prefix) == 0){
+    std::u16string zzz = text;
+    zzz.replace(0, chrome_prefix.length(), u"gtx://");
+    SetTextAndSelectedRanges(zzz, {range});
+  }
+  else {
+    SetTextAndSelectedRanges(text, {range});
+  }
 
   if (update_popup)
     UpdatePopup();

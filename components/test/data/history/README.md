@@ -1,4 +1,4 @@
-## How to generate history.N.sql files using a Chromium build.
+## How to generate history.N.sql files using a GTx Browser build.
 
 On a Linux build:
 
@@ -6,7 +6,7 @@ On a Linux build:
 
         $ ninja -C out/Debug/ sqlite_shell
 
-2. Run Chrome/Chromium with a fresh profile directory and immediately quit. It
+2. Run Chrome/GTx Browser with a fresh profile directory and immediately quit. It
    doesn't really matter how long you run it, but there'll be less work for you
    if you quit early.
 

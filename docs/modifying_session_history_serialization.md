@@ -9,13 +9,13 @@ common.*
 
 The following (non-exhaustive) steps are required to add new values to the
 PageState data serialization process, which is used for saving and restoring
-values in session restore across different versions of Chromium, as well as tab
-restore and tab duplication within a running instance of Chromium.
+values in session restore across different versions of GTx Browser, as well as tab
+restore and tab duplication within a running instance of GTx Browser.
 
 Note that changing the serialization format is **high risk** and should be
 approached carefully.  Mistakes or missed steps can cause backwards
 compatibility problems, because the effects can continue to live on disk between
-different versions of Chromium. For this reason, it is important to make these
+different versions of GTx Browser. For this reason, it is important to make these
 changes carefully, minimizing the risk of reverts (*e.g.*, not as part of much
 larger CLs) or other back-and-forth between formats (*e.g.*, not as part of an
 A/B experiment).
@@ -30,7 +30,7 @@ have been missed.
   and
   [`RecursivelyGenerateFrameState`](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/renderer_host/navigation_entry_impl.cc;drc=23e90a11b9094fe2682083445f14abbaea9bef48;l=132)
   in `content/browser/renderer_host/navigation_entry_impl.cc` to save and
-  restore the new value from appropriate locations in Chromium.
+  restore the new value from appropriate locations in GTx Browser.
 - Update any member declaration comments for the new value in
     `content/browser/renderer_host/frame_navigation_entry.h`, indicating if the
     new value is persisted if necessary (*e.g.*

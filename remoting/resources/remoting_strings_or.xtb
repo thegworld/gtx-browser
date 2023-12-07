@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">ଏକ ଅସଙ୍ଗତ ପ୍ରୋଟୋକଲ୍ ସଂସ୍କରଣ ଚିହ୍ନଟ କରଯାଇଥିଲା। ଦୟାକରି ଆପଣ ସଫ୍ଟୱେର୍‌ର ନବୀନତମ ସଂସ୍କରଣ ଉଭୟ କମ୍ପ୍ୟୁଟର୍‌ରେ ଅପ୍‌ଡେଟ୍ କରିଥିବା ସୁନିଶ୍ଚିତ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</translation>
 <translation id="1008557486741366299">ଏବେ ନୁହେଁ</translation>
 <translation id="1201402288615127009">ପରବର୍ତ୍ତୀ</translation>
-<translation id="1296511125400541222">କପିରାଇଟ 2023 The Chromium Authors। ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ ଅଛି।</translation>
+<translation id="1296511125400541222">କପିରାଇଟ 2023 The GTx Browser Authors। ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ ଅଛି।</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" />କୁ ସଂଯୋଗ କରିବାରେ ତ୍ରୁଟି</translation>
 <translation id="1450760146488584666">ଅନୁରୋଧ କରାଯାଇଥିବା ଅବ୍‌ଜେକ୍ଟଟି ବିଦ୍ୟମାନ ନାହିଁ।</translation>
 <translation id="1480046233931937785">କ୍ରେଡିଟ୍</translation>
@@ -155,7 +155,7 @@
 <translation id="7868137160098754906">ରିମୋଟ୍‍ କମ୍ପ୍ୟୁଟର୍‌ ପାଇଁ ଦୟାକରି ଆପଣଙ୍କର ପିନ୍‌ ଲେଖନ୍ତୁ.</translation>
 <translation id="7895403300744144251">ରିମୋଟ୍ କମ୍ପ୍ୟୁଟର୍‌ର ସୁରକ୍ଷା ନୀତି ଆପଣଙ୍କର କମ୍ପ୍ୟୁଟର୍‌ରୁ ସଂଯୋଗଗୁଡ଼ିକ ପାଇଁ ଅନୁମତି ଦିଏ ନାହିଁ।</translation>
 <translation id="7936528439960309876">ଡାହାଣପଟକୁ ନିଅନ୍ତୁ</translation>
-<translation id="7970576581263377361">ପ୍ରାମାଣିକରଣ ବିଫଳ ହୋଇଛି। ଦୟାକରି Chromiumରେ ପୁଣି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।</translation>
+<translation id="7970576581263377361">ପ୍ରାମାଣିକରଣ ବିଫଳ ହୋଇଛି। ଦୟାକରି GTx Browserରେ ପୁଣି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।</translation>
 <translation id="7981525049612125370">ରିମୋଟ୍ ସମୟ ଅବଧି ସମାପ୍ତ ହୋଇଯାଇଛି।</translation>
 <translation id="8038111231936746805">(ଡିଫଲ୍ଟ)</translation>
 <translation id="8041089156583427627">ମତାମତ ପଠାନ୍ତୁ</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" />କୁ ’ସ୍କ୍ରିନ୍ ରେକର୍ଡିଂ’ ଅନୁମତି ଦିଅନ୍ତୁ</translation>
 <translation id="9213184081240281106">ଅବୈଧ ହୋଷ୍ଟ କନ୍‌ଫିଗ୍‌ରେସନ୍।</translation>
 <translation id="981121421437150478">ଅଫ୍‍ଲାଇନ୍</translation>
-<translation id="985602178874221306">Chromium ଲେଖକ</translation>
+<translation id="985602178874221306">GTx Browser ଲେଖକ</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (<ph name="DATE_OR_TIME" />ରେ ଗତଥର ଅନ୍‌ଲାଇନ୍ ଥିଲେ)</translation>
 </translationbundle>

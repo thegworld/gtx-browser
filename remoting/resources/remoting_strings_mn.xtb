@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Үл нийцэл бүхий хувилбар илэрсэн болно. Та өөрийн компьютер дээр программ хангамжийн хамгийн сүүлийн хувилбарыг суулгасан эсэхээ шалгаад дахин хандана уу.</translation>
 <translation id="1008557486741366299">Боломжгүй байна</translation>
 <translation id="1201402288615127009">Дараагийнх</translation>
-<translation id="1296511125400541222">Зохиогчийн эрх 2023 Chromium-н зохиогчид. Бүх эрхийг хуулиар хамгаалсан.</translation>
+<translation id="1296511125400541222">Зохиогчийн эрх 2023 GTx Browser-н зохиогчид. Бүх эрхийг хуулиар хамгаалсан.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" />-д холбогдоход алдаа гарлаа</translation>
 <translation id="1450760146488584666">Таны хүссэн обьект одоогоор алга байна.</translation>
 <translation id="1480046233931937785">Кредит</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Компьютерийн алсын удирдлагад нэвтрэх ПИН кодоо оруулна уу.</translation>
 <translation id="7895403300744144251">Алсын компьютерийн аюулгүй байдлын бодлогын дагуу таны бүртгэлээс холболт зөвшөөрдөггүй.</translation>
 <translation id="7936528439960309876">Баруун холбогч</translation>
-<translation id="7970576581263377361">Таниулах үйлдэл амжилтгүй боллоо. Chromium руу дахин нэвтэрч орно уу.</translation>
+<translation id="7970576581263377361">Таниулах үйлдэл амжилтгүй боллоо. GTx Browser руу дахин нэвтэрч орно уу.</translation>
 <translation id="7981525049612125370">Алсын харилцан үйлдэл дууссан.</translation>
 <translation id="8038111231936746805">(Өгөгдмөл)</translation>
 <translation id="8041089156583427627">Санал хүсэлт илгээх</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" />-д 'Дэлгэцийн бичлэгийн' зөвшөөрөл олгох</translation>
 <translation id="9213184081240281106">Хүчин төгөлдөр бус хостын тохиргоо.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Chromium-ыг бүтээгчид</translation>
+<translation id="985602178874221306">GTx Browser-ыг бүтээгчид</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (хамгийн сүүлд онлайн байсан <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

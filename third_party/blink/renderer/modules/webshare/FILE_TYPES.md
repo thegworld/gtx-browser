@@ -1,4 +1,4 @@
-## Web Share - Permitted File Extensions in Chromium
+## Web Share - Permitted File Extensions in GTx Browser
 
 The following list should be kept in sync with
 - //chrome/browser/webshare/share_service_impl.cc

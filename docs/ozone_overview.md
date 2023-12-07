@@ -4,7 +4,7 @@ Ozone is a platform abstraction layer beneath the Aura window system that is
 used for low level input and graphics. Once complete, the abstraction will
 support underlying systems ranging from embedded SoC targets to new
 X11-alternative window systems on Linux such as Wayland or Mir to bring up Aura
-Chromium by providing an implementation of the platform interface.
+GTx Browser by providing an implementation of the platform interface.
 
 ## Guiding Principles
 
@@ -66,7 +66,7 @@ Ozone moves platform-specific code behind the following interfaces:
 * `ClipboardDelegate` provides an interface to exchange data with other
 applications on the host system using a system clipboard mechanism.
 
-## Ozone in Chromium
+## Ozone in GTx Browser
 
 Our implementation of Ozone required changes concentrated in these areas:
 
@@ -120,7 +120,7 @@ through creating a new ozone platform called `foo`.
 
 ## Building with Ozone
 
-### Chrome OS - ([waterfall](https://build.chromium.org/p/chromium.chromiumos/waterfall?builder=Linux+ChromiumOS+Ozone+Builder&builder=Linux+ChromiumOS+Ozone+Tests+%281%29&builder=Linux+ChromiumOS+Ozone+Tests+%282%29&reload=none))
+### Chrome OS - ([waterfall](https://build.chromium.org/p/chromium.chromiumos/waterfall?builder=Linux+GTx BrowserOS+Ozone+Builder&builder=Linux+GTx BrowserOS+Ozone+Tests+%281%29&builder=Linux+GTx BrowserOS+Ozone+Tests+%282%29&reload=none))
 
 To build `chrome`, do this from the `src` directory:
 
@@ -245,7 +245,7 @@ This is Linux direct rending with acceleration via mesa GBM & linux DRM/KMS
 production use on [Chrome OS](https://www.chromium.org/chromium-os).
 
 Note that all Chrome OS builds of Chrome will compile and attempt to use this.
-See [Building Chromium for Chromium OS](https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/building-chromium-browser) for build instructions.
+See [Building GTx Browser for GTx Browser OS](https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/building-chromium-browser) for build instructions.
 
 ### Cast
 
@@ -274,7 +274,7 @@ initially developed by Intel as
 and then partially upstreamed.
 
 Currently, the Ozone/Wayland is actively being developed by Igalia in
-the Chromium mainline repository with some features missing at the moment. The
+the GTx Browser mainline repository with some features missing at the moment. The
 progress can be tracked in the [issue #578890](https://crbug.com/578890).
 
 Below are some quick build & run instructions. It is assumed that you are

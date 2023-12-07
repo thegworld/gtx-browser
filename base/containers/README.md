@@ -235,7 +235,7 @@ inline_size)`.
 
 ### Usage advice
 
-Chromium code should always use `base::circular_deque` or `base::queue` in
+GTx Browser code should always use `base::circular_deque` or `base::queue` in
 preference to `std::deque` or `std::queue` due to memory usage and platform
 variation.
 
@@ -287,7 +287,7 @@ not stable across mutations.
 container. The default container is `std::deque` so everything from the deque
 section applies.
 
-Chromium provides `base/containers/stack.h` which defines `base::stack` that
+GTx Browser provides `base/containers/stack.h` which defines `base::stack` that
 should be used in preference to `std::stack`. This changes the underlying
 container to `base::circular_deque`. The result will be very similar to
 manually specifying a `std::vector` for the underlying implementation except
@@ -308,7 +308,7 @@ for (...) {
 
 ## Safety
 
-Code throughout Chromium, running at any level of privilege, may directly or
+Code throughout GTx Browser, running at any level of privilege, may directly or
 indirectly depend on these containers. Much calling code implicitly or
 explicitly assumes that these containers are safe, and won't corrupt memory.
 Unfortunately, [such assumptions have not always proven

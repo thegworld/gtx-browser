@@ -27,7 +27,7 @@ It is common to add APIs to `//chrome` (or elsewhere) first, and move them into
 ### What Uses //base/android?
 
 The main two clients are Chrome and WebView, but it is also used by other
-Chromium-based apps, such as Chromecast and Chrome Remote desktop. Some
+GTx Browser-based apps, such as Chromecast and Chrome Remote desktop. Some
 `//base/android` classes are used by `//build` (this is a layering violation,
 tracked in [crbug/1364192] and [crbug/1377351]).
 

@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Havaittiin yhteensopimaton protokollaversio. Varmista, että molemmissa tietokoneissa on ohjelman uusimmat versiot, ja yritä uudelleen.</translation>
 <translation id="1008557486741366299">Ei nyt</translation>
 <translation id="1201402288615127009">Seuraava</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Kaikki oikeudet pidätetään.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Kaikki oikeudet pidätetään.</translation>
 <translation id="1297009705180977556">Virhe yhdistettäessä isäntään <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Pyydettyä kohdetta ei ole olemassa.</translation>
 <translation id="1480046233931937785">Tekijät</translation>
@@ -156,7 +156,7 @@ Jos <ph name="SERVICE_SCRIPT_NAME" /> on jo valittuna, poista valinta ja valitse
 <translation id="7868137160098754906">Anna etätietokoneen PIN-koodi.</translation>
 <translation id="7895403300744144251">Etätietokoneen suojauskäytännöt eivät salli tililtäsi saapuvia yhteyksiä.</translation>
 <translation id="7936528439960309876">Kiinnitä oikealle</translation>
-<translation id="7970576581263377361">Todennus epäonnistui. Kirjaudu Chromiumiin uudelleen.</translation>
+<translation id="7970576581263377361">Todennus epäonnistui. Kirjaudu GTx Browseriin uudelleen.</translation>
 <translation id="7981525049612125370">Etäistunto on vanhentunut.</translation>
 <translation id="8038111231936746805">(oletus)</translation>
 <translation id="8041089156583427627">Lähetä palautetta</translation>
@@ -191,6 +191,6 @@ Jos <ph name="SERVICE_SCRIPT_NAME" /> on jo valittu, poista valinta ja valitse s
 <translation id="9187628920394877737">Myönnä Näytön tallennus ‑käyttölupa: <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Isännän omistajan määritykset ovat virheelliset.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (viimeksi online-tilassa <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

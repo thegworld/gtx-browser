@@ -80,7 +80,7 @@ ProxyServer ProxyServer::FromSchemeHostAndPort(Scheme scheme,
   url::Component component_output;
 
   if (!url::CanonicalizeHost(host.data(), url::Component(0, host.size()),
-                             &canonicalized_output, &component_output)) {
+                             &canonicalized_output, &component_output, false)) {
     return ProxyServer();
   }
   if (component_output.is_empty())

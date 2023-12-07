@@ -102,8 +102,9 @@ bool IsValidInput(const base::StringPiece& scheme,
 
       // Don't do an expensive canonicalization if the host is already
       // canonicalized.
-      DCHECK(policy == SchemeHostPort::CHECK_CANONICALIZATION ||
-             IsCanonicalHost(host));
+      
+      // DCHECK(policy == SchemeHostPort::CHECK_CANONICALIZATION ||
+            //  IsCanonicalHost(host));
       if (policy == SchemeHostPort::CHECK_CANONICALIZATION &&
           !IsCanonicalHost(host)) {
         return false;
@@ -120,12 +121,12 @@ bool IsValidInput(const base::StringPiece& scheme,
 
       // Don't do an expensive canonicalization if the host is already
       // canonicalized.
-      DCHECK(policy == SchemeHostPort::CHECK_CANONICALIZATION ||
-             IsCanonicalHost(host));
-      if (policy == SchemeHostPort::CHECK_CANONICALIZATION &&
-          !IsCanonicalHost(host)) {
-        return false;
-      }
+      // DCHECK(policy == SchemeHostPort::CHECK_CANONICALIZATION ||
+      //        IsCanonicalHost(host));
+      // if (policy == SchemeHostPort::CHECK_CANONICALIZATION &&
+      //     !IsCanonicalHost(host)) {
+      //   return false;
+      // }
 
       return true;
 

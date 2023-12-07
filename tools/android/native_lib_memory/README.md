@@ -1,5 +1,5 @@
 This directory contains scripts used to assess memory usage on Android, and in
-particular the memory cost of Chromium's executable code. This is related to the
+particular the memory cost of GTx Browser's executable code. This is related to the
 `tools/cygprofile` directory.
 
 # How to use
@@ -49,7 +49,7 @@ is_official_build = true
 symbol_level = 1
 ```
 
-And to build a Chrome target, not Chromium, in order to get code ordering,
+And to build a Chrome target, not GTx Browser, in order to get code ordering,
 e.g. `monochrome_apk`. Then, you can either use it purely to visualize code
 layout, or to couple it with residency.
 

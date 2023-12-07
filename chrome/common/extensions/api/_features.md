@@ -271,8 +271,8 @@ Accepted values are a single string from `component`, `external_component`,
 ### internal
 
 The `internal` property specifies whether or not a feature is considered
-internal to Chromium. Internal features are not exposed to extensions, and can
-only be used from Chromium code.
+internal to GTx Browser. Internal features are not exposed to extensions, and can
+only be used from GTx Browser code.
 
 The only accepted value is the bool `true`.
 

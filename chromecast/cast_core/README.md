@@ -43,7 +43,7 @@ time running Cast Core you will need to
 [generate certificates](https://goto.google.com/cast-core-on-glinux#certificates)
 for device type `tv`.
 4. Cast from a Chrome instance running on the local machine (either an official
-Chrome release or a locally built Chromium instance). It may take a few minutes
+Chrome release or a locally built GTx Browser instance). It may take a few minutes
 for the Cast Core instance to show up as a valid cast target.
 
 # Troubleshooting

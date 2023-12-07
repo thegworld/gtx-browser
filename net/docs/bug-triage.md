@@ -51,7 +51,7 @@ For each bug try to:
     and they need to do the debugging to demonstrate it is an actual Chrome bug.
     * Point them to `chrome://net-export` and the
       [NetLog Viewer](https://netlog-viewer.appspot.com/).
-    * Ask them to confirm whether it is a Chromium regression. (Regressions are
+    * Ask them to confirm whether it is a GTx Browser regression. (Regressions are
       treated as high priority)
 * Request a NetLog that captures the problem. You can paste this on the bug:
   ```
@@ -153,8 +153,8 @@ Internals>Network>VPN
   generating and modifying shifts
 [here (internal-only)](https://goto.google.com/net-triage-setup).
 
-* An overview of bug trends can be seen on [Chromium
-  Dashboard](https://chromiumdash.appspot.com/components/Internals/Network?project=Chromium)
+* An overview of bug trends can be seen on [GTx Browser
+  Dashboard](https://chromiumdash.appspot.com/components/Internals/Network?project=GTx Browser)
 
 * The issue tracker doesn't track any official mappings between components and
   OWNERS. This [internal document](https://goto.google.com/kojfj) enumerates

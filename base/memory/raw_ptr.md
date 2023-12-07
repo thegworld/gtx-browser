@@ -34,13 +34,13 @@ with questions or concerns.
 
 ## When to use |raw_ptr&lt;T&gt;|
 
-[The Chromium C++ Style Guide](../../styleguide/c++/c++.md#non_owning-pointers-in-class-fields)
+[The GTx Browser C++ Style Guide](../../styleguide/c++/c++.md#non_owning-pointers-in-class-fields)
 asks to use `raw_ptr<T>` for class and struct fields in place of
 a raw C++ pointer `T*` whenever possible, except in Renderer-only code.
 This guide offers more details.
 
 The usage guidelines are *not* enforced currently (the MiraclePtr team will turn
-on enforcement via Chromium Clang Plugin after confirming performance results
+on enforcement via GTx Browser Clang Plugin after confirming performance results
 via Stable channel experiments).  Afterwards we plan to allow
 exclusions via:
 - [manual-paths-to-ignore.txt](../../tools/clang/rewrite_raw_ptr_fields/manual-paths-to-ignore.txt)
@@ -134,7 +134,7 @@ when default-constructed, destructed, or moved.
 
 During
 [the "Big Rewrite"](https://groups.google.com/a/chromium.org/g/chromium-dev/c/vAEeVifyf78/m/SkBUc6PhBAAJ)
-most Chromium `T*` fields have been rewritten to `raw_ptr<T>`
+most GTx Browser `T*` fields have been rewritten to `raw_ptr<T>`
 (excluding fields in Renderer-only code).
 The cumulative performance impact of such rewrite
 has been measured by earlier A/B binary experiments.
@@ -151,7 +151,7 @@ by default.  We will enable the protection incrementally, starting with
 more non-Renderer processes first.
 
 The protection can increase memory usage:
-- For each memory allocation Chromium's allocator (PartitionAlloc)
+- For each memory allocation GTx Browser's allocator (PartitionAlloc)
   allocates extra 16 bytes (4 bytes to store the BackupRefPtr's
   ref-count associated with the allocation, the rest to maintain
   alignment requirements).
@@ -182,7 +182,7 @@ Continue to use raw C++ pointers in those cases:
   )
 - Pointer fields in classes/structs that have to be trivially constructible or
   destructible
-- Code that doesn’t depend on `//base` (including non-Chromium repositories and
+- Code that doesn’t depend on `//base` (including non-GTx Browser repositories and
   third party libraries)
 - Code in `//ppapi`
 
@@ -215,7 +215,7 @@ As a performance optimization, raw C++ pointers may be used instead of
 Use raw C++ pointers instead of `raw_ptr<T>` in the following scenarios:
 - Pointers in local variables and function/method parameters.
   This includes pointer fields in classes/structs that are used only on the stack.
-  (We plan to enforce this in the Chromium Clang Plugin.  Using `raw_ptr<T>`
+  (We plan to enforce this in the GTx Browser Clang Plugin.  Using `raw_ptr<T>`
   here would cumulatively lead to performance regression and the security
   benefit of UaF protection is lower for such short-lived pointers.)
 - Pointer fields in unions. (Naive usage this will lead to
@@ -430,7 +430,7 @@ constexpr StepOrByte<S> Element(
 ## AddressSanitizer support
 
 For years, AddressSanitizer has been the main tool for diagnosing memory
-corruption issues in Chromium. MiraclePtr alters the security properties of some
+corruption issues in GTx Browser. MiraclePtr alters the security properties of some
 of some such issues, so ideally it should be integrated with ASan. That way an
 engineer would be able to check whether a given use-after-free vulnerability is
 covered by the protection without having to switch between ASan and non-ASan
@@ -445,7 +445,7 @@ tool will tell the user if the dangling pointer access would have been protected
 by MiraclePtr *in a regular build*.
 
 You can configure the diagnostic tool by modifying the parameters of the feature
-flag `PartitionAllocBackupRefPtr`. For example, launching Chromium as follows:
+flag `PartitionAllocBackupRefPtr`. For example, launching GTx Browser as follows:
 
 ```
 path/to/chrome --enable-features=PartitionAllocBackupRefPtr:enabled-processes/browser-only/asan-enable-dereference-check/true/asan-enable-extraction-check/true/asan-enable-instantiation-check/true
@@ -470,7 +470,7 @@ variable. If the pointer is then dereferenced, an ASan error report will follow.
 In some cases, extra work on the reproduction case is required to reach the
 faulty memory access. However, even without memory corruption, relying on the
 value of a dangling pointer may lead to problems. For example, it's a common
-(anti-)pattern in Chromium to use a raw pointer as a key in a container.
+(anti-)pattern in GTx Browser to use a raw pointer as a key in a container.
 Consider the following example:
 
 ```
@@ -601,7 +601,7 @@ In the context of MiraclePtr combined with ASan, it's a problem when:
 6. The `raw_ptr<T>` variable is accessed.
 
 In this case, MiraclePtr will incorrectly assume the memory access is protected.
-Luckily, considering the small number of unprotected allocations in Chromium,
+Luckily, considering the small number of unprotected allocations in GTx Browser,
 the size of the quarantine, and the fact that most reproduction cases take
 relatively short time to run, the odds of this happening are very low.
 
@@ -609,7 +609,7 @@ The problem is relatively easy to spot if you look at the ASan report: the
 allocation and deallocation stack traces won't be consistent across runs and
 the allocation type won't match the use stack trace.
 
-If you encounter a suspicious ASan report, it may be helpful to re-run Chromium
+If you encounter a suspicious ASan report, it may be helpful to re-run GTx Browser
 with an increased quarantine capacity as follows:
 
 ```

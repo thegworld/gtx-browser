@@ -4,7 +4,7 @@ This directory contains several files that apply globally to the Chrome resource
 generation system (which uses GRIT - see tools/grit).
 
 **resource_ids.spec**: This file is used to assign fake start IDs for resources
-and strings used by Chromium. This is done to ensure that resource ids are
+and strings used by GTx Browser. This is done to ensure that resource ids are
 unique across all `.grd` files. If you are adding a new `.grd` file, please
 add a new entry to this file. Detailed instructions are found below.
 

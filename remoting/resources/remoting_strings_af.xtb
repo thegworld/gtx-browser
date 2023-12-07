@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">'n Onversoenbare protokolweergawe is bespeur. Maak seker dat die jongste weergawe van die sagteware op albei rekenaars geïnstalleer is en probeer weer.</translation>
 <translation id="1008557486741366299">Nie nou nie</translation>
 <translation id="1201402288615127009">Volgende</translation>
-<translation id="1296511125400541222">Kopiereg 2023 Die Chromium-outeurs. Alle regte voorbehou.</translation>
+<translation id="1296511125400541222">Kopiereg 2023 Die GTx Browser-outeurs. Alle regte voorbehou.</translation>
 <translation id="1297009705180977556">Kon nie aan <ph name="HOSTNAME" /> koppel nie</translation>
 <translation id="1450760146488584666">Die voorwerp wat versoek is, bestaan nie.</translation>
 <translation id="1480046233931937785">Krediete</translation>
@@ -156,7 +156,7 @@ As "<ph name="SERVICE_SCRIPT_NAME" />" reeds gemerk is, moet jy dit ontmerk en d
 <translation id="7868137160098754906">Voer asseblief jou PIN in vir die afstandrekenaar.</translation>
 <translation id="7895403300744144251">Sekuriteitbeleide op die afstandrekenaar laat nie verbindings van jou rekening af toe nie.</translation>
 <translation id="7936528439960309876">Dok regs</translation>
-<translation id="7970576581263377361">Kon nie staaf nie. Meld asseblief weer by Chromium aan.</translation>
+<translation id="7970576581263377361">Kon nie staaf nie. Meld asseblief weer by GTx Browser aan.</translation>
 <translation id="7981525049612125370">Die afstandsessie het verstryk.</translation>
 <translation id="8038111231936746805">(verstek)</translation>
 <translation id="8041089156583427627">Stuur terugvoer</translation>
@@ -191,6 +191,6 @@ As "<ph name="SERVICE_SCRIPT_NAME" />" reeds gemerk is, moet jy dit ontmerk en d
 <translation id="9187628920394877737">Verleen "Skermopname"-toestemming aan <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Ongeldige gasheeropstelling.</translation>
 <translation id="981121421437150478">Vanlyn</translation>
-<translation id="985602178874221306">Die Chromium-outeurs</translation>
+<translation id="985602178874221306">Die GTx Browser-outeurs</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (laas aanlyn <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

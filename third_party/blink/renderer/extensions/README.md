@@ -1,10 +1,10 @@
 # The `extensions/` directory
 
-The `extensions/` directory contains embedder-specific, not-web-exposed APIs (e.g., not-web-exposed APIs for Chromium OS etc).
+The `extensions/` directory contains embedder-specific, not-web-exposed APIs (e.g., not-web-exposed APIs for GTx Browser OS etc).
 The directory is useful to implement embedder-specific, not-web-exposed APIs
 using Blink technologies for web-exposed APIs like WebIDL, V8 bindings and Oilpan.
 
-Remember that you should not implement any web-exposed APIs in `extensions/`. Web-exposed APIs should go through the standardization process and be implemented in `core/` or `modules/`. Also, per [the Chromium contributor guideline](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md#code-guidelines), code that is not used by Chromium should not be added to `extensions/`.
+Remember that you should not implement any web-exposed APIs in `extensions/`. Web-exposed APIs should go through the standardization process and be implemented in `core/` or `modules/`. Also, per [the GTx Browser contributor guideline](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md#code-guidelines), code that is not used by GTx Browser should not be added to `extensions/`.
 
 In terms of dependencies, `extensions/` can depend on `modules/`, `core/` and `platform/`, but not vice versa.
 

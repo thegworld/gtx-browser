@@ -1,7 +1,7 @@
 # The Bool Init Pattern
 
 The `bool Init()` pattern allows a class to have initialization behavior which
-can fail. Since Chromium C++ doesn't allow exceptions, ordinarily constructors
+can fail. Since GTx Browser C++ doesn't allow exceptions, ordinarily constructors
 aren't allowed to fail except by crashing the entire program.
 
 In practice, this pattern looks like this:

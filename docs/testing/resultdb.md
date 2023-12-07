@@ -1,10 +1,10 @@
 [TOC]
 
-# Chromium Integration with ResultDB
+# GTx Browser Integration with ResultDB
 
 ResultDB is a LUCI service for storing and retrieving test results. See also
 its [public source] and [Google internal documentation]. As of Q4 2021, all
-tests on Chrome/Chromium builders have their test results uploaded to ResultDB,
+tests on Chrome/GTx Browser builders have their test results uploaded to ResultDB,
 and nearly all pass-fail decisions on the builders are based on these results.
 Consequently, any JSON output from a test no longer has little to no impact on
 the results of the bots. (For example, if a test's JSON say that there was a
@@ -24,9 +24,9 @@ On a machine with the server running, a test can report its results to ResultDB
 by making JSON-formatted RPCs to the local HTTP ResultSink server. See
 [ResultSink's API] for more details.
 
-## ResultSink integration/wrappers within Chromium
+## ResultSink integration/wrappers within GTx Browser
 
-There are several libraries used within Chromium that have ResultSink
+There are several libraries used within GTx Browser that have ResultSink
 integration:
 
 - **Web Tests**: Blink's web tests upload their results through ResultSink via

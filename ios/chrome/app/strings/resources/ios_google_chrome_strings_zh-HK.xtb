@@ -10,7 +10,7 @@
 <translation id="1504372625950710826">Chrome 無法檢查更新，請檢查互聯網連線。</translation>
 <translation id="1511320244449497906">您已登入 <ph name="DOMAIN" /> 的受管帳戶並正在同步資料，其系統管理員現可設定針對該帳戶的使用者政策，該政策可變更 Chrome 的行為。</translation>
 <translation id="1554731936187952550">Chrome 最強大的安全功能可協助防範有害網站</translation>
-<translation id="1682483655351012182">同步處理 Chromium 資料</translation>
+<translation id="1682483655351012182">同步處理 GTx Browser 資料</translation>
 <translation id="1759842336958782510">Chrome</translation>
 <translation id="1917964099031477364">此帳戶和所有未儲存的資料將從 Chrome 和此裝置上的其他 Google 應用程式中移除。</translation>
 <translation id="2009224836393115614">Chrome 無法檢查密碼，請檢查互聯網連線。</translation>
@@ -145,7 +145,7 @@
 注意事項：
 <ph name="BEGIN_INDENT" />  • 系統會將 Chrome 使用情況傳送給 Google，但不會與您有任何關聯。
 
-  • Chromium 當機時，有關當機詳情可能會包括部分個人資料。
+  • GTx Browser 當機時，有關當機詳情可能會包括部分個人資料。
 
   • 開啟同步處理功能後，數據可能亦會包括先前瀏覽網址的資料。<ph name="END_INDENT" /></translation>
 <translation id="9103442491611662960">此 Chrome 個人檔案正受標準安全保護功能保護</translation>

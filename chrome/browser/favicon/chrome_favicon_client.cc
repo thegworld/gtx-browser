@@ -4,6 +4,7 @@
 
 #include "chrome/browser/favicon/chrome_favicon_client.h"
 
+#include "base/logging.h"
 #include "base/functional/bind.h"
 #include "base/memory/singleton.h"
 #include "chrome/browser/ui/webui/chrome_web_ui_controller_factory.h"
@@ -41,8 +42,7 @@ bool ChromeFaviconClient::IsNativeApplicationURL(const GURL& url) {
   if (url.SchemeIs(extensions::kExtensionScheme))
     return true;
 #endif
-
-  return url.SchemeIs(content::kChromeUIScheme);
+  return url.SchemeIs(content::kChromeUIScheme)||url.SchemeIs(content::kGtxUIScheme);
 }
 
 bool ChromeFaviconClient::IsReaderModeURL(const GURL& url) {

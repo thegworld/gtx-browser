@@ -36,7 +36,7 @@ workstation image.
 ## Run on a persistent emulator
 
 You can also run tests on physical devices or start a persistent emulator
-from the Chromium tree. To start a persistent emulator, run:
+from the GTx Browser tree. To start a persistent emulator, run:
 
 ```bash
 $ ./build/fuchsia/test/start_emulator.py
@@ -64,14 +64,14 @@ $ out/fuchsia/bin/run_base_unittests -d
 
 ## Run on a device paved with Fuchsia built from source
 
-Make sure that the CPU architecture of your Chromium output directory matches
+Make sure that the CPU architecture of your GTx Browser output directory matches
 the architecture of the Fuchsia output directory (x64==x64, arm64==arm64, etc.).
 
 ```bash
 $ out/fuchsia/bin/run_base_unittests -d --repo [FUCHSIA_OUT_DIR]/amber-files --no-repo-init
 ```
 
-Note that you should not have `fx serve` running as Chromium will handle serving
+Note that you should not have `fx serve` running as GTx Browser will handle serving
 the repository.
 
 ## Run on a device the host is connected to remotely via ssh
@@ -95,7 +95,7 @@ arguments to the test runner script:
   above option, this will run the tests directly in the test launcher process,
   making it easier to attach a debugger.
 * "--logs-dir=[/path/to/log/directory]` to specify the directory to write logs
-  to. By default, Chromium logs are written to the "system_log" file in that
+  to. By default, GTx Browser logs are written to the "system_log" file in that
   directory.
 * `--gtest_repeat=[number] --gtest_break_on_failure` to run a test or test suite
   a certain number of times until it fails. This is useful to investigate flaky
@@ -104,8 +104,8 @@ arguments to the test runner script:
 ## Supported Fuchsia Product configurations
 
 The prebuilt Terminal and Workstation images downloaded by `gclient sync` are
-specifically configured to support running Chromium tests. It is also possible
-to run Chromium tests on other Product configurations, such as Core, using a
+specifically configured to support running GTx Browser tests. It is also possible
+to run GTx Browser tests on other Product configurations, such as Core, using a
 custom build.
 
 **Use the default unless you have a specific reason to run on a different
@@ -113,7 +113,7 @@ Product.** For example, if you need to reproduce an issue occurring on a bot
 using that Product.
 
 ### Terminal
-Chromium gtests are primarily supported (i.e., pass all tests) on the Terminal
+GTx Browser gtests are primarily supported (i.e., pass all tests) on the Terminal
 Fuchsia Product configuration. This is the default image used for
 [hermetic emulation](#hermetic-emulation) and when starting a
 [persistent emulator](#run-on-a-persistent-emulator).
@@ -124,12 +124,12 @@ Workstation configurations also generally support most tests.
 ### Core
 
 By default, Fuchsia Core Product configurations do **not** support running
-Chromium tests. Similarly, the Core images provided with the Fuchsia SDK are
-unable to run Chromium tests. (In the future, it may be possible to run them
+GTx Browser tests. Similarly, the Core images provided with the Fuchsia SDK are
+unable to run GTx Browser tests. (In the future, it may be possible to run them
 on such images [with a corresponding TUF repo](https://crbug.com/1033794).)
 
 When working with a local Fuchsia Core build, there are have two options for
-running Chromium tests.
+running GTx Browser tests.
 1. **Combined repo**: Follow the instructions in
 [Run on a device paved with Fuchsia built from source](#run-on-a-device-paved-with-fuchsia-built-from-source).
 2. **Packages in base**: Add the
@@ -190,14 +190,14 @@ acceptable ways to add such packages.
 
 The following makes all
 [additional required packages](#additional-required-packages) available to the
-Chromium tests.
+GTx Browser tests.
 ```bash
 $ fx set core.qemu-x64 --auto-dir --release --with //src/developer/build_info/testing:fake-build-info --with //src/testing/fidl/intl_property_manager --with //src/media/audio/audio_core
 ```
 
-##### Chromium-only repo: packages in base
-By default - and specifically when not using option (1) - Chromium's
-[test scripts](test_scripts.md) only serve packages from the Chromium workspace,
+##### GTx Browser-only repo: packages in base
+By default - and specifically when not using option (1) - GTx Browser's
+[test scripts](test_scripts.md) only serve packages from the GTx Browser workspace,
 meaning that Fuchsia provided packages not in Core's
 [base packages](https://fuchsia.dev/fuchsia-src/concepts/packages/package?hl=en#base-packages)
 cannot be resolved. Thus, all Fuchsia packages needed during the tests must be
@@ -211,7 +211,7 @@ command line for this case.
 $ fx set core.qemu-x64 --auto-dir --release --with-base //src/sys/test_manager
 ```
 
-For the purposes of successfully running Chromium tests, the following is
+For the purposes of successfully running GTx Browser tests, the following is
 equivalent to the command line in [Combined repo](#combined-repo). It adds all
 [additional required packages](#additional-required-packages) to
 [base packages](https://fuchsia.dev/fuchsia-src/concepts/packages/package?hl=en#base-packages).
@@ -222,7 +222,7 @@ $ fx set core.qemu-x64 --auto-dir --release  --with-base //src/sys/test_manager 
 ```
 
 ### Other Products
-Other Fuchsia Product configurations may not support running Chromium tests by
+Other Fuchsia Product configurations may not support running GTx Browser tests by
 default and require some subset of the
 [additional required packages](#additional-required-packages) needed for
 [Core](#core) as well as others for specific test suites.

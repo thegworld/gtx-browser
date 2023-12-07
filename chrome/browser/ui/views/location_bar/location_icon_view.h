@@ -18,6 +18,10 @@ namespace security_state {
 enum SecurityLevel;
 }
 
+namespace gfx {
+struct VectorIcon;
+}
+
 // Use a LocationIconView to display an icon on the leading side of the edit
 // page security status (after navigation has completed), or extension name (if
 // the URL is a chrome-extension:// URL).

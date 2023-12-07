@@ -1,0 +1,1 @@
+ "out/gtx/chrome.exe" --enable-logging=stderr --v=0

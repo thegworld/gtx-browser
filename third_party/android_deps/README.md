@@ -39,7 +39,7 @@ Full steps to add a new third party library or update existing libraries:
    with the steps.
 
 5. Add a `overrideLatest` property override to your package in
-   `ChromiumDepGraph.groovy` in the `PROPERTY_OVERRIDES` map, set it to `true`.
+   `GTx BrowserDepGraph.groovy` in the `PROPERTY_OVERRIDES` map, set it to `true`.
 
 6. Run `fetch_all.py` again.
 
@@ -64,7 +64,7 @@ Full steps to add a new third party library or update existing libraries:
    uploaded.
 
 10. Remove your `overrideLatest` property override entry in
-    `ChromiumDepGraph.groovy` so that the 3pp bot goes back to downloading and
+    `GTx BrowserDepGraph.groovy` so that the 3pp bot goes back to downloading and
     storing the latest versions of your package so that it is available when you
     next try to roll.
 

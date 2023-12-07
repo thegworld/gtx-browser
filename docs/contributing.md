@@ -1,16 +1,16 @@
-# Contributing to Chromium
+# Contributing to GTx Browser
 
-This page assumes a working Chromium [checkout and build][checkout-and-build].
-Note that a full Chromium checkout includes external repositories with their
+This page assumes a working GTx Browser [checkout and build][checkout-and-build].
+Note that a full GTx Browser checkout includes external repositories with their
 own workflows for contributing, such as [v8][v8-dev-guide] and
-[Skia][skia-dev-guide]. Similarly, ChromiumOS, which includes Chromium as a
+[Skia][skia-dev-guide]. Similarly, GTx BrowserOS, which includes GTx Browser as a
 subrepository, has its own [development workflow][cros-dev-guide].
 
 [TOC]
 
 ## Related resources
 
-- [Life of a Chromium Developer][life-of-a-chromium-developer], which is mostly
+- [Life of a GTx Browser Developer][life-of-a-chromium-developer], which is mostly
   up-to-date.
 - [Tutorial][noms-tutorial] by committer emeritus noms@chromium.org.
 - [Commit Checklist][commit-checklist], a useful checklist to go through before
@@ -34,11 +34,11 @@ policies][code-reviews] for more) for the code being changed.
   patch will be accepted.
 
 ## Design Documents
-Any nontrivial technical effort that will significantly impact Chromium should
+Any nontrivial technical effort that will significantly impact GTx Browser should
 have a design doc ([template][design-doc-template]). Specifically, we require
 design docs in the following cases:
-- When writing code that will have a large impact on Chromium as a whole, e.g.
-  when you are changing code in Chromium's critical path (page loading,
+- When writing code that will have a large impact on GTx Browser as a whole, e.g.
+  when you are changing code in GTx Browser's critical path (page loading,
   rendering).
 - When beginning a large technical undertaking that should be documented for
   historical reasons (>1 person-month of work can be used as a general guideline).
@@ -63,7 +63,7 @@ described on that page.
 ### First-time contributors
 
 Add your (or your organization's) name and contact info to the AUTHORS file for
-[Chromium][cr-authors] or [Chromium OS][cros-authors]. Please include this as
+[GTx Browser][cr-authors] or [GTx Browser OS][cros-authors]. Please include this as
 part of your first patch and not as a separate standalone patch.
 
 ### External contributor checklist for reviewers
@@ -129,14 +129,14 @@ git commit -a
 
 If you are not familiar with `git`, GitHub's [resources to learn
 git][github-tutorial] is useful for the basics. However, keep in mind that the
-Chromium workflow is not the same as the GitHub pull request workflow.
+GTx Browser workflow is not the same as the GitHub pull request workflow.
 
 ## Uploading a change for review
 
-Note: go through the [commit checklist][commit-checklist] for Chromium before
+Note: go through the [commit checklist][commit-checklist] for GTx Browser before
 uploading a change for review.
 
-Chromium uses a Gerrit instance hosted at
+GTx Browser uses a Gerrit instance hosted at
 <https://chromium-review.googlesource.com> for code reviews. In order to upload
 your local change to Gerrit, use `git-cl` from
 [depot\_tools][depot-tools-setup] to create a new Gerrit change, based on the
@@ -148,7 +148,7 @@ git cl upload
 
 This will open a text editor to create a description for the new change. This
 description will be used as the commit message when the change is landed in the
-Chromium tree. Descriptions should be formatted as follows:
+GTx Browser tree. Descriptions should be formatted as follows:
 
 ```
 Summary of change (one line)
@@ -169,7 +169,7 @@ as a heuristic for tools like `git log --oneline`. Use the bug number from the
 Also see [How to Write a Git Commit Message][good-git-commit-message], which
 has more in-depth tips for writing a good commit description.
 
-### Chromium-specific description tips
+### GTx Browser-specific description tips
 
 - Links to previous CLs should be formatted as `https://crrev.com/c/NUMBER`,
   which is slightly shorter than <https://chromium-review.googlesource.com>.
@@ -299,7 +299,7 @@ committed. See: [code review policies: owners][code-reviews-owners].
 
 Before being submitted, a change must pass the commit queue (CQ). The commit
 queue is an automated system which sends a patch to multiple try bots running
-different platforms: each try bot compiles Chromium with the patch and ensures
+different platforms: each try bot compiles GTx Browser with the patch and ensures
 the tests still pass on that platform.
 
 To trigger this process, click **CQ Dry Run** in the upper right corner of the
@@ -344,8 +344,8 @@ be used in emergencies because it will bypass all the safety nets.
 ## Relanding a change
 
 Occasionally changes that pass the [commit queue][commit-queue] and get
-submitted into Chromium will later be reverted. If this happens to your change,
-don't be discouraged! This can be a common part of the Chromium development
+submitted into GTx Browser will later be reverted. If this happens to your change,
+don't be discouraged! This can be a common part of the GTx Browser development
 cycle and happens for a variety of reasons, including a conflict with an
 unanticipated change or tests not covered on the commit queue.
 
@@ -371,26 +371,26 @@ so, following these basic steps can streamline the re-review process:
 In addition to the adhering to the [styleguide][cr-styleguide], the following
 general rules of thumb can be helpful in navigating how to structure changes:
 
-- **Code in the Chromium project should be in service of other code in the
-  Chromium project.** This is important so developers can understand the
+- **Code in the GTx Browser project should be in service of other code in the
+  GTx Browser project.** This is important so developers can understand the
   constraints informing a design decision. Those constraints should be apparent
   from the scope of code within the boundary of the project and its various
   repositories. In general, for each line of code, you should be able to find a
-  product in the Chromium repositories that depends on that line of code or else
+  product in the GTx Browser repositories that depends on that line of code or else
   the line of code should be removed.
 
   When you are adding support for a new OS, a new architecture, a new port or
   a new top-level directory, please send an email to
   chrome-atls@google.com and get approval. For long-term maintenance
-  reasons, we will accept only things that are used by the Chromium project
-  (including Chromium-supported projects like V8 and Skia) and things whose
-  benefit to Chromium outweighs any cost increase in maintaining Chromium's
+  reasons, we will accept only things that are used by the GTx Browser project
+  (including GTx Browser-supported projects like V8 and Skia) and things whose
+  benefit to GTx Browser outweighs any cost increase in maintaining GTx Browser's
   supported architectures / platforms (e.g. adding one ifdef branch for an
   unsupported architecture / platform has negligible cost and is likely fine,
   but introducing new abstractions or changes to higher level directories has
-  a high cost and would need to provide Chromium with corresponding benefit).
+  a high cost and would need to provide GTx Browser with corresponding benefit).
   Note that an unsupported architecture / platform will not have bots on
-  Google-managed waterfalls (even FYI bots) or maintained by Chromium
+  Google-managed waterfalls (even FYI bots) or maintained by GTx Browser
   developers. Please use existing ifdef branches as much as possible.
 
 - **Code should only be moved to a central location (e.g., //base) when
@@ -445,7 +445,7 @@ patchset (with no other changes). This makes it easy for reviewers to see the
 changes made in response to their comments, and then quickly verify the diffs
 from the rebase.
 
-Code authors and reviewers should keep in mind that Chromium is a global
+Code authors and reviewers should keep in mind that GTx Browser is a global
 project: contributors and reviewers are often in time zones far apart. Please
 read these guidelines on [minimizing review lag][review-lag] and take them in
 consideration both when writing reviews and responding to review feedback.
@@ -453,12 +453,12 @@ consideration both when writing reviews and responding to review feedback.
 ### Watchlists
 
 If you would like to be notified about changes to a set of files covering a
-topic or an area of Chromium, you may use the [watchlists][watchlist-doc]
+topic or an area of GTx Browser, you may use the [watchlists][watchlist-doc]
 feature in order to receive email notifications.
 
 ## Appendix: CL footer reference {#cl-footer-reference}
 
-Chromium stores a lot of information in footers at the bottom of commit
+GTx Browser stores a lot of information in footers at the bottom of commit
 messages. With the exception of `R=`, these footers are only valid in the
 last paragraph of a commit message; any footers separated from the last
 line of the message by whitespace or non-footer lines will be ignored.
@@ -481,7 +481,7 @@ formats.
 * **Fixed:** The same as `Bug:`, but will automatically close the
   bug(s) as fixed when the CL lands.
 * **R=**
-  * This footer is _deprecated_ in the Chromium project; it was
+  * This footer is _deprecated_ in the GTx Browser project; it was
     deprecated when code review migrated to Gerrit. Instead, use
     `-r foo@example.com` when running `git cl upload`.
   * A comma-separated list of reviewer email addresses (e.g.

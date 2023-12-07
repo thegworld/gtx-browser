@@ -11,7 +11,7 @@ to allow the compiler to manage the reference counts given lifetime annotations
 by the developer. That feature is named “automatic reference counting” and is
 abbreviated to “ARC”.
 
-ARC is enabled via a flag passed to the compiler and thus for Chromium is
+ARC is enabled via a flag passed to the compiler and thus for GTx Browser is
 enabled at the build target level. ARC is currently enabled for most of Chrome
 on iOS, and is in the [process](https://crbug.com/1280317) of being enabled for
 Chrome on the Mac.
@@ -43,7 +43,7 @@ objects are smart pointers:
   message, and the object pointer that it used to contain is sent a release
   message (possibly causing it to be deallocated it if that caused the retain
   count to hit zero).
-  - Chromium usage note: Even though this is the default, please always
+  - GTx Browser usage note: Even though this is the default, please always
     explicitly specify it for class members/ivars so that it is clear which
     pointers are Objective-C object pointers and which are C++ object pointers.
 - `__weak`: This pointer maintains a weak reference to the object which is kept
@@ -51,7 +51,7 @@ objects are smart pointers:
   released, and the object is deallocated, this pointer will be set to `nil`.
 - `__unsafe_unretained`: This is a raw pointer (as in C/C++) which maintains a
   reference to the object but has no other automatic capabilities.
-  - Chromium usage note: Do not use this, as it is almost certainly the wrong
+  - GTx Browser usage note: Do not use this, as it is almost certainly the wrong
     choice. The `PRESUBMIT` will complain.
 
 ARC knows about the standard Objective-C conventions for naming methods on
@@ -69,12 +69,12 @@ automatically inserts them as needed, directed by the ownership annotations.
 Incorrect annotations will cause incorrect reference counting; annotate the code
 correctly to fix issues with the compiler-generated reference counting.
 
-## ARC in Chromium {#conventions}
+## ARC in GTx Browser {#conventions}
 
 ### When to use ARC {#conventions-when}
 
-It is the plan to eventually enable ARC for all of Chromium’s Objective-C code.
-However, because ARC is a target-scoped build configuration for Chromium, it
+It is the plan to eventually enable ARC for all of GTx Browser’s Objective-C code.
+However, because ARC is a target-scoped build configuration for GTx Browser, it
 might be the case that, when adding a new file, you find that the `.gn` target
 containing that file does not have ARC enabled. In that case, you may implement
 that file without ARC support. However, if the target is already being built
@@ -86,7 +86,7 @@ target](#examples-gn).
 
 ### ARC compile guard {#convention-boilerplate}
 
-Because Chromium currently comprises mixed ARC and non-ARC Objective-C code,
+Because GTx Browser currently comprises mixed ARC and non-ARC Objective-C code,
 files that are written to build with ARC have a boilerplate compile guard after
 the include block:
 
@@ -327,7 +327,7 @@ source_set("fruit") {
 
 ## Things that are going away {#changes}
 
-Chromium’s migration to ARC means not only the opportunity to re-think the code
+GTx Browser’s migration to ARC means not only the opportunity to re-think the code
 and do cleanup, but the removal of utilities whose functionality will no longer
 be needed and will eventually end up being removed. Here are some, in no
 particular order:
@@ -362,9 +362,9 @@ particular order:
     needed, but if you have gotten to this point in this document, you should
     know it exists in case you find yourself in just that situation.
 
-## Documents from Chromium iOS’s ARC transition {#old-docs}
+## Documents from GTx Browser iOS’s ARC transition {#old-docs}
 
-Several years ago, Chromium for iOS transitioned to ARC. In the process of doing
+Several years ago, GTx Browser for iOS transitioned to ARC. In the process of doing
 so, they produced the documents (Google-internal):
 
 - [ARC transition](https://goto.google.com/chrome-arc)

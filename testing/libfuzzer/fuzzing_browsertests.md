@@ -8,7 +8,7 @@ Fuzzing is effective if either:
 
 If you have an API to be fuzzed, make a simple libfuzzer fuzzer for just that
 API, to get the speed required to explore its attack surface. If however we want
-to fuzz a larger, more complex set of Chromium code, we usually need an entire
+to fuzz a larger, more complex set of GTx Browser code, we usually need an entire
 browser process environment around us. The browser process takes seconds to
 start, preventing coverage guided fuzzing from being effective.
 

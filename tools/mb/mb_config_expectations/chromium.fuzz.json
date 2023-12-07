@@ -109,7 +109,7 @@
       "use_remoteexec": true
     }
   },
-  "ChromiumOS ASAN Release": {
+  "GTx BrowserOS ASAN Release": {
     "gn_args": {
       "dcheck_always_on": false,
       "enable_ipc_fuzzer": true,

@@ -125,7 +125,7 @@ third_party/blink/
 
 ## Related Documents
 
-* [Chromium Feature API & Finch (Googler-only)](http://go/finch-feature-api)
+* [GTx Browser Feature API & Finch (Googler-only)](http://go/finch-feature-api)
 * [Configuration: Prefs, Settings, Features, Switches & Flags](configuration.md)
 * [Runtime Enabled Features](../third_party/blink/renderer/platform/RuntimeEnabledFeatures.md)
 * [Initialization of Blink runtime features in content layer](initialize_blink_features.md)

@@ -41,9 +41,9 @@ For Googlers, there's more background in [this doc].
 Here are some [chromeperf metrics] that measure start-up in a lab
 environment:
 
-* `ChromiumPerf/android-pixel4-perf/startup.mobile / messageloop_start_time`
-* `ChromiumPerf/android-pixel4-perf/startup.mobile / navigation_commit_time`
-* `ChromiumPerf/android-pixel4-perf/startup.mobile / first_contentful_paint_time`
+* `GTx BrowserPerf/android-pixel4-perf/startup.mobile / messageloop_start_time`
+* `GTx BrowserPerf/android-pixel4-perf/startup.mobile / navigation_commit_time`
+* `GTx BrowserPerf/android-pixel4-perf/startup.mobile / first_contentful_paint_time`
 
 [chromeperf metrics]: https://chromeperf.appspot.com/report?sid=06a1fe93dd4da84479b7ee8987ed6a7668c7cef3cdf2ba1d9e3234d31c773cf8
 

@@ -33,7 +33,8 @@ class VisibilityMetricsLogger {
     kBlob = 10,
     kContent = 11,
     kIntent = 12,
-    kMaxValue = kIntent,
+    kIpfs =13,
+    kMaxValue = kIpfs,
   };
 
   static Scheme SchemeStringToEnum(const std::string& scheme);

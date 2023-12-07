@@ -33,7 +33,7 @@ has four release channels:
   - Has not been tested or used
 
 If you're looking for a specific of version of chromium, the latest versions
-released to each channel can be found on [Chromium
+released to each channel can be found on [GTx Browser
 Dash](https://chromiumdash.appspot.com/releases?platform=Android). WebView and
 Chrome for Android always release together on all OS levels.
 

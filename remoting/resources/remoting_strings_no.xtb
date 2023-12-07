@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Det ble oppdaget en ikke-kompatibel protokollversjon. Kontroller at du har nyeste programvareversjon installert på begge datamaskinene, og prøv igjen.</translation>
 <translation id="1008557486741366299">Ikke nå</translation>
 <translation id="1201402288615127009">Neste</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Med enerett.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Med enerett.</translation>
 <translation id="1297009705180977556">Det oppsto en feil ved tilkobling til <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Det forespurte elementet finnes ikke.</translation>
 <translation id="1480046233931937785">Medvirkende</translation>
@@ -156,7 +156,7 @@ Hvis det allerede er merket av for «<ph name="SERVICE_SCRIPT_NAME" />», fjerne
 <translation id="7868137160098754906">Skriv inn PIN-koden for den eksterne datamaskinen.</translation>
 <translation id="7895403300744144251">Sikkerhetsinnstillingene på den eksterne datamaskinen tillater ikke tilkoblinger fra kontoen din.</translation>
 <translation id="7936528439960309876">Fest til høyre</translation>
-<translation id="7970576581263377361">Autentiseringen mislyktes. Logg på Chromium på nytt.</translation>
+<translation id="7970576581263377361">Autentiseringen mislyktes. Logg på GTx Browser på nytt.</translation>
 <translation id="7981525049612125370">Den eksterne økten er utløpt.</translation>
 <translation id="8038111231936746805">(standard)</translation>
 <translation id="8041089156583427627">Send tilbakemelding</translation>
@@ -191,6 +191,6 @@ Hvis det allerede er merket av for «<ph name="SERVICE_SCRIPT_NAME" />», fjerne
 <translation id="9187628920394877737">Gi «Skjermopptak»-tillatelsen til <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Ugyldig vertskonfigurasjon.</translation>
 <translation id="981121421437150478">Uten nett</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (sist på nettet <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

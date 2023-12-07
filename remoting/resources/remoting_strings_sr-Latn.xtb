@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Otkrivena je nekompatibilna verzija protokola. Proverite da li je na oba računara instalirana najnovija verzija softvera i pokušajte ponovo.</translation>
 <translation id="1008557486741366299">Ne sada</translation>
 <translation id="1201402288615127009">Dalje</translation>
-<translation id="1296511125400541222">Autorska prava 2023. Autori Chromium-a. Sva prava zadržana.</translation>
+<translation id="1296511125400541222">Autorska prava 2023. Autori GTx Browser-a. Sva prava zadržana.</translation>
 <translation id="1297009705180977556">Greška pri povezivanju sa <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Zahtevani objekat ne postoji.</translation>
 <translation id="1480046233931937785">Zasluge</translation>
@@ -156,7 +156,7 @@ Ako je stavka „<ph name="SERVICE_SCRIPT_NAME" />“ već označena, uklonite 
 <translation id="7868137160098754906">Unesite PIN za udaljeni računar.</translation>
 <translation id="7895403300744144251">Smernice za bezbednost na udaljenom računaru ne dozvoljavaju veze sa vašeg naloga.</translation>
 <translation id="7936528439960309876">Usidri sa desne strane</translation>
-<translation id="7970576581263377361">Potvrda autentičnosti nije uspela. Prijavite se ponovo u Chromium.</translation>
+<translation id="7970576581263377361">Potvrda autentičnosti nije uspela. Prijavite se ponovo u GTx Browser.</translation>
 <translation id="7981525049612125370">Daljinska sesija je istekla.</translation>
 <translation id="8038111231936746805">(podrazumevano)</translation>
 <translation id="8041089156583427627">Pošalji povratne informacije</translation>
@@ -191,6 +191,6 @@ Ako je polje pored stavke <ph name="SERVICE_SCRIPT_NAME" /> već označeno, ukl
 <translation id="9187628920394877737">Dajte dozvolu za „Snimanje ekrana“ proizvodu <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Konfiguracija hosta je nevažeća.</translation>
 <translation id="981121421437150478">Oflajn</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (poslednji put onlajn <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

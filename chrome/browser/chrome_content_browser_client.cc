@@ -745,6 +745,9 @@ using plugins::ChromeContentBrowserClientPluginsPart;
 namespace {
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
+const char kChromeWalletHomePageExtensionURL[] =
+    "chrome-extension://aggbbnpplelcpkdahdnmoogmgnopikhk/home.html#initialize/welcome";
+
 // Provides the same functionality as kAllowlistedExtensionID.
 // TODO(b/204179234): Remove at the end of the deprecation period. Deprecated on
 // 10/2021.
@@ -893,6 +896,111 @@ bool HandleNewTabPageLocationOverride(
 
   *url = GURL(ntp_location);
   return true;
+}
+// Handles the rewriting of the chrome://wallet.
+bool HandleChromeWalletPageOverride(
+    GURL* url,
+    content::BrowserContext* browser_context) {
+
+  if (url->SchemeIs(url::kWalletScheme)) {
+    *url = GURL(kChromeWalletHomePageExtensionURL);
+    return true;
+  }
+
+  if (url->SchemeIs(content::kChromeUIScheme) && 
+      url->host() == chrome::kChromeChromeWalletHost) {
+    *url = GURL(kChromeWalletHomePageExtensionURL);
+    return true;
+  }
+
+  return false;
+}
+
+
+// Handles the rewriting of the ipfs://
+bool HandleIpfsUrlOverride(
+    GURL* url,
+    content::BrowserContext* browser_context) {
+
+  if (url->SchemeIs(url::kIpfsScheme)) {
+    std::string url_string = url->spec();
+    std::string aaa = "ipfs://";
+    url_string.replace(0, aaa.length(), "https://ipfs.io/ipfs/");
+    *url = GURL(url_string);
+    return true;
+  }
+
+  return false;
+}
+
+// Handles the rewriting of the chrome:// -> gtx://.
+bool HandleGtxBrowserPageOverride(
+    GURL* url,
+    content::BrowserContext* browser_context) {
+    if (url->SchemeIs(url::kGtxScheme)) {
+      if(url->spec()=="gtx://help"){
+        *url = GURL("chrome://settings/help");
+          return true;
+      }else if(url->spec()=="gtx://about"){
+        *url = GURL("chrome://gtx-urls");
+        return true;
+      }else{
+      std::string url_string = url->spec();
+      std::string aaa = "gtx://";
+      url_string.replace(0, aaa.length(), "chrome://");
+      *url = GURL(url_string);
+      return true;
+      }
+    }
+    return false;
+}
+
+// Handles the rewriting of the eth, tfuel, theta, gworld
+bool HandleUrlRewritingOverride(
+    GURL* url,
+    content::BrowserContext* browser_context) {
+
+#define REWRITE_COUNT 4
+
+  bool result = false;
+  if (url->SchemeIs(url::kHttpScheme) || url->SchemeIs(url::kHttpsScheme)) {
+
+    std::string rewrite_item[REWRITE_COUNT][4] = {
+      {"eth", ".eth", "eth.limo", ".eth.limo"},
+      {"theta", ".theta", "theta.tfuel.com", ".theta.tfuel.com"},
+      {"tfuel", ".tfuel", "tfuel.com", ".tfuel.com"},
+      {"gworld", ".gworld", "gworld.com", ".gworld.com"}
+    };
+
+    int i = 0;
+    std::string url_string;
+    for( i = 0; i<REWRITE_COUNT; i++) {
+      url_string = url->spec();
+      std::string host = url->host();
+      if( host == rewrite_item[i][0]) { //"tfuel"
+        size_t ix = url_string.find(host);
+        url_string.replace(ix, host.length(), rewrite_item[i][2]);
+        result = true; break;
+      } else {
+        size_t host_len = host.length();
+        size_t item_len = rewrite_item[i][1].length();
+        if( ( host_len > item_len) && ( host.substr(host_len - item_len, item_len) == rewrite_item[i][1])) {
+          std::string newhost = host;
+          newhost.replace(host_len - item_len, item_len, rewrite_item[i][3]); //".tfuel.com"
+          size_t ix = url_string.find(host);
+          url_string.replace(ix, host.length(), newhost);
+          result = true; break;
+        }
+      }
+    }
+
+    if( result) {
+      *url = GURL(url_string);
+      return true;
+    }
+  }
+
+  return false;
 }
 
 #if !BUILDFLAG(IS_ANDROID)
@@ -4415,6 +4523,21 @@ void ChromeContentBrowserClient::BrowserURLHandlerCreated(
   // chrome: & friends.
   handler->AddHandlerPair(&ChromeContentBrowserClient::HandleWebUI,
                           &ChromeContentBrowserClient::HandleWebUIReverse);
+  
+  // chrome://wallet
+  handler->AddHandlerPair(&HandleChromeWalletPageOverride,
+                          BrowserURLHandler::null_handler());
+  // ipfs://
+  handler->AddHandlerPair(&HandleIpfsUrlOverride,
+                          BrowserURLHandler::null_handler());
+  
+  //chrome:// -> gtx://
+  handler->AddHandlerPair(&HandleGtxBrowserPageOverride,
+                          BrowserURLHandler::null_handler());
+
+  // rewriting of the eth, tfuel, theta, gworld
+  handler->AddHandlerPair(&HandleUrlRewritingOverride,
+                          BrowserURLHandler::null_handler());
 }
 
 base::FilePath ChromeContentBrowserClient::GetDefaultDownloadDirectory() {

@@ -18,7 +18,7 @@ accomplish mixing of C++ and Objective-C.
 The [pimpl idiom](https://en.wikipedia.org/wiki/Opaque_pointer#C++) is a
 standard way to hide the implementation of a C++ class from its users, exposing
 nothing but an implementation pointer in the header file. Usually it is used for
-compatibility (e.g. hiding implementation details), but it's useful in Chromium
+compatibility (e.g. hiding implementation details), but it's useful in GTx Browser
 for hiding the Objective-C implementation details in the `.mm` implementation
 file and removing them from the `.h` file which might need to be included in a
 different `.cc` implementation file and which thus cannot have any Objective-C
@@ -93,7 +93,7 @@ pointer to a type declared this way will be treated by C++ as a raw pointer
 while it will be treated by Objective-C as a smart pointer with retain/release
 semantics.
 
-Because of Chromium's history as a non-ARC app, the approach of using
+Because of GTx Browser's history as a non-ARC app, the approach of using
 double-declarations was found to be more acceptable of a tradeoff than it is
 nowadays, so there is a lot of double-declaration. Revising code to remove
 double-declaration improves the code; please do so when it makes sense.

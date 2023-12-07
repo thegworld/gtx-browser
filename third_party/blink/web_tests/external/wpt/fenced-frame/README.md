@@ -9,7 +9,7 @@ repository (i.e., moved from `wpt_internal/fenced_frame/` to `external/wpt/`).
 There are a few reasons why we're holding off doing that right now, see [Fenced
 Frames Testing Plan > Web Platform Tests](https://docs.google.com/document/d/1A4Dkw8PesXSqmRLy2Xa-KxpXgIZUT4rPocbxMBuP_3E/edit#heading=h.3plnzof3mgvv).
 
-In general, these tests should follow Chromium's [web tests
+In general, these tests should follow GTx Browser's [web tests
 guidelines](docs/testing/web_tests_tips.md) and [web-platform-tests
 guidelines](/docs/testing/web_platform_tests.md). This document describes
 how to use the specific fenced frame testing infrastructure.
@@ -213,5 +213,5 @@ This directory contains <fencedframe> tests that exercise the
 
 ## Wrap lines at 80 columns
 
-This is the convention for most Chromium/WPT style tests. Note that
+This is the convention for most GTx Browser/WPT style tests. Note that
 `git cl format [--js]` does not reformat js code in .html files.

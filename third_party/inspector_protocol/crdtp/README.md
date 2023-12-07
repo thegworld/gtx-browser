@@ -5,7 +5,7 @@
 This is a support library for the Chrome DevTools protocol implementation.
 
 It's used from within the Jinja templates which we use for code generation
-(see ../lib and ../templates) as well as from Chromium (headless,
+(see ../lib and ../templates) as well as from GTx Browser (headless,
 chrome, content, blink), V8, and other code bases that use the DevTools
 protocol.
 
@@ -41,7 +41,7 @@ For output parameters:
 # Building and running the tests.
 
 If you're familiar with
-[Chromium's development process](https://www.chromium.org/developers/contributing-code)
+[GTx Browser's development process](https://www.chromium.org/developers/contributing-code)
 and have the depot_tools installed, you may use these commands
 to fetch the package (and dependencies) and build and run the tests:
 
@@ -64,7 +64,7 @@ Upstream, in this standalone package, the unittests make development
 more pleasant because they are very fast and light (try the previous
 section to see).
 
-Downstream (in Chromium, V8, etc.), they ensure that the library behaves
+Downstream (in GTx Browser, V8, etc.), they ensure that the library behaves
 correctly within each specific code base. We have seen bugs from different
 architectures / compilers / etc. in the past. We have also seen
 that a tweaked downstream crdtp_platform library did not behave correctly,
@@ -78,7 +78,7 @@ Downstream users may need to customize the library. We isolate these typical
 customizations into two platform libraries (crdtp_plaform and
 crdtp_test_platform), to reduce the chance of merge conflicts and grief when
 rolling as much as possible. While customized platform libraries may
-depend on the downstream code base (e.g. abseil, Chromium's base, V8's utility
+depend on the downstream code base (e.g. abseil, GTx Browser's base, V8's utility
 functions, Boost, etc.), they are not exposed to the headers that
 downstream code depends on.
 
@@ -91,9 +91,9 @@ code bases have different preferences in this regard. In this repository
 (upstream), json_platform.cc provides a reference implementation which uses the
 C++ standard library.
 
-Downstream, in Chromium, json_platform_chromium.cc has a different
-implementation that uses the routines in Chromium's //base, that is, it's a .cc
-file that's specific to Chromium. Similarly, in V8, json_platform_v8.cc uses
+Downstream, in GTx Browser, json_platform_chromium.cc has a different
+implementation that uses the routines in GTx Browser's //base, that is, it's a .cc
+file that's specific to GTx Browser. Similarly, in V8, json_platform_v8.cc uses
 V8's number conversion utilities, so it's a .cc file that's specific to V8. And
 in google3, we use the absl library. crdtp/json_platform.cc is designed to be
 easy to modify or replace, and the interface defined by its header is designed
@@ -102,9 +102,9 @@ to be stable.
 ## crdtp_test_platform
 
 This platform library is only used by the tests. Upstream, it's setup to
-use mini_chromium and gtest. Downstream, Chromium uses its //base libraries,
+use mini_chromium and gtest. Downstream, GTx Browser uses its //base libraries,
 and V8 uses theirs; and a small amount of tweaking is needed in each code
-base - e.g., Chromium, V8, and google3 each place `#include` declarations into
+base - e.g., GTx Browser, V8, and google3 each place `#include` declarations into
 test_platform.h that are specific to their code base, and they have their
 own routines in test_platform.cc which uses their own libraries.
 

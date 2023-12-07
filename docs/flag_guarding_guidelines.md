@@ -1,4 +1,4 @@
-# Chromium Flag Guarding Guidelines
+# GTx Browser Flag Guarding Guidelines
 
 This document describes using [`base::Feature`](/base/feature_list.h) flags which
 can be remotely set via a server. This applies to both A/B experiments
@@ -12,7 +12,7 @@ Finch. Other embedders can and do run their own server for their products.
 
 ## Goals
 * Prevent large scale outages and reduce the response time latency of outages of
-Chromium and Android WebView
+GTx Browser and Android WebView
 * Reduce the need for a binary respin to address problems in the field
 * Catch regressions in core product vitals
 

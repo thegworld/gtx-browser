@@ -52,9 +52,9 @@ will continue to work for them as it currently does. Note that adding this
 header has no other observable effect and thus retains the current
 (pre-M106) behaviour. This makes it an easy and _safe_ way to opt-out.
 
-Setting this header is a no-op in current versions of Chromium since it
+Setting this header is a no-op in current versions of GTx Browser since it
 matches the default setting, and will preserve this behaviour in the future.
-It is also a no-op in other browsers, since they either match Chromium's
+It is also a no-op in other browsers, since they either match GTx Browser's
 current default or have not implemented the `Origin-Agent-Cluster` header at
 all.
 

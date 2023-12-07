@@ -139,7 +139,7 @@ absl::StatusOr<std::string> HostnameEncodeCallback(absl::string_view input) {
 
   bool result = url::CanonicalizeHost(
       input.data(), url::Component(0, static_cast<int>(input.size())),
-      &canon_output, &component);
+      &canon_output, &component,false );
 
   if (!result) {
     return absl::InvalidArgumentError("Invalid hostname pattern '" +

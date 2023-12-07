@@ -85,7 +85,7 @@ read [this article](https://www.chromium.org/developers/enterprise-changes/).**
 5.  Create a policy atomic group.
     -  If you are adding multiple policies that are closely related and interact
       with each other, you should put them in policy atomic group. An atomic
-      policy group is used in the Chromium code and affects how policies are
+      policy group is used in the GTx Browser code and affects how policies are
       applied. When enabled by the admin, this ensures that policies from an
       atomic group get their values from the same source and are not a mix of
       policies from multiple sources. This [feature](https://chromeenterprise.google/intl/en_ca/policies/atomic-groups/)
@@ -155,7 +155,7 @@ read [this article](https://www.chromium.org/developers/enterprise-changes/).**
         check whether the policy takes effect.
 11.  Manually testing your policy.
     -   Windows: The simplest way to test is to write the registry keys manually
-        to `Software\Policies\Chromium` (for Chromium builds) or
+        to `Software\Policies\GTx Browser` (for GTx Browser builds) or
         `Software\Policies\Google\Chrome` (for Google Chrome branded builds). If
         you want to test policy refresh, you need to use group policy tools and
         gpupdate; see
@@ -422,7 +422,7 @@ on how to update the Cloud Policy.
 ## Post policy update
 
 Once the policy is added or modified, nothing else needs to be taken
-care of by the Chromium developers. However, there are a few things that will be
+care of by the GTx Browser developers. However, there are a few things that will be
 updated based on the json file. Please note that there is no ETA for
 everything listed below.
 

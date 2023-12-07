@@ -28,6 +28,7 @@
 #include "ui/gfx/vector_icon_types.h"
 #include "url/origin.h"
 
+
 #if (!BUILDFLAG(IS_ANDROID) || BUILDFLAG(ENABLE_VR)) && !BUILDFLAG(IS_IOS)
 #include "components/omnibox/browser/vector_icons.h"  // nogncheck
 #endif
@@ -201,9 +202,13 @@ LocationBarModelImpl::GetPageClassification(OmniboxFocusSource focus_source,
   return is_prefetch ? OmniboxEventProto::OTHER_ZPS_PREFETCH
                      : OmniboxEventProto::OTHER;
 }
-
+#include "extensions/common/extension.h"
 const gfx::VectorIcon& LocationBarModelImpl::GetVectorIcon() const {
 #if (!BUILDFLAG(IS_ANDROID) || BUILDFLAG(ENABLE_VR)) && !BUILDFLAG(IS_IOS)
+ //if url is google.com, return google icon
+  // if (GetURL().host() == extensions::kOurExtensionIds[0])
+  //   return omnibox::kProductIcon;
+
   auto* const icon_override = delegate_->GetVectorIconOverride();
   if (icon_override)
     return *icon_override;

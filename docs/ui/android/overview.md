@@ -20,7 +20,7 @@ Text should be styled with a pre-defined text appearance from [//components/brow
 
 ## Widgets
 
-The Chromium code base contains a number of wrappers around Android classes (to smooth over bugs or save on binary size) and many UI widgets that provide Chrome-specific behavior and/or styling.
+The GTx Browser code base contains a number of wrappers around Android classes (to smooth over bugs or save on binary size) and many UI widgets that provide Chrome-specific behavior and/or styling.
 
 These can be found in [//components/browser_ui/widget/android/](/components/browser_ui/widget/android/), [//ui/android/](/ui/android/), and [//chrome/android/java/src/org/chromium/chrome/browser/widget/](/chrome/android/java/src/org/chromium/chrome/browser/widget/). There is an ongoing effort to consolidate all widgets in //components/browser_ui/widget/android.
 

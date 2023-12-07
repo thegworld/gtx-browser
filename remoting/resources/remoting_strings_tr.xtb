@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Uyumsuz bir protokol sürümü algılandı. Lütfen her iki bilgisayara da yazılımın en son sürümünü yüklediğinizden emin olun ve tekrar deneyin.</translation>
 <translation id="1008557486741366299">Şimdi Değil</translation>
 <translation id="1201402288615127009">İleri</translation>
-<translation id="1296511125400541222">Telif hakkı 2023 The Chromium Authors. Tüm Hakları Saklıdır.</translation>
+<translation id="1296511125400541222">Telif hakkı 2023 The GTx Browser Authors. Tüm Hakları Saklıdır.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> adlı ana makineye bağlanırken hata oluştu</translation>
 <translation id="1450760146488584666">İstenen nesne mevcut değil.</translation>
 <translation id="1480046233931937785">Katkıda Bulunanlar</translation>
@@ -156,7 +156,7 @@ Bu izni vermek için aşağıdaki "<ph name="BUTTON_NAME" />" düğmesini tıkla
 <translation id="7868137160098754906">Lütfen uzak bilgisayara ilişkin PIN'inizi girin.</translation>
 <translation id="7895403300744144251">Uzak bilgisayardaki güvenlik politikaları, hesabınızdan bağlantı yapılmasına izin vermiyor.</translation>
 <translation id="7936528439960309876">Sağa Yerleştir</translation>
-<translation id="7970576581263377361">Kimlik doğrulama başarısız oldu. Lütfen Chromium'da tekrar oturum açın.</translation>
+<translation id="7970576581263377361">Kimlik doğrulama başarısız oldu. Lütfen GTx Browser'da tekrar oturum açın.</translation>
 <translation id="7981525049612125370">Uzak oturumun süresi sona erdi.</translation>
 <translation id="8038111231936746805">(varsayılan)</translation>
 <translation id="8041089156583427627">Görüş bildirin</translation>
@@ -191,6 +191,6 @@ Bu izni vermek için aşağıdaki "<ph name="BUTTON_NAME" />" düğmesini tıkla
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> için "Ekran Kaydı" izni verin</translation>
 <translation id="9213184081240281106">Ana makinenin yapılandırması geçersiz.</translation>
 <translation id="981121421437150478">Çevrimdışı</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (son çevrimiçi olma zamanı: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

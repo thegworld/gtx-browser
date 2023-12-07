@@ -87,12 +87,12 @@ every application, whereas recent versions of ART aim to apply AOT compilation
 selectively to optimize space.
 ***
 
-## Chromium's solution
+## GTx Browser's solution
 
 **Note:** This section is no longer relevant as R8 has fixed this for us. We intend
 to remove these ApiHelperFor classes - see [this bug](https://crbug.com/1302156).
 
-In Chromium, we try to avoid doing class verification at runtime by
+In GTx Browser, we try to avoid doing class verification at runtime by
 manually out-of-lining all Android API usage like so:
 
 ```java

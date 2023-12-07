@@ -8,7 +8,7 @@
 <translation id="1011206368273183593">Preparando ficheiros</translation>
 <translation id="1015730422737071372">Proporcionar información adicional</translation>
 <translation id="1019413721762100891">Desactivado</translation>
-<translation id="1021753677514347426">Este problema prodúcese por causa dun certificado instalado por ti ou por outra persoa no teu dispositivo. Sábese que este certificado se utiliza para supervisar e interceptar redes, e Chromium non confía nel. Aínda que existen algunhas situacións lexítimas para a supervisión, como no caso de redes de empresas ou de centros educativos, Chromium quere asegurarse de que sexas consciente do que acontece, inda que non poidas facer nada ao respecto. A supervisión pode levarse a cabo en calquera navegador ou aplicación que acceda á Web.</translation>
+<translation id="1021753677514347426">Este problema prodúcese por causa dun certificado instalado por ti ou por outra persoa no teu dispositivo. Sábese que este certificado se utiliza para supervisar e interceptar redes, e GTx Browser non confía nel. Aínda que existen algunhas situacións lexítimas para a supervisión, como no caso de redes de empresas ou de centros educativos, GTx Browser quere asegurarse de que sexas consciente do que acontece, inda que non poidas facer nada ao respecto. A supervisión pode levarse a cabo en calquera navegador ou aplicación que acceda á Web.</translation>
 <translation id="1024111578869940408">Ás veces, os atacantes imitan sitios facendo cambios no enderezo web que son difíciles de ver.</translation>
 <translation id="1028781062521375153">Ver detalles</translation>
 <translation id="1030706264415084469">O URL <ph name="URL" /> quere almacenar un gran volume de datos de forma permanente no teu dispositivo</translation>
@@ -355,7 +355,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="1757773103848038814">Tipo de letra monoespazado</translation>
 <translation id="1763864636252898013">Este servidor non puido demostrar que é <ph name="DOMAIN" /> porque o sistema operativo do teu dispositivo non confía no seu certificado de seguranza. É posible que isto se deba a un erro de configuración ou a que un atacante interceptase a túa conexión.</translation>
 <translation id="1768211456781949159"><ph name="BEGIN_LINK" />Proba a executar o diagnóstico de rede de Windows<ph name="END_LINK" />.</translation>
-<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Máis información sobre o modo de incógnito de Chromium<ph name="END_LINK" /></translation>
+<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Máis información sobre o modo de incógnito de GTx Browser<ph name="END_LINK" /></translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
 <translation id="1791820510173628507"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT" />. Preme Tabulador e, a continuación, Introducir para xestionar a información, a privacidade e a seguranza na túa Conta de Google</translation>
@@ -414,7 +414,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="1935995810530254458">Copiar igualmente</translation>
 <translation id="1939175642807587452">Pode pedirche permiso para enviar notificacións</translation>
 <translation id="1943994668912612445">Deseño</translation>
-<translation id="1945968466830820669">Poderías perder o acceso á conta da túa organización ou alguén podería roubarche a identidade. Chromium recoméndache que cambies de contrasinal agora.</translation>
+<translation id="1945968466830820669">Poderías perder o acceso á conta da túa organización ou alguén podería roubarche a identidade. GTx Browser recoméndache que cambies de contrasinal agora.</translation>
 <translation id="1946849748901605102">12 x 15 polgadas</translation>
 <translation id="1947454675006758438">Grampa na parte superior dereita</translation>
 <translation id="1954847915560574887">A3x3</translation>
@@ -817,7 +817,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="2977665033722899841"><ph name="ROW_NAME" />: opción actualmente seleccionada. <ph name="ROW_CONTENT" /></translation>
 <translation id="2978824962390592855">Ópera</translation>
 <translation id="2983666748527428214">Abrir pestana do modo de incógnito</translation>
-<translation id="2985306909656435243">Se se activa esta opción, Chromium almacenará unha copia da túa tarxeta neste dispositivo para completar os formularios máis rápido.</translation>
+<translation id="2985306909656435243">Se se activa esta opción, GTx Browser almacenará unha copia da túa tarxeta neste dispositivo para completar os formularios máis rápido.</translation>
 <translation id="2985398929374701810">Introduce un enderezo válido</translation>
 <translation id="2987034854559945715">Non se atopou ningunha función que coincida coa busca</translation>
 <translation id="2989742184762224133">Dúas grampas na parte superior</translation>
@@ -992,7 +992,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="3423742043356668186">Especificado polo sistema</translation>
 <translation id="3427092606871434483">Permitir (predeterminado)</translation>
 <translation id="3427342743765426898">&amp;Refacer modificación</translation>
-<translation id="342781501876943858">Chromium recoméndache que restablezas o contrasinal se o reutilizaches noutros sitios.</translation>
+<translation id="342781501876943858">GTx Browser recoméndache que restablezas o contrasinal se o reutilizaches noutros sitios.</translation>
 <translation id="3428151540071562330">Un ou varios URI do modelo do servidor DnsOverHttpsTemplates non son válidos e non se utilizarán.</translation>
 <translation id="3431216045099978607">Preme |<ph name="ACCELERATOR" />| para saír de pantalla completa e ver a descarga.</translation>
 <translation id="3432601291244612633">Pechar páxina</translation>
@@ -1126,7 +1126,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="3740319564441798148">Autobuses e trens de longa distancia</translation>
 <translation id="3744111561329211289">Sincronización en segundo plano</translation>
 <translation id="3744286742364977428">Os ficheiros que descargas envíanse a Google Cloud ou a terceiros para analizalos. Por exemplo, poderíase comprobar se conteñen datos confidenciais ou software malicioso e poderían almacenarse en función das políticas da empresa.</translation>
-<translation id="3744899669254331632">Non se pode visitar <ph name="SITE" /> nestes momentos porque o sitio web enviou credenciais codificadas que Chromium non pode procesar. Os erros e ataques da rede normalmente son temporais, polo que é probable que esta páxina funcione máis tarde.</translation>
+<translation id="3744899669254331632">Non se pode visitar <ph name="SITE" /> nestes momentos porque o sitio web enviou credenciais codificadas que GTx Browser non pode procesar. Os erros e ataques da rede normalmente son temporais, polo que é probable que esta páxina funcione máis tarde.</translation>
 <translation id="3748148204939282805">Os piratas informáticos de <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> poden enganarte para que realices accións perigosas, como instalar un software ou revelar información persoal (por exemplo, contrasinais, números de teléfono ou tarxetas de crédito). <ph name="BEGIN_LEARN_MORE_LINK" />Máis información<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3748912308089554501">Industria aeronáutica</translation>
 <translation id="3752543821772132562">Ignórase porque non se configurou <ph name="POLICY_NAME" />.</translation>
@@ -1461,7 +1461,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="4556069465387849460">Estás usando o bloqueo de pantalla para completar contrasinais</translation>
 <translation id="4558551763791394412">Proba a desactivar as extensións.</translation>
 <translation id="4566017918361049074">Aire libre</translation>
-<translation id="4567686777917670400">O teu administrador pode cambiar a configuración do navegador de forma remota. A actividade deste dispositivo tamén se pode xestionar fóra de Chromium. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">O teu administrador pode cambiar a configuración do navegador de forma remota. A actividade deste dispositivo tamén se pode xestionar fóra de GTx Browser. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
 <translation id="4568329205873177285">Revisar unha lista de cookies e datos do sitio nunha nova ventá</translation>
 <translation id="457875822857220463">Entrega</translation>
 <translation id="4582204425268416675">Quitar tarxeta</translation>
@@ -1486,7 +1486,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="4629370161347991046">A4x6</translation>
 <translation id="4631649115723685955">Devolución de cartos vinculada</translation>
 <translation id="4636930964841734540">Información</translation>
-<translation id="4638670630777875591">Modo de incógnito de Chromium</translation>
+<translation id="4638670630777875591">Modo de incógnito de GTx Browser</translation>
 <translation id="464342062220857295">Busca funcións</translation>
 <translation id="4644670975240021822">Orde inversa cara abaixo</translation>
 <translation id="4646534391647090355">Visitar agora</translation>
@@ -1528,7 +1528,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="4731638775147756694">O teu administrador bloqueou esta aplicación</translation>
 <translation id="4733082559415072992">O URL <ph name="URL" /> quere utilizar a localización do teu dispositivo</translation>
 <translation id="4736491186715342415">Vehículos a motor</translation>
-<translation id="4736825316280949806">Reinicia Chromium</translation>
+<translation id="4736825316280949806">Reinicia GTx Browser</translation>
 <translation id="4736934858538408121">Tarxeta virtual</translation>
 <translation id="473775607612524610">Actualizar</translation>
 <translation id="4738601419177586157">Suxestión de busca de "<ph name="TEXT" />"</translation>
@@ -1544,7 +1544,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="4754461935447132332">Non se permite para os sitios non seguros</translation>
 <translation id="4756388243121344051">&amp;Historial</translation>
 <translation id="4756501505996488486">PRC 16K</translation>
-<translation id="4757993714154412917">Acabas de escribir o teu contrasinal nun sitio enganoso. Para protexer as túas contas, Chromium recoméndache que comprobes os contrasinais que tes gardados.</translation>
+<translation id="4757993714154412917">Acabas de escribir o teu contrasinal nun sitio enganoso. Para protexer as túas contas, GTx Browser recoméndache que comprobes os contrasinais que tes gardados.</translation>
 <translation id="4758311279753947758">Engadir información de contacto</translation>
 <translation id="4761104368405085019">Utilizar o micrófono</translation>
 <translation id="4761869838909035636">Executar Comprobación de seguranza de Chrome</translation>
@@ -1683,7 +1683,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="5087580092889165836">Engadir tarxeta</translation>
 <translation id="5088142053160410913">Mensaxe para o operador</translation>
 <translation id="5093232627742069661">Dobrez en Z</translation>
-<translation id="5094747076828555589">Este servidor non puido demostrar que é <ph name="DOMAIN" /> porque Chromium non confía no seu certificado de seguranza. É posible que isto se deba a un erro de configuración ou a que un atacante interceptase a túa conexión.</translation>
+<translation id="5094747076828555589">Este servidor non puido demostrar que é <ph name="DOMAIN" /> porque GTx Browser non confía no seu certificado de seguranza. É posible que isto se deba a un erro de configuración ou a que un atacante interceptase a túa conexión.</translation>
 <translation id="5097099694988056070">Estatísticas do hardware, como o uso de CPU/RAM</translation>
 <translation id="5097468150760963273">27 × 39 in</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -2126,7 +2126,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="6203231073485539293">Comproba a túa conexión a Internet</translation>
 <translation id="6205314730813004066">Privacidade nos anuncios</translation>
 <translation id="6212314149070368045">Continuo estadounidense</translation>
-<translation id="6218753634732582820">Queres eliminar o enderezo de Chromium?</translation>
+<translation id="6218753634732582820">Queres eliminar o enderezo de GTx Browser?</translation>
 <translation id="622039917539443112">Dobrez en paralelo</translation>
 <translation id="6221345481584921695">A navegación segura de Google <ph name="BEGIN_LINK" />detectou software malicioso<ph name="END_LINK" /> en <ph name="SITE" /> recentemente. Ás veces, os sitios web que adoitan ser seguros inféctanse con software malicioso. O contido malicioso procede de <ph name="SUBRESOURCE_HOST" />, un coñecido distribuidor de software malicioso.</translation>
 <translation id="6221892641068781024">Vista simplificada</translation>
@@ -2180,7 +2180,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="6348220984832452017">Variacións activas</translation>
 <translation id="6349101878882523185">Instalar a aplicación <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Ningún}=1{1 contrasinal (para <ph name="DOMAIN_LIST" />, sincronizado)}=2{2 contrasinais (para <ph name="DOMAIN_LIST" />, sincronizados)}other{# contrasinais (para <ph name="DOMAIN_LIST" />, sincronizados)}}</translation>
-<translation id="6355392890578844978">Ningunha compañía ou organización xestiona este navegador. A actividade deste dispositivo pódese xestionar fóra de Chromium. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">Ningunha compañía ou organización xestiona este navegador. A actividade deste dispositivo pódese xestionar fóra de GTx Browser. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">Que significan estas seccións?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Comprobar o proxy, o firewall e a configuración do DNS seguro<ph name="END_LINK" /></translation>
@@ -2207,7 +2207,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="6410264514553301377">Introduce a data de caducidade e o código CVC da tarxeta <ph name="CREDIT_CARD" /></translation>
 <translation id="6411107829285739505">A4x8</translation>
 <translation id="6414888972213066896">Preguntaches aos teus pais se podes visitar este sitio</translation>
-<translation id="6415778972515849510">Chromium pode axudarche a protexer a túa Conta de Google e a cambiar o teu contrasinal.</translation>
+<translation id="6415778972515849510">GTx Browser pode axudarche a protexer a túa Conta de Google e a cambiar o teu contrasinal.</translation>
 <translation id="6416877227920300343">EDP</translation>
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Dobrez en ventá</translation>
@@ -2304,7 +2304,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="666259744093848177">(x86_64 traducido)</translation>
 <translation id="6665553082534466207">Tres perforacións na parte dereita</translation>
 <translation id="6668389483194953109">Atopouse o nome de tamaño de papel "custom", pero a propiedade "custom_size" está baleira ou non é válida.</translation>
-<translation id="6671697161687535275">Queres eliminar a túa suxestión de formulario de Chromium?</translation>
+<translation id="6671697161687535275">Queres eliminar a túa suxestión de formulario de GTx Browser?</translation>
 <translation id="6683717648675961851">Listaxes de empregos</translation>
 <translation id="6687335167692595844">Tamaño do tipo de letra solicitado</translation>
 <translation id="6687696737818665306">Interpretación e teatro</translation>
@@ -2484,7 +2484,7 @@ En caso contrario, a configuración de privacidade impedirao. Se o permites, o c
 <translation id="7118618213916969306">Buscar URL do portapapeis (<ph name="SHORT_URL" />)</translation>
 <translation id="7119414471315195487">Pecha outras pestanas ou programas</translation>
 <translation id="7124354851782353862">Introducir o teu CVC</translation>
-<translation id="7129355289156517987">Ao pechar todas as pestanas do modo de incógnito de Chromium, bórrase deste dispositivo a seguinte información sobre a actividade que realizases nelas:
+<translation id="7129355289156517987">Ao pechar todas as pestanas do modo de incógnito de GTx Browser, bórrase deste dispositivo a seguinte información sobre a actividade que realizases nelas:
 <ph name="BEGIN_LIST" />
 <ph name="LIST_ITEM" />A actividade de navegación<ph name="END_LIST_ITEM" />
 <ph name="LIST_ITEM" />O historial de busca<ph name="END_LIST_ITEM" />
@@ -2652,7 +2652,7 @@ Detalles adicionais:
 <translation id="7497998058912824456">Botón Crear documento. Preme Tabulador e, a continuación, Introducir para crear rapidamente un novo documento de Google</translation>
 <translation id="7501663406926337752">A túa organización marcou como inadecuado o sitio anteriormente</translation>
 <translation id="7501853161948120656">Recursos educativos</translation>
-<translation id="7506488012654002225">Chromium <ph name="BEGIN_EMPHASIS" />non gardará<ph name="END_EMPHASIS" /> a seguinte información:
+<translation id="7506488012654002225">GTx Browser <ph name="BEGIN_EMPHASIS" />non gardará<ph name="END_EMPHASIS" /> a seguinte información:
 <ph name="BEGIN_LIST" />
 <ph name="LIST_ITEM" />O teu historial de navegación
 <ph name="LIST_ITEM" />As cookies e os datos dos sitios
@@ -2724,7 +2724,7 @@ Detalles adicionais:
 <translation id="7630470133768862132">Estado do consentimento:</translation>
 <translation id="7631444403134069754">Atletismo</translation>
 <translation id="7633909222644580952">Datos de rendemento e informes de fallos</translation>
-<translation id="7637571805876720304">Queres eliminar a túa tarxeta de crédito de Chromium?</translation>
+<translation id="7637571805876720304">Queres eliminar a túa tarxeta de crédito de GTx Browser?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Ningún}=1{1 contrasinal na túa conta (para <ph name="DOMAIN_LIST" />)}other{# contrasinais na túa conta (para <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Portos de serie</translation>
 <translation id="7639968568612851608">Gris escuro</translation>
@@ -2900,7 +2900,7 @@ Detalles adicionais:
 <translation id="8058603697124206642">Non é obrigatorio</translation>
 <translation id="8064892030280197386">verificar a túa identidade para poder completar a túa información de pago.</translation>
 <translation id="8066225060526005217">Xestionado pola configuración de cookies</translation>
-<translation id="8067872629359326442">Acabas de escribir o teu contrasinal nun sitio enganoso. Chromium pode axudarche. Para cambiar o teu contrasinal e notificarlle a Google que a túa conta pode estar en risco, fai clic en Protexer conta.</translation>
+<translation id="8067872629359326442">Acabas de escribir o teu contrasinal nun sitio enganoso. GTx Browser pode axudarche. Para cambiar o teu contrasinal e notificarlle a Google que a túa conta pode estar en risco, fai clic en Protexer conta.</translation>
 <translation id="8070439594494267500">Icona da aplicación</translation>
 <translation id="8075736640322370409">Crear rapidamente unha nova folla de cálculo de Google</translation>
 <translation id="8075898834294118863">Xestionar configuración dos sitios</translation>
@@ -3102,7 +3102,7 @@ Detalles adicionais:
 <translation id="8557066899867184262">O código CVC atópase na parte traseira da tarxeta</translation>
 <translation id="8559762987265718583">Non se pode establecer unha conexión privada con <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> porque a data e a hora do dispositivo (<ph name="DATE_AND_TIME" />) son incorrectas.</translation>
 <translation id="8564182942834072828">Documentos independentes/copias non intercaladas</translation>
-<translation id="8564985650692024650">Chromium recoméndache que restablezas o contrasinal de <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> se o reutilizaches noutros sitios.</translation>
+<translation id="8564985650692024650">GTx Browser recoméndache que restablezas o contrasinal de <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> se o reutilizaches noutros sitios.</translation>
 <translation id="8576310925653847813">Sistemas de cine domésticos</translation>
 <translation id="8577348305244205642">A tarxeta virtual non está dispoñible</translation>
 <translation id="858637041960032120">Engadir número de teléfono</translation>
@@ -3159,7 +3159,7 @@ Detalles adicionais:
 <translation id="8736059027199600831">30 x 40 polgadas</translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, preme Tab e, a continuación, Intro para abrir unha ventá do modo de incógnito e navegar de forma privada</translation>
 <translation id="8737685506611670901">Abrir ligazóns de <ph name="PROTOCOL" /> en lugar de <ph name="REPLACED_HANDLER_TITLE" /></translation>
-<translation id="8738058698779197622">Para establecer unha conexión segura, é necesario axustar o reloxo correctamente. Isto débese a que os certificados que utilizan os sitios web para identificarse só son válidos durante períodos de tempo específicos. Debido a que o reloxo do dispositivo non está correctamente axustado, Chromium non pode verificar estes certificados.</translation>
+<translation id="8738058698779197622">Para establecer unha conexión segura, é necesario axustar o reloxo correctamente. Isto débese a que os certificados que utilizan os sitios web para identificarse só son válidos durante períodos de tempo específicos. Debido a que o reloxo do dispositivo non está correctamente axustado, GTx Browser non pode verificar estes certificados.</translation>
 <translation id="8740359287975076522">Non se puido atopar o &lt;abbr id="dnsDefinition"&gt;enderezo DNS&lt;/abbr&gt; de <ph name="HOST_NAME" />. Estase diagnosticando o problema.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> é o teu código para <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">Engadir esta pestana aos marcadores</translation>
@@ -3179,7 +3179,7 @@ Detalles adicionais:
 <translation id="877985182522063539">A4</translation>
 <translation id="8785658048882205566">Motocicletas</translation>
 <translation id="8790007591277257123">&amp;Refacer eliminación</translation>
-<translation id="8792621596287649091">Poderías perder o acceso á túa conta de <ph name="ORG_NAME" /> ou alguén podería roubarche a identidade. Chromium recoméndache que cambies de contrasinal agora.</translation>
+<translation id="8792621596287649091">Poderías perder o acceso á túa conta de <ph name="ORG_NAME" /> ou alguén podería roubarche a identidade. GTx Browser recoméndache que cambies de contrasinal agora.</translation>
 <translation id="8792626944327216835">micrófono</translation>
 <translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> activou Chrome Enterprise Connectors no teu navegador. Estes conectores teñen acceso a algúns dos teus datos.</translation>
 <translation id="8798099450830957504">Predeterminado</translation>
@@ -3302,7 +3302,7 @@ Detalles adicionais:
 <translation id="9096679202588811390">Programas de televisión</translation>
 <translation id="9101630580131696064">Bandexa 1</translation>
 <translation id="9103537084693478942">Software de vídeo</translation>
-<translation id="9103872766612412690">Normalmente, <ph name="SITE" /> encripta a túa información para protexela. Nesta ocasión, cando Chromium tentou conectar con <ph name="SITE" />, o sitio web devolveu credenciais estrañas e incorrectas. É posible que un atacante tentase facerse pasar por <ph name="SITE" /> ou que a pantalla de inicio de sesión de wifi interrompese a conexión. Non obstante, a túa información segue a salvo porque Chromium detivo a conexión antes de intercambiar datos.</translation>
+<translation id="9103872766612412690">Normalmente, <ph name="SITE" /> encripta a túa información para protexela. Nesta ocasión, cando GTx Browser tentou conectar con <ph name="SITE" />, o sitio web devolveu credenciais estrañas e incorrectas. É posible que un atacante tentase facerse pasar por <ph name="SITE" /> ou que a pantalla de inicio de sesión de wifi interrompese a conexión. Non obstante, a túa información segue a salvo porque GTx Browser detivo a conexión antes de intercambiar datos.</translation>
 <translation id="9107467864910557787"><ph name="MANAGER" /> xestiona o teu navegador</translation>
 <translation id="91108059142052966">A política do administrador desactiva a pantalla compartida con <ph name="APPLICATION_TITLE" /> cando hai contido confidencial á vista</translation>
 <translation id="9114524666733003316">Confirmando tarxeta…</translation>
@@ -3359,7 +3359,7 @@ Detalles adicionais:
 <translation id="922152298093051471">Personalizar Chrome</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="934634059306213385">Queres permitir que a aplicación <ph name="APP_NAME" /> configure as redes wifi?</translation>
-<translation id="936602727769022409">Poderías perder o acceso á túa Conta de Google. Chromium recoméndache que cambies de contrasinal agora. Deberás iniciar sesión.</translation>
+<translation id="936602727769022409">Poderías perder o acceso á túa Conta de Google. GTx Browser recoméndache que cambies de contrasinal agora. Deberás iniciar sesión.</translation>
 <translation id="937457230470581909">Zoos, acuarios e reservas naturais</translation>
 <translation id="937804173274050966"><ph name="BEGIN_BOLD" />Que datos se utilizan?<ph name="END_BOLD" /> Os temas dos anuncios baséanse no teu historial de navegación recente, que é unha lista dos sitios que visitaches usando Chrome neste dispositivo.</translation>
 <translation id="939736085109172342">Cartafol novo</translation>

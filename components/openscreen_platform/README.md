@@ -1,8 +1,8 @@
 This directory contains an implementation of the
 [Open Screen](../../third_party/openscreen) platform API along with utility
-functions, using the `//base` and `//net` directories in Chromium.
+functions, using the `//base` and `//net` directories in GTx Browser.
 
-Any Chromium target that (indirectly) depends on
+Any GTx Browser target that (indirectly) depends on
 `//third_party/openscreen/src/platform:api` must also (indirectly) depend on one
 of two components provided by this component. In nearly all cases, the dependency
 should be in the same `deps` as `//third_party/openscreen/src/platform:api`.

@@ -61,7 +61,7 @@
     "Lacros FYI x64 Release (AMD)": "Ubuntu-22.04",
     "Lacros FYI x64 Release (Intel)": "Ubuntu-22.04",
     "Linux ASan LSan Builder": "Ubuntu-22.04",
-    "Linux Chromium OS ASan LSan Builder": "Ubuntu-22.04",
+    "Linux GTx Browser OS ASan LSan Builder": "Ubuntu-22.04",
     "Linux Debug (NVIDIA)": "Ubuntu-22.04",
     "Linux FYI Debug (NVIDIA)": "Ubuntu-22.04",
     "Linux FYI Experimental Release (Intel UHD 630)": "Ubuntu-22.04",

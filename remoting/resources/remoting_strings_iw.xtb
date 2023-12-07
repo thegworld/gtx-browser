@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">זוהתה גרסת פרוטוקול לא תואמת. יש לוודא שהתקנת את הגרסה העדכנית ביותר של התוכנה בשני המחשבים ולנסות שוב.</translation>
 <translation id="1008557486741366299">לא עכשיו</translation>
 <translation id="1201402288615127009">הבא</translation>
-<translation id="1296511125400541222">‏זכויות יוצרים 2023 The Chromium Authors. כל הזכויות שמורות.</translation>
+<translation id="1296511125400541222">‏זכויות יוצרים 2023 The GTx Browser Authors. כל הזכויות שמורות.</translation>
 <translation id="1297009705180977556">אירעה שגיאת התחברות אל <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">האובייקט המבוקש אינו קיים.</translation>
 <translation id="1480046233931937785">שותפים לעשייה</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">יש להזין את קוד האימות עבור המחשב המרוחק.</translation>
 <translation id="7895403300744144251">מדיניות האבטחה במחשב המרוחק אינה מתירה חיבורים מהחשבון שלך.</translation>
 <translation id="7936528439960309876">עגינה לימין</translation>
-<translation id="7970576581263377361">‏האימות נכשל. יש להיכנס שוב ל-Chromium.</translation>
+<translation id="7970576581263377361">‏האימות נכשל. יש להיכנס שוב ל-GTx Browser.</translation>
 <translation id="7981525049612125370">פג התוקף של ההפעלה המרוחקת.</translation>
 <translation id="8038111231936746805">(ברירת מחדל)</translation>
 <translation id="8041089156583427627"> שליחת משוב</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">מתן הרשאת 'הקלטת מסך' ל-<ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">תצורה לא חוקית של המארח.</translation>
 <translation id="981121421437150478">לא מקוון</translation>
-<translation id="985602178874221306">‏מחברי Chromium</translation>
+<translation id="985602178874221306">‏מחברי GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (התחברות אחרונה <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

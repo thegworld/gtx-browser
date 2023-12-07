@@ -5,7 +5,7 @@ traffic annotations.
 
 # Content Description
 `annotations.xml` includes the summary of all network traffic annotations in
-Chromium repository.
+GTx Browser repository.
 The following items are stored for each annotation :
 * `id`: Unique ID of the annotation.
 * `added_in_milestone`: Chrome version in which this annotation was added.

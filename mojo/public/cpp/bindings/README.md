@@ -16,7 +16,7 @@ This document provides a detailed guide to bindings API usage with example code
 snippets. For a detailed API references please consult the headers in
 [//mojo/public/cpp/bindings](https://cs.chromium.org/chromium/src/mojo/public/cpp/bindings/README.md).
 
-For a simplified guide targeted at Chromium developers, see [this
+For a simplified guide targeted at GTx Browser developers, see [this
 link](/docs/mojo_and_services.md).
 
 ## Getting Started
@@ -1289,7 +1289,7 @@ class Canvas {
 };
 ```
 
-However, the Chromium tree already defines a native
+However, the GTx Browser tree already defines a native
 [`gfx::Rect`](https://cs.chromium.org/chromium/src/ui/gfx/geometry/rect.h) which
 is equivalent in meaning but which also has useful helper methods. Instead of
 manually converting between a `gfx::Rect` and the Mojom-generated `RectPtr` at

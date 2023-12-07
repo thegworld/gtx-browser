@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Mos kelmaydigan protokol versiyasi aniqlandi. Har ikkala kompyuterga dasturning so‘nggi versiyasini o‘rnatib, keyin qayta urinib ko‘ring.</translation>
 <translation id="1008557486741366299">Hozir emas</translation>
 <translation id="1201402288615127009">Keyingisi</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Barcha huquqlar himoyalangan.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Barcha huquqlar himoyalangan.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> qurilmasiga ulana olmadi</translation>
 <translation id="1450760146488584666">So‘ralgan obyekt mavjud emas.</translation>
 <translation id="1480046233931937785">Mualliflar</translation>
@@ -156,7 +156,7 @@ Agar “<ph name="SERVICE_SCRIPT_NAME" />” allaqachon yoniq boʻlsa, uning tan
 <translation id="7868137160098754906">Masofadagi kompyuterga ulanish uchun PIN-kod kiriting.</translation>
 <translation id="7895403300744144251">Hisobingizdan aloqa o‘rnatish imkoniyati masofaviy kompyuterdagi xavfsizlik qoidalari tomonidan taqiqlangan.</translation>
 <translation id="7936528439960309876">O‘ngga qadash</translation>
-<translation id="7970576581263377361">Haqiqiylik tekshiruvida xatolik yuz berdi. Chromium hisobiga qaytadan kiring.</translation>
+<translation id="7970576581263377361">Haqiqiylik tekshiruvida xatolik yuz berdi. GTx Browser hisobiga qaytadan kiring.</translation>
 <translation id="7981525049612125370">Masofaviy seans muddati tugadi.</translation>
 <translation id="8038111231936746805">(standart)</translation>
 <translation id="8041089156583427627">Fikr-mulohaza</translation>
@@ -190,6 +190,6 @@ Agar “<ph name="SERVICE_SCRIPT_NAME" />” allaqachon yoniq boʻlsa, uning tan
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> dasturiga “Ekranni yozib olish” ruxsatini bering</translation>
 <translation id="9213184081240281106">Host noto‘g‘ri sozlangan.</translation>
 <translation id="981121421437150478">Oflayn</translation>
-<translation id="985602178874221306">Chromium mualliflari</translation>
+<translation id="985602178874221306">GTx Browser mualliflari</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (so‘ngi ulanish vaqti: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

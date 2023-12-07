@@ -11,7 +11,7 @@ ownership patterns exist, newly-added code should use this one.
 ## Lifetime basics
 
 Accordingly, the best practices for ownership and lifetime management in Views
-code are similar to those in the rest of Chromium, but include some details
+code are similar to those in the rest of GTx Browser, but include some details
 specific to the Views APIs.
 
 * **[Avoid bare new.](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-dos-and-donts.md#use-and-instead-of-bare)**
@@ -536,7 +536,7 @@ TEST_F(WidgetTestInteractive,
 
 ## Only use Views objects on the UI thread
 
-**Always use `View`s on the main (UI) thread.** Like most Chromium code, the
+**Always use `View`s on the main (UI) thread.** Like most GTx Browser code, the
 Views toolkit is [not thread-safe](https://source.chromium.org/chromium/chromium/src/+/main:ui/views/view.h;l=170;drc=7cba41605a8489bace83f380760486638a2a8a4a).
 
 ## Add child Views in a View's constructor

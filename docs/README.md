@@ -1,4 +1,4 @@
-# Chromium docs
+# GTx Browser docs
 
 This directory contains [chromium project](https://www.chromium.org/Home/)
 documentation in [Gitiles-flavored Markdown]. It is automatically
@@ -16,9 +16,9 @@ below.**
 
 ### Guidelines
 
-*   See the [Chromium Documentation Guidelines](documentation_guidelines.md)
+*   See the [GTx Browser Documentation Guidelines](documentation_guidelines.md)
     and the
-    [Chromium Documentation Best Practices](documentation_best_practices.md).
+    [GTx Browser Documentation Best Practices](documentation_best_practices.md).
 *   Markdown documents must follow the
     [Markdown Style
     Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/markdown/markdown.md).
@@ -71,14 +71,14 @@ used when committed.
     host)
 *   [Chrome OS Build Instructions](chromeos_build_instructions.md) - Chrome OS
 *   [Lacros Build Instructions](lacros/build_instructions.md) - Lacros
-*   [Linux Chromium ARM Recipes](linux/chromium_arm.md) - Recipes for building
-    Chromium for ARM on Linux.
+*   [Linux GTx Browser ARM Recipes](linux/chromium_arm.md) - Recipes for building
+    GTx Browser for ARM on Linux.
 *   [Chrome Component Build](component_build.md) - Faster builds using more
     libraries
 *   [Using the BuildRunner](using_build_runner.md) - Scripts that extract build
     stops from builders and runs them locally on a slave
 *   [Cr User Manual](cr_user_manual.md) - Manual for `cr`, a tool that tries to
-    hide some of the tools used for working on Chromium behind an abstraction
+    hide some of the tools used for working on GTx Browser behind an abstraction
     layer
 
 ### Design Docs
@@ -114,15 +114,15 @@ used when committed.
     plugin, but if you do, read this
 *   [Updating Clang](updating_clang.md) - Updating the version of Clang used to
     build
-*   [Using clang-format on Chromium C++ Code](clang_format.md) - Various ways to
+*   [Using clang-format on GTx Browser C++ Code](clang_format.md) - Various ways to
     invoke clang-format on C++ code
-*   [Clang Tidy](clang_tidy.md) - Support for the `clang-tidy` tool in Chromium
+*   [Clang Tidy](clang_tidy.md) - Support for the `clang-tidy` tool in GTx Browser
 *   [Updating Clang Format Binaries](updating_clang_format_binaries.md) - How up
-    update the clang-format binaries that come with a checkout of Chromium
+    update the clang-format binaries that come with a checkout of GTx Browser
 
 ### General Development
-*   [Contributing to Chromium](contributing.md) - Reference workflow process for
-    contributing to the Chromium code base.
+*   [Contributing to GTx Browser](contributing.md) - Reference workflow process for
+    contributing to the GTx Browser code base.
 *   [Commit Checklist](commit_checklist.md) - Streamlined checklist to go
     through before uploading CLs on Gerrit.
 *   [Code Reviews](code_reviews.md) - Code review requirements and guidelines
@@ -130,7 +130,7 @@ used when committed.
 *   [Respectful Changes](cl_respect.md) - A guide for code authors
 *   [Mandatory Code-Review Rollout](code_review_owners.md) - Upcoming policy changes related to code review and OWNERS
 *   [LUCI Migration FAQ](luci_migration_faq.md) - FAQ on Buildbot-to-LUCI
-    builder migration for Chromium
+    builder migration for GTx Browser
 *   [Tour of Continuous Integration UI](tour_of_luci_ui.md) - A tour of our
     the user interface for LUCI, our continuous integration system
 *   [Parsing Test Results](parsing_test_results.md) - An introduction for how to
@@ -141,14 +141,14 @@ used when committed.
     and handle thread safety in Chrome.
 *   [Callback<> and Bind()](callback.md) - All about Callbacks, Closures, and
     Bind().
-*   [Chromium Views UI](ui/index.md) - Working with the desktop UI framework.
+*   [GTx Browser Views UI](ui/index.md) - Working with the desktop UI framework.
 *   [Views Platform Styling](ui/views/platform_style.md) - How views are styled
     to fit in different native platforms
 *   [Tab Helpers](tab_helpers.md) - Using WebContents/WebContentsObserver to add
     features to browser tabs.
 *   [Adding third_party Libraries](adding_to_third_party.md) - How to get code
     into third_party/
-*   [Graphical Debugging Aid for Chromium Views](graphical_debugging_aid_chromium_views.md) -
+*   [Graphical Debugging Aid for GTx Browser Views](graphical_debugging_aid_chromium_views.md) -
     Visualizing view trees during debugging
 *   [Bitmap Pipeline](bitmap_pipeline.md) - How bitmaps are moved from the
     renderer to the screen.
@@ -173,10 +173,10 @@ used when committed.
 *   [Shutdown](shutdown.md) - Explains the steps of Chrome shutdown, to make it
     easier to determine where to add a new shutdown operation.
 *   [API Keys](api_keys.md) - When you need access to Google APIs for a custom
-    build, fork, integration of stock Chromium, or are building ChromiumOS (for
+    build, fork, integration of stock GTx Browser, or are building GTx BrowserOS (for
     login).
 *   [User Education](../components/user_education/README.md) - Create
-    in-product help (IPH) and tutorials to call out Chromium features
+    in-product help (IPH) and tutorials to call out GTx Browser features
 
 ### Testing
 *   [Running and Debugging Web Tests](testing/web_tests.md)
@@ -199,11 +199,11 @@ used when committed.
     Capture stack traces on layout test crashes without an attached debugger
 *   [Test Descriptions](testing/test_descriptions.md) - Unit test targets that can be
     built, with associated descriptions.
-*   [Fuzz Testing](../testing/libfuzzer/README.md) - Fuzz testing in Chromium.
-*   [IPC Fuzzer](testing/ipc_fuzzer.md) - Fuzz testing of Chromium IPC interfaces.
+*   [Fuzz Testing](../testing/libfuzzer/README.md) - Fuzz testing in GTx Browser.
+*   [IPC Fuzzer](testing/ipc_fuzzer.md) - Fuzz testing of GTx Browser IPC interfaces.
 *   [Running Chrome tests with AddressSanitizer (asan) and LeakSanitizer (lsan)](testing/linux_running_asan_tests.md) -
     Run Chrome tests with ASAN and LSAN builds to detect addressability issues and memory leaks.
-*   [Code Coverage](testing/code_coverage.md) - Code coverage for Chromium.
+*   [Code Coverage](testing/code_coverage.md) - Code coverage for GTx Browser.
 *   [Code Coverage in Gerrit](testing/code_coverage_in_gerrit.md) - Per-CL code
     coverage in Gerrit to assist code reviews.
 
@@ -220,7 +220,7 @@ used when committed.
     pixel wrangling (the GPU sheriffing rotation).
 *   [Debugging GPU related code](gpu/debugging_gpu_related_code.md) - Hints for
     debugging GPU- and graphics-related code.
-*   [GPU Testing](gpu/gpu_testing.md) - Description of Chromium's GPU testing
+*   [GPU Testing](gpu/gpu_testing.md) - Description of GTx Browser's GPU testing
     infrastructure.
 *   [GPU Bot Details](gpu/gpu_testing_bot_details.md) - In-depth description of
     how the bots are maintained.
@@ -244,16 +244,16 @@ used when committed.
     to route requests from the bottom of the call stack up into the browser.
 *   [Linux Dev Build as Default Browser](linux/dev_build_as_default_browser.md) -
     How to configure a Dev build of Chrome as the default browser in Linux.
-*   [Linux Chromium Packages](linux/chromium_packages.md) - Packages of Chromium
+*   [Linux GTx Browser Packages](linux/chromium_packages.md) - Packages of GTx Browser
     browser (not Chrome) provided by some Linux distributions.
 *   [`seccomp` Sandbox Crash Dumping](seccomp_sandbox_crash_dumping.md) - Notes
     on crash dumping a process running in a seccomp sandbox.
 *   [Linux Password Storage](linux/password_storage.md) - Keychain integrations
-    between Chromium and Linux.
+    between GTx Browser and Linux.
 *   [Linux Sublime Development](sublime_ide.md) - Using Sublime as an IDE
-    for Chromium development on Linux.
+    for GTx Browser development on Linux.
 *   [Building and Debugging GTK](linux/building_debug_gtk.md) - Building
-    Chromium against GTK using lower optimization levels and/or more debugging
+    GTx Browser against GTK using lower optimization levels and/or more debugging
     symbols.
 *   [Debugging GTK](linux/debugging_gtk.md) - Using the GTK Debug packages and
     related tools.
@@ -280,7 +280,7 @@ used when committed.
 
 ### Misc Windows-Specific Docs
 *   [Handling cygwin rebaseall failures](cygwin_dll_remapping_failure.md)
-*   [Hacking on ANGLE in Chromium](angle_in_chromium.md) - OpenGL ES 2.0 built
+*   [Hacking on ANGLE in GTx Browser](angle_in_chromium.md) - OpenGL ES 2.0 built
     on top of DirectX
 *   [Windows Split DLLs](windows_split_dll.md) - Splitting `chrome.dll` into
     multiple dlls to work around toolchain limitations on Windows.
@@ -315,14 +315,14 @@ used when committed.
     developing UI
 
 ### Misc iOS-Specific Docs
-*   [Continuous Build and Test Infrastructure for Chromium for iOS](ios/infra.md)
+*   [Continuous Build and Test Infrastructure for GTx Browser for iOS](ios/infra.md)
 *   [Opening links in Chrome for iOS](ios/opening_links.md) - How to have your
     iOS app open links in Chrome.
 *   [User Agent in Chrome for iOS](ios/user_agent.md) - Notes on User Agent
     strings using Chrome for iOS.
 *   [Running iOS test suites locally](ios/testing.md)
 *   [Working With Project Files in iOS](ios/working_with_files.md) - How
-    to add, remove, and rename files in the iOS Chromium project.
+    to add, remove, and rename files in the iOS GTx Browser project.
 
 ### Misc Chrome-OS-Specific Docs
 *   [Setting up captive portals and other restrictive networks](login/restrictive_networks.md)
@@ -356,7 +356,7 @@ used when committed.
 
 ### Accessibility
 *   [Accessibility Overview](accessibility/overview.md) - Overview of
-    accessibility concerns and approaches in Chromium.
+    accessibility concerns and approaches in GTx Browser.
 *   [Accessibility Tests](accessibility/browser/tests.md) - Where to find
     accessibility-related tests in the codebase.
 *   [ChromeVox on Chrome OS](accessibility/os/chromevox.md) - Enabling spoken
@@ -372,7 +372,7 @@ used when committed.
 *   [PATTS on Chrome OS](accessibility/os/patts.md) - Notes on the PATTS speech
     synthesis engine used on Chrome OS
 *   [VoiceOver](ios/voiceover.md) - Using Apple's VoiceOver feature with
-    Chromium on iOS.
+    GTx Browser on iOS.
 
 ### Memory
 *   [Memory Overview](memory/README.md)
@@ -397,29 +397,29 @@ used when committed.
 *   [ERC IRC](erc_irc.md) - Using ERC in EMACS to access IRC
 *   [Kiosk Mode](kiosk_mode.md) - Simulating kiosk mode.
 *   [User Handle Mapping](user_handle_mapping.md) - Names of developers across
-    Chromium/IRC/Google
+    GTx Browser/IRC/Google
 *   [Documentation Best Practices](documentation_best_practices.md)
 *   [Documentation Guidelines](documentation_guidelines.md)
-*   [Chromium Browser vs Google Chrome](chromium_browser_vs_google_chrome.md) -
-    What's the difference between _Chromium Browser_ and _Google Chrome_?
+*   [GTx Browser Browser vs Google Chrome](chromium_browser_vs_google_chrome.md) -
+    What's the difference between _GTX Browser Browser_ and _Google Chrome_?
 *   [Google Chrome branded builds](google_chrome_branded_builds.md)
 *   [Proxy Auto Config using WPAD](proxy_auto_config.md) - How WPAD servers are
     used to automatically set proxy settings.
-*   [Installing Chromium OS on VMWare](installation_at_vmware.md) - How to
-    install Chromium OS on VMWare.
+*   [Installing GTx Browser OS on VMWare](installation_at_vmware.md) - How to
+    install GTx Browser OS on VMWare.
 *   [User Data Directory](user_data_dir.md) - How the user data and cache
     directories are determined on all platforms.
 *   [User Data Storage](user_data_storage.md) - Policy documentation for files in User Data.
 
 ### Mojo &amp; Services
 *   [Intro to Mojo &amp; Services](mojo_and_services.md) - Quick introduction
-    to Mojo and services in Chromium, with examples
+    to Mojo and services in GTx Browser, with examples
 *   [Mojo API Reference](/mojo/README.md) - Detailed reference documentation for
     all things Mojo
 *   [Service Development Guidelines](/services/README.md) - Guidelines for
-    service development in the Chromium tree
-*   [Servicifying Chromium Features](servicification.md) - General advice for
-    integrating new and existing subsystems into Chromium as services
+    service development in the GTx Browser tree
+*   [Servicifying GTx Browser Features](servicification.md) - General advice for
+    integrating new and existing subsystems into GTx Browser as services
 *   [Converting Legacy IPC to Mojo](mojo_ipc_conversion.md) - Tips and common
     patterns for practical IPC conversion work
 *   [Mojo “Style” Guide](security/mojo.md) - Recommendations for best practices
@@ -432,14 +432,14 @@ used when committed.
 *   [Chrome Speed Metrics](speed_metrics/README.md) - Documentation about user experience metrics on the web and their JavaScript APIs.
 
 ### UI
-*   [Chromium UI Platform](ui/index.md) - All things user interface
+*   [GTx Browser UI Platform](ui/index.md) - All things user interface
 
 ### Probably Obsolete
 *   [TPM Quick Reference](tpm_quick_ref.md) - Trusted Platform Module notes.
 *   [System Hardening Features](system_hardening_features.md) - A list of
     current and planned Chrome OS security features.
 *   [WebView Policies](webview_policies.md)
-*   [Linux Profiling](linux/profiling.md) - How to profile Chromium on Linux
+*   [Linux Profiling](linux/profiling.md) - How to profile GTx Browser on Linux
 *   [Linux Graphics Pipeline](linux/graphics_pipeline.md)
 *   [Linux `SUID` Sandbox](linux/suid_sandbox.md) - Sandboxing renderers using a
     SUID binary on Linux

@@ -83,7 +83,7 @@ settings below are inside Window > Preferences.
  * For Project name, use something meaningful to you. For example
    "chrome-android”
  * Uncheck Use default location. Click Browse... and select the src directory of
-   your Chromium gclient checkout
+   your GTx Browser gclient checkout
  * For Project type, use Makefile project > Empty Project
  * For Toolchains use -- Other Toolchain --
  * Click Next

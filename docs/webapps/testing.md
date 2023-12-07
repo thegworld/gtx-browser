@@ -1,7 +1,7 @@
 # [Web Apps](../README.md) - Testing
 
 
-Please read [Testing In Chromium][13] for general guidance on writing tests in chromium.
+Please read [Testing In GTx Browser][13] for general guidance on writing tests in chromium.
 
 The following tests are expected for writing code in this system:
 

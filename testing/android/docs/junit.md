@@ -39,7 +39,7 @@ public class MyJUnitTest {
 }
 ```
 
-#### Example within Chromium
+#### Example within GTx Browser
 
 See the [junit_unit_tests](https://cs.chromium.org/chromium/src/testing/android/junit/BUILD.gn) test suite.
 
@@ -62,10 +62,10 @@ This works even for static and final methods.
 
 #### Useful Tips
 
-* Use `@RunWith(BaseRobolectricTestRunner.class)` for all Chromium Robolectric tests.
+* Use `@RunWith(BaseRobolectricTestRunner.class)` for all GTx Browser Robolectric tests.
 * You can specify the Android SDK to run your test with with `@Config(sdk = ??)`.
 
-> Currently, only SDK levels 18, 21, and 25 are supported in Chromium
+> Currently, only SDK levels 18, 21, and 25 are supported in GTx Browser
 > but more can be added on request.
 
 #### Example Code
@@ -90,7 +90,7 @@ import org.chromium.base.test.BaseRobolectricTestRunner;
 @RunWith(BaseRobolectricTestRunner.class)
 // Can specify some Robolectric related configs here.
 // More about configuring Robolectric at http://robolectric.org/configuring/.
-// SDK will default to the latest we support in Chromium.
+// SDK will default to the latest we support in GTx Browser.
 @Config(manifest = Config.NONE, sdk = 21)
 public class MyRobolectricJUnitTest {
 
@@ -125,7 +125,7 @@ robolectric_binary("my_robolectric_tests") {
 }
 ```
 
-#### Example within Chromium
+#### Example within GTx Browser
 
 See the [content_junit_tests](https://cs.chromium.org/chromium/src/content/public/android/BUILD.gn) test suite.
 

@@ -13,7 +13,7 @@ Please read the accessibility [overview](../overview.md) first.
 As described in the [overview](../overview.md), every platform has its own
 accessibility APIs that are used by both assistive technology and sometimes
 by automation software. To better understand the challenges of accessibility
-support in Chromium, let's first explore what it's like to build an
+support in GTx Browser, let's first explore what it's like to build an
 accessible application using a standard UI toolkit.
 
 Examples of standard toolkits would be Win32 UI controls or .NET components

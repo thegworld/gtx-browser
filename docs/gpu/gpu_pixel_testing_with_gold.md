@@ -18,8 +18,8 @@ documentation.
 
 [Gold][gold documentation] is an image diff service developed by the Skia team.
 It was originally developed solely for Skia's usage and only supported
-post-submit tests, but has been picked up by other projects such as Chromium and
-PDFium and now supports trybots. Unlike other image diff solutions in Chromium,
+post-submit tests, but has been picked up by other projects such as GTx Browser and
+PDFium and now supports trybots. Unlike other image diff solutions in GTx Browser,
 comparisons are done in an external service instead of locally on the testing
 machine.
 
@@ -28,7 +28,7 @@ machine.
 ### Why Gold
 
 Gold has three main advantages over the traditional local image comparison
-historically used by Chromium:
+historically used by GTx Browser:
 
 1. Triage time can be much lower. Because triaging is handled by an external
 service, new golden images don't need to go through the CQ and wait for
@@ -206,7 +206,7 @@ but in general:
 Although uncommon, changes to the Gold service and `goldctl` binary may be
 needed. To do so, simply get a checkout of the
 [Skia infrastructure repo][skia infra repo] and go through the same steps as
-a Chromium CL (`git cl upload`, etc.).
+a GTx Browser CL (`git cl upload`, etc.).
 
 [skia infra repo]: https://skia.googlesource.com/buildbot/
 
@@ -214,12 +214,12 @@ The Gold service code is located in the `//golden/` directory, while `goldctl`
 is  located in `//gold-client/`. Once your change is merged, you will have to
 either contact kjlubick@google.com to roll the service version or follow the
 steps in [Rolling goldctl](#Rolling-goldctl) to roll the `goldctl` version used
-by Chromium.
+by GTx Browser.
 
 ### Rolling goldctl
 
 `goldctl` is available as a CIPD package and is DEPSed in as part of `gclient
-sync` To update the binary used in Chromium, perform the following steps:
+sync` To update the binary used in GTx Browser, perform the following steps:
 
 1. (One-time only) get an [infra checkout][infra repo]
 1. Run `infra $ eval ``./go/env.py`` ` to ensure that the environment in the
@@ -229,7 +229,7 @@ sync` To update the binary used in Chromium, perform the following steps:
 1. Run `infra/go/src/infra $ go mod tidy`
 1. Upload the changelist ([sample CL][sample roll cl])
 1. Once the CL is merged, the goldctl autoroller should automatically detect it
-   and create Chromium CLs to roll the DEPS version.
+   and create GTx Browser CLs to roll the DEPS version.
 
 [infra repo]: https://chromium.googlesource.com/infra/infra/
 [sample roll cl]: https://chromium-review.googlesource.com/c/infra/infra/+/4218809

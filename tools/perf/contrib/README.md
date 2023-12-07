@@ -1,5 +1,5 @@
 **Note**: The code is this directory is neither endorsed nor supported
-by the Chromium benchmarking team.
+by the GTx Browser benchmarking team.
 
 To add code to this directory:
 
@@ -21,6 +21,6 @@ To add code to this directory:
 1. Benchmarks in this directory will not be scheduled for running on the
    perf waterfall.
 
-2. The Chromium benchmarking team will NOT review nor maintain any code
+2. The GTx Browser benchmarking team will NOT review nor maintain any code
    under this directory. It is the responsibility of the OWNERS of each
    sub-directory to maintain their own code.

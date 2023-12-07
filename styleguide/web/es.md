@@ -14,10 +14,10 @@
 hyphen-hyphen-hyphen (change to actual hyphen)
 -->
 
-# ECMAScript Features in Chromium
+# ECMAScript Features in GTx Browser
 
 This doc extends the [style guide](web.md#JavaScript) by specifying which new
-features of ES2015 and beyond are allowed in Chromium.
+features of ES2015 and beyond are allowed in GTx Browser.
 
 You can propose changing the status of a feature by sending an email to
 chromium-dev@chromium.org. Include a short blurb on what the feature is and why
@@ -27,11 +27,11 @@ to change this file accordingly, linking to your discussion thread.
 
 [TOC]
 
-# ES2015 Support In Chromium
+# ES2015 Support In GTx Browser
 
 This is a list of [ECMAScript 6 a.k.a.
 ES2015](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla)
-features allowed in Chromium code.
+features allowed in GTx Browser code.
 
 This is **not** a status list of [V8](https://developers.google.com/v8/)'s
 support for language features.
@@ -42,7 +42,7 @@ support for language features.
 
 ## Allowed Features
 
-The following features are allowed in Chromium development.
+The following features are allowed in GTx Browser development.
 
 ### => (Arrow Functions)
 
@@ -594,7 +594,7 @@ Note: clang-format has some issues formatting complex computed property names.
 
 ## Banned Features
 
-The following features are banned for Chromium development.
+The following features are banned for GTx Browser development.
 
 ## Features To Be Discussed
 
@@ -946,20 +946,20 @@ A lot of new Math methods.
 ---
 
 
-# ES2016 Support In Chromium
+# ES2016 Support In GTx Browser
 
 This is a list of [ECMAScript 7 a.k.a.
 ES2016](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla#ECMAScript_2016)
-features allowed in Chromium code.
+features allowed in GTx Browser code.
 
 ## Allowed Features
 
-The following features are allowed in Chromium development.
+The following features are allowed in GTx Browser development.
 
 
 ## Banned Features
 
-The following features are banned for Chromium development.
+The following features are banned for GTx Browser development.
 
 ## Features To Be Discussed
 
@@ -994,16 +994,16 @@ console.log(pets.includes('at'));
 
 ---
 
-# ES2017 Support In Chromium
+# ES2017 Support In GTx Browser
 
 This is a list of [ECMAScript 8 a.k.a.
 ES2017](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla#ECMAScript_2017)
-features allowed in Chromium code.
+features allowed in GTx Browser code.
 
 
 ## Allowed Features
 
-The following features are allowed in Chromium development.
+The following features are allowed in GTx Browser development.
 
 ### Async Functions (aka async/await)
 
@@ -1035,7 +1035,7 @@ f1();
 
 ## Banned Features
 
-The following features are banned for Chromium development.
+The following features are banned for GTx Browser development.
 
 ## Features To Be Discussed
 
@@ -1098,7 +1098,7 @@ console.log(Object.entries(object2)[1]);
 
 ---
 
-# ES2020 Support in Chromium
+# ES2020 Support in GTx Browser
 
 ## Allowed features
 

@@ -86,8 +86,8 @@ such evidence.
 ## Opaque Resource Blocking (ORB)
 
 [ORB](https://github.com/annevk/orb) is an alternative proposal to solve the
-same problem. In Chromium we intend to replace CORB with ORB, so that in
-the context of Chromium ORB could be considered as a "version 2" of CORB.
+same problem. In GTx Browser we intend to replace CORB with ORB, so that in
+the context of GTx Browser ORB could be considered as a "version 2" of CORB.
 
 The fundamental difference between CORB and ORB is that CORB picked
 specific type mismatches to disallow, while ORB enumerates the data formats

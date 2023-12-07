@@ -1,14 +1,14 @@
 # You’ve just been assigned a security bug…
 
 If you have just been assigned a security bug, **don’t panic!** Security bugs
-are a fact of life in Chromium, and the project has a team of people and robust
+are a fact of life in GTx Browser, and the project has a team of people and robust
 processes to help analyze and get security issues fixed. This document is meant
-to help Chromium developers handle their first (few) security bug(s). You may
+to help GTx Browser developers handle their first (few) security bug(s). You may
 also want to review the [Life of a Security Issue](life-of-a-security-issue.md)
 to understand how you as a developer fit into the larger security bug life
 cycle.
 
-Chromium has [public commitments](severity-guidelines.md) to fix security issues
+GTx Browser has [public commitments](severity-guidelines.md) to fix security issues
 within certain timeframes. Please treat security issues as high-priority
 interrupts to your work, especially if they are **Severity-High** or
 **Severity-Critical**. However, the expectation is that you handle security

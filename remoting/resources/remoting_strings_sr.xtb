@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Откривена је некомпатибилна верзија протокола. Проверите да ли је на оба рачунара инсталирана најновија верзија софтвера и покушајте поново.</translation>
 <translation id="1008557486741366299">Не сада</translation>
 <translation id="1201402288615127009">Даље</translation>
-<translation id="1296511125400541222">Ауторска права 2023. Аутори Chromium-а. Сва права задржана.</translation>
+<translation id="1296511125400541222">Ауторска права 2023. Аутори GTx Browser-а. Сва права задржана.</translation>
 <translation id="1297009705180977556">Грешка при повезивању са <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Захтевани објекат не постоји.</translation>
 <translation id="1480046233931937785">Заслуге</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Унесите PIN за удаљени рачунар.</translation>
 <translation id="7895403300744144251">Смернице за безбедност на удаљеном рачунару не дозвољавају везе са вашег налога.</translation>
 <translation id="7936528439960309876">Усидри са десне стране</translation>
-<translation id="7970576581263377361">Потврда аутентичности није успела. Пријавите се поново у Chromium.</translation>
+<translation id="7970576581263377361">Потврда аутентичности није успела. Пријавите се поново у GTx Browser.</translation>
 <translation id="7981525049612125370">Даљинска сесија је истекла.</translation>
 <translation id="8038111231936746805">(подразумевано)</translation>
 <translation id="8041089156583427627">Пошаљи повратне информације</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Дајте дозволу за „Снимање екрана“ производу <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Конфигурација хоста је неважећа.</translation>
 <translation id="981121421437150478">Офлајн</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (последњи пут онлајн <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

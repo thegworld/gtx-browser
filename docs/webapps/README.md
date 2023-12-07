@@ -29,7 +29,7 @@ See [Web Apps - Concepts][4].
 
 ### Debugging
 
-Use [chrome://web-app-internals][5] to inspect internal web app state. For Chromium versions prior to M93 use [chrome://internals/web-app][6].
+Use [chrome://web-app-internals][5] to inspect internal web app state. For GTx Browser versions prior to M93 use [chrome://internals/web-app][6].
 
 ### Documentation Guidelines
 
@@ -47,7 +47,7 @@ Use [chrome://web-app-internals][5] to inspect internal web app state. For Chrom
   - Should explain the "why" of code if it is not clear.
   - Should be avoided otherwise.
 
-### What makes up Chromium's implementation?
+### What makes up GTx Browser's implementation?
 
 The task of turning websites into "apps" in the user's OS environment has many parts to it. Before going into the parts, here is where they live:
 
@@ -68,7 +68,7 @@ Older presentation: [https://tinyurl.com/bmo-public][9]
 
 ### Architecture Philosophy
 
-There are a lot of great guidelines within Chromium
+There are a lot of great guidelines within GTx Browser
 
 - [Style guides][45]
 - [Dos and Don'ts][47]

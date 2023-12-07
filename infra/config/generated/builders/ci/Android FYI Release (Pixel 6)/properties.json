@@ -88,7 +88,7 @@
     ]
   },
   "builder_group": "chromium.gpu.fyi",
-  "perf_dashboard_machine_group": "ChromiumGPUFYI",
+  "perf_dashboard_machine_group": "GTx BrowserGPUFYI",
   "recipe": "chromium",
   "sheriff_rotations": [
     "chrome_browser_release"

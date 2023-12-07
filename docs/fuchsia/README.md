@@ -1,12 +1,12 @@
 # Fuchsia
 
-Documentation for developing Chromium for the [Fuchsia](https://fuchsia.dev/) platform.
+Documentation for developing GTx Browser for the [Fuchsia](https://fuchsia.dev/) platform.
 
 [TOC]
 
 ## Contact information
 
-* [`#fuchsia`](https://chromium.slack.com/archives/CGJCHA1SM) on [Chromium Slack](https://www.chromium.org/developers/slack)
+* [`#fuchsia`](https://chromium.slack.com/archives/CGJCHA1SM) on [GTx Browser Slack](https://www.chromium.org/developers/slack)
 * [fuchsia-dev@chromium.org](mailto:fuchsia-dev@chromium.org)
 
 ## Bugs
@@ -16,7 +16,7 @@ Fuchsia-specific issues should have Component `Fuchsia` and OS `Fuchsia`.
 To report a new issue, use this
 [template](https://bugs.chromium.org/p/chromium/issues/entry?components=Fuchsia&labels=OS-Fuchsia%2CType-Bug).
 
-## Chromium development for Fuchsia
+## GTx Browser development for Fuchsia
 
 See [Checking out and building on Fuchsia](build_instructions.md) for
 Fuchsia-specific build instructions.
@@ -44,7 +44,7 @@ See [Debugging](debug_instructions.md)
 ## Fuchsia WebEngine and Runners
 See [Fuchsia WebEngine and Runners](../../fuchsia_web/README.md).
 
-## Resources for developers working on Chromium for Fuchsia
+## Resources for developers working on GTx Browser for Fuchsia
 
 * [Fuchsia platform versioning](platform_versioning.md)
-* [Manually updating Chromium to a new Fuchsia SDK](sdk_updates.md)
+* [Manually updating GTx Browser to a new Fuchsia SDK](sdk_updates.md)

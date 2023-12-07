@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Дал келбеген протокол версиясы табылды. Эки компьютерде тең программанын эң акыркы версияcы орнотулганын текшерип, дагы аракет кылып көрүңүз.</translation>
 <translation id="1008557486741366299">Азыр эмес</translation>
 <translation id="1201402288615127009">Кийинки</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Бардык укуктар корголгон.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Бардык укуктар корголгон.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> башкы түйүнүнө туташууда ката кетти</translation>
 <translation id="1450760146488584666">Суралган нерсе жок.</translation>
 <translation id="1480046233931937785">Насыялар</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Алыскы компьютер үчүн PIN'иңизди киргизиңиз.</translation>
 <translation id="7895403300744144251">Алыстагы компьютердин коопсуздук саясаттарынан улам аккаунтуңуздан туташа албайсыз.</translation>
 <translation id="7936528439960309876">Оң жакка бекитүү</translation>
-<translation id="7970576581263377361">Аныктыгы текшерилбей калды. Chromium'га кайра кириңиз.</translation>
+<translation id="7970576581263377361">Аныктыгы текшерилбей калды. GTx Browser'га кайра кириңиз.</translation>
 <translation id="7981525049612125370">Аралыктагы сеанстын мөөнөтү өтүп кетти.</translation>
 <translation id="8038111231936746805">(демейки)</translation>
 <translation id="8041089156583427627">Пикириңизди билдириңиз</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">"<ph name="PRODUCT_NAME" />" кызматына "Экранды жаздырууга" уруксат берүү</translation>
 <translation id="9213184081240281106">Жараксыз хост конфигурациясы.</translation>
 <translation id="981121421437150478">Офлайн</translation>
-<translation id="985602178874221306">Chromium'дун авторлору</translation>
+<translation id="985602178874221306">GTx Browser'дун авторлору</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (акыркы жолу онлайн <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

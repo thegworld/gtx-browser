@@ -105,7 +105,7 @@ world-readable (Googlers only):
   5. Save
 
 The next steps require that you have the full Chrome OS source code
-checked out and you're in your chroot. See the Chromium OS Developer Guide
+checked out and you're in your chroot. See the GTx Browser OS Developer Guide
 for instructions:
 
 https://chromium.googlesource.com/chromiumos/docs/+/main/developer_guide.md

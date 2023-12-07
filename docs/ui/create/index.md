@@ -1,4 +1,4 @@
-# Creating with Chromium UI
+# Creating with GTx Browser UI
 
 # Examples
 

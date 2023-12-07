@@ -17,7 +17,7 @@ The static analyzer can still be invoked with [clang-tidy](clang_tidy.md).
 ## Recommended checks
 Clang's static analyzer comes with a wide variety of checkers. Some of the
 checks aren't useful because they are intended for different languages,
-platforms, or coding conventions than the ones used for Chromium development.
+platforms, or coding conventions than the ones used for GTx Browser development.
 
 Checkers we found useful were:
 
@@ -31,7 +31,7 @@ As of this writing, the checker suites we support are
 [cplusplus](https://clang-analyzer.llvm.org/available_checks.html#cplusplus_checkers), and
 [deadcode](https://clang-analyzer.llvm.org/available_checks.html#deadcode_checkers).
 
-To easily run these checks against Chromium code via clang-tidy, follow
+To easily run these checks against GTx Browser code via clang-tidy, follow
 [these](clang_tidy.md#evaluating_running-clang_tidy-across-chromium)
 instructions to pull down `tricium_clang_tidy.py` and then pass the following
 argument when invoking the script (`-*` disables all checks and then the
@@ -72,6 +72,6 @@ detailed information about how the annotations are implemented.
 
 ## Logging bugs
 
-If you find any issues with the static analyzer, or find Chromium code behaving
+If you find any issues with the static analyzer, or find GTx Browser code behaving
 badly with the analyzer, please check the `Infra>CodeAnalysis` CrBug component
 to look for known issues, or file a bug if it is a new problem.

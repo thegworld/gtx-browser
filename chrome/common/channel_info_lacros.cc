@@ -105,7 +105,7 @@ std::string GetDesktopName(base::Environment* env) {
   std::string name;
   if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
     return name;
-  return "chromium-browser.desktop";
+  return "gtx-browser.desktop";
 #endif
 }
 

@@ -115,7 +115,7 @@
 <translation id="2926676257163822632">취약한 비밀번호는 추측하기 쉽습니다. Chrome에서 <ph name="BEGIN_LINK" />안전한 비밀번호를 생성하고 기억하도록 설정<ph name="END_LINK" />하세요.</translation>
 <translation id="2926952073016206995">Chrome에서 사이트에 대한 카메라 권한이 필요합니다.</translation>
 <translation id="2928420929544864228">설치가 완료되었습니다.</translation>
-<translation id="2929907241665500097">문제가 발생하여 Chromium을 업데이트할 수 없습니다. <ph name="BEGIN_LINK" />Chrome 업데이트 문제 및 업데이트 실패 문제 해결하기<ph name="END_LINK" /></translation>
+<translation id="2929907241665500097">문제가 발생하여 GTx Browser을 업데이트할 수 없습니다. <ph name="BEGIN_LINK" />Chrome 업데이트 문제 및 업데이트 실패 문제 해결하기<ph name="END_LINK" /></translation>
 <translation id="2969728957078202736"><ph name="PAGE_TITLE" /> - 네트워크 로그인 - Chrome</translation>
 <translation id="3019382870990049182">다시 실행하여 ChromeOS Flex 업데이트(&amp;C)</translation>
 <translation id="3033660625209020231">{NUM_DEVICES,plural, =0{Chrome 확장 프로그램에서 HID 기기에 액세스함}=1{Chrome 확장 프로그램에서 HID 기기에 액세스하는 중}other{Chrome 확장 프로그램에서 #대의 HID 기기에 액세스하는 중}}</translation>

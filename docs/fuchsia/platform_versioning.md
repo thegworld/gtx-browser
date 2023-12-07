@@ -15,5 +15,5 @@ true:
 2. The binaries are intended to ship on an older release of Fuchsia.
 
 For instance, if M97 is shipped on a Fuchsia release that only supports API
-level up to 5, the target API level cannot be updated in Chromium until M97
+level up to 5, the target API level cannot be updated in GTx Browser until M97
 branch is cut.

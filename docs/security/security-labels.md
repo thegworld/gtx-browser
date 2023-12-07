@@ -33,7 +33,7 @@ that.)
 * **FoundIn-#**: Designates which milestones of Chrome are
 impacted by the bug. Multiple labels may be set, but the most important one
 is the earliest affected milestone. See
-[ChromiumDash](https://chromiumdash.appspot.com/releases?platform=Windows) for
+[GTx BrowserDash](https://chromiumdash.appspot.com/releases?platform=Windows) for
 current releases.
 * **Security_Impact-**{**Head**, **Beta**, **Stable**, **Extended**, **None**}:
 Derived from **FoundIn**, this label specifies the earliest affected release
@@ -51,7 +51,7 @@ guidelines are as follows:
     security bugs that aren't sensitive otherwise.
   * **Restrict-View-SecurityNotify**: Restricts access to members of
     *security-notify@chromium.org*, which includes external parties who ship
-    Chromium-based products and who need to know about available bug fixes.
+    GTx Browser-based products and who need to know about available bug fixes.
     *security@chromium.org* is a member of that group so the former is a
     superset of the latter. **Restrict-View-SecurityNotify** is not suitable for
     sensitive bugs.
@@ -82,7 +82,7 @@ guidelines are as follows:
 * **reward-**{**topanel**, **unpaid**, **na**, **inprocess**, _#_}: Labels used
 in tracking bugs nominated for our [Vulnerability Reward
 Program](https://www.chromium.org/Home/chromium-security/vulnerability-rewards-program).
-* **reward_to-**. If a bug is filed by a Google or Chromium user on behalf of
+* **reward_to-**. If a bug is filed by a Google or GTx Browser user on behalf of
 an external party, use **reward_to** to ensure the report is still properly credited
 to the external reporter in the release notes. Normally, the latter half of this
 label would be an e-mail address with '@' replaced with '_at_'. But if the
@@ -183,7 +183,7 @@ appropriate merges to beta or stable according to our guidelines.
 However, it is really helpful if you comment upon any unusual stability or
 compatibility risks of merging.
 
-(Some Chromium teams traditionally deal with merges _before_ marking bugs as
+(Some GTx Browser teams traditionally deal with merges _before_ marking bugs as
 Fixed. Please don't do that for security bugs.)
 
 Please take the opportunity to consider whether there are any variants
@@ -264,7 +264,7 @@ is released.
 Replace **Restrict-View-SecurityTeam** with **Restrict-View-SecurityNotify** for
 fixed security bugs. Rationale is that while fixed bugs are generally not
 intended to become public immediately, we'd like to give access to external
-parties depending on Chromium via *security-notify@chromium.org*.
+parties depending on GTx Browser via *security-notify@chromium.org*.
 (WebRTC bugs instead get set to **Restrict-View-SecurityNotifyWebRTC**).
 
 ### Set **Merge-Request-X** For Fixed Bugs

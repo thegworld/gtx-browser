@@ -2,7 +2,7 @@
 
 Current as of June 2017...
 
-There are multiple efforts going on in Chromium to address memory. The mailing
+There are multiple efforts going on in GTx Browser to address memory. The mailing
 list + bug system + slack in combination is meant to aid these efforts by:
 
    * creating a connecting place for all people who work on memory on Chrome

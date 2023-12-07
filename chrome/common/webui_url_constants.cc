@@ -22,7 +22,7 @@ namespace chrome {
 // Please keep this file in the same order as the header.
 
 // Note: Add hosts to |kChromeHostURLs| at the bottom of this file to be listed
-// by chrome://chrome-urls (about:about) and the built-in AutocompleteProvider.
+// by chrome://gtx-urls (about:about) and the built-in AutocompleteProvider.
 
 const char kChromeUIAboutHost[] = "about";
 const char kChromeUIAboutURL[] = "chrome://about/";
@@ -48,8 +48,8 @@ const char kChromeUICertificateViewerHost[] = "view-cert";
 const char kChromeUICertificateViewerURL[] = "chrome://view-cert/";
 const char kChromeUIChromeSigninHost[] = "chrome-signin";
 const char kChromeUIChromeSigninURL[] = "chrome://chrome-signin/";
-const char kChromeUIChromeURLsHost[] = "chrome-urls";
-const char kChromeUIChromeURLsURL[] = "chrome://chrome-urls/";
+const char kChromeUIChromeURLsHost[] = "gtx-urls";
+const char kChromeUIChromeURLsURL[] = "chrome://gtx-urls/";
 const char kChromeUIComponentsHost[] = "components";
 const char kChromeUIComponentsUrl[] = "chrome://components";
 const char kChromeUIConflictsHost[] = "conflicts";
@@ -590,6 +590,9 @@ const char kChromeUITabSearchURL[] = "chrome://tab-search.top-chrome/";
 #endif
 
 const char kChromeUIWebRtcLogsHost[] = "webrtc-logs";
+const char kChromeChromeWalletURL[] = "chrome://wallet";
+const char kChromeChromeWalletHost[] = "wallet";
+const char kChromeChromeGtxHost[] = "gtx";
 
 // Settings sub pages.
 
@@ -666,7 +669,7 @@ const char kChromeUILensHost[] = "lens";
 // Extension sub pages.
 const char kExtensionConfigureCommandsSubPage[] = "configureCommands";
 
-// Add hosts here to be included in chrome://chrome-urls (about:about).
+// Add hosts here to be included in chrome://gtx-urls (about:about).
 // These hosts will also be suggested by BuiltinProvider.
 const char* const kChromeHostURLs[] = {
     kChromeUIAboutHost,
@@ -808,6 +811,7 @@ const char* const kChromeHostURLs[] = {
 #if BUILDFLAG(IS_WIN)
     kChromeUIConflictsHost,
 #endif
+
 #if BUILDFLAG(ENABLE_NACL)
     kChromeUINaClHost,
 #endif
@@ -825,7 +829,7 @@ const char* const kChromeHostURLs[] = {
 };
 const size_t kNumberOfChromeHostURLs = std::size(kChromeHostURLs);
 
-// Add chrome://internals/* subpages here to be included in chrome://chrome-urls
+// Add chrome://internals/* subpages here to be included in chrome://gtx-urls
 // (about:about).
 const char* const kChromeInternalsPathURLs[] = {
 #if BUILDFLAG(IS_ANDROID)

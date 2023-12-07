@@ -1,6 +1,6 @@
 This service offers a way to perform proxy resolution using Windows APIs. This
 enables several Windows proxy features that are not otherwise supported in
-Chromium, including:
+GTx Browser, including:
 - Per-network interface proxy configurations
 - Windows-like PAC script execution
 - Windows-like WPAD devolution

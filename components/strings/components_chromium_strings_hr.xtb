@@ -2,12 +2,12 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="hr">
 <translation id="130631256467250065">Promjene će početi vrijediti sljedeći put kad ponovo pokrenete uređaj.</translation>
-<translation id="275588974610408078">Prijavljivanje padova nije dostupno u pregledniku Chromium.</translation>
-<translation id="3064346599913645280">Gledate sigurnu stranicu Chromiuma</translation>
-<translation id="358997566136285270">Logotip Chromiuma</translation>
-<translation id="4365115785552740256">Chromium omogućuju projekt utemeljen na otvorenom kôdu <ph name="BEGIN_LINK_CHROMIUM" />Chromium<ph name="END_LINK_CHROMIUM" /> i drugi <ph name="BEGIN_LINK_OSS" />softveri utemeljeni na otvorenom kôdu<ph name="END_LINK_OSS" />.</translation>
+<translation id="275588974610408078">Prijavljivanje padova nije dostupno u pregledniku GTx Browser.</translation>
+<translation id="3064346599913645280">Gledate sigurnu stranicu GTx Browsera</translation>
+<translation id="358997566136285270">Logotip GTx Browsera</translation>
+<translation id="4365115785552740256">GTx Browser omogućuju projekt utemeljen na otvorenom kôdu <ph name="BEGIN_LINK_CHROMIUM" />GTx Browser<ph name="END_LINK_CHROMIUM" /> i drugi <ph name="BEGIN_LINK_OSS" />softveri utemeljeni na otvorenom kôdu<ph name="END_LINK_OSS" />.</translation>
 <translation id="4559775032954821361">Idite na
-          izbornik Chromium &gt;
+          izbornik GTx Browser &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -16,21 +16,21 @@
           &gt;
           Postavke LAN-a
           i poništite odabir potvrdnog okvira "Upotrijebi proxy poslužitelj za LAN".</translation>
-<translation id="4622039161600275920">Chromium je blokirao ovu stranicu</translation>
-<translation id="48558539577516920">U postavkama vatrozida ili antivirusnog programa omogućite Chromiumu da pristupa mreži.</translation>
+<translation id="4622039161600275920">GTx Browser je blokirao ovu stranicu</translation>
+<translation id="48558539577516920">U postavkama vatrozida ili antivirusnog programa omogućite GTx Browseru da pristupa mreži.</translation>
 <translation id="580822234363523061">Idite na
-          izbornik Chromium &gt;
+          izbornik GTx Browser &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
           &gt;
           <ph name="PROXIES_TITLE" />
           i provjerite je li konfiguracija postavljena na "bez proxyja" ili "izravno".</translation>
-<translation id="6549378540556750549">Chromium je omogućio i drugi <ph name="BEGIN_LINK_OSS" />softver otvorenog izvornog koda<ph name="END_LINK_OSS" />.</translation>
-<translation id="6613594504749178791">Promjene će početi vrijediti sljedeći put kad ponovo pokrenete Chromium.</translation>
-<translation id="7681937895330411637">Chromium je omogućio <ph name="BEGIN_LINK_CHROMIUM" />Chromium<ph name="END_LINK_CHROMIUM" />, projekt otvorenog izvornog koda.</translation>
+<translation id="6549378540556750549">GTx Browser je omogućio i drugi <ph name="BEGIN_LINK_OSS" />softver otvorenog izvornog koda<ph name="END_LINK_OSS" />.</translation>
+<translation id="6613594504749178791">Promjene će početi vrijediti sljedeći put kad ponovo pokrenete GTx Browser.</translation>
+<translation id="7681937895330411637">GTx Browser je omogućio <ph name="BEGIN_LINK_CHROMIUM" />GTx Browser<ph name="END_LINK_CHROMIUM" />, projekt otvorenog izvornog koda.</translation>
 <translation id="7861509383340276692">Otvorite
-        izbornik Chromiuma &gt;
+        izbornik GTx Browsera &gt;
         <ph name="SETTINGS_TITLE" />
         &gt;
         <ph name="ADVANCED_TITLE" />
@@ -40,5 +40,5 @@
 <translation id="8187289872471304532">Idite na
           Aplikacije &gt; Postavke sustava &gt; Mreža &gt; Napredno &gt; Proxy poslužitelji
           i poništite odabir proxy poslužitelja.</translation>
-<translation id="8684913864886094367">Chromium se nije ispravno zatvorio.</translation>
+<translation id="8684913864886094367">GTx Browser se nije ispravno zatvorio.</translation>
 </translationbundle>

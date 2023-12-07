@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Պրոտոկոլի տարբերակը համատեղելի չէ: Համոզվեք, որ երկու համակարգիչների վրա ծրագրակազմը թարմացված է վերջին տարբերակով և նորից փորձեք:</translation>
 <translation id="1008557486741366299">Հիմա չէ</translation>
 <translation id="1201402288615127009">Հաջորդը</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors։ Բոլոր իրավունքները պահպանված են։</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors։ Բոլոր իրավունքները պահպանված են։</translation>
 <translation id="1297009705180977556">Չհաջողվեց միանալ <ph name="HOSTNAME" /> խնամորդին</translation>
 <translation id="1450760146488584666">Հարցված օբյեկտը գոյություն չունի:</translation>
 <translation id="1480046233931937785">Կրեդիտներ</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Մուտքագրեք ձեր PIN-ը հեռակա համակարգչի համար:</translation>
 <translation id="7895403300744144251">Հեռակա համակարգչի անվտանգության քաղաքականությունը թույլ չի տալիս միանալ ձեր հաշվից:</translation>
 <translation id="7936528439960309876">Ամրակցել աջ կողմում</translation>
-<translation id="7970576581263377361">Նույնականացումը չհաջողվեց: Նորից մուտք գործեք Chromium:</translation>
+<translation id="7970576581263377361">Նույնականացումը չհաջողվեց: Նորից մուտք գործեք GTx Browser:</translation>
 <translation id="7981525049612125370">Հեռակա աշխատաշրջանի ժամկետը սպառվել է:</translation>
 <translation id="8038111231936746805">(կանխադրված)</translation>
 <translation id="8041089156583427627">Կարծիք հայտնել</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Տրամադրեք «Էկրանի տեսագրման» թույլտվություն <ph name="PRODUCT_NAME" />ին</translation>
 <translation id="9213184081240281106">Հանգույցի կազմաձևումն անվավեր է:</translation>
 <translation id="981121421437150478">Անցանց</translation>
-<translation id="985602178874221306">Chromium Authors</translation>
+<translation id="985602178874221306">GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (վերջին անգամ առցանց է եղել <ph name="DATE_OR_TIME" />-ին)</translation>
 </translationbundle>

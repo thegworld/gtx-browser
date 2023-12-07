@@ -12,7 +12,7 @@ The GPU Telemetry-based integration tests (tests that use the
 `telemetry_gpu_integration_test` target)
 [utilize expectation files](gpu_expectations) in order to define when certain
 tests should not be run or are expected to fail. The core expectation format is
-defined by [typ](typ_expectations), although there are some Chromium-specific
+defined by [typ](typ_expectations), although there are some GTx Browser-specific
 extensions as well. Each expectation consists of the following fields, separated
 by a space:
 
@@ -189,12 +189,12 @@ websocket message", prefer to use a `Slow` expectation first over a `Failure` or
 
 ## Extensions
 
-In addition to the normal expectation functionality, Chromium has several
+In addition to the normal expectation functionality, GTx Browser has several
 extensions to the expectation file format.
 
 ### Unexpected Pass Finder Annotations
 
-Chromium has several unexpected pass finder scripts (sometimes called stale
+GTx Browser has several unexpected pass finder scripts (sometimes called stale
 expectation removers) to automatically reclaim test coverage by modifying
 expectation files. These mostly work as intended, but can occasionally make
 changes that don't align with what we actually want. Thus, there are several

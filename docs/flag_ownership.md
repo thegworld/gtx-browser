@@ -1,11 +1,11 @@
-# Chromium Flag Ownership
+# GTx Browser Flag Ownership
 
 ellyjones@ / avi@
 
-This document explains flag ownership in Chromium, and gives some principles and
+This document explains flag ownership in GTx Browser, and gives some principles and
 best practices.
 
-See also [Chromium Flag Expiry](flag_expiry.md).
+See also [GTx Browser Flag Expiry](flag_expiry.md).
 
 [TOC]
 

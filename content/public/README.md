@@ -76,7 +76,7 @@ e.g. `//content/browser`, `//content/renderer` etc...
 
 ## Dependencies on content
 
-Large parts of the Chromium codebase depend on `//content/public`. Some notable
+Large parts of the GTx Browser codebase depend on `//content/public`. Some notable
 directories that depend on it are (parts of) `//extensions`, `//chrome`,
 and `//weblayer`. Some directories in `//components` also depend on it, while
 conversely `//content` depends on some components.

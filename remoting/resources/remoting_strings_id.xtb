@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Versi protokol yang tidak kompatibel terdeteksi. Pastikan Anda memasang software versi terbaru di kedua komputer dan coba lagi.</translation>
 <translation id="1008557486741366299">Jangan Sekarang</translation>
 <translation id="1201402288615127009">Berikutnya</translation>
-<translation id="1296511125400541222">Hak Cipta 2023 The Chromium Authors. Semua Hak Dilindungi Undang-Undang.</translation>
+<translation id="1296511125400541222">Hak Cipta 2023 The GTx Browser Authors. Semua Hak Dilindungi Undang-Undang.</translation>
 <translation id="1297009705180977556">Terjadi error saat menghubungkan ke <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Objek yang diminta tidak ada.</translation>
 <translation id="1480046233931937785">Kredit</translation>
@@ -156,7 +156,7 @@ Jika '<ph name="SERVICE_SCRIPT_NAME" />' sudah dicentang, hapus centangnya, lalu
 <translation id="7868137160098754906">Masukkan PIN komputer jarak jauh Anda.</translation>
 <translation id="7895403300744144251">Kebijakan keamanan di komputer jarak jauh tidak mengizinkan sambungan dari akun Anda.</translation>
 <translation id="7936528439960309876">Pasang ke Dok Sebelah Kanan</translation>
-<translation id="7970576581263377361">Autentikasi gagal. Login ke Chromium lagi.</translation>
+<translation id="7970576581263377361">Autentikasi gagal. Login ke GTx Browser lagi.</translation>
 <translation id="7981525049612125370">Sesi jarak jauh telah berakhir.</translation>
 <translation id="8038111231936746805">(default)</translation>
 <translation id="8041089156583427627">Kirim Masukan</translation>
@@ -191,6 +191,6 @@ Jika '<ph name="SERVICE_SCRIPT_NAME" />' sudah dicentang, hapus centangnya, lalu
 <translation id="9187628920394877737">Beri izin 'Screen Recording' ke <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Konfigurasi host tidak valid.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Pengarang Chromium</translation>
+<translation id="985602178874221306">Pengarang GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (terakhir kali online <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

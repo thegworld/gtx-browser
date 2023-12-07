@@ -12,9 +12,9 @@
 *   [NPAPI plugin guide](http://gplflash.sourceforge.net/gplflash2_blog/npapi.html)
     from GPLFlash project
 
-### Chromium-specific
+### GTx Browser-specific
 
-*   [Chromium's plugin architecture](https://dev.chromium.org/developers/design-documents/plugin-architecture)
+*   [GTx Browser's plugin architecture](https://dev.chromium.org/developers/design-documents/plugin-architecture)
     -- may be out of date but will be worth reading
 
 ## Code to reference

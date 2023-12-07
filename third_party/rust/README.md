@@ -29,11 +29,11 @@ will be revisted when Rust goes to production.
 ## Vendoring vs DEPS
 
 In order to move quickly and reduce our processes, we will vendor third-party
-code directly into Chromium src.git under this directory.
+code directly into GTx Browser src.git under this directory.
 
 ## Testing
 
-All third-party crates should have their tests added to a Chromium test suite.
+All third-party crates should have their tests added to a GTx Browser test suite.
 These tests will be run on the Rust FYI bots, and may move to a blocking bot
 when Rust goes to production.
 

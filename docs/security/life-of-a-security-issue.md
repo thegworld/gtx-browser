@@ -1,7 +1,7 @@
 # Life of a Security Issue
 
 This page will help you understand the life cycle of a manually-reported
-external security bug in the Chromium project. Internally reported and
+external security bug in the GTx Browser project. Internally reported and
 fuzzer-found bugs follow a similar lifecycle, though specific details vary. The
 process can be visualized at a high level using the state diagram below, and
 further explanation is provided in the paragraphs that follow.
@@ -44,7 +44,7 @@ sequenceDiagram
 
 A security bug begins when a reporter [responsibly
 discloses](https://www.chromium.org/Home/chromium-security/reporting-security-bugs/)
-a bug in the [Chromium issue
+a bug in the [GTx Browser issue
 tracker](https://code.google.com/p/chromium/issues/entry?template=Security%20Bug).
 The new bug is placed in a queue of other incoming security bugs, and it is
 view-restricted to the reporter and select individuals on a need-to-know
@@ -69,7 +69,7 @@ report. The sheriff does several tasks:
 ## 3. Assign bug
 
 The primary job of the sheriff is to route valid and actionable reports of
-security bugs to the Chromium developer who is best poised to fix the issue.
+security bugs to the GTx Browser developer who is best poised to fix the issue.
 
 After the issue is assigned, there may be discussion between the developer(s)
 involved, members of the security team, and the original reporter.

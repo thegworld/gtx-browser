@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Versi protokol yang tidak serasi telah dikesan. Sila pastikan bahawa anda telah memasang versi terkini perisian pada kedua-dua komputer dan cuba lagi.</translation>
 <translation id="1008557486741366299">Bukan Sekarang</translation>
 <translation id="1201402288615127009">Seterusnya</translation>
-<translation id="1296511125400541222">Hak Cipta 2023 The Chromium Authors. Hak Cipta Terpelihara.</translation>
+<translation id="1296511125400541222">Hak Cipta 2023 The GTx Browser Authors. Hak Cipta Terpelihara.</translation>
 <translation id="1297009705180977556">Ralat menyambung ke <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Objek yang diminta tidak wujud.</translation>
 <translation id="1480046233931937785">Kredit</translation>
@@ -156,7 +156,7 @@ Jika '<ph name="SERVICE_SCRIPT_NAME" />' telah pun ditandai, nyahtandai dan tand
 <translation id="7868137160098754906">Sila masukkan PIN anda untuk komputer jauh.</translation>
 <translation id="7895403300744144251">Dasar keselamatan pada komputer jauh tidak membenarkan sambungan daripada akaun anda.</translation>
 <translation id="7936528439960309876">Dokkan di Kanan</translation>
-<translation id="7970576581263377361">Pengesahan gagal. Sila log masuk ke Chromium sekali lagi.</translation>
+<translation id="7970576581263377361">Pengesahan gagal. Sila log masuk ke GTx Browser sekali lagi.</translation>
 <translation id="7981525049612125370">Sesi jauh telah tamat tempoh.</translation>
 <translation id="8038111231936746805">(lalai)</translation>
 <translation id="8041089156583427627">Hantar Maklum Balas</translation>
@@ -191,6 +191,6 @@ Jika '<ph name="SERVICE_SCRIPT_NAME" />' telah pun ditandai, nyahtandai dan tand
 <translation id="9187628920394877737">Berikan kebenaran 'Perakaman Skrin' kepada <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Konfigurasi hos tidak sah.</translation>
 <translation id="981121421437150478">Luar talian</translation>
-<translation id="985602178874221306">Pengarang Chromium</translation>
+<translation id="985602178874221306">Pengarang GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (kali terakhir dalam talian <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

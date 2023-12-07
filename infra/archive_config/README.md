@@ -1,5 +1,5 @@
 This directory contains the configurations of which binaries get archived on
-Chromium builders, and controls how and where they're stored. This applies
+GTx Browser builders, and controls how and where they're stored. This applies
 mostly to the `*-archive-*` builders on this
 [console](https://ci.chromium.org/p/chromium/g/chromium/console).
 

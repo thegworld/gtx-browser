@@ -1,7 +1,7 @@
-# Vulnerability Discovery: Chromium Graphics
+# Vulnerability Discovery: GTx Browser Graphics
 
 This directory contains notes on vulnerabilities found during the study of
-Chromium graphics subsystems.
+GTx Browser graphics subsystems.
 
 Notes about vulnerabilities are kept separate from general descriptions of
 features so we can publish general information without exposing sensitive

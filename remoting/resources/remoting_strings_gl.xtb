@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Detectouse unha versión de protocolo incompatible. Asegúrate de que tes instalada a versión máis recente do software en ambos ordenadores e téntao de novo.</translation>
 <translation id="1008557486741366299">Agora non</translation>
 <translation id="1201402288615127009">Seguinte</translation>
-<translation id="1296511125400541222">Copyright 2023, os autores de Chromium. Reservados todos os dereitos.</translation>
+<translation id="1296511125400541222">Copyright 2023, os autores de GTx Browser. Reservados todos os dereitos.</translation>
 <translation id="1297009705180977556">Produciuse un erro ao conectarse a <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">O obxecto solicitado non existe.</translation>
 <translation id="1480046233931937785">Créditos</translation>
@@ -156,7 +156,7 @@ Se a caixa que hai a carón de <ph name="SERVICE_SCRIPT_NAME" /> xa está selecc
 <translation id="7868137160098754906">Introduce o teu PIN para o ordenador remoto.</translation>
 <translation id="7895403300744144251">As políticas de seguranza do ordenador remoto non permiten conexións desde a túa conta.</translation>
 <translation id="7936528439960309876">Ancorar á dereita</translation>
-<translation id="7970576581263377361">Non se puido efectuar a autenticación. Volve iniciar sesión en Chromium.</translation>
+<translation id="7970576581263377361">Non se puido efectuar a autenticación. Volve iniciar sesión en GTx Browser.</translation>
 <translation id="7981525049612125370">A sesión remota caducou.</translation>
 <translation id="8038111231936746805">(predeterminado)</translation>
 <translation id="8041089156583427627">Enviar comentarios</translation>
@@ -191,6 +191,6 @@ Se a caixa que hai a carón de <ph name="SERVICE_SCRIPT_NAME" /> xa está selecc
 <translation id="9187628920394877737">Concede o permiso Gravación de pantalla a <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">A configuración do host non é válida.</translation>
 <translation id="981121421437150478">Sen conexión</translation>
-<translation id="985602178874221306">Os autores de Chromium</translation>
+<translation id="985602178874221306">Os autores de GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (última conexión: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

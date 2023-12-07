@@ -1,11 +1,11 @@
-# Chromium Updater Design Document
+# GTx Browser Updater Design Document
 
-This is the design document for [Chromium Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
+This is the design document for [GTx Browser Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
 
 [TOC]
 
 ## Overview
-Chromium updater is an program that keeps itself and other programs up to date
+GTx Browser updater is an program that keeps itself and other programs up to date
 by downloading new versions of software over the Internet. The updater is an
 open-source drop-in replacement for Google Update/Omaha and can be customized
 by 3rd party embedders for updating non-Google client software.
@@ -228,7 +228,7 @@ Google Chrome installs an
 ### UI Strings & Localization
 The strings for the metainstaller live in the //chrome/app/chromium_strings.grd
 and //chrome/app/google_chrome_strings.grd files. This allows the updater
-strings to utilize the Chromium repo's translation process instead of generating
+strings to utilize the GTx Browser repo's translation process instead of generating
 its own. Having it in existing grd files also eliminates the need to onboard
 updater specific grd files.
 
@@ -291,8 +291,8 @@ behavior of the updater to facilitate testing it.
 
 Some tests require two versions of the updater. For this reason, an older
 version of the updater is checked into `//third_party/updater`. Updaters for
-each architecture and platform, Google-branded and Chromium-branded, are
-available there. These versions of the updater are sourced from Chromium or
+each architecture and platform, Google-branded and GTx Browser-branded, are
+available there. These versions of the updater are sourced from GTx Browser or
 Google's official build output, brought in through CIPD and 3pp.
 
 The updater has its own
@@ -883,14 +883,14 @@ alongside the existing `internal` service for the current version. This internal
 service is named in the following format:
 
 {ProductName}{InternalService/Service}{UpdaterVersion}.
-For instance: ChromiumUpdaterInternalService92.0.0.1.
+For instance: GTx BrowserUpdaterInternalService92.0.0.1.
 
 The internal service supports the SxS COM interfaces, but not the common COM
 interfaces. The latter interfaces are hosted only by the active version in a
-service that is named in the format ChromiumUpdaterService91.0.0.1.
+service that is named in the format GTx BrowserUpdaterService91.0.0.1.
 
 Once the new version is deemed operational, it will install the new active
-service, ChromiumUpdaterService92.0.0.1, and this service will take over the
+service, GTx BrowserUpdaterService92.0.0.1, and this service will take over the
 common COM interfaces. The old version will now uninstall itself, including its
 internal and active services.
 
@@ -921,7 +921,7 @@ considers it uninstalled and ceases attempting to update it.
 ### Periodic Task Scheduling
 On Mac, the scheduler is implemented via LaunchAgents (for user-level installs)
 and LaunchDaemons (for system-level installs). The scheduled task is defined by
-the `org.chromium.ChromiumUpdater.wake.plist`, which contains a Label
+the `org.chromium.GTx BrowserUpdater.wake.plist`, which contains a Label
 corresponding to the name of the plist, program arguments, which contains the
 path to the executable and the arguments it'll run with, and a StartInterval,
 which denotes interval for when launchctl should invoke the program. An example:
@@ -934,12 +934,12 @@ which denotes interval for when launchctl should invoke the program. An example:
 	<key>AbandonProcessGroup</key>
 	<true/>
 	<key>Label</key>
-	<string>org.chromium.ChromiumUpdater.wake</string>
+	<string>org.chromium.GTx BrowserUpdater.wake</string>
 	<key>LimitLoadToSessionType</key>
 	<string>Aqua</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/user/Library/Chromium/ChromiumUpdater/1.2.3.4/ChromiumUpdater.app/Contents/MacOS/ChromiumUpdater</string>
+		<string>/Users/user/Library/GTx Browser/GTx BrowserUpdater/1.2.3.4/GTx BrowserUpdater.app/Contents/MacOS/GTx BrowserUpdater</string>
 		<string>--wake-all</string>
 		<string>--vmodule=*/chrome/updater/*=2,*/components/update_client/*=2</string>
 		<string>--enable-logging</string>
@@ -1004,7 +1004,7 @@ On macOS, the updater uses NSURLSession to implement the network.
 
 The global preferences lock is implemented using a pthread mutex in shared
 memory. Qualifying updaters will attempt to open a POSIX shared memory object
-with a name known at compile time (e.g. `/ChromiumUpdater.lock`), creating the
+with a name known at compile time (e.g. `/GTx BrowserUpdater.lock`), creating the
 object if it does not exist. The mutex will be configured with the
 `PTHREAD_MUTEX_ROBUST` attribute to ensure that it remains recoverable if the
 process holding the lock exits abnormally.
@@ -1033,7 +1033,7 @@ system per updater branding and is around 40 bytes.
 The updater is installed to subdirectories of `/opt/` for system-scope
 installations and `~/.local` for user-scope. Subdirectory naming is determined
 by updater branding. E.g. an unbranded user-scope updater will be installed to
-`~/.local/Chromium/ChromiumUpdater.` The installation directory will contain
+`~/.local/GTx Browser/GTx BrowserUpdater.` The installation directory will contain
 subdirectories for each installed updater version and data files.
 
 

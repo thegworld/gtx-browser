@@ -1,7 +1,7 @@
-# Chromium Updater Test Plan
+# GTx Browser Updater Test Plan
 
 This is the test plan for
-[Chromium Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
+[GTx Browser Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
 
 It should be read in conjunction with the
 [functional specification](functional_spec.md) to assess functional coverage.
@@ -24,7 +24,7 @@ local tests, this can usually be achieved by running `sudo echo;` before
 running the tests. Updater bots running `updater_tests_system` have specifically
 had passwordless sudo enabled.
 
-On Windows, both UAC-enabled and normal Chromium configurations are tested.
+On Windows, both UAC-enabled and normal GTx Browser configurations are tested.
 
 ## Test Binaries
 To secure updates, the updater contains pinned public keys and update URLs.

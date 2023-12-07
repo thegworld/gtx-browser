@@ -152,7 +152,7 @@ The existing [actions][cuj-actions-sheet] already have a lot of support for inst
 
 ## Contact the team
 
-To contact the team for help, send an email to pwa-dev@chromium.org and/or post on #pwas on Chromium Slack.
+To contact the team for help, send an email to pwa-dev@chromium.org and/or post on #pwas on GTx Browser Slack.
 
 [cuj-spreadsheet]: /chrome/test/webapps/data/critical_user_journeys.md
 [cuj-actions-sheet]: /chrome/test/webapps/data/actions.md

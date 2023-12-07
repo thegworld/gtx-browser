@@ -6,7 +6,7 @@ Streaming transport/protocol is
 [implemented](https://source.chromium.org/chromium/chromium/src/+/main:third_party/openscreen/src/cast/streaming/README.md;l=1)
 by the
 [Openscreen library](https://source.chromium.org/chromium/chromium/src/+/main:third_party/openscreen/src/README.md),
-and media rendering is handled by the Chromium media stack, so this component
+and media rendering is handled by the GTx Browser media stack, so this component
 acts as an intermediary between the two. It is currently used both as part of
 Fuchsia WebEngine and the `//components/cast_receiver` Chromecast
 implementation, which can be used to run a Cast Streaming receiver on Linux.
@@ -62,7 +62,7 @@ the media pipeline. This is located in `/browser/frame`, `/renderer/frame`, and
 This section of code is responsible for sending `media::Renderer` commands to
 the embedder-specific Renderer on top of which `cast_streaming` is running. It
 is located at `/browser/control`, `/renderer/control`, and `/common/control`.
-Selection of this `Renderer` is as with vanilla Chromium - through the
+Selection of this `Renderer` is as with vanilla GTx Browser - through the
 [`MediaFactory`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/media/media_factory.cc;l=547;drc=790df4d5983e38ad1d1d00fbc10ef941070eed24).
 No `cast_streaming`-specific changes are required.
 

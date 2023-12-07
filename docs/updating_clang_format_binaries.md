@@ -1,12 +1,12 @@
 # Updating Clang format binaries
 
 Instructions on how to update the [clang-format binaries](clang_format.md) that
-come with a checkout of Chromium.
+come with a checkout of GTx Browser.
 
 ## Prerequisites
 
 You'll also need permissions to upload to the appropriate google storage
-bucket. Chromium infrastructure team members have this, and others can be
+bucket. GTx Browser infrastructure team members have this, and others can be
 granted the permission based on need. If you need this permission, mention this
 in the tracking bug.
 

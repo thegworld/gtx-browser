@@ -1,12 +1,12 @@
 # Introduction
 
 This component provides the shared Cast receiver implementation that is used by
-various embedders throughout Chromium. It is planned to be used for WebEngine,
+various embedders throughout GTx Browser. It is planned to be used for WebEngine,
 Chromecast hardware, and others.
 
 # Usage
 
-The specifics of integrating this component with an existing Chromium embedder
+The specifics of integrating this component with an existing GTx Browser embedder
 are described below. The canonical implementation of this component can be found
 at
 [`//chromecast/cast_core`](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/cast_core/).
@@ -19,7 +19,7 @@ classes, which use this component to implement a
 
 ## Integration With Existing Code
 
-Integration with an existing Chromium embedder is relateively easy, with only
+Integration with an existing GTx Browser embedder is relateively easy, with only
 a small number of integration points required:
 
 ### Browser-Side Integration
@@ -33,7 +33,7 @@ The
 is used to define the
 [permissions](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/public/common/permissions/permission_utils.h;drc=b8524150039182faf7988e9478a9eff89728ac03;l=23)
 that can be used by a given application. It is integrated into an existing
-Chromium embedder by
+GTx Browser embedder by
 [calling into](https://source.chromium.org/chromium/chromium/src/+/main:chromecast/browser/cast_permission_manager.cc;l=104)
 the
 [PermissionsManager::GetPermissionsStatus()](https://source.chromium.org/chromium/chromium/src/+/main:components/cast_receiver/browser/public/permissions_manager.h;l=37)

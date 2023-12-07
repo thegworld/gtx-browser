@@ -355,7 +355,7 @@
 <translation id="1757773103848038814">Моноширинный шрифт</translation>
 <translation id="1763864636252898013">Не удалось подтвердить, что это сервер <ph name="DOMAIN" />. Операционная система устройства не доверяет его сертификату безопасности. Возможно, сервер настроен неправильно или кто-то пытается перехватить ваши данные.</translation>
 <translation id="1768211456781949159"><ph name="BEGIN_LINK" />Выполните диагностику сети в Windows<ph name="END_LINK" />.</translation>
-<translation id="1774592222195216949">Подробнее <ph name="BEGIN_LINK" />о режиме инкогнито в Chromium<ph name="END_LINK" />…</translation>
+<translation id="1774592222195216949">Подробнее <ph name="BEGIN_LINK" />о режиме инкогнито в GTx Browser<ph name="END_LINK" />…</translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
 <translation id="1791820510173628507"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT" />. Чтобы управлять своими данными, конфиденциальностью и безопасностью в аккаунте Google, нажмите Tab, а затем Ввод.</translation>
@@ -817,7 +817,7 @@
 <translation id="2977665033722899841">Сейчас выбрано – <ph name="ROW_NAME" />. <ph name="ROW_CONTENT" />.</translation>
 <translation id="2978824962390592855">Опера</translation>
 <translation id="2983666748527428214">Открыть вкладку инкогнито</translation>
-<translation id="2985306909656435243">Если функция включена, Chromium будет хранить на этом устройстве данные карты для быстрого заполнения форм.</translation>
+<translation id="2985306909656435243">Если функция включена, GTx Browser будет хранить на этом устройстве данные карты для быстрого заполнения форм.</translation>
 <translation id="2985398929374701810">Укажите действительный адрес.</translation>
 <translation id="2987034854559945715">Совпадений не найдено.</translation>
 <translation id="2989742184762224133">Две скобы сверху</translation>
@@ -991,7 +991,7 @@
 <translation id="3423742043356668186">Использовать системные параметры</translation>
 <translation id="3427092606871434483">Разрешать (по умолчанию)</translation>
 <translation id="3427342743765426898">&amp;Повторить изменения</translation>
-<translation id="342781501876943858">Chromium рекомендует сбросить пароль, если вы использовали его на других сайтах.</translation>
+<translation id="342781501876943858">GTx Browser рекомендует сбросить пароль, если вы использовали его на других сайтах.</translation>
 <translation id="3428151540071562330">Один или несколько серверных шаблонов URI DnsOverHttpsTemplates недействительны и не будут использоваться.</translation>
 <translation id="3431216045099978607">Нажмите |<ph name="ACCELERATOR" />|, чтобы выйти из полноэкранного режима и посмотреть скачанные файлы.</translation>
 <translation id="3432601291244612633">Закрыть страницу</translation>
@@ -1460,7 +1460,7 @@
 <translation id="4556069465387849460">Вы используете блокировку экрана для ввода паролей</translation>
 <translation id="4558551763791394412">Отключите расширения.</translation>
 <translation id="4566017918361049074">Мероприятия на открытом воздухе</translation>
-<translation id="4567686777917670400">Администратор может удаленно менять настройки браузера и управлять действиями вне браузера Chromium на этом устройстве. <ph name="BEGIN_LINK" />Подробнее…<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">Администратор может удаленно менять настройки браузера и управлять действиями вне браузера GTx Browser на этом устройстве. <ph name="BEGIN_LINK" />Подробнее…<ph name="END_LINK" /></translation>
 <translation id="4568329205873177285">Открыть в новом окне список файлов cookie и данных сайтов</translation>
 <translation id="457875822857220463">Доставка</translation>
 <translation id="4582204425268416675">Удалить карту</translation>
@@ -1485,7 +1485,7 @@
 <translation id="4629370161347991046">A4x6</translation>
 <translation id="4631649115723685955">С кешбэком</translation>
 <translation id="4636930964841734540">Информация</translation>
-<translation id="4638670630777875591">Режим инкогнито в Chromium</translation>
+<translation id="4638670630777875591">Режим инкогнито в GTx Browser</translation>
 <translation id="464342062220857295">Функции поиска</translation>
 <translation id="4644670975240021822">В обратном порядке лицевой стороной вниз</translation>
 <translation id="4646534391647090355">Перейти сейчас</translation>
@@ -1527,7 +1527,7 @@
 <translation id="4731638775147756694">Приложение заблокировано администратором.</translation>
 <translation id="4733082559415072992">Сайт <ph name="URL" /> запрашивает данные о местоположении вашего устройства.</translation>
 <translation id="4736491186715342415">Автотранспорт</translation>
-<translation id="4736825316280949806">Перезапустите Chromium.</translation>
+<translation id="4736825316280949806">Перезапустите GTx Browser.</translation>
 <translation id="4736934858538408121">Виртуальная карта</translation>
 <translation id="473775607612524610">Обновить</translation>
 <translation id="4738601419177586157">Подсказка при поиске "<ph name="TEXT" />"</translation>
@@ -1543,7 +1543,7 @@
 <translation id="4754461935447132332">Запрещено для незащищенных сайтов</translation>
 <translation id="4756388243121344051">&amp;История</translation>
 <translation id="4756501505996488486">PRC 16K</translation>
-<translation id="4757993714154412917">Вы только что ввели пароль на поддельном сайте. Чтобы защитить свои аккаунты, проверьте сохраненные пароли в браузере Chromium.</translation>
+<translation id="4757993714154412917">Вы только что ввели пароль на поддельном сайте. Чтобы защитить свои аккаунты, проверьте сохраненные пароли в браузере GTx Browser.</translation>
 <translation id="4758311279753947758">Добавить контактные данные</translation>
 <translation id="4761104368405085019">Использование микрофона</translation>
 <translation id="4761869838909035636">Запустить проверку безопасности</translation>
@@ -1682,7 +1682,7 @@
 <translation id="5087580092889165836">Добавить карту</translation>
 <translation id="5088142053160410913">Сообщение оператору</translation>
 <translation id="5093232627742069661">Фальцовка гармошкой в два сгиба</translation>
-<translation id="5094747076828555589">Не удалось подтвердить, что это сервер <ph name="DOMAIN" />. Chromium не доверяет его сертификату безопасности. Возможно, сервер настроен неправильно или кто-то пытается перехватить ваши данные.</translation>
+<translation id="5094747076828555589">Не удалось подтвердить, что это сервер <ph name="DOMAIN" />. GTx Browser не доверяет его сертификату безопасности. Возможно, сервер настроен неправильно или кто-то пытается перехватить ваши данные.</translation>
 <translation id="5097099694988056070">статистические данные устройства, например об использовании процессора или оперативной памяти;</translation>
 <translation id="5097468150760963273">27 x 39 дюймов</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -2125,7 +2125,7 @@
 <translation id="6203231073485539293">Проверьте подключение к Интернету</translation>
 <translation id="6205314730813004066">Конфиденциальность в рекламе</translation>
 <translation id="6212314149070368045">US Fanfold</translation>
-<translation id="6218753634732582820">Удалить адрес из Chromium?</translation>
+<translation id="6218753634732582820">Удалить адрес из GTx Browser?</translation>
 <translation id="622039917539443112">Двойная параллельная фальцовка</translation>
 <translation id="6221345481584921695">Система Google по проверке безопасности сайтов недавно обнаружила на <ph name="SITE" /> <ph name="BEGIN_LINK" />вредоносное ПО<ph name="END_LINK" />. Его источником является <ph name="SUBRESOURCE_HOST" />, не раз замеченным в распространении вирусов. Будьте внимательны, иногда даже на безопасных сайтах появляются вредоносные программы.</translation>
 <translation id="6221892641068781024">Упрощенный просмотр</translation>
@@ -2179,7 +2179,7 @@
 <translation id="6348220984832452017">Текущие изменения</translation>
 <translation id="6349101878882523185">Установите приложение "<ph name="APP_NAME" />"</translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Нет}=1{1 пароль (для <ph name="DOMAIN_LIST" />, синхронизировано)}=2{2 пароля (для <ph name="DOMAIN_LIST" />, синхронизировано)}one{# пароль (для <ph name="DOMAIN_LIST" />, синхронизировано)}few{# пароля (для <ph name="DOMAIN_LIST" />, синхронизировано)}many{# паролей (для <ph name="DOMAIN_LIST" />, синхронизировано)}other{# пароля (для <ph name="DOMAIN_LIST" />, синхронизировано)}}</translation>
-<translation id="6355392890578844978">Компания или организация не управляет этим браузером. Действиями на этом устройстве можно управлять вне браузера Chromium. <ph name="BEGIN_LINK" />Подробнее…<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">Компания или организация не управляет этим браузером. Действиями на этом устройстве можно управлять вне браузера GTx Browser. <ph name="BEGIN_LINK" />Подробнее…<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">Что это значит?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Проверить настройки прокси-сервера, брандмауэра и безопасного DNS-сервера<ph name="END_LINK" /></translation>
@@ -2206,7 +2206,7 @@
 <translation id="6410264514553301377">Введите срок действия и CVC-код карты <ph name="CREDIT_CARD" /></translation>
 <translation id="6411107829285739505">A4x8</translation>
 <translation id="6414888972213066896">Запрос на просмотр сайта отправлен вашему родителю</translation>
-<translation id="6415778972515849510">Защитите свой аккаунт Google и смените пароль с помощью Chromium.</translation>
+<translation id="6415778972515849510">Защитите свой аккаунт Google и смените пароль с помощью GTx Browser.</translation>
 <translation id="6416877227920300343">EDP</translation>
 <translation id="6425092077175753609">Material design</translation>
 <translation id="6427730057873428458">Фальцовка калиткой в два сгиба</translation>
@@ -2303,7 +2303,7 @@
 <translation id="666259744093848177">(код конвертирован с языка для архитектуры x86_64)</translation>
 <translation id="6665553082534466207">Три отверстия справа</translation>
 <translation id="6668389483194953109">Найден размер бумаги custom, но свойство custom_size не заполнено или недействительно.</translation>
-<translation id="6671697161687535275">Удалить подсказку из Chromium?</translation>
+<translation id="6671697161687535275">Удалить подсказку из GTx Browser?</translation>
 <translation id="6683717648675961851">Вакансии и поиск работы</translation>
 <translation id="6687335167692595844">Размер шрифта запрошен</translation>
 <translation id="6687696737818665306">Театр и драматургия</translation>
@@ -2483,7 +2483,7 @@
 <translation id="7118618213916969306">Поиск по адресу <ph name="SHORT_URL" /> из буфера обмена</translation>
 <translation id="7119414471315195487">Закройте другие вкладки и программы.</translation>
 <translation id="7124354851782353862">Введите CVC-код</translation>
-<translation id="7129355289156517987">Когда вы закроете все вкладки инкогнито в Chromium, с этого устройства будет удалена связанная с ними информация:
+<translation id="7129355289156517987">Когда вы закроете все вкладки инкогнито в GTx Browser, с этого устройства будет удалена связанная с ними информация:
           <ph name="BEGIN_LIST" />
             <ph name="LIST_ITEM" />сведения о действиях в браузере;<ph name="END_LIST_ITEM" />
             <ph name="LIST_ITEM" />история поиска;<ph name="END_LIST_ITEM" />
@@ -2651,7 +2651,7 @@
 <translation id="7497998058912824456">Кнопка "Создать документ". Чтобы быстро создать документ Google, нажмите Ввод.</translation>
 <translation id="7501663406926337752">Сайт, который вы хотите открыть, запрещен вашей организацией</translation>
 <translation id="7501853161948120656">Образовательные ресурсы</translation>
-<translation id="7506488012654002225">В Chromium <ph name="BEGIN_EMPHASIS" />не будет сохраняться<ph name="END_EMPHASIS" /> следующая информация:
+<translation id="7506488012654002225">В GTx Browser <ph name="BEGIN_EMPHASIS" />не будет сохраняться<ph name="END_EMPHASIS" /> следующая информация:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />история браузера;
           <ph name="LIST_ITEM" />файлы cookie и данные сайтов;
@@ -2723,7 +2723,7 @@
 <translation id="7630470133768862132">Статус согласия:</translation>
 <translation id="7631444403134069754">Легкая атлетика</translation>
 <translation id="7633909222644580952">Данные о производительности и отчеты о сбоях</translation>
-<translation id="7637571805876720304">Удалить кредитную карту из Chromium?</translation>
+<translation id="7637571805876720304">Удалить кредитную карту из GTx Browser?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Нет}=1{1 пароль в вашем аккаунте (домены: <ph name="DOMAIN_LIST" />)}one{# пароль в вашем аккаунте (домены: <ph name="DOMAIN_LIST" />)}few{# пароля в вашем аккаунте (домены: <ph name="DOMAIN_LIST" />)}many{# паролей в вашем аккаунте (домены: <ph name="DOMAIN_LIST" />)}other{# пароля в вашем аккаунте (домены: <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Последовательные порты</translation>
 <translation id="7639968568612851608">Темно-серый</translation>
@@ -3101,7 +3101,7 @@
 <translation id="8557066899867184262">CVC-код указан на обратной стороне карты.</translation>
 <translation id="8559762987265718583">Не удалось установить защищенное соединение с доменом <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> из-за неверных настроек системных часов и календаря (<ph name="DATE_AND_TIME" />).</translation>
 <translation id="8564182942834072828">Несколько документов/без разбора по копиям</translation>
-<translation id="8564985650692024650">Chromium рекомендует сбросить пароль, используемый в подразделении <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" />, если вы указывали его на других сайтах.</translation>
+<translation id="8564985650692024650">GTx Browser рекомендует сбросить пароль, используемый в подразделении <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" />, если вы указывали его на других сайтах.</translation>
 <translation id="8576310925653847813">Домашние кинотеатры</translation>
 <translation id="8577348305244205642">Виртуальная карта недоступна</translation>
 <translation id="858637041960032120">Добавьте номер</translation>
@@ -3158,7 +3158,7 @@
 <translation id="8736059027199600831">30 x 40 дюймов</translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />. Нажмите Tab и затем Ввод, чтобы открыть новое окно в режиме инкогнито.</translation>
 <translation id="8737685506611670901">обработку всех ссылок типа "<ph name="PROTOCOL" />" вместо сервиса <ph name="REPLACED_HANDLER_TITLE" /></translation>
-<translation id="8738058698779197622">Для создания безопасного подключения необходимо, чтобы показания системных часов были верны. Причина в том, что сертификаты для идентификации сайтов имеют ограниченный срок действия. Если часы на устройстве неточны, Chromium не может проверить актуальность этих сертификатов.</translation>
+<translation id="8738058698779197622">Для создания безопасного подключения необходимо, чтобы показания системных часов были верны. Причина в том, что сертификаты для идентификации сайтов имеют ограниченный срок действия. Если часы на устройстве неточны, GTx Browser не может проверить актуальность этих сертификатов.</translation>
 <translation id="8740359287975076522">Не удается найти &lt;abbr id="dnsDefinition"&gt;DNS-адрес&lt;/abbr&gt; сайта <ph name="HOST_NAME" />. Выполняется диагностика.</translation>
 <translation id="8742371904523228557">Ваш код для сервиса <ph name="ORIGIN" />: <ph name="ONE_TIME_CODE" />.</translation>
 <translation id="874918643257405732">Добавить страницу в закладки</translation>
@@ -3301,7 +3301,7 @@
 <translation id="9096679202588811390">Телевизионные шоу и программы</translation>
 <translation id="9101630580131696064">Лоток 1</translation>
 <translation id="9103537084693478942">ПО для работы с видео</translation>
-<translation id="9103872766612412690">На сайте <ph name="SITE" /> для защиты ваших данных обычно используется шифрование. Однако учетные данные, которые мы получили от сайта <ph name="SITE" /> сейчас, отличаются от тех, которые он отправляет обычно. Вероятно, вредоносный сайт пытается выдать себя за <ph name="SITE" />, либо страница подключения к сети Wi-Fi прервала соединение. Ваша информация по-прежнему в безопасности, так как браузер Chromium разорвал соединение до того, как произошел обмен данными.</translation>
+<translation id="9103872766612412690">На сайте <ph name="SITE" /> для защиты ваших данных обычно используется шифрование. Однако учетные данные, которые мы получили от сайта <ph name="SITE" /> сейчас, отличаются от тех, которые он отправляет обычно. Вероятно, вредоносный сайт пытается выдать себя за <ph name="SITE" />, либо страница подключения к сети Wi-Fi прервала соединение. Ваша информация по-прежнему в безопасности, так как браузер GTx Browser разорвал соединение до того, как произошел обмен данными.</translation>
 <translation id="9107467864910557787">Вашим браузером управляет <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">Администратор запретил демонстрацию экрана для приложения <ph name="APPLICATION_TITLE" />, когда видны конфиденциальные данные.</translation>
 <translation id="9114524666733003316">Подтверждение карты...</translation>

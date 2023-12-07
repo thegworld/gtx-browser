@@ -1,10 +1,10 @@
-# Chromium Updater Migration Test Instructions
+# GTx Browser Updater Migration Test Instructions
 
-This document describes how to do basic developer testing with [Chromium
+This document describes how to do basic developer testing with [GTx Browser
 Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/)
 on systems or with software that already uses Keystone or Omaha 3. The intended
 audience is Google developers who work on software that uses Keystone (or Omaha
-3) and want to verify that their software works as expected with Chromium
+3) and want to verify that their software works as expected with GTx Browser
 Updater.
 
 ## Step 1: Install Keystone or Omaha 3
@@ -16,7 +16,7 @@ The updater can be installed at either per-user or system-wide scopes; the
 instructions will vary depending on which type of installation your product
 uses.
 
-## Step 2: Opt-In to Chromium Updater Deployment
+## Step 2: Opt-In to GTx Browser Updater Deployment
 On macOS, and with a per-user Keystone (this is common), run:
 ```
 ~/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Helpers/ksadmin -C chromium-updater-opt-in -P com.google.Keystone && ~/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Helpers/ksadmin --install -P com.google.Keystone && sleep 10 && ~/Library/Application\ Support/Google/GoogleUpdater/*/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule="*/updater/*=2"
@@ -45,7 +45,7 @@ Then, run `taskschd.msc`, click `Task Scheduler Library`, and run a
 `%PROGRAMFILES(X86)%\Google\GoogleUpdater\updater.exe --wake --system --enable-logging --vmodule="*/updater/*=2"`
 from an admin command prompt.
 
-## Step 3: Check that Chromium Updater is Installed
+## Step 3: Check that GTx Browser Updater is Installed
 On macOS, check that
 `~/Library/Application Support/Google/GoogleUpdater` (per-user) or
 `/Library/Application Support/Google/GoogleUpdater` (per-system) exists.
@@ -58,8 +58,8 @@ If your software uses any updater APIs (such as checking for updates on-demand,
 or Windows app commands), exercise those APIs and verify that they work as
 expected.
 
-If you installed an old version of your software, verify that Chromium Updater
-can update your software. You can either wait (up to 6 hours) for Chromium
+If you installed an old version of your software, verify that GTx Browser Updater
+can update your software. You can either wait (up to 6 hours) for GTx Browser
 Updater to update it automatically, or you can trigger an early check by
 running:
 
@@ -75,8 +75,8 @@ running:
 (Windows, system-wide) in command prompt running as admin:
 `%PROGRAMFILES(X86)%\Google\GoogleUpdater\*\updater.exe --wake --system --enable-logging --vmodule="*/updater/*=2"`
 
-## Step 5: Removing Chromium Updater
-To remove Chromium Updater from your system, run:
+## Step 5: Removing GTx Browser Updater
+To remove GTx Browser Updater from your system, run:
 
 On macOS, and with a per-user updater, run:
 `~/Library/Application\ Support/Google/GoogleUpdater/*/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --uninstall && rm -rf ~/Library/Google/GoogleSoftwareUpdate`

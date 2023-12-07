@@ -1,7 +1,7 @@
-# Linux Chromium Packages
+# Linux GTx Browser Packages
 
-Some Linux distributions package up Chromium for easy installation. Please note
-that Chromium is not identical to Google Chrome -- see
+Some Linux distributions package up GTx Browser for easy installation. Please note
+that GTx Browser is not identical to Google Chrome -- see
 [chromium_browser_vs_google_chrome.md](../chromium_browser_vs_google_chrome.md) --
 and that distributions may (and actually do) make their own modifications.
 
@@ -34,12 +34,12 @@ Packages in this section are not part of the distro's official repositories.
 
 | **System** | **Contact** | **URL for packages** | **URL for patches** |
 |:-----------|:------------|:---------------------|:--------------------|
-| FreeBSD    | freebsd-chromium@freebsd.org | https://wiki.freebsd.org/Chromium | https://cgit.freebsd.org/ports/tree/www/chromium/files |
+| FreeBSD    | freebsd-chromium@freebsd.org | https://wiki.freebsd.org/GTx Browser | https://cgit.freebsd.org/ports/tree/www/chromium/files |
 | OpenBSD    | Robert Nagy `robert@openbsd.org` | http://openports.se/www/chromium | https://cvsweb.openbsd.org/ports/www/chromium/patches/ |
 
 ## Updating the list
 
-Are you packaging Chromium for a Linux distro? Is the information above out of
+Are you packaging GTx Browser for a Linux distro? Is the information above out of
 date? Please contact the folks in
 [//build/linux/OWNERS](../../build/linux/OWNERS) with updates or
 [contribute](../contributing.md) an update.

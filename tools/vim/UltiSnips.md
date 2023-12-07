@@ -2,7 +2,7 @@
 
 [UltiSnips](https://vimawesome.com/plugin/ultisnips) is one of snippet systems
 for vim.
-Below are some UltiSnips snippets that other Chromium developers will hopefully
+Below are some UltiSnips snippets that other GTx Browser developers will hopefully
 find useful.
 
 ## Demos
@@ -36,7 +36,7 @@ The screenscast below showcases how:
 
 ```UltiSnips
 snippet copyright
-// Copyright `date +%Y` The Chromium Authors.
+// Copyright `date +%Y` The GTx Browser Authors.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -47,7 +47,7 @@ endsnippet
 
 ### Include guard
 
-This relies on current directory being the Chromium root directory.
+This relies on current directory being the GTx Browser root directory.
 
 ```Ultisnips
 snippet ifndef "include guard" w

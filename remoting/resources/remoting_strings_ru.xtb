@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Обнаружена несовместимая версия протокола. Установите на оба компьютера последнюю версию ПО и повторите попытку.</translation>
 <translation id="1008557486741366299">Не сейчас</translation>
 <translation id="1201402288615127009">Далее</translation>
-<translation id="1296511125400541222">© The Chromium Authors, 2023. Все права защищены.</translation>
+<translation id="1296511125400541222">© The GTx Browser Authors, 2023. Все права защищены.</translation>
 <translation id="1297009705180977556">Не удалось подключиться к устройству "<ph name="HOSTNAME" />"</translation>
 <translation id="1450760146488584666">Запрошенный объект не существует.</translation>
 <translation id="1480046233931937785">Авторы</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Введите PIN-код для доступа к удаленному компьютеру.</translation>
 <translation id="7895403300744144251">Правила безопасности на удаленном компьютере запрещают подключение из вашего аккаунта.</translation>
 <translation id="7936528439960309876">Закрепить справа</translation>
-<translation id="7970576581263377361">Ошибка аутентификации. Войдите в Chromium ещё раз.</translation>
+<translation id="7970576581263377361">Ошибка аутентификации. Войдите в GTx Browser ещё раз.</translation>
 <translation id="7981525049612125370">Время сеанса удаленного доступа истекло.</translation>
 <translation id="8038111231936746805">(по умолчанию)</translation>
 <translation id="8041089156583427627">Отправить отзыв</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Предоставьте расширению "<ph name="PRODUCT_NAME" />" разрешение на запись с экрана</translation>
 <translation id="9213184081240281106">Недопустимая конфигурация хоста</translation>
 <translation id="981121421437150478">Офлайн</translation>
-<translation id="985602178874221306">Авторы Chromium</translation>
+<translation id="985602178874221306">Авторы GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (последнее подключение: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

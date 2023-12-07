@@ -46,7 +46,7 @@ e.g.: `./video_encode_accelerator_perf_tests bear_320x192_40frames.yuv.webm`
 
 __Test videos:__ Various test videos are present in the
 [_media/test/data_](https://cs.chromium.org/chromium/src/media/test/data/)
-folder in Chromium's source tree (e.g.
+folder in GTx Browser's source tree (e.g.
 [_bear_320x192_40frames.yuv.webm_](https://cs.chromium.org/chromium/src/media/test/data/bear_320x192_40frames.yuv.webm)).
 These videos are stored in compressed format and extracted at the start of each
 test run, as storing uncompressed videos requires a lot of disk space. Currently

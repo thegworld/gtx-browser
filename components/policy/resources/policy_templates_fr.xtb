@@ -801,7 +801,7 @@ Si vous la désactivez, le défilement des pages Web vers des fragments de texte
           * <ph name="PROXY_MODE_ENUM_FIXED_SERVERS" />, les champs <ph name="PROXY_SERVER_PROXY_SETTINGS_FIELD" /> et <ph name="PROXY_BYPASS_LIST_PROXY_SETTINGS_FIELD" /> sont utilisés ;
           * <ph name="PROXY_MODE_ENUM_PAC_SCRIPT" />, les champs <ph name="PROXY_BYPASS_LIST_PROXY_PAC_URL" />, <ph name="PROXY_PAC_MANDATORY_PROXY_SETTINGS_FIELD" /> et <ph name="PROXY_BYPASS_LIST_PROXY_SETTINGS_FIELD" /> sont utilisés.
 
-      Remarque : Pour voir des exemples détaillés, accédez à The Chromium Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
+      Remarque : Pour voir des exemples détaillés, accédez à The GTx Browser Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
 <translation id="1700811900332333712">Autoriser l'appareil à lancer Powerwash</translation>
 <translation id="1705215165572785706">Considérer les touches supérieures comme des touches multimédias, mais autoriser l'utilisateur à modifier ce paramètre</translation>
 <translation id="1708496595873025510">Définir la restriction liée à la récupération de la valeur de départ des variantes</translation>
@@ -855,7 +855,7 @@ Si vous la désactivez, le défilement des pages Web vers des fragments de texte
 
        Ne configurez pas cette règle si vous avez sélectionné un autre mode pour spécifier les règles de proxy.
 
-       Remarque : Pour voir des exemples détaillés, accédez à The Chromium Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
+       Remarque : Pour voir des exemples détaillés, accédez à The GTx Browser Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
 <translation id="1767673020408652620">Activer les recommandations d'applications dans le champ de recherche vide</translation>
 <translation id="1768225118528727376">Accorder l'autorisation de gestion des fenêtres sur ces sites</translation>
 <translation id="1770071413238151235">Format 12 heures</translation>
@@ -999,7 +999,7 @@ Si la règle est définie sur <ph name="DISABLE_UNPUBLISHED" /> (1), les extens
      </translation>
 <translation id="1919802376548418720">Utiliser la règle KDC pour déléguer les identifiants.</translation>
 <translation id="1920046221095339924">Autoriser une session gérée sur l'appareil</translation>
-<translation id="1920772397574801429">Permet de spécifier le type des comptes fournis par l'application d'authentification Android qui accepte la méthode d'authentification <ph name="HTTP_NEGOTIATE" /> (l'authentification Kerberos, par exemple). Ces informations doivent être disponibles auprès du fournisseur de l'application en question. Pour en savoir plus, consultez le site https://goo.gl/hajyfN (sur les projets Chromium).
+<translation id="1920772397574801429">Permet de spécifier le type des comptes fournis par l'application d'authentification Android qui accepte la méthode d'authentification <ph name="HTTP_NEGOTIATE" /> (l'authentification Kerberos, par exemple). Ces informations doivent être disponibles auprès du fournisseur de l'application en question. Pour en savoir plus, consultez le site https://goo.gl/hajyfN (sur les projets GTx Browser).
 
       Si cette règle n'est pas configurée, la méthode d'authentification <ph name="HTTP_NEGOTIATE" /> est désactivée sous Android.</translation>
 <translation id="1923704782248889851">Activer la dictée</translation>
@@ -2451,7 +2451,7 @@ Si cette règle est activée, le nouveau comportement sera utilisé.
 
 Si elle est désactivée, l'ancien comportement sera utilisé.
 
-Si cette règle n'est pas configurée, le nouveau comportement sera utilisé tout comme le reste des utilisateurs de Chromium.</translation>
+Si cette règle n'est pas configurée, le nouveau comportement sera utilisé tout comme le reste des utilisateurs de GTx Browser.</translation>
 <translation id="3219421230122020860">Mode navigation privée disponible</translation>
 <translation id="3220624000494482595">Si l'application kiosque est une application Android, elle ne contrôlera pas la version <ph name="PRODUCT_OS_NAME" /> même si cette règle est définie sur "<ph name="TRUE" />".</translation>
 <translation id="3222088741899353813">Le bouton de gauche est le bouton principal sur l'écran de connexion</translation>
@@ -4409,7 +4409,7 @@ Si cette règle est définie sur "True" ou si elle n'est pas définie, les rappo
           Si cette règle n'est pas configurée, la ligne de commande par défaut est utilisée.</translation>
 <translation id="5151099177901233471">Activer les rapports sur le fuseau horaire de l'appareil</translation>
 <translation id="5152393033264257734">Autoriser les contrôles d'interception des requêtes DNS et les barres d'infos "Essayez avec http://siteintranet/".</translation>
-<translation id="5152787786897382519">Chromium et Google Chrome possèdent tous deux des groupes de règles interdépendantes pour contrôler une fonctionnalité. Ces ensembles sont représentés par les groupes de règles suivants. Les règles pouvant avoir plusieurs sources, seules les valeurs issues de la source ayant la priorité la plus haute sont appliquées. Les valeurs provenant d'une source ayant une priorité inférieure dans le même groupe sont ignorées. L'ordre de priorité est défini à la page <ph name="POLICY_PRIORITY_DOC_URL" />.</translation>
+<translation id="5152787786897382519">GTx Browser et Google Chrome possèdent tous deux des groupes de règles interdépendantes pour contrôler une fonctionnalité. Ces ensembles sont représentés par les groupes de règles suivants. Les règles pouvant avoir plusieurs sources, seules les valeurs issues de la source ayant la priorité la plus haute sont appliquées. Les valeurs provenant d'une source ayant une priorité inférieure dans le même groupe sont ignorées. L'ordre de priorité est défini à la page <ph name="POLICY_PRIORITY_DOC_URL" />.</translation>
 <translation id="5153187201534281749">Icône des fonctionnalités expérimentales du navigateur dans la barre d'outils</translation>
 <translation id="5163002264923337812">Activer l'ancienne procédure de connexion basée sur le Web</translation>
 <translation id="5163889437570441600">Permet de caster du contenu sur l'appareil avec <ph name="PRODUCT_NAME" />.
@@ -6003,7 +6003,7 @@ Si vous sélectionnez les options suivantes :
 
       Si cette règle n'est pas configurée, les utilisateurs peuvent sélectionner les paramètres de proxy.
 
-      Remarque : Pour consulter des exemples détaillés, accédez au site The Chromium Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
+      Remarque : Pour consulter des exemples détaillés, accédez au site The GTx Browser Projects (https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett).</translation>
 <translation id="656130159911161669">Les mises à jour de ChromeOS ignorent la version définie dans le fichier manifeste de l'appli kiosque</translation>
 <translation id="6561396069801924653">Afficher les options d'accessibilité dans le menu de la barre système</translation>
 <translation id="6562889469672829421">Délai d'inactivité de l'utilisateur, en millisecondes, au terme duquel l'écran s'assombrit.</translation>
@@ -6524,7 +6524,7 @@ Si la règle est désactivée ou n'est pas configurée, le comportement par déf
 
        Ne configurez pas cette règle si vous avez sélectionné un autre mode pour spécifier les règles de proxy.
 
-       Remarque : Pour consulter des exemples détaillés, accédez au site The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+       Remarque : Pour consulter des exemples détaillés, accédez au site The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="7002040773317582266">La vérification en temps réel des URL du frame principal est activée.</translation>
 <translation id="7003746348783715221">Préférences de <ph name="PRODUCT_NAME" /></translation>
 <translation id="7007283257527015835">Flag booléen spécifiant si le gestionnaire de protocoles doit être défini par défaut.</translation>
@@ -7271,7 +7271,7 @@ Dans le cas contraire, le moteur de rendu par défaut sera utilisé pour tous le
 
        Ne configurez pas cette règle si vous avez sélectionné un autre mode pour spécifier les règles de proxy.
 
-      Remarque : Pour consulter des exemples détaillés, accédez au site The Chromium Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
+      Remarque : Pour consulter des exemples détaillés, accédez au site The GTx Browser Projects ( https://www.chromium.org/developers/design-documents/network-settings#TOC-Command-line-options-for-proxy-sett ).</translation>
 <translation id="7717938661004793600">Permet de configurer les fonctionnalités d'accessibilité de <ph name="PRODUCT_OS_NAME" />.</translation>
 <translation id="7718127720248642697">Cette règle est activée par défaut. Elle contrôle les appareils enregistrés et rapporte des statistiques matérielles ainsi que les identifiants des périphériques de stockage.
 
@@ -7836,7 +7836,7 @@ Si cette règle n'est pas définie, l'écran de confidentialité est désactivé
 
       Cette règle est ignorée pour les comptes utilisateur classiques.</translation>
 <translation id="8257863622304579015">Activer le bac à sable du service réseau</translation>
-<translation id="8259375588339409826">Chromium et Google Chrome fonctionnent avec le même ensemble de règles. Sachez que ce document peut contenir des règles destinées à des versions logicielles inédites (règles dont la compatibilité renvoie à une version de <ph name="PRODUCT_NAME" /> qui n'est pas encore commercialisée), qui sont susceptibles d'être modifiées ou supprimées sans préavis, et pour lesquelles aucune garantie d'aucune sorte n'est fournie, y compris en termes de sécurité et de confidentialité.
+<translation id="8259375588339409826">GTx Browser et Google Chrome fonctionnent avec le même ensemble de règles. Sachez que ce document peut contenir des règles destinées à des versions logicielles inédites (règles dont la compatibilité renvoie à une version de <ph name="PRODUCT_NAME" /> qui n'est pas encore commercialisée), qui sont susceptibles d'être modifiées ou supprimées sans préavis, et pour lesquelles aucune garantie d'aucune sorte n'est fournie, y compris en termes de sécurité et de confidentialité.
 
 Ces règles sont strictement réservées à la configuration des instances de
 <ph name="PRODUCT_NAME" /> au sein de votre organisation. Leur utilisation en dehors de votre organisation (par exemple, dans un programme diffusé au public) sera considérée comme malveillante et certainement identifiée comme telle par Google et les fournisseurs d'antivirus.
@@ -8579,7 +8579,7 @@ Si cette règle n'est pas configurée, aucun mot de passe enregistré n'est impo
 <translation id="8947415621777543415">Indiquer l'emplacement de l'appareil</translation>
 <translation id="8948062138228904066">Liste d'autorisation des serveurs d'authentification</translation>
 <translation id="8951350807133946005">Définir le répertoire du cache disque</translation>
-<translation id="8952611478149810182">L'envoi des événements sur les commandes de formulaire désactivées est modifié dans Chromium afin d'améliorer l'expérience développeur et la compatibilité avec les autres navigateurs.
+<translation id="8952611478149810182">L'envoi des événements sur les commandes de formulaire désactivées est modifié dans GTx Browser afin d'améliorer l'expérience développeur et la compatibilité avec les autres navigateurs.
 
 Désormais, les événements MouseEvents sont envoyés sur les éléments de commandes de formulaire désactivées, sauf pour les "click", "mouseup" et "mousedown". Les nouveaux événements incluent, entre autres, "mousemove", "mouseenter" et "mouseleave".
 
@@ -8591,7 +8591,7 @@ Si cette règle est activée, le nouveau comportement sera utilisé.
 
 Si elle est désactivée, l'ancien comportement sera utilisé.
 
-Si cette règle n'est pas configurée, le nouveau comportement sera utilisé tout comme le reste des utilisateurs de Chromium.</translation>
+Si cette règle n'est pas configurée, le nouveau comportement sera utilisé tout comme le reste des utilisateurs de GTx Browser.</translation>
 <translation id="8955719471735800169">Haut de page</translation>
 <translation id="8956312248048980644">Autorise par défaut le clustering d'agents selon l'origine.</translation>
 <translation id="8970205333161758602">Supprimer l'invite de fermeture de <ph name="PRODUCT_FRAME_NAME" /></translation>

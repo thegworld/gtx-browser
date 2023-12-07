@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Wykryto niezgodną wersję protokołu. Upewnij się, że na obu komputerach masz zainstalowaną najnowszą wersję oprogramowania, i spróbuj ponownie.</translation>
 <translation id="1008557486741366299">Nie teraz</translation>
 <translation id="1201402288615127009">Dalej</translation>
-<translation id="1296511125400541222">Copyright 2023 Autorzy Chromium. Wszelkie prawa zastrzeżone.</translation>
+<translation id="1296511125400541222">Copyright 2023 Autorzy GTx Browser. Wszelkie prawa zastrzeżone.</translation>
 <translation id="1297009705180977556">Błąd podczas łączenia z: <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Żądany obiekt nie istnieje.</translation>
 <translation id="1480046233931937785">Autorzy</translation>
@@ -156,7 +156,7 @@ Jeśli opcja „<ph name="SERVICE_SCRIPT_NAME" />” jest już zaznaczona, odzna
 <translation id="7868137160098754906">Wpisz kod PIN komputera zdalnego.</translation>
 <translation id="7895403300744144251">Zasady bezpieczeństwa obowiązujące na komputerze zdalnym nie zezwalają na nawiązywanie połączeń z Twojego konta.</translation>
 <translation id="7936528439960309876">Zadokuj do prawej</translation>
-<translation id="7970576581263377361">Uwierzytelnianie nie powiodło się. Zaloguj się ponownie do Chromium.</translation>
+<translation id="7970576581263377361">Uwierzytelnianie nie powiodło się. Zaloguj się ponownie do GTx Browser.</translation>
 <translation id="7981525049612125370">Sesja zdalna wygasła.</translation>
 <translation id="8038111231936746805">(domyślnie)</translation>
 <translation id="8041089156583427627">Prześlij opinię</translation>
@@ -191,6 +191,6 @@ Jeśli opcja „<ph name="SERVICE_SCRIPT_NAME" />” jest już zaznaczona, odzna
 <translation id="9187628920394877737">Przyznaj uprawnienie „Rejestrowanie zawartości ekranu” usłudze <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Nieprawidłowa konfiguracja hosta.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Autorzy Chromium</translation>
+<translation id="985602178874221306">Autorzy GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (ostatnio online <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

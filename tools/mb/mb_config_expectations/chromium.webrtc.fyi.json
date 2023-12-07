@@ -1,5 +1,5 @@
 {
-  "WebRTC Chromium FYI Android Builder": {
+  "WebRTC GTx Browser FYI Android Builder": {
     "gn_args": {
       "dcheck_always_on": false,
       "debuggable_apks": false,
@@ -13,7 +13,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Android Builder (dbg)": {
+  "WebRTC GTx Browser FYI Android Builder (dbg)": {
     "gn_args": {
       "debuggable_apks": false,
       "ffmpeg_branding": "Chrome",
@@ -25,7 +25,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Android Builder ARM64 (dbg)": {
+  "WebRTC GTx Browser FYI Android Builder ARM64 (dbg)": {
     "gn_args": {
       "debuggable_apks": false,
       "ffmpeg_branding": "Chrome",
@@ -38,7 +38,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Linux Builder": {
+  "WebRTC GTx Browser FYI Linux Builder": {
     "gn_args": {
       "dcheck_always_on": false,
       "ffmpeg_branding": "Chrome",
@@ -48,7 +48,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Linux Builder (dbg)": {
+  "WebRTC GTx Browser FYI Linux Builder (dbg)": {
     "gn_args": {
       "is_component_build": true,
       "is_debug": true,
@@ -56,7 +56,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Mac Builder": {
+  "WebRTC GTx Browser FYI Mac Builder": {
     "gn_args": {
       "dcheck_always_on": false,
       "ffmpeg_branding": "Chrome",
@@ -66,7 +66,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Mac Builder (dbg)": {
+  "WebRTC GTx Browser FYI Mac Builder (dbg)": {
     "gn_args": {
       "is_component_build": true,
       "is_debug": true,
@@ -74,7 +74,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Win Builder": {
+  "WebRTC GTx Browser FYI Win Builder": {
     "gn_args": {
       "com_init_check_hook_disabled": true,
       "dcheck_always_on": false,
@@ -86,7 +86,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI Win Builder (dbg)": {
+  "WebRTC GTx Browser FYI Win Builder (dbg)": {
     "gn_args": {
       "com_init_check_hook_disabled": true,
       "ffmpeg_branding": "Chrome",
@@ -97,7 +97,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI ios-device": {
+  "WebRTC GTx Browser FYI ios-device": {
     "gn_args": {
       "dcheck_always_on": false,
       "ios_code_signing_identity_description": "Apple Development",
@@ -111,7 +111,7 @@
       "use_remoteexec": true
     }
   },
-  "WebRTC Chromium FYI ios-simulator": {
+  "WebRTC GTx Browser FYI ios-simulator": {
     "gn_args": {
       "enable_run_ios_unittests_with_xctest": true,
       "is_component_build": false,

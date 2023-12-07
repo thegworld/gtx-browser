@@ -952,11 +952,11 @@
               "name": "Chrome links",
               "children": [
                 {
-                  "name": "Chromium",
+                  "name": "GTx Browser",
                   "url": "chromium.org"
                 },
                 {
-                  "name": "Chromium Developers",
+                  "name": "GTx Browser Developers",
                   "url": "dev.chromium.org"
                 }
               ]
@@ -981,11 +981,11 @@
                 "name": "Chrome links",
                 "children": [
                   {
-                    "name": "Chromium",
+                    "name": "GTx Browser",
                     "url": "http://chromium.org/"
                   },
                   {
-                    "name": "Chromium Developers",
+                    "name": "GTx Browser Developers",
                     "url": "http://dev.chromium.org/"
                   }
                 ]

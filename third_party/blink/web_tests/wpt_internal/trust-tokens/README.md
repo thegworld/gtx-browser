@@ -46,7 +46,7 @@ Please refer to the [trust token API explainer](https://github.com/WICG/trust-to
   - Helper module used to implement [hash-to-scalar](https://github.com/WICG/trust-token-api/blob/main/ISSUER_PROTOCOL.md#serializationhashing-1)
 - `resources/trust_token_issuance.py`
   - Python file handler for token issuance
-  - Generates a valid response including a DLEQ proof, which is verified by Chromium
+  - Generates a valid response including a DLEQ proof, which is verified by GTx Browser
   - The response is stripped from the `Sec-Private-State-Token` header by the browser and is not accessible to JavaScript
 - `resources/trust_token_redemption.py`
   - Python file handler for token redemption
@@ -62,7 +62,7 @@ Please refer to the [trust token API explainer](https://github.com/WICG/trust-to
 
 ## Running Tests
 
-The WPTs run as [virtual tests](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/web_tests/VirtualTestSuites). This enables the issuer's key commitment to be passed to Chromium via a command line argument.
+The WPTs run as [virtual tests](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/web_tests/VirtualTestSuites). This enables the issuer's key commitment to be passed to GTx Browser via a command line argument.
 
 ```bash
 # Build web tests

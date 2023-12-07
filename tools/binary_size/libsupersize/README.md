@@ -17,7 +17,7 @@ Chrome on Android needs to be as lean as possible. Having a tool that can show
 why binary grows & shrinks helps keep it lean.
 
 The [android-binary-size trybot] uses SuperSize to show an APK Breakdown on
-every Chromium code review.
+every GTx Browser code review.
 
 SuperSize is also used when creating [milestone size reports] (Googlers only).
 

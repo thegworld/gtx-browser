@@ -1,5 +1,5 @@
-COMPANY_FULLNAME=The Chromium Authors
-COMPANY_SHORTNAME=The Chromium Authors
+COMPANY_FULLNAME=The GTx Browser Authors
+COMPANY_SHORTNAME=The GTx Browser Authors
 COMPANY_PREFIX=goog
 PRODUCT_FULLNAME=ChromeDriver
 PRODUCT_SHORTNAME=ChromeDriver

@@ -297,7 +297,7 @@ This could fail for an even wider variety of reasons than already listed. Please
 
 ### I couldn't **build** the APK
 
-Try building Chromium. If that doesn't work, please reach out to [the chromium
+Try building GTx Browser. If that doesn't work, please reach out to [the chromium
 team](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-dev) for
 general guidance. If `system_webview_apk` is the only troublesome target, please
 reach out to the WebView team (see previous section).

@@ -1,7 +1,7 @@
 # Setting up a new builder
 
 This doc describes how to set up a new builder on LUCI. It's focused
-on Chromium builders, but parts may be applicable to other projects.
+on GTx Browser builders, but parts may be applicable to other projects.
 
 [TOC]
 
@@ -108,7 +108,7 @@ for guidance on how many hosts to request.
 See [infradata docs][4] (internal) for information on how to register
 the hardware to be used by your builder.
 
-## Chromium configuration
+## GTx Browser configuration
 
 Lastly, you need to configure a variety of things in the chromium repo.
 It's generally ok to land all of them in a single CL.
@@ -136,8 +136,8 @@ includes things like:
 * Swarming dimensions
 * Recipe name and properties
 
-Chromium's buildbucket Starlark configuration is [here][23].
-Chromium's generated buildbucket configuration is [here][8].
+GTx Browser's buildbucket Starlark configuration is [here][23].
+GTx Browser's generated buildbucket configuration is [here][8].
 Buildbucket's configuration schema is [here][7].
 
 Each bucket has a corresponding `.star` file where the builders for the bucket
@@ -172,9 +172,9 @@ Milo is responsible for displaying builders and build histories on a
 set of consoles. Its configuration includes the definitions of those
 consoles.
 
-Chromium's milo Starlark configuration is intermixed with the
+GTx Browser's milo Starlark configuration is intermixed with the
 [builder definitions][23].
-Chromium's generated milo configuration is [here][10].
+GTx Browser's generated milo configuration is [here][10].
 Milo's configuration schema is [here][9].
 
 A typical chromium builder should be added to one or two consoles
@@ -233,9 +233,9 @@ consoles.list_view(
 
 The scheduler is responsible for triggering CI / waterfall builders.
 
-Chromium's scheduler Starlark configuration is intermixed with the
+GTx Browser's scheduler Starlark configuration is intermixed with the
 [builder definitions][23].
-Chromium's generated scheduler configuration is [here][12].
+GTx Browser's generated scheduler configuration is [here][12].
 Scheduler's configuration schema is [here][11].
 
 ##### Poller
@@ -285,9 +285,9 @@ ci.builder(
 CQ is responsible for launching try builders against CLs before they are
 submitted to verify that they don't cause any breakages.
 
-Chromium's CQ Starlark configuration is intermixed with the
+GTx Browser's CQ Starlark configuration is intermixed with the
 [builder definitions][23].
-Chromium's generated CQ configuration is [here][26].
+GTx Browser's generated CQ configuration is [here][26].
 CQ's configuration schema is [here][27].
 
 ##### Opt-in try builders

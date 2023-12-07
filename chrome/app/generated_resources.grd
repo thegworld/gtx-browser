@@ -425,6 +425,9 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_HOVER_CARD_FILE_URL_SOURCE" desc="The text to be displayed in the source line of a hover card when viewing a local file.">
         local or shared file
       </message>
+      <message name="IDS_HOVER_CARD_WALLET_URL_SOURCE" desc="The text to be displayed in the source line of a hover card when viewing a local file.">
+       GTx BROWSER Wallet Page
+      </message>
       <message name="IDS_HOVER_CARD_BLOB_URL_SOURCE" desc="The text to be displayed in the source line of a hover card when viewing BLOB data.">
         temporary data
       </message>
@@ -449,7 +452,7 @@ are declared in tools/grit/grit_rule.gni.
         Main menu
       </message>
       <message name="IDS_HISTORY_HISTORY_MENU_ITEM" desc="Label displayed in history sidebar button to display history.">
-        Chrome history
+        GTx Browser history
       </message>
       <message name="IDS_HISTORY_NO_SYNCED_RESULTS" desc="Text indicating that there are no synced tabs from other devices.">
         No tabs from other devices
@@ -457,13 +460,13 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_HISTORY_OPEN_TABS_MENU_ITEM" desc="Label displayed in history sidebar button to display synced tabs from other devices.">
         Tabs from other devices
       </message>
-      <message name="IDS_HISTORY_TURN_ON_SYNC_BUTTON" desc="Label displayed on a button to let user turn on sync or sign in to Chrome to get synced tab history.">
+      <message name="IDS_HISTORY_TURN_ON_SYNC_BUTTON" desc="Label displayed on a button to let user turn on sync or sign in to GTx Browser to get synced tab history.">
         Turn on sync
       </message>
       <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO" desc="Text of the turn on sync/sign-in promo. This will show up if a user is not logged in and has no synced tabs.">
         Continue from another device
       </message>
-      <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO_DESC" desc="Description of the turn on sync/sign-in promo. Further tells users to turn o sync/sign in to Chrome to see synced tabs from other devices.">
+      <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO_DESC" desc="Description of the turn on sync/sign-in promo. Further tells users to turn o sync/sign in to GTx Browser to see synced tabs from other devices.">
         To get your tabs from your other devices, turn on sync
       </message>
 
@@ -530,7 +533,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_CONTENT_CONTEXT_INSPECTELEMENT" desc="The name of the Inspect Element command in the content area context menu">
           I&amp;nspect
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_DIALOG_TITLE" desc="The title of a dialog that asks whether to integrate the accessibility image labeling service of Google to Chrome.">
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_DIALOG_TITLE" desc="The title of a dialog that asks whether to integrate the accessibility image labeling service of Google to GTx Browser.">
           Get image descriptions from Google?
         </message>
         <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_ENABLE" desc="The button text that allows integrating the accessibility labels service of Google. This should use the same verb as IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND.">
@@ -596,14 +599,14 @@ are declared in tools/grit/grit_rule.gni.
             &amp;View frame source
           </message>
 
-          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP in google_chrome_strings.grd and chromium_strings.grd. -->
+          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP in google_chrome_strings.grd and GTx Browser_strings.grd. -->
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB" desc="The name of the Open Link in New Tab command in the content area context menu">
             Open link in new &amp;tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWWINDOW" desc="The name of the Open Link in New Window command in the content area context menu">
             Open link in new &amp;window
           </message>
-          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP in google_chrome_strings.grd and chromium_strings.grd. -->
+          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP in google_chrome_strings.grd and GTx Browser_strings.grd. -->
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD" desc="The name of the open a link in Incognito window command">
             Open link in inco&amp;gnito window
           </message>
@@ -736,10 +739,10 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_CONTENT_CONTEXT_ADD_TO_DICTIONARY" desc="The name of the Add to dictionary command in the content area context menu">
             &amp;Add to dictionary
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Google to Chrome.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Google to GTx Browser.">
             Get image descriptions from Google
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to Chrome always.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to GTx Browser always.">
             Always
           </message>
           <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to Chrome, for a single use.">
@@ -754,7 +757,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_CONTENT_CONTEXT_PDF_OCR_MENU_OPTION_ONCE" desc="The context-menu sub-item that asks whether to use the PDF OCR service to convert image to text, for a single use.">
             Just once
           </message>
-          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="The context-menu item that asks whether to integrate the spelling service of Google to Chrome.">
+          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="The context-menu item that asks whether to integrate the spelling service of Google to GTx Browser.">
             Use enhanced spell check
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TITLE" desc="The title of the confirmation modal that pops up when the user turns on 'Use enhanced spell check'">
@@ -865,14 +868,14 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_CONTENT_CONTEXT_VIEWFRAMESOURCE" desc="In Title Case: The name of the View Frame Source command in the content area context menu">
             &amp;View Frame Source
           </message>
-          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP in google_chrome_strings.grd and chromium_strings.grd. -->
+          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP in google_chrome_strings.grd and GTx Browser_strings.grd. -->
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB" desc="In Title Case: The name of the Open Link in New Tab command in the content area context menu">
             Open Link in New &amp;Tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWWINDOW" desc="In Title Case: The name of the Open Link in New Window command in the content area context menu">
             Open Link in New &amp;Window
           </message>
-          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP in google_chrome_strings.grd and chromium_strings.grd. -->
+          <!-- Also update IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP in google_chrome_strings.grd and GTx Browser_strings.grd. -->
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD" desc="In Title Case: The name of the open a link in Incognito window command">
             Open Link in Inco&amp;gnito Window
           </message>
@@ -1017,10 +1020,10 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_CONTENT_CONTEXT_ADD_TO_DICTIONARY" desc="In Title Case: The name of the Add to dictionary command in the content area context menu">
             &amp;Add to Dictionary
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Google to Chrome.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Google to GTx Browser.">
             Get Image Descriptions from Google
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to Chrome always.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to GTx Browser always.">
             Always
           </message>
           <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Google to Chrome, for a single use.">
@@ -1035,7 +1038,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_CONTENT_CONTEXT_PDF_OCR_MENU_OPTION_ONCE" desc="The context-menu sub-item that asks whether to use the PDF OCR service to convert image to text, for a single use.">
             Just once
           </message>
-          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="In Title Case: The context-menu item that asks whether to integrate the spelling service of Google to Chrome.">
+          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="In Title Case: The context-menu item that asks whether to integrate the spelling service of Google to GTx Browser.">
             Use Enhanced Spell Check
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TITLE" desc="The title of the confirmation modal that pops up when the user turns on 'Use enhanced spell check'">
@@ -1225,7 +1228,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_ZOOM_MINUS2" desc="The text label of the Make Text Smaller menu item in the merged menu">
             &#8722;
           </message>
-          <message name="IDS_COPY_URL" desc="The text label of the Copy URL menu item for the Hosted App app menu and Chrome Custom Tab right-click menu">
+          <message name="IDS_COPY_URL" desc="The text label of the Copy URL menu item for the Hosted App app menu and GTx Browser Custom Tab right-click menu">
             Copy &amp;URL
           </message>
           <message name="IDS_OPEN_IN_APP_WINDOW" desc="The text label of the menu item for moving the current tab to a standalone app window">
@@ -1326,7 +1329,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_ZOOM_MINUS2" desc="The text label of the Make Text Smaller menu item in the merged menu">
             &#8722;
           </message>
-          <message name="IDS_COPY_URL" desc="In Title Case: The text label of the Copy URL menu item for the Hosted App app menu and Chrome Custom Tab right-click menu">
+          <message name="IDS_COPY_URL" desc="In Title Case: The text label of the Copy URL menu item for the Hosted App app menu and GTx Browser Custom Tab right-click menu">
             Copy &amp;URL
           </message>
           <message name="IDS_OPEN_IN_APP_WINDOW" desc="In Title Case: The text label of the menu item for moving the current tab to a standalone app window">
@@ -1471,7 +1474,7 @@ are declared in tools/grit/grit_rule.gni.
       </if>
 
       <message name="IDS_TOS_NOTIFICATION_TITLE" desc="The title of the notification that informs the user that a term of service change is coming." formatter_data="android_java">
-        Chrome's Terms of Service are changing March 31
+        GTx Browser's Terms of Service are changing March 31
       </message>
       <message name="IDS_TOS_NOTIFICATION_BODY_TEXT" desc="The body text of the notification that informs the user that a term of service change is coming." formatter_data="android_java">
         Please review the new terms
@@ -1495,10 +1498,10 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_MANAGED_BY" desc="The text label of the 'Managed by' UI in the app menu, for enterprise users. MANAGER can be a domain or an email address.">
         Managed by <ph name="MANAGER">$1<ex>example.com</ex></ph>
       </message>
-      <message name="IDS_CHROME_TIPS" desc="The text label of the Help menu item which takes the user to the Chrome Tips page.">
-        Tips for Chrome
+      <message name="IDS_CHROME_TIPS" desc="The text label of the Help menu item which takes the user to the GTx Browser Tips page.">
+        Tips for GTx Browser
       </message>
-      <message name="IDS_CHROME_WHATS_NEW" desc="The text label of the Help menu item which takes the user to the Chrome What's New page.">
+      <message name="IDS_CHROME_WHATS_NEW" desc="The text label of the Help menu item which takes the user to the GTx Browser What's New page.">
         What's New
       </message>
       <if expr="not use_titlecase">
@@ -1526,7 +1529,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSIONS_SUBMENU_MANAGE_EXTENSIONS_ITEM" desc="The text for the link in the extensions menu, in the app menu, to visit chrome://extensions to view all extensions installed (title case).">
           Manage Extensions
         </message>
-        <message name="IDS_EXTENSIONS_SUBMENU_CHROME_WEBSTORE_ITEM" desc="The text for the link in the extensions menu, in the app menu, to visit the Chrome Web Store to get more extensions (title case).">
+        <message name="IDS_EXTENSIONS_SUBMENU_CHROME_WEBSTORE_ITEM" desc="The text for the link in the extensions menu, in the app menu, to visit the GTx Browser Web Store to get more extensions (title case).">
           Visit Chrome Web Store
         </message>
         <message name="IDS_SHOW_PERFORMANCE" desc="The text label of the Performance menu item">
@@ -1541,7 +1544,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_HELP_PAGE" desc="The text label of the Help Center menu item">
           H&amp;elp center
         </message>
-        <message name="IDS_BETA_FORUM" desc="The text label of the menu item that takes the user to the forum for Beta Chrome.">
+        <message name="IDS_BETA_FORUM" desc="The text label of the menu item that takes the user to the forum for Beta GTx Browser.">
           Beta forum
         </message>
         <message name="IDS_GET_HELP" desc="The text label of the Get Help menu item">
@@ -1576,7 +1579,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSIONS_SUBMENU_MANAGE_EXTENSIONS_ITEM" desc="In Title Case: The text for the link in the extensions menu, in the app menu, to visit chrome://extensions to view all extensions installed.">
           Manage Extensions
         </message>
-        <message name="IDS_EXTENSIONS_SUBMENU_CHROME_WEBSTORE_ITEM" desc="In Title Case: The text for the link in the extensions menu, in the app menu, to visit the Chrome Web Store to get more extensions.">
+        <message name="IDS_EXTENSIONS_SUBMENU_CHROME_WEBSTORE_ITEM" desc="In Title Case: The text for the link in the extensions menu, in the app menu, to visit the GTx Browser Web Store to get more extensions.">
           Visit Chrome Web Store
         </message>
         <message name="IDS_SHOW_PERFORMANCE" desc="In Title Case: The text label of the Performance menu item">
@@ -1591,7 +1594,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_HELP_PAGE" desc="The text label of the Help Center menu item">
           H&amp;elp Center
         </message>
-        <message name="IDS_BETA_FORUM" desc="The text label of the menu item that takes the user to the forum for Beta Chrome.">
+        <message name="IDS_BETA_FORUM" desc="The text label of the menu item that takes the user to the forum for Beta GTx Browser.">
           Beta Forum
         </message>
         <message name="IDS_GET_HELP" desc="The text label of the Get Help menu item">
@@ -2031,19 +2034,19 @@ are declared in tools/grit/grit_rule.gni.
         This file is dangerous
       </message>
       <message name="IDS_PROMPT_DOWNLOAD_INSECURE_WARNING"
-        desc="Message shown in the download shelf when a download is insecure, and Chrome needs to show a warning.">
+        desc="Message shown in the download shelf when a download is insecure, and GTx Browser needs to show a warning.">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> can't be downloaded securely
       </message>
       <message name="IDS_PROMPT_DOWNLOAD_INSECURE_BLOCKED"
-        desc="Message shown in the download shelf when a download is insecure, and Chrome has blocked it.">
+        desc="Message shown in the download shelf when a download is insecure, and GTx Browser has blocked it.">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> can't be downloaded securely
       </message>
       <message name="IDS_PROMPT_APP_DEEP_SCANNING"
-        desc="Message shown in the download shelf when Chrome recommends uploading the file for additional scanning">
+        desc="Message shown in the download shelf when GTx Browser recommends uploading the file for additional scanning">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Google Advanced Protection for scanning?
       </message>
         <message name="IDS_PROMPT_DEEP_SCANNING"
-        desc="Message shown in the download shelf for all Advanced Protection and Enhanced Safe Browsing users when Chrome recommends uploading the file for additional scanning.">
+        desc="Message shown in the download shelf for all Advanced Protection and Enhanced Safe Browsing users when GTx Browser recommends uploading the file for additional scanning.">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Google for scanning?
       </message>
       <message name="IDS_BLOCK_REASON_UNCOMMON_DOWNLOAD"
@@ -2268,7 +2271,7 @@ are declared in tools/grit/grit_rule.gni.
       </message>
       <message name="IDS_DOWNLOAD_BY_EXTENSION_URL"
                desc="Indicates which extension downloaded this file by name and URL.">
-        Downloaded by &lt;a href=&quot;<ph name="URL">$1<ex>adblock.com</ex></ph>&quot;&gt;<ph name="EXTENSION">$2<ex>The Best Chrome Extension Ever</ex></ph>&lt;/a&gt;
+        Downloaded by &lt;a href=&quot;<ph name="URL">$1<ex>adblock.com</ex></ph>&quot;&gt;<ph name="EXTENSION">$2<ex>The Best GTx Browser Extension Ever</ex></ph>&lt;/a&gt;
       </message>
       <message name="IDS_DOWNLOAD_IN_INCOGNITO"
                desc="Indicates a download was started in Incognito mode.">
@@ -2961,10 +2964,10 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW" desc="Text shown on the download bubble to allow users to never show the bubble at download completion">
         Don't show when downloads are done
       </message>
-      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER" desc="Text shown on the download bubble to remind users they can customize whether the bubble appears from Chrome settings">
+      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER" desc="Text shown on the download bubble to remind users they can customize whether the bubble appears from GTx Browser settings">
         You can change this anytime in <ph name="SETTINGS_LINK">$1<ex>settings</ex></ph>
       </message>
-      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_LINK" desc="Link text to Chrome settings in the download bubble, within IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER">
+      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_LINK" desc="Link text to GTx Browser settings in the download bubble, within IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER">
         settings
       </message>
 
@@ -3083,11 +3086,11 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_QUIT_WITH_APPS_NOTIFICATION_DISPLAY_SOURCE" desc="Display source for the notification when quitting with apps open.">
           Quit
         </message>
-        <message name="IDS_QUIT_WITH_APPS_EXPLANATION" desc="Text displayed in a notification explaining that Chrome will continue running in the background as long as there are Chrome Apps open.">
-          Chrome will keep running while Chrome Apps are open.
+        <message name="IDS_QUIT_WITH_APPS_EXPLANATION" desc="Text displayed in a notification explaining that GTx Browser will continue running in the background as long as there are GTx Browser Apps open.">
+          GTx Browser will keep running while GTx Browser Apps are open.
         </message>
-        <message name="IDS_QUIT_WITH_APPS_QUIT_LABEL" desc="Button text to quit all running Chrome apps.">
-          Quit all Chrome Apps
+        <message name="IDS_QUIT_WITH_APPS_QUIT_LABEL" desc="Button text to quit all running GTx Browser apps.">
+          Quit all GTx Browser Apps
         </message>
         <message name="IDS_QUIT_WITH_APPS_SUPPRESSION_LABEL" desc="Button text to prevent a notification from showing in future.">
           Don't show this again
@@ -3466,10 +3469,10 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's notifications permission request is automatically blocked by Chrome, as this permission prompt is often denied by other users for this site.">
         Most people block notifications from this site
       </message>
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_ABUSIVE_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's notifications permission request is automatically blocked by Chrome because the site is known to employ dark patterns to trick users into accepting the permission.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_ABUSIVE_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's notifications permission request is automatically blocked by GTx Browser because the site is known to employ dark patterns to trick users into accepting the permission.">
         This site may be trying to trick you into allowing intrusive notifications
       </message>
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_DISRUPTIVE_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's loud notifications permission requests was automatically blocked by Chrome because the site may engage in disruptive notification permission usage practices.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_DISRUPTIVE_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's loud notifications permission requests was automatically blocked by GTx Browser because the site may engage in disruptive notification permission usage practices.">
         Notifications from this site may be disruptive
       </message>
       <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_PREDICTION_SERVICE_DESCRIPTION" desc="Text used as notification message when requesting permission for Web Notifications via a notification. Used when the prediction service has decided that the user will be very unlikely to grant this permission.">
@@ -4204,7 +4207,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_TASK_MANAGER_JAVASCRIPT_MEMORY_ALLOCATED_COLUMN" desc="Task manager JavaScript memory allocated column.  Shows the amount of memory used by JavaScript within a process">
             JavaScript memory
           </message>
-          <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Chrome extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
+          <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to GTx Browser extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
             Keepalive count
           </message>
         </if>
@@ -4278,7 +4281,7 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_TASK_MANAGER_JAVASCRIPT_MEMORY_ALLOCATED_COLUMN" desc="Task manager JavaScript memory allocated column.  Shows the amount of memory used by JavaScript within a process">
             JavaScript Memory
           </message>
-          <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Chrome extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
+          <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to GTx Browser extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
             Keepalive Count
           </message>
         </if>
@@ -4437,8 +4440,8 @@ are declared in tools/grit/grit_rule.gni.
           IPP Parser
         </message>
       </if>
-      <message name="IDS_UTILITY_PROCESS_FILE_UTILITY_NAME" desc="The name of the utility process used for various Chrome specific file operations.">
-          Chrome File Utilities
+      <message name="IDS_UTILITY_PROCESS_FILE_UTILITY_NAME" desc="The name of the utility process used for various GTx Browser specific file operations.">
+          GTx Browser File Utilities
       </message>
       <if expr="not is_android">
         <message name="IDS_UTILITY_PROCESS_PROFILE_IMPORTER_NAME" desc="The name of the utility process used for importing profiles.">
@@ -4474,7 +4477,7 @@ are declared in tools/grit/grit_rule.gni.
         No-op Service
       </message>
       <message name="IDS_SERVICE_PROCESS_DOCUMENT_ANALYSIS_NAME" desc="The name of the service process used for document analysis operations as part of Safe Browsing.">
-        Chrome Document Analysis
+        GTx Browser Document Analysis
       </message>
       <!-- Theme preview infobar -->
       <message name="IDS_THEME_INSTALL_INFOBAR_LABEL" desc="Text displayed on an infobar when a theme has been installed.">
@@ -4485,7 +4488,7 @@ are declared in tools/grit/grit_rule.gni.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_RESTART" desc="Button label a button on the bubble that appears when there is a critical update and Chrome/Chromium must restart to install it. Pressing the buton will cause Chrome/Chromium to restart.">
+      <message name="IDS_CRITICAL_NOTIFICATION_RESTART" desc="Button label a button on the bubble that appears when there is a critical update and Chrome/GTx Browser must restart to install it. Pressing the buton will cause Chrome/GTx Browser to restart.">
         Restart now
       </message>
 
@@ -4569,18 +4572,18 @@ are declared in tools/grit/grit_rule.gni.
         Repair "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_APP" desc="Titlebar of the prompt window for an externally installed app">
-        Another program on your computer added an app that may change the way Chrome works.
+        Another program on your computer added an app that may change the way GTx Browser works.
 
 
 <ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_EXTENSION" desc="Titlebar of the prompt window for an externally installed extension">
-        Another program on your computer added an extension that may change the way Chrome works.
+        Another program on your computer added an extension that may change the way GTx Browser works.
 
 <ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_THEME" desc="Titlebar of the prompt window for an externally installed theme">
-        Another program on your computer added a theme that may change the way Chrome works.
+        Another program on your computer added a theme that may change the way GTx Browser works.
 
 <ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
       </message>
@@ -4607,7 +4610,7 @@ are declared in tools/grit/grit_rule.gni.
         </message>
       </if>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_ABORT_BUTTON" desc="Button on the external install prompt to remove an extension installed by a third party.">
-        Remove from Chrome
+        Remove from GTx Browser
       </message>
 
       <!-- Extension alerts. -->
@@ -4691,7 +4694,7 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_EXTENSION_USER_COUNT" desc="Number of users an app or extension has">
         <ph name="USER_COUNT">$1<ex>10,479</ex></ph> users
       </message>
-      <message name="IDS_EXTENSION_PROMPT_STORE_LINK" desc="Anchor text for link to Chrome Web Store in app or extension installation dialog">
+      <message name="IDS_EXTENSION_PROMPT_STORE_LINK" desc="Anchor text for link to GTx Browser Web Store in app or extension installation dialog">
         Open in Web Store
       </message>
       <message name="IDS_EXTENSION_PROMPT_RETAINED_FILES" desc="A line of explanatory text that precedes the list of files the app has permanent access to, showing the number of files. This is shown when an app has persistent access to files. [ICU Syntax]">
@@ -5578,10 +5581,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSION_PROMPT_REPAIR_BUTTON_APP" desc="Text for the install button on the app reinstall prompt.">
         Repair app
       </message>
-      <message name="IDS_EXTENSION_WEB_STORE_TITLE" desc="Text for the Chrome Web Store">
-        Chrome Web Store
+      <message name="IDS_EXTENSION_WEB_STORE_TITLE" desc="Text for the GTx Browser Web Store">
+        GTx Browser Web Store
       </message>
-      <message name="IDS_EXTENSION_WEB_STORE_TITLE_SHORT" desc="Shortened version of text for the Chrome Web Store">
+      <message name="IDS_EXTENSION_WEB_STORE_TITLE_SHORT" desc="Shortened version of text for the GTx Browser Web Store">
         Web Store
       </message>
       <message name="IDS_EXTENSIONS_SHOW_DETAILS" desc="Tooltip for the button next to an extension that shows more details">
@@ -5591,7 +5594,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Hide Details
       </message>
 
-      <!-- Error messages for Chrome Web Store UI -->
+      <!-- Error messages for GTx Browser Web Store UI -->
       <message name="IDS_WEBSTORE_DOWNLOAD_ACCESS_DENIED" desc="Text displayed in the error prompt when a CRX cannot be downloaded due to an authentication error.">
         Access denied.
       </message>
@@ -5602,7 +5605,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- External extension install alerts -->
-      <!-- TODO(mpcomplete): We may need to change Chrome to
+      <!-- TODO(mpcomplete): We may need to change GTx Browser to
            PRODUCT_NAME. Leaving it as-is until we finalize
            these strings. -->
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_ALERT_EXTENSION" desc="The wrench menu item indicating that a new external extension was installed.">
@@ -5618,13 +5621,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
         "<ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>" added
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_ALERT_BUBBLE_HEADING_APP" desc="The heading text (below the title) for the bubble that alerts the user that a new external app was installed.">
-        Another program on your computer added an app that may change the way Chrome works.
+        Another program on your computer added an app that may change the way GTx Browserworks.
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_ALERT_BUBBLE_HEADING_EXTENSION" desc="The heading text (below the title) for the bubble that alerts the user that a new external extension was installed.">
-        Another program on your computer added an extension that may change the way Chrome works.
+        Another program on your computer added an extension that may change the way GTx Browserworks.
       </message>
       <message name="IDS_EXTENSION_EXTERNAL_INSTALL_ALERT_BUBBLE_HEADING_THEME" desc="The heading text (below the title) for the bubble that alerts the user that a new external theme was installed.">
-        Another program on your computer added a theme that may change the way Chrome works.
+        Another program on your computer added a theme that may change the way GTx Browser works.
       </message>
 
       <message name="IDS_EXTENSIONS_UNSUPPORTED_DISABLED_TITLE" desc="Title of the dialog shown when unsupported extensions have been disabled">
@@ -5636,8 +5639,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSIONS_UNSUPPORTED_DISABLED_BUTTON" desc="Text of the button on the dialog shown when unsupported extensions have been disabled">
       OK, got it
       </message>
-      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Chrome without the user's knowledge">
-        This extension is not listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Chrome Web Store</ex></ph> and may have been added without your knowledge.
+      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to GTx Browser without the user's knowledge">
+        This extension is not listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>GTx Browser Web Store</ex></ph> and may have been added without your knowledge.
       </message>
       <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE_LEARN_MORE" desc="Text read by screen readers for a link labeled 'Learn more' that links to a Help article about disabled extensions.">
         Learn more about disabled extensions.
@@ -5681,22 +5684,22 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <!-- Force Installed Deprecated Apps Deletion Dialog strings. -->
       <if expr="is_macosx">
         <message name="IDS_FORCE_INSTALLED_DEPRECATED_APPS_CONTENT" desc="Content of the force installed deprecated app dialog">
-          Old versions of Chrome Apps won't open on Mac devices after December 2022. Contact your administrator to update to a new version or remove this app.
+          Old versions of GTx Browser  Apps won't open on Mac devices after December 2022. Contact your administrator to update to a new version or remove this app.
         </message>
       </if>
       <if expr="is_win">
         <message name="IDS_FORCE_INSTALLED_DEPRECATED_APPS_CONTENT" desc="Content of the force installed deprecated app dialog">
-          Old versions of Chrome Apps won't open on Windows devices after December 2022. Contact your administrator to update to a new version or remove this app.
+          Old versions of GTx Browser  Apps won't open on Windows devices after December 2022. Contact your administrator to update to a new version or remove this app.
         </message>
       </if>
       <if expr="is_linux">
         <message name="IDS_FORCE_INSTALLED_DEPRECATED_APPS_CONTENT" desc="Content of the force installed deprecated app dialog">
-          Old versions of Chrome Apps won't open on Linux devices after December 2022. Contact your administrator to update to a new version or remove this app.
+          Old versions of GTx Browser  Apps won't open on Linux devices after December 2022. Contact your administrator to update to a new version or remove this app.
         </message>
       </if>
       <if expr="is_fuchsia">
         <message name="IDS_FORCE_INSTALLED_DEPRECATED_APPS_CONTENT" desc="Content of the force installed deprecated app dialog">
-          Old versions of Chrome Apps won't open after December 2022. Contact your administrator to update to a new version or remove this app.
+          Old versions of GTx Browser  Apps won't open after December 2022. Contact your administrator to update to a new version or remove this app.
         </message>
       </if>
       <!-- End Force Installed Deprecated Apps Deletion Dialog strings. -->
@@ -5705,7 +5708,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Ask your admin to update this app
       </message>
       <message name="IDS_FORCE_INSTALLED_PREINSTALLED_DEPRECATED_APPS_CONTENT" desc="Content of the force installed preinstalled deprecated app dialog">
-        Chrome Apps are migrating to Progressive Web Apps. This Chrome App was installed on your browser by your organization. To open the Progressive Web App from the Apps list, first contact your administrator and ask them to uninstall the Chrome App. In the meantime, you can visit <ph name="EXTENSION_LAUNCH_URL">$1<ex>sheets.google.com</ex></ph> to open <ph name="EXTENSION_NAME">$2<ex>Google Sheets</ex></ph> on the web.
+        GTx Browser  Apps are migrating to Progressive Web Apps. This GTx Browser  App was installed on your browser by your organization. To open the Progressive Web App from the Apps list, first contact your administrator and ask them to uninstall the GTx Browser  App. In the meantime, you can visit <ph name="EXTENSION_LAUNCH_URL">$1<ex>sheets.google.com</ex></ph> to open <ph name="EXTENSION_NAME">$2<ex>Google Sheets</ex></ph> on the web.
       </message>
       <if expr="use_titlecase">
         <message name="IDS_FORCE_INSTALLED_PREINSTALLED_DEPRECATED_APPS_GO_TO_SITE_BUTTON" desc="Label for the button that opens the website for the app">
@@ -5726,30 +5729,30 @@ Keep your key file in a safe place. You will need it to create new versions of y
         "<ph name="EXTENSION_NAME">$1<ex>Google Docs</ex></ph>" is no longer supported
       </message>
       <if expr="is_macosx">
-        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that Chrome Apps will soon no longer launch.">
-          Old versions of Chrome apps won't open on Mac devices after December 2022. You can check if there's a new version available.
+        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that GTx Browser Apps will soon no longer launch.">
+          Old versions of GTx Browser  apps won't open on Mac devices after December 2022. You can check if there's a new version available.
         </message>
       </if>
       <if expr="is_win">
-        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that Chrome Apps will soon no longer launch.">
-          Old versions of Chrome apps won't open on Windows devices after December 2022. You can check if there's a new version available.
+        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that GTx Browser Apps will soon no longer launch.">
+          Old versions of GTx Browser  apps won't open on Windows devices after December 2022. You can check if there's a new version available.
         </message>
       </if>
       <if expr="is_linux">
-        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that Chrome Apps will soon no longer launch.">
-          Old versions of Chrome apps won't open on Linux devices after December 2022. You can check if there's a new version available.
+        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that GTx Browser Apps will soon no longer launch.">
+          Old versions of GTx Browser  apps won't open on Linux devices after December 2022. You can check if there's a new version available.
         </message>
       </if>
       <if expr="is_fuchsia">
-        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that Chrome Apps will soon no longer launch.">
-          Old versions of Chrome apps won't open after December 2022. You can check if there's a new version available.
+        <message name="IDS_DEPRECATED_APPS_MONITOR_RENDERER" desc="Dialog content that educates users that GTx Browser Apps will soon no longer launch.">
+          Old versions of GTx Browser apps won't open after December 2022. You can check if there's a new version available.
         </message>
       </if>
-      <message name="IDS_DEPRECATED_APPS_LEARN_MORE" desc="Redirects to a link with more information on chrome apps deprecation">
+      <message name="IDS_DEPRECATED_APPS_LEARN_MORE" desc="Redirects to a link with more information on gtx browser apps deprecation">
         Learn more
       </message>
       <message name="IDS_DEPRECATED_APPS_LEARN_MORE_AX_LABEL" desc="Accessibility label text for IDS_DEPRECATED_APPS_LEARN_MORE link">
-        Learn more about unsupported Chrome apps
+        Learn more about unsupported GTx Browser apps
       </message>
       <message name="IDS_DEPRECATED_APPS_DELETION_LINK" desc="Contains link to trigger the deprecated apps deletion dialog from chrome://apps">
         {NUM_APPS, plural,
@@ -5936,7 +5939,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you click the Home button.
       </message>
 
-      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_SEARCH_ENGINE" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the search engine. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Chrome is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
+      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_SEARCH_ENGINE" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the search engine. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (GTx Browser is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
         ''' It also controls what page is shown when you search from the Omnibox.'''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_HOME_PAGE" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was the just home page. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_SEARCH_ENGINE for reason for triple quotes.">
@@ -6107,13 +6110,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <if expr="chromeos_ash">
-        <message name="IDS_COMPONENTS_OS_TEXT1_LABEL" desc="Begin label text on the os://components page from ChromeOS which directs a user to a dialog showing Chrome browser specific components - enclosing url link.">
+        <message name="IDS_COMPONENTS_OS_TEXT1_LABEL" desc="Begin label text on the os://components page from ChromeOS which directs a user to a dialog showing GTx Browser  specific components - enclosing url link.">
           Looking for browser components? Visit
         </message>
-        <message name="IDS_COMPONENTS_OS_TEXT2_LABEL" desc="End label text on the os://components page from ChromeOS which directs a user to a dialog showing Chrome browser specific components - enclosing url link.">
+        <message name="IDS_COMPONENTS_OS_TEXT2_LABEL" desc="End label text on the os://components page from ChromeOS which directs a user to a dialog showing GTx Browser  specific components - enclosing url link.">
           .
         </message>
-        <message name="IDS_COMPONENTS_OS_LINK" translateable="false" desc="Label for a button on the os://components page from ChromeOS that will call a new window which allows to change Chrome browser components.">
+        <message name="IDS_COMPONENTS_OS_LINK" translateable="false" desc="Label for a button on the os://components page from ChromeOS that will call a new window which allows to change GTx Browser components.">
           chrome://components
         </message>
       </if>
@@ -6259,7 +6262,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_PASSWORD_BUBBLES_PASSWORD_MANAGER_LINK_TEXT_SYNCED_TO_ACCOUNT" desc="The text of the Google Password Manager links displayed on Password Manager bubbles footer when the credentials are synced to the Google account.">
         Google Password Manager
       </message>
-      <message name="IDS_PASSWORD_BUBBLES_FOOTER_SYNCED_TO_ACCOUNT" desc="The footer text of the bubbles that offers users to save, update or manage stored passwords in Chrome and synced to their Google account.">
+      <message name="IDS_PASSWORD_BUBBLES_FOOTER_SYNCED_TO_ACCOUNT" desc="The footer text of the bubbles that offers users to save, update or manage stored passwords in GTx Browser and synced to their Google account.">
         You can use saved passwords on any device. They're saved to <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google Password Manager</ex></ph> for <ph name="EMAIL">$2<ex>user@gmail.com</ex></ph>.
       </message>
       <message name="IDS_PASSWORD_BUBBLES_FOOTER_SAVING_ON_DEVICE" desc="The footer text of the bubbles that offers users to save, update or manage stored passwords only locally in Chrome.">
@@ -6464,10 +6467,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- Blocked Displaying/Running Insecure Content bubble -->
-      <message name="IDS_BLOCKED_DISPLAYING_INSECURE_CONTENT_TITLE" desc="Title of the bubble shown when a message has asked Chrome to display mixed content.">
+      <message name="IDS_BLOCKED_DISPLAYING_INSECURE_CONTENT_TITLE" desc="Title of the bubble shown when a message has asked GTx Browser to display mixed content.">
         Insecure content blocked
       </message>
-      <message name="IDS_BLOCKED_DISPLAYING_INSECURE_CONTENT" desc="Message shown when a website has asked Chrome to display mixed content.  The message is followed by a learn more link and an allow button.">
+      <message name="IDS_BLOCKED_DISPLAYING_INSECURE_CONTENT" desc="Message shown when a website has asked GTx Browser to display mixed content.  The message is followed by a learn more link and an allow button.">
         This page is trying to load scripts from unauthenticated sources.
       </message>
       <if expr="use_titlecase">
@@ -6585,7 +6588,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
           Reason: The inverted rule <ph name="REVERT_RULE">$1<ex>!example.com</ex></ph> was found in the "Force open in" list.
         </message>
         <message name="IDS_ABOUT_BROWSER_SWITCH_INTERNALS_OPEN_BROWSER_DEFAULT_REASON" desc="about:browser-switch/internals, section URL Checker, the explaination reason for check result, displayed when the entered URL did not match any listed rule and default browser will not get switched">
-          Reason: LBS stays in <ph name="DEFAULT_OPEN_BROWSER">$1<ex>Chromium</ex></ph> by default.
+          Reason: LBS stays in <ph name="DEFAULT_OPEN_BROWSER">$1<ex>GTx Browser</ex></ph> by default.
         </message>
         <message name="IDS_ABOUT_BROWSER_SWITCH_INTERNALS_INVALID_URL" desc="about:browser-switch/internals, section URL Checker, specific error message when the url is invalid">
           Invalid URL. Make sure it is formatted properly.
@@ -6659,13 +6662,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </if>
 
       <if expr="chromeos_ash">
-        <message name="IDS_ABOUT_OS_TEXT1_LABEL" desc="Begin label text on the os://about page from ChromeOS which directs a user to a dialog showing Chrome browser specific about page - enclosing url link.">
+        <message name="IDS_ABOUT_OS_TEXT1_LABEL" desc="Begin label text on the os://about page from ChromeOS which directs a user to a dialog showing GTx Browser specific about page - enclosing url link.">
           Looking for the browser about page? Visit
         </message>
-        <message name="IDS_ABOUT_OS_TEXT2_LABEL" desc="End label text on the os://about page from ChromeOS which directs a user to a dialog showing Chrome browser specific about page - enclosing url link.">
+        <message name="IDS_ABOUT_OS_TEXT2_LABEL" desc="End label text on the os://about page from ChromeOS which directs a user to a dialog showing GTx Browser specific about page - enclosing url link.">
           .
         </message>
-        <message name="IDS_ABOUT_OS_LINK" translateable="false" desc="Label for button on the os://about page from ChromeOS which shows the user the link to the Chrome browser specific about page.">
+        <message name="IDS_ABOUT_OS_LINK" translateable="false" desc="Label for button on the os://about page from ChromeOS which shows the user the link to the GTx Browser specific about page.">
           chrome://about
         </message>
       </if>
@@ -6847,8 +6850,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_CONFIRM_MSG_RESTORE_DEFAULTS" desc="The text label of the restore default shortcuts button when editing a custom link. (On the New Tab Page)">
         Restore default shortcuts
       </message>
-      <message name="IDS_NTP_CUSTOM_BG_CHROME_WALLPAPERS" desc="The text label of the Chrome backgrounds option for background customization.(On the New Tab Page)">
-        Chrome backgrounds
+      <message name="IDS_NTP_CUSTOM_BG_CHROME_WALLPAPERS" desc="The text label of the GTx Browser backgrounds option for background customization.(On the New Tab Page)">
+        GTx Browser backgrounds
       </message>
       <message name="IDS_NTP_CUSTOM_BG_UPLOAD_AN_IMAGE" desc="The text label of the upload an image option for background customization. (On the New Tab Page)">
         Upload an image
@@ -6910,10 +6913,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_DOODLE_SHARE_DIALOG_LINK_LABEL" desc="The text label for the share link text area on the doodle sharing dialog.">
         Doodle Link
       </message>
-      <message name="IDS_NTP_CUSTOMIZE_APPEARANCE_LABEL" desc="The label for the option to edit appearance in the Customize Chrome side panel.">
+      <message name="IDS_NTP_CUSTOMIZE_APPEARANCE_LABEL" desc="The label for the option to edit appearance in the Customize GTx Browser side panel.">
         Appearance
       </message>
-      <message name="IDS_NTP_CUSTOMIZE_THEMES_HEADER" desc="The header for the page that lists theme categories in the Customize Chrome side panel.">
+      <message name="IDS_NTP_CUSTOMIZE_THEMES_HEADER" desc="The header for the page that lists theme categories in the Customize GTx Browser side panel.">
         Themes
       </message>
       <message name="IDS_NTP_CUSTOMIZE_MENU_BACKGROUND_LABEL" desc="The label for the backgrounds option in the customization menu on the New Tab Page.">
@@ -6934,13 +6937,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_CUSTOMIZE_NO_BACKGROUND_LABEL" desc="The label for the 'Classic Chrome' tile in the customization menu on the New Tab Page">
         Classic Chrome
       </message>
-      <message name="IDS_NTP_CUSTOMIZE_CHROME_COLORS_LABEL" desc="The label for the 'Chrome Colors' tile in the New Tab Page customize chrome side panel, which lists themes of colored classic chrome.">
-        Chrome Colors
+      <message name="IDS_NTP_CUSTOMIZE_CHROME_COLORS_LABEL" desc="The label for the 'GTx Browser Colors' tile in the New Tab Page customize gtx browser side panel, which lists themes of colored classic chrome.">
+        GTx Browser Colors
       </message>
-      <message name="IDS_NTP_CUSTOMIZE_CHROME_CHANGE_THEME_LABEL" desc="The label for the action button for changing Chrome theme in the New Tab Page customize chrome side panel.">
+      <message name="IDS_NTP_CUSTOMIZE_CHROME_CHANGE_THEME_LABEL" desc="The label for the action button for changing GTx Browser theme in the New Tab Page customize gtx browser side panel.">
         Change theme
       </message>
-      <message name="IDS_NTP_CUSTOMIZE_CHROME_RESET_TO_CLASSIC_CHROME_LABEL" desc="The label for the button for resetting theme back to classic chrome in the New Tab Page customize chrome side panel.">
+      <message name="IDS_NTP_CUSTOMIZE_CHROME_RESET_TO_CLASSIC_CHROME_LABEL" desc="The label for the button for resetting theme back to classic gtx browser in the New Tab Page customize gtx browser side panel.">
         Reset to Classic Chrome
       </message>
       <message name="IDS_NTP_CUSTOMIZE_UPLOADED_IMAGE_LABEL" desc="The label for the 'Uploaded image' tile in the customization menu on the New Tab Page side panel.">
@@ -7120,13 +7123,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
         You’re seeing suggested recipes based on your recent Search activity for recipes.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings from the card menu or see more options in Customize Chrome.
+        You can manage settings from the card menu or see more options in Customize GTx Browser.
       </message>
       <message name="IDS_NTP_MODULES_RECIPE_EXTENDED_INFO" desc="Text shown in the body of the info dialog of the recipe module for Recipes V1.1.">
         You’re seeing recipes based on your recent Search activity for recipes.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings from the card menu or see more options in Customize Chrome.
+        You can manage settings from the card menu or see more options in Customize GTx Browser.
       </message>
       <message name="IDS_NTP_MODULES_RECIPE_TASKS_SENTENCE" desc="Name of the recipe tasks module in sentence case shown in various UIs.">
         Recipe ideas
@@ -7146,43 +7149,43 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_MODULES_RECIPE_VIEWED_TASKS_LOWER_THESE" desc="Name of the historical veresion of the recipe tasks module in lowercase shown in various UIs.">
         these recently viewed recipes
       </message>
-      <message name="IDS_NTP_MODULES_CART_SENTENCE" desc="Name of the chrome cart module in sentence case shown in various UIs.">
+      <message name="IDS_NTP_MODULES_CART_SENTENCE" desc="Name of the gtx browser cart module in sentence case shown in various UIs.">
         Your carts
       </message>
-      <message name="IDS_NTP_MODULES_CART_SENTENCE_V2" desc="Name of the chrome cart module V2 in sentence case shown in various UIs.">
+      <message name="IDS_NTP_MODULES_CART_SENTENCE_V2" desc="Name of the gtx browser cart module V2 in sentence case shown in various UIs.">
         In your shopping cart
       </message>
-      <message name="IDS_NTP_MODULES_CART_LOWER" desc="Name of the chrome cart module in lowercase shown in various UIs.">
+      <message name="IDS_NTP_MODULES_CART_LOWER" desc="Name of the gtx browser cart module in lowercase shown in various UIs.">
         carts
       </message>
-      <message name="IDS_NTP_MODULES_CART_LOWER_THESE" desc="Name of the chrome cart module in lowercase shown in various UIs.">
+      <message name="IDS_NTP_MODULES_CART_LOWER_THESE" desc="Name of the gtx browser cart module in lowercase shown in various UIs.">
         these carts
       </message>
-      <message name="IDS_NTP_MODULES_CART_LOWER_YOUR" desc="Name of the chrome cart module in lowercase shown in various UIs.">
+      <message name="IDS_NTP_MODULES_CART_LOWER_YOUR" desc="Name of the gtx browser cart module in lowercase shown in various UIs.">
         your carts
       </message>
-      <message name="IDS_NTP_MODULES_QUEST_CART_ANNOTATION" desc="Annotation that shows in the ChromeCart tile in Quest module to let users know that this tile is from pending items in their shopping cart.">
+      <message name="IDS_NTP_MODULES_QUEST_CART_ANNOTATION" desc="Annotation that shows in the GTx BrowserCart tile in Quest module to let users know that this tile is from pending items in their shopping cart.">
         In your cart
       </message>
-      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_PLURAL" desc="Label of the ChromeCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when there is more than one product in cart.">
+      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_PLURAL" desc="Label of the GTx BrowserCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when there is more than one product in cart.">
         <ph name="PRODUCT_ITEM_COUNT">$1<ex>2</ex></ph> items in your cart <ph name="DISCOUNT_TEXT">$2<ex>15% off</ex></ph> from <ph name="MERCHANT_NAME">$3<ex>Amazon</ex></ph>, <ph name="MERCHANT_DOMAIN">$4<ex>amazon.com</ex></ph>, viewed <ph name="RELATIVE_TIME">$5<ex>3 days ago</ex></ph>
       </message>
-      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_SINGULAR" desc="Label of the ChromeCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when there is only one product in cart.">
+      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_SINGULAR" desc="Label of the GTx BrowserCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when there is only one product in cart.">
         1 item in your cart <ph name="DISCOUNT_TEXT">$1<ex>15% off</ex></ph> from <ph name="MERCHANT_NAME">$2<ex>Amazon</ex></ph>, <ph name="MERCHANT_DOMAIN">$3<ex>amazon.com</ex></ph>, viewed <ph name="RELATIVE_TIME">$4<ex>3 days ago</ex></ph>
       </message>
-      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_DEFAULT" desc="Label of the ChromeCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when we don't know the product count in cart.">
+      <message name="IDS_NTP_MODULES_QUEST_CART_TILE_LABEL_DEFAULT" desc="Label of the GTx BrowserCart tile in Quest module containing information of the tile that will be announced in accessibility mode. This is used when we don't know the product count in cart.">
         Items in your cart <ph name="DISCOUNT_TEXT">$1<ex>15% off</ex></ph> from <ph name="MERCHANT_NAME">$2<ex>Amazon</ex></ph>, <ph name="MERCHANT_DOMAIN">$3<ex>amazon.com</ex></ph>, viewed <ph name="RELATIVE_TIME">$4<ex>3 days ago</ex></ph>
       </message>
       <message name="IDS_NTP_MODULES_CART_INFO" desc="Text shown in the body of the info dialog of the cart module.">
         You’re seeing carts that help you easily get back to items you left in shopping carts across the web.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings from the card menu or see more options in Customize Chrome.
+        You can manage settings from the card menu or see more options in Customize GTx Browser.
       </message>
-      <message name="IDS_NTP_MODULES_CART_ITEM_COUNT_SINGULAR" desc="Item count displayed on chrome cart module when there is a single item in a cart.">
+      <message name="IDS_NTP_MODULES_CART_ITEM_COUNT_SINGULAR" desc="Item count displayed on gtx browser cart module when there is a single item in a cart.">
         <ph name="ITEM_COUNT_ONE">$1<ex>1</ex></ph> item
       </message>
-      <message name="IDS_NTP_MODULES_CART_ITEM_COUNT_MULTIPLE" desc="Item count displayed on chrome cart module when there are multiple items in a cart.">
+      <message name="IDS_NTP_MODULES_CART_ITEM_COUNT_MULTIPLE" desc="Item count displayed on gtx browser cart module when there are multiple items in a cart.">
         <ph name="ITEM_COUNT_MULTIPLE">$1<ex>2</ex></ph> items
       </message>
       <message name="IDS_NTP_MODULES_DRIVE_SENTENCE" desc="Name of the Drive module in sentence case shown in various UIs.">
@@ -7213,7 +7216,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         You’re seeing suggested files to help you easily get back to your most recent activity in Google Drive.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings from the card menu or see more options in Customize Chrome.
+        You can manage settings from the card menu or see more options in Customize GTx Browser.
       </message>
       <message name="IDS_NTP_MODULES_PHOTOS_TITLE" desc="Title shown in the header of the photos module.">
         From your Google Photos
@@ -7240,7 +7243,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         You’re seeing photo and video highlights from your Google Photos library. You can control what shows up in your highlights at <ph name="BEGIN_LINK">&lt;a href="https://photos.google.com/settings?referrer=CHROME_NTP" target="_blank"&gt;</ph>photos.google.com/settings<ph name="END_LINK">&lt;/a&gt;</ph>.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings for this card from the card menu or see more options in Customize Chrome.
+        You can manage settings for this card from the card menu or see more options in Customize GTx Browser.
       </message>
       <message name="IDS_NTP_MODULES_PHOTOS_MEMORIES_EXPLORE" desc="Text to encourage users to explore Google Photos in the new tab page.">
         Explore more of your memories in Google Photos
@@ -7312,13 +7315,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_MODULES_CART_MODULE_MENU_HIDE_TOAST_MESSAGE" desc="Text shown in the toast confirming the cart module has been temporarily hidden.">
         Carts hidden. They'll reappear when you make changes.
       </message>
-      <message name="IDS_NTP_MODULES_CART_CART_MENU_HIDE_MERCHANT" desc="An option in the action menu of one cart in the chrome cart module. When clicked, cart from that merchant will be temporarily hidden. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com). ">
+      <message name="IDS_NTP_MODULES_CART_CART_MENU_HIDE_MERCHANT" desc="An option in the action menu of one cart in the gtx browser cart module. When clicked, cart from that merchant will be temporarily hidden. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com). ">
         Hide <ph name="MERCHANT">$1<ex>Amazon</ex></ph>
       </message>
       <message name="IDS_NTP_MODULES_CART_CART_MENU_HIDE_MERCHANT_TOAST_MESSAGE" desc="Text shown in the toast confirming the cart for a specific merchant has been temporarily hidden. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
         <ph name="MERCHANT">$1<ex>Amazon</ex> hidden. You'll see it again when you revisit your cart.</ph>
       </message>
-      <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT" desc="An option in the action menu of one cart in the chrome cart module. When clicked, cart from that merchant wil be permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
+      <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT" desc="An option in the action menu of one cart in the gtx browser cart module. When clicked, cart from that merchant wil be permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
         Never show <ph name="MERCHANT">$1<ex>Amazon</ex></ph>
       </message>
       <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT_TOAST_MESSAGE" desc="Text shown in the toast confirming the cart for a specific merchant has been permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
@@ -7349,7 +7352,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Got it
       </message>
       <message name="IDS_NTP_MODULES_CART_DISCOUNT_CONSENT_CONTENT_V2" desc="Text shown on the consent card for getting discount asking if users would like to give their consent to the feature.">
-        Let Chrome find personalized discounts on your carts?
+        Let GTx Browser find personalized discounts on your carts?
       </message>
       <message name="IDS_NTP_MODULES_CART_DISCOUNT_CONSENT_CONTENT_V3" desc="Text shown on the consent card for getting discount asking if users would like to give their consent to the feature.">
         Let Google use your cart to find available discounts?
@@ -7379,7 +7382,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Pick cards that keep you updated on things that matter to you
       </message>
       <message name="IDS_NTP_MODULES_FIRST_RUN_EXPERIENCE_BODY_LINE_2" desc="Line 2 of Modular NTP Desktop v1 First Run Experience's body.">
-        See all card options in <ph name="BEGIN_LINK">&lt;a is="action-link" id="customizeChromeLink" tabIndex=0 on-click="onCustomizeModuleFre_"&gt;</ph>Customize Chrome<ph name="END_LINK">&lt;/a&gt;</ph>
+        See all card options in <ph name="BEGIN_LINK">&lt;a is="action-link" id="customizeChromeLink" tabIndex=0 on-click="onCustomizeModuleFre_"&gt;</ph>Customize GTx Browser<ph name="END_LINK">&lt;/a&gt;</ph>
       </message>
       <message name="IDS_NTP_MODULES_FIRST_RUN_EXPERIENCE_OPT_IN" desc="Opt in button for Modular NTP Desktop v1 First Run Experience.">
         Got it
@@ -7403,10 +7406,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Bookmarked
       </message>
       <message name="IDS_NTP_MODULES_HISTORY_CLUSTERS_INFO" desc="Text shown in the body of the info dialog of the history clusters module.">
-        You’re seeing pages you've visited and suggested searches to help you easily get back to your most recent activity in Chrome Journeys.
+        You’re seeing pages you've visited and suggested searches to help you easily get back to your most recent activity in GTx Browser Journeys.
         <ph name="BREAK">&lt;br&gt;</ph>
         <ph name="BREAK">&lt;br&gt;</ph>
-        You can manage settings from the card menu or see more options in Customize Chrome.
+        You can manage settings from the card menu or see more options in Customize GTx Browser.
       </message>
       <message name="IDS_NTP_MODULES_HISTORY_CLUSTERS_SENTENCE2" desc="Variant of the name of the History Clusters module in sentence case shown in various UIs.">
         Journeys
@@ -7565,8 +7568,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_SIDE_PANEL_COMPANION_TITLE" desc="The name of the companion feature in the side panel combo box.">
         Google
       </message>
-      <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize Chrome feature in the side panel combo box.">
-        Customize Chrome
+      <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize GTx Browser feature in the side panel combo box.">
+        Customize GTx Browser
       </message>
       <message name="IDS_SIDE_PANEL_TOOLBAR_BUTTON_CXMENU_UNPIN" desc="The label of the context menu item for unpinning a side panel toolbar button.">
         Unpin
@@ -7860,16 +7863,16 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_ACCDESCRIPTION_BACK" desc="Help text that explains to keyboard users how to interact with the back button, similar to the tooltip presented to mouse users.">
         Press to go back, context menu to see history
       </message>
-      <message name="IDS_TOOLTIP_CHROMELABS_BUTTON" desc="The tooltip for the Chrome Labs button in the toolbar">
+      <message name="IDS_TOOLTIP_CHROMELABS_BUTTON" desc="The tooltip for the GTx Browser Labs button in the toolbar">
         Enable featured experiments
       </message>
       <message name="IDS_TOOLTIP_LEFT_ALIGNED_SIDE_PANEL_BUTTON" desc="The tooltip for the left aligned side panel toggle button">
         Toggle left aligned side panel
       </message>
-      <message name="IDS_TOOLTIP_CHROMELABS_COMBOBOX" desc="The tooltip for the Chrome Labs combobox to select between experiment states">
+      <message name="IDS_TOOLTIP_CHROMELABS_COMBOBOX" desc="The tooltip for the GTx Browser Labs combobox to select between experiment states">
         Select experiment state for <ph name="EXPERIMENT_NAME">$1<ex>Tab Scrolling</ex></ph>
       </message>
-      <message name="IDS_TOOLTIP_CHROMELABS_FEEDBACK_BUTTON" desc="The tooltip for the Chrome Labs Send Feedback button">
+      <message name="IDS_TOOLTIP_CHROMELABS_FEEDBACK_BUTTON" desc="The tooltip for the GTx Browser Labs Send Feedback button">
         Send feedback for <ph name="EXPERIMENT_NAME">$1<ex>Tab Scrolling</ex></ph>
       </message>
       <message name="IDS_TOOLTIP_FORWARD" desc="The tooltip for forward button">
@@ -7989,7 +7992,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_TOOLTIP_SAVE_IBAN" desc="The tooltip for the icon that shows the save IBAN (International Bank Account Number) bubble">
         Save IBAN
       </message>
-      <message name="IDS_TOOLTIP_MIGRATE_LOCAL_CARD" desc="Tooltip for the credit card icon that appears in the address bar. Icon is shown when a user has a credit card stored locally in Chrome but not in Google Pay.">
+      <message name="IDS_TOOLTIP_MIGRATE_LOCAL_CARD" desc="Tooltip for the credit card icon that appears in the address bar. Icon is shown when a user has a credit card stored locally in GTx Browser but not in Google Pay.">
         Save payment method
       </message>
       <message name="IDS_MANAGE_IBAN_VALUE_SHOW_VALUE" desc="The tooltip of a button that is used in the manage pending IBAN (International Bank Account Number) bubble for revealing the IBAN value.">
@@ -8031,8 +8034,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
         <message name="IDS_INTENT_PICKER_BUBBLE_VIEW_OPEN" desc="Message contained in a button to continue the navigation in an app selected by the user.">
           Open
         </message>
-        <message name="IDS_INTENT_PICKER_BUBBLE_VIEW_STAY_IN_CHROME" desc="Message contained in a button to continue the navigation within Chrome.">
-          Stay in Chrome
+        <message name="IDS_INTENT_PICKER_BUBBLE_VIEW_STAY_IN_CHROME" desc="Message contained in a button to continue the navigation within GTx Browser.">
+          Stay in GTx Browser
         </message>
         <message name="IDS_INTENT_PICKER_BUBBLE_VIEW_INITIATING_ORIGIN" desc="The label for the initiating origin of the intent picker.">
           From <ph name="ORIGIN">$1<ex>https://google.com</ex></ph>
@@ -8069,7 +8072,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         <ph name="WINDOW_TITLE">$1</ph> (Guest)
       </message>
       <message name="IDS_ACCESSIBLE_WINDOW_TITLE_WITH_PROFILE_FORMAT" desc="The format for describing the accessible window title when the window is associated with a particular named profile.">
-        <ph name="WINDOW_TITLE">$1<ex>Wikipedia - Google Chrome</ex></ph> - <ph name="PROFILE_NAME">$2<ex>John Smith</ex></ph>
+        <ph name="WINDOW_TITLE">$1<ex>Wikipedia - Google GTx Browser</ex></ph> - <ph name="PROFILE_NAME">$2<ex>John Smith</ex></ph>
       </message>
       <message name="IDS_ACCNAME_APP_UPGRADE_RECOMMENDED" desc="The accessible name for the app menu when software update is available.">
         <ph name="ACCNAME_APP">$1<ex>Chrome</ex></ph> (Update is available)
@@ -8113,16 +8116,16 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_ACCNAME_SAVED_TAB_GROUP_BUTTON_ROLE_DESCRIPTION" desc="The accessible role description for tab group buttons.">
         Saved Tab Group button
       </message>
-      <message name="IDS_ACCNAME_CHROMELABS_BUTTON" desc="The accessible name for the Chrome Labs experiments button">
+      <message name="IDS_ACCNAME_CHROMELABS_BUTTON" desc="The accessible name for the GTx Browser Labs experiments button">
         Experiments
       </message>
       <message name="IDS_ACCNAME_LEFT_ALIGNED_SIDE_PANEL_BUTTON" desc="The accessible name for the left aligned side panel toggle button">
         Left aligned side panel
       </message>
-      <message name="IDS_ACCESSIBLE_TEXT_CHROMELABS_BUTTON_ADDED_BY_ENTERPRISE_POLICY" desc="The text read out by the screen reader when the Chrome Labs experiments button is added to the toolbar by an enterprise policy change.">
+      <message name="IDS_ACCESSIBLE_TEXT_CHROMELABS_BUTTON_ADDED_BY_ENTERPRISE_POLICY" desc="The text read out by the screen reader when the GTx Browser Labs experiments button is added to the toolbar by an enterprise policy change.">
         Enterprise policy changed. Experiments button added to toolbar. Click the button to open a dialog to enable experiments.
       </message>
-      <message name="IDS_ACCESSIBLE_TEXT_CHROMELABS_BUTTON_REMOVED_BY_ENTERPRISE_POLICY" desc="The text read out by the screen reader when the Chrome Labs experiments button is removed from the toolbar by an enterprise policy change.">
+      <message name="IDS_ACCESSIBLE_TEXT_CHROMELABS_BUTTON_REMOVED_BY_ENTERPRISE_POLICY" desc="The text read out by the screen reader when the GTx Browser Labs experiments button is removed from the toolbar by an enterprise policy change.">
         Enterprise policy changed. Experiments button removed from toolbar.
       </message>
       <message name="IDS_ACCNAME_CHROMELABS_COMBOBOX" desc="The accessible name for the experiment's combobox to select between experiment states. ">
@@ -8220,7 +8223,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Get back here fast by bookmarking this tab
       </message>
       <message name="IDS_CHROME_TIP" desc="Accessible name used by a screen reader for the in-product-help or tutorial bubble icon." is_accessibility_with_no_ui="true">
-        Chrome tip
+        GTx Browser tip
       </message>
       <message name="IDS_GLOBAL_MEDIA_CONTROLS_PROMO" desc="Text shown on promotional UI appearing next to the global media controls toolbar button.">
         New! Control your music, videos, and more.
@@ -8262,7 +8265,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         To get back here quickly, install <ph name="APP_NAME">$1<ex>Google Maps</ex></ph> by clicking the install button
       </message>
       <message name="IDS_UPDATED_CONNECTION_SECURITY_INDICATORS_PROMO" desc="Text shown on promotional UI appearing next to the new omnibox connection security icon">
-        Your connection is always secure unless Chrome tells you otherwise
+        Your connection is always secure unless GTx Browser tells you otherwise
       </message>
       <message name="IDS_REOPEN_TAB_PROMO_SCREENREADER" desc="Text announced encouraging users to reopen a tab with the given shortcut">
         <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+T</ex></ph> can reopen accidentally closed tabs
@@ -8385,26 +8388,26 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Try using the side panel for bookmarks, journeys, and more
       </message>
 
-      <!-- Customize Chrome Tutorial Strings -->
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_START_TUTORIAL_IPH" desc="The description of the IPH to start the customize chrome tutorial">
-        Customize Chrome to give your browser a new look
+      <!-- Customize GTx Browser Tutorial Strings -->
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_START_TUTORIAL_IPH" desc="The description of the IPH to start the customize gtx browser tutorial">
+        Customize GTx Browser to give your browser a new look
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_OPEN_SIDE_PANEL" desc="The description of the 'open side panel' step in customize chrome tutorial">
-        Click “Customize Chrome”
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_OPEN_SIDE_PANEL" desc="The description of the 'open side panel' step in customize gtx browser tutorial">
+        Click “Customize GTx Browser”
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_CHANGE_THEME" desc="The description of the 'change theme' step in customize chrome tutorial">
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_CHANGE_THEME" desc="The description of the 'change theme' step in customize gtx browser tutorial">
         Click “Change theme” to explore themes inspired by artists, nature and more
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_SELECT_COLLECTION" desc="The description of the 'select collection' step in customize chrome tutorial">
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_SELECT_COLLECTION" desc="The description of the 'select collection' step in customize gtx browser tutorial">
         Select a collection
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_APPLY_THEME" desc="The description of the 'apply theme' step in customize chrome tutorial">
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_APPLY_THEME" desc="The description of the 'apply theme' step in customize gtx browser tutorial">
         Choose an image to apply the theme instantly
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_CLICK_BACK_ARROW" desc="The description of the 'click back arrow' step in customize chrome tutorial">
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_CLICK_BACK_ARROW" desc="The description of the 'click back arrow' step in customize gtx browser tutorial">
         Click the back arrow to explore other options
       </message>
-      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_SUCCESS_BODY" desc="The description of the body text in the 'success' step in customize chrome tutorial">
+      <message name="IDS_TUTORIAL_CUSTOMIZE_CHROME_SUCCESS_BODY" desc="The description of the body text in the 'success' step in customize gtx browser tutorial">
         You can now give your browser a new look at any time.
       </message>
 
@@ -8477,12 +8480,12 @@ Keep your key file in a safe place. You will need it to create new versions of y
          Show original content?
       </message>
       <message name="IDS_NEAR_OOM_REDUCTION_MESSAGE_DESCRIPTION" desc="The description of the message stating that the browser removed some content on the page using too much memory.">
-         To save memory, Chrome removed some content
+         To save memory, GTx Browser removed some content
       </message>
 
       <!-- Tailored Security Prompt for Unconsented users -->
       <message name="IDS_TAILORED_SECURITY_UNCONSENTED_MESSAGE_TITLE" desc="The title of the message asking if the user wants to enable Enhanced Safe Browsing">
-         Also turn on Enhanced Safe Browsing for this Chrome profile?
+         Also turn on Enhanced Safe Browsing for this GTx Browser profile?
       </message>
       <message name="IDS_TAILORED_SECURITY_UNCONSENTED_MESSAGE_ACCEPT" desc="The text on the 'accept' button when asking if the user wants to enable Enhanced Safe Browsing">
         Turn on
@@ -8608,10 +8611,10 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
           Protect your passwords
         </message>
         <message name="IDS_PASSWORD_MANAGER_IMPORT_DIALOG_TITLE" desc="The title of the file selection dialog for importing passwords">
-          Import Passwords To Chrome
+          Import Passwords To GTx Browser
         </message>
         <message name="IDS_PASSWORD_MANAGER_EXPORT_DIALOG_TITLE" desc="The title of the file selection dialog for exporting passwords">
-          Export Passwords From Chrome
+          Export Passwords From GTx Browser
         </message>
         <message name="IDS_PASSWORD_MANAGER_MOVE_TITLE" desc="The title of the 'move password to account' bubble">
           Move to Google Account?
@@ -8891,13 +8894,13 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       <message name="IDS_CLEAR_BROWSING_DATA_TITLE" desc="Dialog title">
         Clear browsing data
       </message>
-      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE" desc="A dialog informing the user that their Chrome browsing history was deleted, but other forms of history can still be found on Google My Activity.">
-        The selected data has been removed from Chrome and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;</ph>.
+      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE" desc="A dialog informing the user that their GTx Browser browsing history was deleted, but other forms of history can still be found on Google My Activity.">
+        The selected data has been removed from GTx Browser and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;</ph>.
       </message>
-      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_TITLE" desc="Title of a dialog that informs the user that the deletion of Chrome's browsing data has been completed.">
-        Cleared Chrome data
+      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_TITLE" desc="Title of a dialog that informs the user that the deletion of GTx Browser's browsing data has been completed.">
+        Cleared GTx Browser data
       </message>
-      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_OK" desc="Button in a dialog that informs the user that the deletion of Chrome's browsing data has been completed.">
+      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_OK" desc="Button in a dialog that informs the user that the deletion of GTx Browser's browsing data has been completed.">
         Ok, got it
       </message>
       <!-- TODO(crbug.com/1099260): Add proper strings and make them translateable. -->
@@ -8922,14 +8925,14 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         None available
       </message>
 
-      <message name="IDS_ZOOMLEVELS_CHROME_ERROR_PAGES_LABEL" desc="Label for zoom level list entry for Chrome error pages.">
-        (Chrome error pages)
+      <message name="IDS_ZOOMLEVELS_CHROME_ERROR_PAGES_LABEL" desc="Label for zoom level list entry for GTx Browser error pages.">
+        (GTx Browser error pages)
       </message>
 
       <!-- Automatic updates -->
       <if expr="is_macosx">
         <message name="IDS_PROMOTE_INFOBAR_TEXT" desc="The text to show in the automatic update setup infobar.  Mac-only.">
-          <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> may not be able to keep itself updated
+          <ph name="PRODUCT_NAME">$1<ex>Google GTx Browser</ex></ph> may not be able to keep itself updated
         </message>
         <message name="IDS_PROMOTE_INFOBAR_PROMOTE_BUTTON" desc="The 'Set up automatic updates' button in the automatic update setup infobar.  Mac-only.">
           Set up automatic updates
@@ -8938,7 +8941,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
           Don't ask again
         </message>
         <message name="IDS_PROMOTE_AUTHENTICATION_PROMPT" desc="The prompt displayed in the authentication dialog when setting up automatic updates for all users.  The system will add a sentence asking for an administrator's name and password.  Mac-only.">
-          <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> will set up automatic updates for all users of this computer.
+          <ph name="PRODUCT_NAME">$1<ex>Google GTx Browser</ex></ph> will set up automatic updates for all users of this computer.
         </message>
         <message name="IDS_PROMOTE_PREFLIGHT_LAUNCH_ERROR" desc="Status label shown when an administrator user requested automatic updates for all users, but the OS failed to start the pre-flight process.  Mac-only.">
           Failed to set up automatic updates for all users (preflight launch error: <ph name="ERROR_NUMBER">$1<ex>1</ex></ph>)
@@ -8948,7 +8951,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         </message>
       </if>
 
-      <!-- About Chrome View -->
+      <!-- About GTx Browser View -->
       <if expr="is_win or is_macosx">
         <message name="IDS_UPGRADE_ERROR" desc="Status label: Error occurred during upgrade">
           Update failed (error: <ph name="ERROR_NUMBER">$1<ex>1</ex></ph>)
@@ -8967,28 +8970,28 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
           Automatic updates are enabled. Manual updates are disabled by your administrator.
         </message>
       </if>
-      <message name="IDS_REPORT_AN_ISSUE" desc="Text of the button which allows the user to report an issue with Chrome.">
+      <message name="IDS_REPORT_AN_ISSUE" desc="Text of the button which allows the user to report an issue with GTx Browser.">
         Report an issue
       </message>
 
-      <!-- Chrome Cleanup prompt and web UI -->
+      <!-- GTx Browser Cleanup prompt and web UI -->
       <if expr="is_win">
-        <message name="IDS_CHROME_CLEANUP_PROMPT_DETAILS_BUTTON_LABEL" desc="The button in the Chrome Cleanup dialog that lets users see more details, such as what files will be deleted from their computer. Chrome browser shows the dialog when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Noun; verb 'See' is omitted.">
+        <message name="IDS_CHROME_CLEANUP_PROMPT_DETAILS_BUTTON_LABEL" desc="The button in the GTx Browser Cleanup dialog that lets users see more details, such as what files will be deleted from their computer. GTx Browser shows the dialog when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Noun; verb 'See' is omitted.">
           Details
         </message>
-        <message name="IDS_CHROME_CLEANUP_PROMPT_REMOVE_BUTTON_LABEL" desc="A button in the Chrome Cleanup dialog. When clicked, Chrome will begin to remove unwanted software and restore browser settings to default values. Appears next to a 'Cancel' button and a 'Details' button that opens a page that shows which unwanted software will be deleted. 'Remove' is imperative.">
+        <message name="IDS_CHROME_CLEANUP_PROMPT_REMOVE_BUTTON_LABEL" desc="A button in the GTx Browser Cleanup dialog. When clicked, GTx Browser will begin to remove unwanted software and restore browser settings to default values. Appears next to a 'Cancel' button and a 'Details' button that opens a page that shows which unwanted software will be deleted. 'Remove' is imperative.">
           Remove
         </message>
-        <message name="IDS_CHROME_CLEANUP_PROMPT_TITLE" desc="Title of the Chrome Cleanup dialog. Chrome browser shows the dialog when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears above a description of what the cleanup dialog does, along with a 'Remove', 'Cancel', and 'Details' button. 'Remove' is imperative, asking the user, do you want Chrome to remove harmful software?">
+        <message name="IDS_CHROME_CLEANUP_PROMPT_TITLE" desc="Title of the GTx Browser Cleanup dialog. GTx Browser shows the dialog when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears above a description of what the cleanup dialog does, along with a 'Remove', 'Cancel', and 'Details' button. 'Remove' is imperative, asking the user, do you want GTx Browser to remove harmful software?">
           Remove harmful software?
         </message>
-        <message name="IDS_CHROME_CLEANUP_REBOOT_PROMPT_TITLE" desc="Title of the Chrome Cleanup reboot prompt dialog. Chrome browser shows the dialog when the user runs the Chrome Cleanup tool and computer restart is required to finish the cleanup. User must take additional action to finish the cleanup. 'Restart' is imperative.">
+        <message name="IDS_CHROME_CLEANUP_REBOOT_PROMPT_TITLE" desc="Title of the GTx Browser Cleanup reboot prompt dialog. GTx Browser shows the dialog when the user runs the GTx Browser Cleanup tool and computer restart is required to finish the cleanup. User must take additional action to finish the cleanup. 'Restart' is imperative.">
           To finish removing harmful software, restart your computer
         </message>
-        <message name="IDS_CHROME_CLEANUP_REBOOT_PROMPT_RESTART_BUTTON_LABEL" desc="A button in the Chrome Cleanup reboot prompt dialog. Clicking this button causes the user's computer to turn off (shut down) and turn back on again. Imperative.">
+        <message name="IDS_CHROME_CLEANUP_REBOOT_PROMPT_RESTART_BUTTON_LABEL" desc="A button in the GTx Browser Cleanup reboot prompt dialog. Clicking this button causes the user's computer to turn off (shut down) and turn back on again. Imperative.">
           Restart computer
         </message>
-        <message name="IDS_CHROME_CLEANUP_LOGS_PERMISSION" desc="A checkbox label, appearing on the Chrome Cleanup modal dialog, asking the user for permission to send details about the cleanup operation to Google.">
+        <message name="IDS_CHROME_CLEANUP_LOGS_PERMISSION" desc="A checkbox label, appearing on the GTx Browser Cleanup modal dialog, asking the user for permission to send details about the cleanup operation to Google.">
           Report details to Google
         </message>
       </if>
@@ -9003,7 +9006,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       <message name="IDS_SETTINGS_RESET_PROMPT_TITLE_HOMEPAGE" desc="The title for the settings reset dialog when the user's homepage setting has been modified by. The dialog will ask users if they want to restore their modified setting to its original default value.">
         Restore default homepage?
       </message>
-      <message name="IDS_SETTINGS_RESET_PROMPT_ACCEPT_BUTTON_LABEL" desc="The settings reset dialog asks users if they want to restore a Chrome setting that has been modified by an unwanted software or extension to its original default value. This text is displayed on the main button in the dialog that, when clicked, will restore the setting.">
+      <message name="IDS_SETTINGS_RESET_PROMPT_ACCEPT_BUTTON_LABEL" desc="The settings reset dialog asks users if they want to restore a GTx Browser setting that has been modified by an unwanted software or extension to its original default value. This text is displayed on the main button in the dialog that, when clicked, will restore the setting.">
         Restore
       </message>
 
@@ -9089,7 +9092,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       </message>
 
       <!-- Load State -->
-      <message name="IDS_LOAD_STATE_WAITING_FOR_SOCKET_SLOT" desc="Status text when Chrome is at its connection limit, and is waiting for a URL request to complete to free up a connection.">
+      <message name="IDS_LOAD_STATE_WAITING_FOR_SOCKET_SLOT" desc="Status text when GTx Browser is at its connection limit, and is waiting for a URL request to complete to free up a connection.">
         Waiting for available socket...
       </message>
       <message name="IDS_LOAD_STATE_WAITING_FOR_DELEGATE">
@@ -9518,7 +9521,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
           Relaunch to update
         </message>
         <message name="IDS_APP_MENU_BUTTON_UPDATE_ALT3" desc="Alternate short label next to app-menu button when an update is available.">
-          New Chrome available
+          New GTx Browser available
         </message>
       </if>
       <message name="IDS_APP_MENU_BUTTON_ERROR" desc="Short label next to app-menu button when the user needs to resolve something.">
@@ -9545,10 +9548,10 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a window.
       </message>
       <message name="IDS_MEDIA_TAB_CAPTURE_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
-        <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a Chrome tab.
+        <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a GTx Browser tab.
       </message>
       <message name="IDS_MEDIA_TAB_CAPTURE_WITH_AUDIO_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
-        <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a Chrome tab and audio.
+        <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a GTx Browser tab and audio.
       </message>
       <message name="IDS_MEDIA_SCREEN_CAPTURE_NOTIFICATION_HIDE" desc="Text shown on a link that hides the notification that the screen is being captured.">
         Hide
@@ -9641,7 +9644,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       <!-- Killed Tab Strings -->
       <if expr="is_chromeos">
         <message name="IDS_KILLED_TAB_BY_OOM_MESSAGE" desc="The message displayed on the killed tab page when the page was killed by an out of memory error.">
-          Either Chrome ran out of memory or the process for the webpage was terminated for some other reason.  To continue, reload or go to another page.
+          Either GTx Browser ran out of memory or the process for the webpage was terminated for some other reason.  To continue, reload or go to another page.
         </message>
       </if>
       <message name="IDS_KILLED_TAB_FEEDBACK_MESSAGE" desc="The text to auto-populate the feedback page with. The triple single quotes are needed to preserve the line break.">
@@ -9725,7 +9728,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         </message>
         <!-- Extension install location strings -->
         <message name="IDS_EXTENSIONS_INSTALL_LOCATION_UNKNOWN" desc="The text explaining the the installation location is unknown.">
-          Not from Chrome Web Store.
+          Not from GTx Browser Web Store.
         </message>
         <message name="IDS_EXTENSIONS_INSTALL_LOCATION_3RD_PARTY" desc="The text explaining the the installation came from a 3rd party app.">
           Installed by a third party.
@@ -9744,11 +9747,11 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <message name="IDS_EXTENSIONS_BLOCKLISTED_SECURITY_VULNERABILITY" desc="The text explaining the reason for disabling extension or app. The extension in question has a security vulnerability.">
           This extension contains a serious security vulnerability.
         </message>
-        <message name="IDS_EXTENSIONS_BLOCKLISTED_CWS_POLICY_VIOLATION" desc="The text explaining the reason for disabling extension or app. The extension in question violates Chrome Web Store policy.">
-          This extension violates the Chrome Web Store policy.
+        <message name="IDS_EXTENSIONS_BLOCKLISTED_CWS_POLICY_VIOLATION" desc="The text explaining the reason for disabling extension or app. The extension in question violates GTx Browser Web Store policy.">
+          This extension violates the GTx Browser Web Store policy.
         </message>
         <message name="IDS_EXTENSIONS_BLOCKLISTED_POTENTIALLY_UNWANTED" desc="The text explaining the reason for disabling extension or app. The extension in question might have been installed without user consent.">
-          Disabled by Chrome. This extension may be unsafe.
+          Disabled by GTx Browser. This extension may be unsafe.
         </message>
 
         <!-- Enhanced Safe Browsing CRX allowlist warning -->
@@ -9769,7 +9772,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <message name="IDS_RESET_PROFILE_SETTINGS_EXPLANATION_IN_BULLET_POINTS" desc="A label formatted with bullet points describing the consequences of the 'reset profile settings' feature">
           This action will:
           <ph name="LINE_BREAKS">&lt;br&gt;&lt;br&gt;</ph>
-           • Reset Chrome settings and Chrome shortcuts
+           • Reset GTx Browser settings and GTx Browser shortcuts
            <ph name="LINE_BREAK">&lt;br&gt;</ph>
            • Disable extensions
            <ph name="LINE_BREAK">&lt;br&gt;</ph>
@@ -9781,7 +9784,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
           <ph name="THIRD_PARTY_TOOL_NAME">$1<ex>SuperDuper PC Cleaner Pro</ex></ph> wants to reset your settings.
         </message>
         <message name="IDS_TRIGGERED_RESET_PROFILE_SETTINGS_EXPLANATION" desc="Dialog title for reset dialog triggered by a third party tool">
-          <ph name="THIRD_PARTY_TOOL_NAME">$1<ex>SuperDuper PC Cleaner Pro</ex></ph> wants to restore your Chrome settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions, and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.
+          <ph name="THIRD_PARTY_TOOL_NAME">$1<ex>SuperDuper PC Cleaner Pro</ex></ph> wants to restore your GTx Browser settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions, and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.
         </message>
         <message name="IDS_TRIGGERED_RESET_PROFILE_SETTINGS_DEFAULT_TOOL_NAME" desc="Default tool name when a reset was triggered but a name could not be found.">
           A cleanup tool
@@ -9816,7 +9819,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <message name="IDS_RESET_PROFILE_SETTINGS_EXTENSIONS" desc="Extensions tag in the feedback details of the Reset Profile Settings dialog">
           Extensions
         </message>
-        <message name="IDS_RESET_PROFILE_SETTINGS_SHORTCUTS" desc="List of Chrome shortcuts in the feedback details of the Reset Profile Settings dialog (shortcut refers to the desktop icon on windows)">
+        <message name="IDS_RESET_PROFILE_SETTINGS_SHORTCUTS" desc="List of GTx Browser shortcuts in the feedback details of the Reset Profile Settings dialog (shortcut refers to the desktop icon on windows)">
           Shortcut targets
         </message>
         <message name="IDS_RESET_PROFILE_SETTINGS_PROCESSING_SHORTCUTS" desc="A placeholder for the actual shortcuts in the Reset Profile Settings dialog (shortcut refers to the desktop icon on windows)">
@@ -9876,7 +9879,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         Shared Tab
       </message>
       <message name="IDS_TOOLBAR_BUTTON_SEND_TAB_TO_SELF_BUTTON_HINT_TEXT" desc="The hint text shown on received tab dialog shown from the toolbar button. Where 'THERE' is the device the user selected.">
-        Choose a device. Then, to see the page, open Chrome there.
+        Choose a device. Then, to see the page, open GTx Browser there.
       </message>
       <if expr="use_titlecase">
         <then>
@@ -9905,10 +9908,10 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <ph name="BEGIN_LINK">$1</ph>Your devices<ph name="END_LINK">$2</ph> · <ph name="EMAIL">$3<ex>foo@gmail.com</ex></ph>
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_SIGN_IN_PROMO_LABEL" desc = "Text when a signed out user attempts to use send-tab-to-self, then sees a sign-in promo.">
-        To send this tab to another device, sign in to Chrome on both devices
+        To send this tab to another device, sign in to GTx Browser on both devices
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_NO_TARGET_DEVICE_LABEL" desc = "Text shown when a user with no available target devices attempts to use send-tab-to-self.">
-        To send this tab to another device, sign in to Chrome there
+        To send this tab to another device, sign in to GTx Browser there
       </message>
 
       <!-- Share via QR Code strings -->
@@ -10299,7 +10302,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       </message>
 
       <message name="IDS_PAGE_SPECIFIC_SITE_DATA_DIALOG_SESSION_ONLY_MENU_ITEM"
-          desc="The name of a menu item that allows storage access and clears the storage set after user closes Chrome (creates a 'Clear on exit' exception) for a site. The menu item is shown in the `Cookies and site data` dialog.">
+          desc="The name of a menu item that allows storage access and clears the storage set after user closes GTx Browser (creates a 'Clear on exit' exception) for a site. The menu item is shown in the `Cookies and site data` dialog.">
         Delete when you close all windows
       </message>
 
@@ -10314,7 +10317,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       </message>
 
       <message name="IDS_PAGE_SPECIFIC_SITE_DATA_DIALOG_SESSION_ONLY_STATE_SUBTITLE"
-          desc="The label that is shown under a site's name to indicate the state of storage access for the site: the site is allowed to access storage but the accessed storage is cleared when user closes Chrome. The label is shown in the `Cookies and site data` dialog.">
+          desc="The label that is shown under a site's name to indicate the state of storage access for the site: the site is allowed to access storage but the accessed storage is cleared when user closes GTx Browser. The label is shown in the `Cookies and site data` dialog.">
         Delete data when you close all windows
       </message>
 
@@ -10324,7 +10327,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       </message>
 
       <message name="IDS_PAGE_SPECIFIC_SITE_DATA_DIALOG_PARTITIONED_SESSION_ONLY_STATE_SUBTITLE"
-          desc="The label that is shown under a site's name to indicate the state of storage access for the site: the site has only accessed partitioned storage and the accessed storage is cleared when user closes Chrome. Partitioned storage set in a context of one site can only be accessed in that site's context and cannot be accessed when embedded on other sites. The label is shown in the `Cookies and site data` dialog.">
+          desc="The label that is shown under a site's name to indicate the state of storage access for the site: the site has only accessed partitioned storage and the accessed storage is cleared when user closes GTx Browser. Partitioned storage set in a context of one site can only be accessed in that site's context and cannot be accessed when embedded on other sites. The label is shown in the `Cookies and site data` dialog.">
         Delete data when you close all windows. Data is treated the same as the site you’re viewing
       </message>
 
@@ -10831,7 +10834,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       <if expr="chromeos_lacros">
         <!--  TODO(crbug.com/1383167): Move to Chrome-specific resource file -->
         <message name="IDS_SYNC_CONFIRMATION_TITLE_LACROS_NON_FORCED" desc="Title of the sync confirmation dialog/screen on lacros when sync is not forced.">
-          Turn on Chrome browser sync?
+          Turn on GTx Browser sync?
         </message>
         <message name="IDS_SYNC_CONFIRMATION_SYNC_INFO_TITLE_LACROS" desc="Text in the information about sync on the sync confirmation dialog/screen on lacros.">
           Your bookmarks, passwords, history, and more are synced on all your devices
@@ -10842,15 +10845,15 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_TITLE" desc="This string appears as a heading on a modal window that asks users if they want to turn on sync. 'Sync' is short for 'synchronization'. The tone should be informative and inviting.">
         Turn on sync
       </message>
-      <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE" desc="This string appears as a subheading on a screen, and it asks users if they want to turn on sync. This string explains to users that they can back up their Chrome data and use it on all their computers, phones, and other devices; a user's Chrome data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the Chrome app. The tone should be informative and inviting.">
+      <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE" desc="This string appears as a subheading on a screen, and it asks users if they want to turn on sync. This string explains to users that they can back up their GTx Browser data and use it on all their computers, phones, and other devices; a user's GTx Browser data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the GTx Browser app. The tone should be informative and inviting.">
         Back up your stuff and use it on any device
       </message>
       <if expr="chromeos_lacros">
-        <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE_LACROS" desc="This string appears as a subheading on a screen, and it asks users if they want to turn on sync. This string explains to users that they can back up their Chrome browser data and use it on all their computers, phones, and other devices; a user's Chrome data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the Chrome app. The tone should be informative and inviting. Please keep translations consistent with TC 7137558043921529662 (Windows, Mac, Linux) and TC 3833960754549650885 (iOS).">
+        <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE_LACROS" desc="This string appears as a subheading on a screen, and it asks users if they want to turn on sync. This string explains to users that they can back up their GTx Browser data and use it on all their computers, phones, and other devices; a user's GTx Browser data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the GTx Browser app. The tone should be informative and inviting. Please keep translations consistent with TC 7137558043921529662 (Windows, Mac, Linux) and TC 3833960754549650885 (iOS).">
           Back up your browser stuff and use it on any device
         </message>
       </if>
-      <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE_SIGNIN_INTERCEPT_V2" desc="This string appears as a subheading on a pop-up dialog, and it asks users if they want to turn on sync. This string explains to users that they can back up their Chrome data and use it on all their computers, phones, and other devices; a user's Chrome data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the Chrome app. The tone should be informative and inviting.">
+      <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_INFO_TITLE_SIGNIN_INTERCEPT_V2" desc="This string appears as a subheading on a pop-up dialog, and it asks users if they want to turn on sync. This string explains to users that they can back up their GTx Browser data and use it on all their computers, phones, and other devices; a user's GTx Browser data includes their bookmarks, passwords, history, settings, and more. If there is no natural translation for the word 'stuff' in your language, the word can be translated as 'data' or similar. Maintain the level of formality that your language generally uses in the GTx Browser app. The tone should be informative and inviting.">
         Turn on sync to back up your stuff and use it on any device
       </message>
       <message name="IDS_SYNC_CONFIRMATION_TANGIBLE_SYNC_BOOKMARKS" desc="This string appears as an item in a list of sync data types on a screen that asks users if they want to turn on sync. Translate 'bookmarks' according to https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=59c31bb. Used in the tangible sync confirmation page.">
@@ -10891,7 +10894,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
       </if>
 
       <!--- Sync Confirmation section of the tab modal signin flow when sync is disabled by policy -->
-      <message name="IDS_SYNC_DISABLED_CONFIRMATION_CHROME_SYNC_TITLE" desc="Title of the chrome sync section of the sync confirmation dialog in the tab modal signin flow when sync is disabled by policy">
+      <message name="IDS_SYNC_DISABLED_CONFIRMATION_CHROME_SYNC_TITLE" desc="Title of the gtx browser sync section of the sync confirmation dialog in the tab modal signin flow when sync is disabled by policy">
         Sync is disabled by your administrator
       </message>
       <message name="IDS_SYNC_DISABLED_CONFIRMATION_DETAILS" desc="Body of the sync confirmation dialog in the tab modal signin flow when sync is disabled by policy">
@@ -10917,7 +10920,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_NEW_PROFILE_BUTTON_LABEL" desc="Label of the confirmation button in the web signin interception bubble">
           Ok
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_NEW_PROFILE_BUTTON_LABEL_V2" desc="Label of the confirmation button in the web signin interception bubble. This action will create a new Chrome profile for the intercepted account.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_NEW_PROFILE_BUTTON_LABEL_V2" desc="Label of the confirmation button in the web signin interception bubble. This action will create a new GTx Browser profile for the intercepted account.">
           Let's go
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CANCEL_BUTTON_LABEL" desc="Label of the cancel button in the web signin interception bubble">
@@ -11014,7 +11017,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
         Passwords from your Google Account will also be available on this device while you're signed in
       </message>
       <message name="IDS_ACCOUNT_PASSWORDS_REAUTH_DESC_ALREADY_SAVED_LOCALLY" desc="Body of the account password storage reauth tab modal dialog, shown in the case where the password was already saved locally.">
-        Chrome saved your password to this device, but you can save it to your Google Account instead. Then, all passwords in your Google Account will also be available while you're signed in.
+        GTx Browser saved your password to this device, but you can save it to your Google Account instead. Then, all passwords in your Google Account will also be available while you're signed in.
       </message>
       <message name="IDS_ACCOUNT_PASSWORDS_REAUTH_CONFIRM_BUTTON_LABEL" desc="Label of the confirmation button in the account password storage reauth tab modal dialog.">
         Yes
@@ -11111,17 +11114,17 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Google 
 Please help our engineers fix this problem. Tell us what happened right before you got the profile error message:
 '''
       </message>
-      <message name="IDS_COULDNT_STARTUP_PROFILE_ERROR" desc="Error displayed when Chrome cannot start because profiles were not opened correctly.">
-        Cannot start Chrome because something went wrong when opening your profile. Try to restart Chrome.
+      <message name="IDS_COULDNT_STARTUP_PROFILE_ERROR" desc="Error displayed when GTx Browser cannot start because profiles were not opened correctly.">
+        Cannot start GTx Browser because something went wrong when opening your profile. Try to restart GTx Browser.
       </message>
-      <message name="IDS_REFUSE_TO_RUN_AS_ROOT" desc="Short error message displayed in an error dialog on startup if the user tries to run Chrome as root.">
+      <message name="IDS_REFUSE_TO_RUN_AS_ROOT" desc="Short error message displayed in an error dialog on startup if the user tries to run GTx Browser as root.">
         <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> can not be run as root.
       </message>
-      <message name="IDS_REFUSE_TO_RUN_AS_ROOT_2" desc="Detailed message in the error dialog when the user tries to start Chrome as root.">
+      <message name="IDS_REFUSE_TO_RUN_AS_ROOT_2" desc="Detailed message in the error dialog when the user tries to start GTx Browser as root.">
         Please start <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> as a normal user. If you need to run as root for development, rerun with the --no-sandbox flag.
       </message>
       <if expr="is_win">
-        <message name="IDS_PROFILE_ON_NETWORK_WARNING" desc="Warning shown to the user when they are running Chrome on Windows with a profile located on a network share.">
+        <message name="IDS_PROFILE_ON_NETWORK_WARNING" desc="Warning shown to the user when they are running GTx Browser on Windows with a profile located on a network share.">
           Warning: your <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> settings are stored on a network drive. This may result in slowdowns, crashes, or even loss of data.
         </message>
       </if>
@@ -11600,7 +11603,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         </message>
       </if>
       <if expr="is_android">
-        <message name="IDS_NOTIFICATION_BUTTON_MANAGE" desc="Text of a button shown on notification permission requests, that opens the Chrome notifications settings page. This allows users to edit notification settings when a site asks them to allow notifications.">
+        <message name="IDS_NOTIFICATION_BUTTON_MANAGE" desc="Text of a button shown on notification permission requests, that opens the GTx Browser notifications settings page. This allows users to edit notification settings when a site asks them to allow notifications.">
           Manage
         </message>
         <message name="IDS_NOTIFICATION_QUIET_PERMISSION_MINI_INFOBAR_DETAILS_LINK" desc="Blue text on a notification infobar that when clicked expands the infobar to show more details.">
@@ -12185,7 +12188,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <message name="IDS_MIC_TURNED_OFF_IN_MACOS" desc="Title for the media status bubble that is used when a site requests microphone access, but microphone is blocked on an OS level in macOS.">
           Microphone is turned off in Mac System Preferences
         </message>
-        <message name="IDS_OPEN_SETTINGS_LINK" desc="Title for the button that takes the user to the Security and Privacy settings in macOS, in order for the user to be able to modify the ability to access camera and microphone for Chrome. The translation for this string should match the translation of the System Settings app title in the macOS target locale. You can find this by selecting the locale from https://support.apple.com/guide/mac-help/mh15217/mac/localeselector. The title of the next page after that includes the desired translation. Note that, for size reasons, the English string omits 'System' and the same contraction may be suitable in other languages.">
+        <message name="IDS_OPEN_SETTINGS_LINK" desc="Title for the button that takes the user to the Security and Privacy settings in macOS, in order for the user to be able to modify the ability to access camera and microphone for GTx Browser. The translation for this string should match the translation of the System Settings app title in the macOS target locale. You can find this by selecting the locale from https://support.apple.com/guide/mac-help/mh15217/mac/localeselector. The title of the next page after that includes the desired translation. Note that, for size reasons, the English string omits 'System' and the same contraction may be suitable in other languages.">
           Open Settings
         </message>
         <message name="IDS_CAMERA" desc="Description text for the camera.">
@@ -12286,13 +12289,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_MANAGE_PASSWORDS_AUTO_SIGNIN_TITLE_MD" desc="The title of the auto-signin toast in Material Design mode.">
         Signing in as
       </message>
-      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TITLE_MANY_DEVICES" desc="The title of the dialog during the autosign-in first run experience for the Chrome syncing users.">
+      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TITLE_MANY_DEVICES" desc="The title of the dialog during the autosign-in first run experience for the GTx Browser syncing users.">
         Sign in easily across devices
       </message>
-      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TITLE_LOCAL_DEVICE" desc="The title of the dialog during the autosign-in first run experience for the Chrome signed out users.">
+      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TITLE_LOCAL_DEVICE" desc="The title of the dialog during the autosign-in first run experience for the GTx Browser signed out users.">
         Sign in easily
       </message>
-      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TEXT" desc="The text of the dialog during the autosign-in first run experience for the Chrome signed out users.">
+      <message name="IDS_AUTO_SIGNIN_FIRST_RUN_TEXT" desc="The text of the dialog during the autosign-in first run experience for the GTx Browser signed out users.">
         <ph name="PASSWORD_MANAGER_BRAND">$1<ex>Google Chrome</ex></ph> automatically signs you in to eligible sites with passwords you saved.
       </message>
       <if expr="use_titlecase">
@@ -12308,7 +12311,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
 
       <!-- Extra Mac UI Strings -->
       <if expr="is_macosx">
-        <message name="IDS_PLEASE_RELAUNCH_BROWSER" desc="Title of the alert when Chrome needs to be relaunched for a change/update to take effect.">
+        <message name="IDS_PLEASE_RELAUNCH_BROWSER" desc="Title of the alert when GTx Browser needs to be relaunched for a change/update to take effect.">
           Please Relaunch <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph>
         </message>
 
@@ -12626,7 +12629,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </if>
 
       <!-- Translated apps strings -->
-      <message name="IDS_CHROME_SHORTCUT_DESCRIPTION" desc="Description for the Chrome app shortcut in the app launcher.">
+      <message name="IDS_CHROME_SHORTCUT_DESCRIPTION" desc="Description for the GTx Browser app shortcut in the app launcher.">
         A fast, simple, and secure web browser, built for the modern web.
       </message>
       <message name="IDS_WEBSTORE_NAME_STORE" desc="Name for the WebStore app in the app launcher.">
@@ -13284,7 +13287,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
     </if>
 
-    <!-- Chrome IME API activated bubble. -->
+    <!-- GTx Browser IME API activated bubble. -->
     <message name="IDS_IME_API_ACTIVATED_WARNING" desc="The Warning info when an IME extension is trying to activate.">
       <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> extension may collect all the text you type, including personal data like passwords and credit card numbers. Do you want to use this extension?
     </message>
@@ -13293,7 +13296,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     </message>
 
     <!-- Ad Blocking UI strings. -->
-    <message name="IDS_BLOCKED_ADS_PROMPT_TOOLTIP" desc="Explanation that Chrome blocked ads on this site. To be shown as a tooltip on the Ads blocked desktop bubble">
+    <message name="IDS_BLOCKED_ADS_PROMPT_TOOLTIP" desc="Explanation that GTx Browser blocked ads on this site. To be shown as a tooltip on the Ads blocked desktop bubble">
       Ads blocked on this site
     </message>
 
@@ -13314,7 +13317,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_REDIRECT_BLOCKED_TITLE" desc="The short message stating that a redirect (noun) was blocked on this page. Same as IDS_REDIRECT_BLOCKED_SHORT_MESSAGE but without the period.">
         Redirect blocked
     </message>
-    <message name="IDS_REDIRECT_BLOCKED_TOOLTIP" desc="Tooltip text that appears when the user hovers over the &quot;Redirect blocked&quot; icon in the address bar. It means that a redirect (noun) was blocked by Chrome on this page.">
+    <message name="IDS_REDIRECT_BLOCKED_TOOLTIP" desc="Tooltip text that appears when the user hovers over the &quot;Redirect blocked&quot; icon in the address bar. It means that a redirect (noun) was blocked by GTx Browser on this page.">
         Redirect blocked on this page.
     </message>
     <message name="IDS_ALWAYS_ALLOW_REDIRECTS" desc="The message button text allowing a user to always allow redirects (noun) after they were blocked on this page.">
@@ -13353,13 +13356,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WIN10_TOAST_SWITCH_SMART_AND_SECURE" desc="Toast message variant: switch to a smart and secure browser.">
         Switch to a smart and secure browser
       </message>
-      <message name="IDS_WIN10_TOAST_RECOMMENDATION" desc="Toast header label noting Google recommends Chrome.">
-        Google recommends Chrome
+      <message name="IDS_WIN10_TOAST_RECOMMENDATION" desc="Toast header label noting Google recommends GTx Browser.">
+        Google recommends GTx Browser
       </message>
-      <message name="IDS_WIN10_TOAST_OPEN_CHROME" desc="The label on the button to dismiss the toast and launch Chrome.">
+      <message name="IDS_WIN10_TOAST_OPEN_CHROME" desc="The label on the button to dismiss the toast and launch GTx Browser.">
         Open Chrome
       </message>
-      <message name="IDS_WIN10_TOAST_NO_THANKS" desc="The label on the button to dismiss the toast without launching Chrome.">
+      <message name="IDS_WIN10_TOAST_NO_THANKS" desc="The label on the button to dismiss the toast without launching GTx Browser.">
         No thanks
       </message>
     </if>
@@ -13376,17 +13379,17 @@ Please help our engineers fix this problem. Tell us what happened right before y
 
     <!-- Automation infobar -->
     <message name="IDS_CONTROLLED_BY_AUTOMATION" desc="Message shown when the browser session is being controlled by an automated test.">
-      Chrome is being controlled by automated test software.
+      GTx Browser is being controlled by automated test software.
     </message>
 
-    <!-- Chrome for Testing infobar main text -->
-    <message name="IDS_CHROME_FOR_TESTING_DISCLAIMER" desc="An infobar prompt shown whenever Chrome for Testing is launched. In Title Case: 'Chrome for Testing'.">
-      Chrome for Testing v<ph name="BROWSER_VERSION">
+    <!-- GTx Browser for Testing infobar main text -->
+    <message name="IDS_CHROME_FOR_TESTING_DISCLAIMER" desc="An infobar prompt shown whenever GTx Browser for Testing is launched. In Title Case: 'GTx Browser for Testing'.">
+      GTx Browser for Testing v<ph name="BROWSER_VERSION">
         $1<ex>109.0.5369.0</ex>
-      </ph> is only for automated testing. For regular browsing, use a standard version of Chrome that updates automatically.
+      </ph> is only for automated testing. For regular browsing, use a standard version of GTx Browser that updates automatically.
     </message>
 
-    <!-- Chrome for Testing infobar download chrome hyperlink text -->
+    <!-- GTx Browser for Testing infobar download gtx browser hyperlink text -->
     <message name="IDS_DOWNLOAD_CHROME" desc="Hyperlink call-out to download Chrome">
       Download Chrome
     </message>
@@ -13551,22 +13554,22 @@ Please help our engineers fix this problem. Tell us what happened right before y
     </message>
 
     <!-- File System Access restricted directory and file dialogs. -->
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_TITLE" desc="Title of dialog explaining that the user selected a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_TITLE" desc="Title of dialog explaining that the user selected a directory that gtx browser doesn't want to expose to the web">
       Can't open this folder
     </message>
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_TEXT" desc="Text of dialog explaining that the user selected a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_TEXT" desc="Text of dialog explaining that the user selected a directory that gtx browser doesn't want to expose to the web">
       <ph name="ORIGIN">$1<ex>example.com</ex></ph> can't open this folder because it contains system files
     </message>
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_BUTTON" desc="Text of the button in dialog explaining that the user selected a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_BUTTON" desc="Text of the button in dialog explaining that the user selected a directory that gtx browser doesn't want to expose to the web">
       Choose a different folder
     </message>
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_TITLE" desc="Title of dialog explaining that the user selected a file in a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_TITLE" desc="Title of dialog explaining that the user selected a file in a directory that gtx browser doesn't want to expose to the web">
       Can't open this file
     </message>
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_TEXT" desc="Text of dialog explaining that the user selected a file in a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_TEXT" desc="Text of dialog explaining that the user selected a file in a directory that gtx browser doesn't want to expose to the web">
       <ph name="ORIGIN">$1<ex>example.com</ex></ph> can't open files in this folder because it contains system files
     </message>
-    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_BUTTON" desc="Text of the button in dialog explaining that the user selected a file in a directory that chrome doesn't want to expose to the web">
+    <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_FILE_BUTTON" desc="Text of the button in dialog explaining that the user selected a file in a directory that gtx browser doesn't want to expose to the web">
       Choose a different file
     </message>
 
@@ -13608,13 +13611,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
           =1 {Your Incognito window won't reopen.}
           other {Your # Incognito windows won't reopen.}}
       </message>
-      <message name="IDS_IDLE_TIMEOUT_CLOSE_COUNTDOWN" desc="In the Idle Timeout dialog, a countdown that ticks every second. When it reaches zero, Chrome closes all browsers.">
+      <message name="IDS_IDLE_TIMEOUT_CLOSE_COUNTDOWN" desc="In the Idle Timeout dialog, a countdown that ticks every second. When it reaches zero, GTx Browser closes all browsers.">
         {0, plural,
           =0 {Closing now.}
           =1 {Closing in: 1 second}
           other {Closing in: # seconds}}
       </message>
-      <message name="IDS_IDLE_TIMEOUT_CLEAR_COUNTDOWN" desc="In the Idle Timeout dialog, a countdown that ticks every second. When it reaches zero, Chrome clears browsing data.">
+      <message name="IDS_IDLE_TIMEOUT_CLEAR_COUNTDOWN" desc="In the Idle Timeout dialog, a countdown that ticks every second. When it reaches zero, GTx Browser clears browsing data.">
         {0, plural,
           =0 {Deleting now.}
           =1 {Deleting in: 1 second}
@@ -13690,13 +13693,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_ERROR_NO_PASSKEYS_DESCRIPTION" desc="Description in the dialog shown when the user could not sign in to a web site because their computer did not have any of the passkeys registered with the site.">
         There aren't any passkeys for <ph name="APP_NAME">$1<ex>google.com</ex></ph> on this device
       </message>
-      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_TITLE" desc="Title of the dialog informing the user that Chrome needs to turn on Bluetooth by itself so that security keys can be used over Bluetooth.">
+      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_TITLE" desc="Title of the dialog informing the user that GTx Browser needs to turn on Bluetooth by itself so that security keys can be used over Bluetooth.">
         Turn on Bluetooth?
       </message>
-      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_DESCRIPTION" desc="Description in the dialog informing the user that Chrome needs to turn on Bluetooth by itself so that security keys (external physical devices for user authentication) can be used over Bluetooth.">
+      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_DESCRIPTION" desc="Description in the dialog informing the user that GTx Browser needs to turn on Bluetooth by itself so that security keys (external physical devices for user authentication) can be used over Bluetooth.">
         Bluetooth must be on to use your passkey on a different device. You can always manage this in settings.
       </message>
-      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_NEXT" desc="Button text to allow Chrome to turn on Bluetooth so that security keys can be used over Bluetooth.">
+      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_AUTO_NEXT" desc="Button text to allow GTx Browser to turn on Bluetooth so that security keys can be used over Bluetooth.">
         Turn on
       </message>
       <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_MANUAL_TITLE" desc="Title of the dialog requesting the user to manually turn on Bluetooth so that security keys can be used over Bluetooth.">
@@ -13705,13 +13708,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_MANUAL_DESCRIPTION" desc="Description in the dialog requesting the user to manually turn on Bluetooth so that security keys (external physical devices for user authentication)can be used over Bluetooth.">
         Check your device settings and turn it on to continue
       </message>
-      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_MANUAL_NEXT" desc="Button text. The user clicks this once they manually turned on Bluetooth, so that Chrome would retry connecting to security keys over Bluetooth.">
+      <message name="IDS_WEBAUTHN_BLUETOOTH_POWER_ON_MANUAL_NEXT" desc="Button text. The user clicks this once they manually turned on Bluetooth, so that GTx Browser would retry connecting to security keys over Bluetooth.">
         Try again
       </message>
 
       <if expr="is_macosx">
-        <message name="IDS_WEBAUTHN_BLUETOOTH_PERMISSION" desc="Body text in a dialog that appears when the user has requested some function that depends on Bluetooth, but Chrome doesn't have permission to use Bluetooth. The action on this dialog is a button that will open the macOS System Preferences so that the user can grant permission.">
-          Chrome needs permission to use Bluetooth to connect to your device
+        <message name="IDS_WEBAUTHN_BLUETOOTH_PERMISSION" desc="Body text in a dialog that appears when the user has requested some function that depends on Bluetooth, but GTx Browser doesn't have permission to use Bluetooth. The action on this dialog is a button that will open the macOS System Preferences so that the user can grant permission.">
+          GTx Browser needs permission to use Bluetooth to connect to your device
         </message>
       </if>
 
@@ -13755,13 +13758,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_CABLEV2_AOA_REQUEST_DESCRIPTION" desc="Potentially displayed in a permissions dialog on Android to describe the type of request that a computer, that is connected over USB, is making. In this context the request from the computer is to use the Android device as a security key. A 'security key' is typically a physical USB token used for authentication (e.g. a gNubby) but in this case the phone is acting as one. The translation of 'security key' should match the phrase used in TC IDs such as 1685482178220389035 and 7775033610159191691">
         Security key request
       </message>
-      <message name="IDS_WEBAUTHN_PASSKEY_PHONE_OR_TABLET_LABEL" desc="The label on a button-like element in a list of options. Clicking this causes Chrome to show a QR code that the user can scan with their phone to use that phone for signing into a website. Here 'phone' is used as a short hand for smartphone.">
+      <message name="IDS_WEBAUTHN_PASSKEY_PHONE_OR_TABLET_LABEL" desc="The label on a button-like element in a list of options. Clicking this causes GTx Browser to show a QR code that the user can scan with their phone to use that phone for signing into a website. Here 'phone' is used as a short hand for smartphone.">
         Use a phone or tablet
       </message>
-      <message name="IDS_WEBAUTHN_PASSKEY_DIFFERENT_PHONE_OR_TABLET_LABEL" desc="The label on a button-like element in a list of options. Clicking this causes Chrome to show a QR code that the user can scan with their phone to use that phone for signing into a website. Here 'phone' is used as a short hand for smartphone. This string is used when a specific phone is also an option in the list, so the word 'different' is intended to communicate that this is the correct option when none of the previously list phones are correct.">
+      <message name="IDS_WEBAUTHN_PASSKEY_DIFFERENT_PHONE_OR_TABLET_LABEL" desc="The label on a button-like element in a list of options. Clicking this causes GTx Browser to show a QR code that the user can scan with their phone to use that phone for signing into a website. Here 'phone' is used as a short hand for smartphone. This string is used when a specific phone is also an option in the list, so the word 'different' is intended to communicate that this is the correct option when none of the previously list phones are correct.">
         Use a different phone or tablet
       </message>
-      <message name="IDS_WEBAUTHN_PHONE_CONFIRMATION_TITLE" desc="The title of a dialog shown when a user can use a passkey from a phone or tablet they have already paired with Chrome to sign in to a website. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
+      <message name="IDS_WEBAUTHN_PHONE_CONFIRMATION_TITLE" desc="The title of a dialog shown when a user can use a passkey from a phone or tablet they have already paired with GTx Browser to sign in to a website. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
         Use a passkey from <ph name="DEVICE_NAME">$1<ex>Ted's Pixel 6 Pro</ex></ph> to sign in to <ph name="WEBSITE">$2<ex>accounts.google.com</ex></ph>
       </message>
 
@@ -14232,18 +14235,18 @@ Please help our engineers fix this problem. Tell us what happened right before y
       You have Chrome's strongest security against dangerous websites, downloads and extensions
     </message>
     <message name="IDS_TAILORED_SECURITY_DISABLED_DIALOG_MAIN_TEXT" desc="Title shown in the tab dialog when the account tailored security setting changes for a consented primary account">
-      You're getting standard security protection. To get more protection against dangerous websites, downloads, and extensions, turn on Enhanced Safe Browsing in Chrome settings.
+      You're getting standard security protection. To get more protection against dangerous websites, downloads, and extensions, turn on Enhanced Safe Browsing in GTx Browser settings.
     </message>
     <message name="IDS_TAILORED_SECURITY_DISABLED_DIALOG_ACCEPT_BUTTON" desc="The text on the accept button in the tab modal dialog when the account tailored security setting is disabled for a consented primary account">
       Got it
     </message>
     <message name="IDS_TAILORED_SECURITY_DIALOG_SETTINGS_BUTTON" desc="The text on the cancel button in the tab dialog when the account tailored security setting changes for a consented primary account">
-      Chrome settings
+      GTx Browser settings
     </message>
 
     <!-- Tailored security dialog for unconsented primary accounts -->
     <message name="IDS_TAILORED_SECURITY_UNCONSENTED_MODAL_TITLE" desc="Title shown in the tab modal dialog when the account tailored security setting changes for an unconsented primary account">
-      Also turn on Enhanced Safe Browsing for this Chrome profile?
+      Also turn on Enhanced Safe Browsing for this GTx Browser profile?
     </message>
     <message name="IDS_TAILORED_SECURITY_UNCONSENTED_MODAL_BODY" desc="Body shown in the tab modal dialog when the account tailored security setting changes for an unconsented primary account">
       Chrome&#x2019;s strongest security does more to protect you against dangerous websites, downloads, and extensions
@@ -14272,7 +14275,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       You&#x2019;re getting standard protection
     </message>
     <message name="IDS_TAILORED_SECURITY_CONSENTED_DISABLE_MESSAGE_DESCRIPTION_UPDATED" desc="Description shown in the Android message when the account tailored security setting changes for a consented primary account">
-      You&#x2019;re getting standard security protection for this Chrome profile
+      You&#x2019;re getting standard security protection for this GTx Browser profile
     </message>
     <message name="IDS_TAILORED_SECURITY_CONSENTED_MESSAGE_OK_BUTTON" desc="The text on the ok button in the Android message when the account tailored security setting changes for a consented primary account">
       OK
@@ -14312,7 +14315,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     </message>
 
     <message name="IDS_APP_PAUSE_HEADING_FOR_WEB_APPS" desc="Tells the user the app will be paused.">
-      You reached the time limit your parent set for <ph name="APP_NAME">$1<ex>Google Photos</ex></ph> Chrome app. You can use it for <ph name="TIME_LIMIT">$2<ex>2 hours and 30 minutes</ex></ph> tomorrow.
+      You reached the time limit your parent set for <ph name="APP_NAME">$1<ex>Google Photos</ex></ph> GTx Browser app. You can use it for <ph name="TIME_LIMIT">$2<ex>2 hours and 30 minutes</ex></ph> tomorrow.
     </message>
 
     <!-- App block prompt -->
@@ -14390,20 +14393,20 @@ Please help our engineers fix this problem. Tell us what happened right before y
 
     <!-- ChromeLabs bubble -->
     <message name="IDS_CHROMELABS_RELAUNCH_BUTTON_LABEL"
-             desc="Label on the button in the footer of the Chrome Labs bubble which will relaunch the browser.">
+             desc="Label on the button in the footer of the GTx Browser Labs bubble which will relaunch the browser.">
       Relaunch
     </message>
     <message name="IDS_WINDOW_TITLE_EXPERIMENTS"
-             desc="Window title for the Chrome Labs bubble">
+             desc="Window title for the GTx Browser Labs bubble">
       Experiments
     </message>
     <if expr="use_titlecase">
-    <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="In Title Case: The label for the button that will allow users to submit feedback from Chrome Labs.">
+    <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="In Title Case: The label for the button that will allow users to submit feedback from GTx Browser Labs.">
         Send Feedback
     </message>
     </if>
     <if expr="not use_titlecase">
-      <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="The label for the button that will allow users to submit feedback from Chrome Labs.">
+      <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="The label for the button that will allow users to submit feedback from GTx Browser Labs.">
         Send feedback
     </message>
     </if>
@@ -14464,7 +14467,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       Tab Search
     </message>
     <message name="IDS_TAB_SEARCH_EXPERIMENT_DESCRIPTION" desc="Description for Tab Search experiment">
-      Enable a popup bubble in Top Chrome UI to search over currently open tabs.
+      Enable a popup bubble in Top GTx Browser UI to search over currently open tabs.
     </message>
     <!-- ChromeLabs Lens Region Search -->
     <message name="IDS_LENS_REGION_SEARCH_EXPERIMENT_NAME" desc="Name for Lens Region Search experiment">
@@ -14659,26 +14662,26 @@ Please help our engineers fix this problem. Tell us what happened right before y
     </if>
 
     <!-- Privacy Sandbox Dialog strings -->
-    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_TITLE" desc="CONTEXT: there are updates to the Chrome browser each month. Just after the user accepts the latest update, this message will appear. The user must make a choice, and this page can’t be dismissed until they do. The title of the page. * The title needs to be framed so that clicking the accept button makes sense * “Help us” is intended to convey a sense of collaboration. Privacy Sandbox is an ongoing multi-year effort. There are sites participating to help us and we also need users to agree to these trials so that we can measure the effectiveness of the features we're building. * “build” is intended to convey that this is a process. The user is agreeing to an effort rather than a stable set of features. Something like “make” doesn't have the same nuance.* “private web” is the promise of privacy sandbox.">
+    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_TITLE" desc="CONTEXT: there are updates to the GTx Browser each month. Just after the user accepts the latest update, this message will appear. The user must make a choice, and this page can’t be dismissed until they do. The title of the page. * The title needs to be framed so that clicking the accept button makes sense * “Help us” is intended to convey a sense of collaboration. Privacy Sandbox is an ongoing multi-year effort. There are sites participating to help us and we also need users to agree to these trials so that we can measure the effectiveness of the features we're building. * “build” is intended to convey that this is a process. The user is agreeing to an effort rather than a stable set of features. Something like “make” doesn't have the same nuance.* “private web” is the promise of privacy sandbox.">
       Help us build a more private web
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_TITLE" desc="CONTEXT: there are updates to the Chrome browser each month. Just after the user accepts the latest update, this message will appear. The title of the page. * “Help us” is intended to convey a sense of collaboration. Privacy Sandbox is an ongoing multi-year effort. There are sites participating to help us and we also need users to agree to these trials so that we can measure the effectiveness of the features we're building. * “build” is intended to convey that this is a process. The user is agreeing to an effort rather than a stable set of features. Something like “make” doesn't have the same nuance. * See www.privacysandbox.com for more context">
+    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_TITLE" desc="CONTEXT: there are updates to the GTx Browser each month. Just after the user accepts the latest update, this message will appear. The title of the page. * “Help us” is intended to convey a sense of collaboration. Privacy Sandbox is an ongoing multi-year effort. There are sites participating to help us and we also need users to agree to these trials so that we can measure the effectiveness of the features we're building. * “build” is intended to convey that this is a process. The user is agreeing to an effort rather than a stable set of features. Something like “make” doesn't have the same nuance. * See www.privacysandbox.com for more context">
       Help us build a better web
     </message>
     <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_BODY_HEADER_1"  desc="1 of 2 subtitles on the page. We want to write for users who skim the page. That means that the page title, the sub titles, and the button label all work well together as a mini story: 1) Help us build a more private web How? 2) Limit sharing between sites 3) More control over the ads you see 4) Yes, I’ll try it">
       Limited sharing between sites
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION" desc="The body text of the bubble.* “Chrome is finding new ways”: “finding” is meant to convey a work in progress, like “build” in the title. The features are live and functional, but still in beta. So we want a verb that’s stronger than “exploring” but weaker than “launching”. * “reduce tracking”: This used to read “reduce cross-site tracking”, but we’ve dropped “cross-site” because it makes the idea unnecessarily complicated. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. Chrome estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). * “Then” is an important keyword. It suggests some amount of time later. The first step is that interests are generated. Later (minutes or weeks), a different site might request interests.">
-      Chrome is finding new ways to reduce tracking and keep you even safer as you browse. Chrome also <ph name="ESTIMATE_INTERESTS_LINK">$1<ex>estimates your interests</ex></ph> and enables you to manage them. Then, sites you visit can ask Chrome for your interests to show you ads.
+    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION" desc="The body text of the bubble.* “GTx Browser is finding new ways”: “finding” is meant to convey a work in progress, like “build” in the title. The features are live and functional, but still in beta. So we want a verb that’s stronger than “exploring” but weaker than “launching”. * “reduce tracking”: This used to read “reduce cross-site tracking”, but we’ve dropped “cross-site” because it makes the idea unnecessarily complicated. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. GTx Browser estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). * “Then” is an important keyword. It suggests some amount of time later. The first step is that interests are generated. Later (minutes or weeks), a different site might request interests.">
+      GTx Browser is finding new ways to reduce tracking and keep you even safer as you browse. GTx Browser also <ph name="ESTIMATE_INTERESTS_LINK">$1<ex>estimates your interests</ex></ph> and enables you to manage them. Then, sites you visit can ask GTx Browser for your interests to show you ads.
     </message>
     <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_SETTINGS_LINK" desc="The user can choose “Go to settings” to visit chrome://settings/privacySandbox. If they do, they’ll find the toggle on for Sandbox trials, which include everything they’ve read above. They can leave trials on or turn them off on this page. Choosing “Go to settings”, the user will navigate away from this page and won’t be able to return here.">
       Go to settings
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK" desc="This will be inserted as a link in IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION instead of ESTIMATE_INTERESTS_LINK placeholder. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. Chrome estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). ">
+    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK" desc="This will be inserted as a link in IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION instead of ESTIMATE_INTERESTS_LINK placeholder. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. GTx Browser estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). ">
       estimates your interests
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK_A11Y_NAME" desc="The accessible text read for IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. Chrome estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). ">
-      estimates your interests - Chrome can estimate your interests
+    <message name="IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK_A11Y_NAME" desc="The accessible text read for IDS_PRIVACY_SANDBOX_BUBBLE_NOTICE_DESCRIPTION_ESTIMATES_INTERESTS_LINK. * “estimate your interests”: Topics of interest include things like “Live comedy” and “Rock music”. GTx Browser estimates these interests based on the sites users visit. It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). ">
+      estimates your interests - GTx Browser can estimate your interests
     </message>
     <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_BODY_DESCRIPTION_1" desc="The description beneath the “Limited sharing between sites” subtitle. * “exploring” conveys that this is a work in progress. * “restrict” means to lessen. We don’t want to suggest that we’re “eliminating” cross-site tracking. * “tracking”: An example: a user visits site A and then site B. Based on how third-party cookies work today, when that user later visits site C, site C can be aware that the user visited sites A and B, and can even have some sense for what they did on those sites. * “stop ad spam and fraud”:  This feature isn’t really related to restricting cross-site tracking but we combined these features in the same sentence / section for structural reasons.">
       We’re exploring ways to restrict tracking while enabling sites to stop ad spam and fraud.
@@ -14686,10 +14689,10 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_BODY_HEADER_2" desc="2 of 2 subtitles on the page.That means that the page title, the sub titles, and the button label all work well together as a mini story: 1) Help us build a more private web How? 2) Limit sharing between sites 3) More control over the ads you see 4) Yes, I’ll try it">
       More control over the ads you see
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_LEARN_MORE_SECTION_2_HEADER" desc="FLEDGE API. A sub title that describes the second of 2 ways a site can get info from Chrome in order to target ads to the user.">
+    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_LEARN_MORE_SECTION_2_HEADER" desc="FLEDGE API. A sub title that describes the second of 2 ways a site can get info from GTx Browser in order to target ads to the user.">
       Sites you visit that define your interests
     </message>
-    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_LEARN_MORE_SECTION_2_BULLET_POINT_3"  desc="FLEDGE API Bullet 3 of 3 that appear beneath the “Sites you visit that define your interests” subtitle. We break the description into the 3 pieces users most care about: 1) what data, 2) why this data, 3) what can I do about it? * “How you can manage your data:” is bold and serves as a label to help people skimming the page. * “To protect your privacy”: Today, most data is kept for long periods of time. This new Topics API doesn’t retain estimated topics for more than 3 weeks. The only reason for this feature is to protect the user’s privacy. * “auto”: isn’t strictly necessary, but it conveys that this feature is an ongoing part of the service. This isn’t describing, for example, a one-time deletion. * “older than 4 weeks”: We’re trying to convey a rolling delete. Imagine a user opens a browser for the very first time. As the user browses, sites can store info with Chrome for up to 4 weeks. So in week 1, the user visits site A. When week 5 starts, site A is removed from the list of sites. * “a site you visit…”: If a user visits site A every week for months on end, that site will remain on the user’s list of sites for months on end. * “Or you can…”: Say a user strongly dislikes www.siteB.com. But that user might visit siteB.com as part of their job, or just to see how bad it really is. The user can stop siteB from defining interests for them. This block lasts indefinitely.">
+    <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_LEARN_MORE_SECTION_2_BULLET_POINT_3"  desc="FLEDGE API Bullet 3 of 3 that appear beneath the “Sites you visit that define your interests” subtitle. We break the description into the 3 pieces users most care about: 1) what data, 2) why this data, 3) what can I do about it? * “How you can manage your data:” is bold and serves as a label to help people skimming the page. * “To protect your privacy”: Today, most data is kept for long periods of time. This new Topics API doesn’t retain estimated topics for more than 3 weeks. The only reason for this feature is to protect the user’s privacy. * “auto”: isn’t strictly necessary, but it conveys that this feature is an ongoing part of the service. This isn’t describing, for example, a one-time deletion. * “older than 4 weeks”: We’re trying to convey a rolling delete. Imagine a user opens a browser for the very first time. As the user browses, sites can store info with GTx Browser for up to 4 weeks. So in week 1, the user visits site A. When week 5 starts, site A is removed from the list of sites. * “a site you visit…”: If a user visits site A every week for months on end, that site will remain on the user’s list of sites for months on end. * “Or you can…”: Say a user strongly dislikes www.siteB.com. But that user might visit siteB.com as part of their job, or just to see how bad it really is. The user can stop siteB from defining interests for them. This block lasts indefinitely.">
       <ph name="BEGIN_BOLD">&lt;b&gt;</ph>How you can manage your data:<ph name="END_BOLD">&lt;/b&gt;</ph> To protect your privacy, we auto-delete sites from the list that are older than 4 weeks. A site you visit again might appear on the list again. Or you can remove a site if you don’t want that site to ever define interests for you.
     </message>
     <message name="IDS_PRIVACY_SANDBOX_DIALOG_CONSENT_ACCEPT_BUTTON" desc="A button that allows the user to accept joining the Privacy Sandbox trials. If the user chooses “Yes, I’m in”: 1)  this consent page disappears and the flow is complete 2) The Privacy Sandbox trials are turned on for this user. These features include everything described above. The page that hosts the settings will appear at chrome://settings/privacySandbox. Saying “Yes, I’m in” is like turning the toggle on. “No thanks” is like keeping the toggle off.">

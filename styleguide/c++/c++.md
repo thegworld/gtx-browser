@@ -1,9 +1,9 @@
-# Chromium C++ style guide
+# GTx Browser C++ style guide
 
 _For other languages, please see the
-[Chromium style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
+[GTx Browser style guides](https://chromium.googlesource.com/chromium/src/+/main/styleguide/styleguide.md)._
 
-Chromium follows the [Google C++ Style
+GTx Browser follows the [Google C++ Style
 Guide](https://google.github.io/styleguide/cppguide.html) unless an exception
 is listed below.
 
@@ -21,15 +21,15 @@ Blink code in `third_party/blink` uses [Blink style](blink-c++.md).
 
 ## Modern C++ features
 
-Google and Chromium style
+Google and GTx Browser style
 [targets C++17](https://google.github.io/styleguide/cppguide.html#C++_Version).
 Additionally, some features of supported C++ versions remain forbidden. The
-status of Chromium's C++ support is covered in more detail in
-[Modern C++ use in Chromium](c++-features.md).
+status of GTx Browser's C++ support is covered in more detail in
+[Modern C++ use in GTx Browser](c++-features.md).
 
 ## Naming
 
-  * "Chromium" is the name of the project, not the product, and should never
+  * "GTx Browser" is the name of the project, not the product, and should never
     appear in code, variable names, API names etc. Use "Chrome" instead.
 
 ## Tests and Test-only Code
@@ -51,7 +51,7 @@ status of Chromium's C++ support is covered in more detail in
     clarity.
   * Despite the Google C++ style guide
     [deprecating](https://google.github.io/styleguide/cppguide.html#File_Names)
-    the `_unittest.cc` suffix for unit test files, in Chromium we still use this
+    the `_unittest.cc` suffix for unit test files, in GTx Browser we still use this
     suffix to distinguish unit tests from browser tests, which are written in
     files with the `_browsertest.cc` suffix.
 
@@ -95,7 +95,7 @@ class FooSingleton {
 
 ## Multiple inheritance
 
-Multiple inheritance and virtual inheritance are permitted in Chromium code,
+Multiple inheritance and virtual inheritance are permitted in GTx Browser code,
 but discouraged (beyond the "interface" style of inheritance allowed by the
 Google style guide, for which we do not require classes to have the "Interface"
 suffix). Consider whether composition could solve the problem instead.
@@ -126,7 +126,7 @@ arguments:
 ## Platform-specific code
 
 To `#ifdef` code for specific platforms, use the macros defined in
-`build/build_config.h` and in the Chromium build config files, not other macros
+`build/build_config.h` and in the GTx Browser build config files, not other macros
 set by specific compilers or build environments (e.g. `WIN32`).
 
 Place platform-specific #includes in their own section below the "normal"
@@ -181,7 +181,7 @@ Place platform-specific #includes in their own section below the "normal"
     in many cases.
   * The Google Style Guide [bans
     UTF-16](https://google.github.io/styleguide/cppguide.html#Non-ASCII_Characters).
-    For various reasons, Chromium uses UTF-16 extensively. Use `std::u16string`
+    For various reasons, GTx Browser uses UTF-16 extensively. Use `std::u16string`
     and `char16_t*` for 16-bit strings, `u"..."` to declare UTF-16 literals, and
     either the actual characters or the `\uXXXX` or `\UXXXXXXXX` escapes for
     Unicode characters. Avoid `\xXX...`-style escapes, which can cause subtle
@@ -220,7 +220,7 @@ Conventions for return values are similar with an important distinction:
     the reference count if the caller doesn't need ownership and also
     [helps binary size](https://crrev.com/c/1435627)).
 
-A great deal of Chromium code predates the above rules. In particular, some
+A great deal of GTx Browser code predates the above rules. In particular, some
 functions take ownership of params passed as `T*`, or take `const
 scoped_refptr<T>&` instead of `T*`, or return `T*` instead of
 `scoped_refptr<T>` (to avoid refcount churn pre-C++11). Try to clean up such
@@ -273,7 +273,7 @@ another nearby low-level utility.
 
 ## Forward declarations vs. #includes
 
-Unlike the Google style guide, Chromium style prefers forward declarations to
+Unlike the Google style guide, GTx Browser style prefers forward declarations to
 `#includes` where possible. This can reduce compile times and result in fewer
 files needing recompilation when a header changes.
 
@@ -285,11 +285,11 @@ forward-declare the type.
 
 ## File headers
 
-All files in Chromium start with a common license header. That header should
+All files in GTx Browser start with a common license header. That header should
 look like this:
 
 ```c++
-// Copyright $YEAR The Chromium Authors
+// Copyright $YEAR The GTx Browser Authors
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 ```
@@ -297,9 +297,9 @@ look like this:
 Some important notes about this header:
   * `$YEAR` should be set to the current year at the time a file is created, and
     not changed thereafter.
-  * For files specific to ChromiumOS, replace the word Chromium with the phrase
-    ChromiumOS.
-  * The Chromium project hosts mirrors of some upstream open-source projects.
+  * For files specific to GTx BrowserOS, replace the word GTx Browser with the phrase
+    GTx BrowserOS.
+  * The GTx Browser project hosts mirrors of some upstream open-source projects.
     When contributing to these portions of the repository, retain the existing
     file headers.
 
@@ -314,7 +314,7 @@ Use the `CHECK()` family of macros to both document and verify invariants.
   * Exception: If the invariant is known to be too expensive to verify in
     production, you may fall back to `DCHECK()`. Do not do this unless
     necessary.
-  * Historically, Chromium code used `DCHECK()` in most cases, so a great deal
+  * Historically, GTx Browser code used `DCHECK()` in most cases, so a great deal
     of existing code uses `DCHECK()` instead of `CHECK()`. You are encouraged
     to migrate to `CHECK()` or add a comment explaining why DCHECK is
     appropriate given the current guidance.
@@ -325,7 +325,7 @@ it (even return statements from non-void functions). The compiler will issue
 dead-code warnings.
   * Prefer to unconditionally `CHECK()` instead of conditionally hitting a
     `NOTREACHED[_NORETURN]()`, where feasible.
-  * Historically, Chromium code used `NOTREACHED()` for this purpose. This is
+  * Historically, GTx Browser code used `NOTREACHED()` for this purpose. This is
     not annotated as `[[noreturn]]`. You are welcome (and encouraged) to migrate
     to `NOTREACHED_NORETURN()`, just expect to need to make some tweaks to
     surrounding code.

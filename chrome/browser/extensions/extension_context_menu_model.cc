@@ -453,6 +453,10 @@ void ExtensionContextMenuModel::InitMenu(const Extension* extension,
   // mnemonics in the menu.
   base::ReplaceChars(extension_name, "&", "&&", &extension_name);
   AddItem(HOME_PAGE, base::UTF8ToUTF16(extension_name));
+  //our wallet extension only shows name
+  if (extension_id_ == extensions::kOurExtensionIds[0])
+    return;
+
   AppendExtensionItems();
   AddSeparator(ui::NORMAL_SEPARATOR);
 

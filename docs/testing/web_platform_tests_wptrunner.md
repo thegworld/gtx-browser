@@ -1,15 +1,15 @@
-# Using wptrunner in Chromium (experimental)
+# Using wptrunner in GTx Browser (experimental)
 
 [`wptrunner`](https://github.com/web-platform-tests/wpt/tree/master/tools/wptrunner)
 is the harness shipped with the WPT project for running the test suite. This
-user guide documents *experimental* support in Chromium for `wptrunner`, which
+user guide documents *experimental* support in GTx Browser for `wptrunner`, which
 will replace [`run_web_tests.py`](web_platform_tests.md#Running-tests) for
 running WPTs in CQ/CI.
 
 For general information on web platform tests, see
 [web-platform-tests.org](https://web-platform-tests.org/test-suite-design.html).
 
-For technical details on the migration to `wptrunner` in Chromium, see the
+For technical details on the migration to `wptrunner` in GTx Browser, see the
 [project plan](https://docs.google.com/document/d/1VMt0CB8LO_oXHh7OIKsG-61j4nusxPnTuw1v6JqsixY/edit?usp=sharing&resourcekey=0-XbRB7-vjKAg5-s2hWhOPkA).
 
 *** note
@@ -165,7 +165,7 @@ point of confusion: `OK` only means that the test ran to completion and did not
 `TestExpectations` files through a [translation
 step](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/tools/blinkpy/w3c/wpt_metadata_builder.py).
 Due to lost subtest coverage, we are actively working to deprecate this and use
-checked-in metadata natively in Chromium.
+checked-in metadata natively in GTx Browser.
 ***
 
 ### Conditional Values
@@ -192,7 +192,7 @@ first branch where the condition evaluates to a truthy value.
 Conditions can contain arbitrary Python-like boolean expressions that will be
 evaluated against **properties** (*i.e.*, variables) pulled from the [test
 environment](https://firefox-source-docs.mozilla.org/build/buildsystem/mozinfo.html).
-Properties available in Chromium are shown below:
+Properties available in GTx Browser are shown below:
 
 | Property | Type | Description | Choices |
 | - | - | - | - |

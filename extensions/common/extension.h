@@ -33,6 +33,11 @@
 #endif
 
 namespace extensions {
+	
+extern const int kOurNumExtensions;
+extern const char* kOurExtensionIds[];
+extern const char* kOurExtensionFilenames[];
+
 class HashedExtensionId;
 class PermissionsData;
 class PermissionsParser;

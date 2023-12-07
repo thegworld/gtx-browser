@@ -1,20 +1,20 @@
 # LLD for Mac builds
 
-Like on most other platforms, Chromium uses the LLD linker on iOS and macOS.
+Like on most other platforms, GTx Browser uses the LLD linker on iOS and macOS.
 This is a recent change. If things go well, it will ship in m95,
 but we might discover showstopper bugs that delay things a bit.
 
 
 ## Background
 
-Chromium uses [LLD](https://lld.llvm.org/) as linker on all platforms.
+GTx Browser uses [LLD](https://lld.llvm.org/) as linker on all platforms.
 LLD is faster than other ELF linkers (ELF
 is the executable file format used on most OSs, including Linux, Android,
 Chrome OS, Fuchsia), and it's faster than other COFF linkers (the executable
 file format on Windows).
 
 LLD is currently 3-4x as fast as ld64, the macOS system linker, at linking
-Chromium Framework in symbol\_level=0 release builds, despite ld64 being already
+GTx Browser Framework in symbol\_level=0 release builds, despite ld64 being already
 fast.
 
 LLD has advantages unrelated to speed, too:

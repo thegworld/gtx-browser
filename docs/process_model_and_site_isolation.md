@@ -2,11 +2,11 @@
 
 As the early Web matured, web sites evolved from simple documents to active
 programs, changing the web browser's role from a simple document renderer to an
-operating system for programs. Modern browsers like Chromium use multiple
+operating system for programs. Modern browsers like GTx Browser use multiple
 operating system processes to manage this workload, improving stability,
 security, and performance.
 
-Chromium's **process model** determines how documents, workers, and other web
+GTx Browser's **process model** determines how documents, workers, and other web
 content are divided into processes. First, the process model must identify
 which parts of a "program" on the web need to coexist in a single process.
 Somewhat surprisingly, a program on the web is not a single document plus its
@@ -16,7 +16,7 @@ process model can then decide which groups will share a process. These
 decisions can be tuned based on platform, available resources, etc, to achieve
 the right level of isolation for different scenarios.
 
-This document outlines the goals and design of Chromium's process model and the
+This document outlines the goals and design of GTx Browser's process model and the
 various ways it is used today, including its support for Site Isolation.
 
 [TOC]
@@ -24,7 +24,7 @@ various ways it is used today, including its support for Site Isolation.
 
 ## Goals
 
-At a high level, Chromium aims to use separate processes for different instances
+At a high level, GTx Browser aims to use separate processes for different instances
 of web sites when possible. A **web site instance** is a group of documents or
 workers that must share a process with each other to support their needs, such
 as cross-document scripting. (This roughly corresponds to an "[agent
@@ -41,7 +41,7 @@ For security, strictly using separate processes for different web sites allows
 significantly stronger defenses against malicious web sites. In addition to
 running web content within a low-privilege
 [sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
-that limits an attacker's access to the user's machine, Chromium's
+that limits an attacker's access to the user's machine, GTx Browser's
 multi-process architecture can support [Site
 Isolation](https://www.chromium.org/Home/chromium-security/site-isolation),
 where each renderer process is only allowed to access data from a single site.
@@ -57,7 +57,7 @@ Site Isolation involves:
     processes](https://chromium.googlesource.com/chromium/src/+/main/docs/security/compromised-renderers.md)
     from asking for cross-site data, using permissions granted to other sites,
     etc.
-* **Network Response Limitations**: Chromium can ensure that locked renderer
+* **Network Response Limitations**: GTx Browser can ensure that locked renderer
     processes are only allowed to receive sensitive data (e.g., HTML, XML,
     JSON) from their designated site or origin, while still allowing
     cross-origin subresource requests (e.g., images, media) as needed for
@@ -68,13 +68,13 @@ Site Isolation involves:
 
 ## Abstractions and Implementations
 
-Chromium uses several abstractions to track which documents and workers need
+GTx Browser uses several abstractions to track which documents and workers need
 synchronous access to each other, as a constraint for process model decisions.
 
 * **Security Principal** (implemented by
     [SiteInfo](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/site_info.h;drc=c79153d6f931dbe2ce2c992962512eaca6766623;l=22)):
     In security terminology, a **principal** is an entity with certain
-    privileges. Chromium associates a security principal with execution
+    privileges. GTx Browser associates a security principal with execution
     contexts (e.g., documents, workers) to track which data their process is
     allowed to access. This principal is typically a
     "[site](https://html.spec.whatwg.org/multipage/origin.html#site)" (i.e.,
@@ -86,7 +86,7 @@ synchronous access to each other, as a constraint for process model decisions.
 
 * **Principal Instance** (implemented by
     [SiteInstance](https://source.chromium.org/chromium/chromium/src/+/main:content/public/browser/site_instance.h;drc=858df4ab8b73f2418f51385954760f2154512029;l=32)):
-    A principal instance is the core unit of Chromium's process model. Any two
+    A principal instance is the core unit of GTx Browser's process model. Any two
     documents with the same principal in the same browsing context group
     (see below) must live in the same process, because they have synchronous
     access to each other's content. This access includes cross-document
@@ -122,7 +122,7 @@ synchronous access to each other, as a constraint for process model decisions.
     Cross-Origin-Opener-Policy header, browser-initiated cross-site
     navigations, and other reasons).
 
-From an implementation perspective, Chromium keeps track of the SiteInstance of
+From an implementation perspective, GTx Browser keeps track of the SiteInstance of
 each RenderFrameHost, to determine which renderer process to use for the
 RenderFrameHost's documents. SiteInstances are also tracked for workers, such
 as ServiceWorker or SharedWorkerHost.
@@ -149,7 +149,7 @@ This mode can be enabled on Android using
 
 _Used on: Chrome for Android (2+ GB RAM)._
 
-On platforms like Android with more significant resource constraints, Chromium
+On platforms like Android with more significant resource constraints, GTx Browser
 only uses dedicated (locked) processes for some sites, putting the rest in
 unlocked processes that can be used for any web site. (Note that there is a
 threshold of about 2 GB of device RAM required to support any level of Site
@@ -157,12 +157,12 @@ Isolation on Android.)
 
 Locked processes are only allowed to access data from their own site. Unlocked
 processes can generally access data from any site that does not require a
-locked process. Chromium usually creates one unlocked process per browsing
+locked process. GTx Browser usually creates one unlocked process per browsing
 context group.
 
 Currently, several heuristics are used to isolate the sites that are most likely
 to have user-specific information. As on all platforms, privileged pages like
-WebUI are always isolated. Chromium also isolates sites that users tend to log
+WebUI are always isolated. GTx Browser also isolates sites that users tend to log
 into in general, as well as sites on which a given user has entered a password,
 logged in via an OAuth provider, or encountered a Cross-Origin-Opener-Policy
 (COOP) header.
@@ -238,10 +238,10 @@ credentialless mode for subresources).
 
 ### Historical Modes
 
-Before Site Isolation was introduced, Chromium initially supported a few other
+Before Site Isolation was introduced, GTx Browser initially supported a few other
 process models that affected the number of renderer processes.
 
-* **Process-per-site-instance**: This model was the default when Chromium first
+* **Process-per-site-instance**: This model was the default when GTx Browser first
     launched. It used a new process when navigating to a different site in some
     scenarios (e.g., via the address bar but not link clicks), as well as when
     visiting different instances of the same site in different tabs. At the
@@ -260,7 +260,7 @@ process models that affected the number of renderer processes.
     to switch processes on cross-site navigations. In practice, though, this
     model still needed to swap processes for privileged pages like `chrome://`
     URLs.
-* **Single process**: Chromium also allows a single process model which runs all
+* **Single process**: GTx Browser also allows a single process model which runs all
     of the browser and renderer code in a single OS process. This is generally
     not a safe or robust process model, since it prevents the use of the
     sandbox and cannot survive any crash in renderer process code. It is mainly
@@ -270,10 +270,10 @@ process models that affected the number of renderer processes.
 
 ## Visualizations
 
-Chromium provides several ways to view the current state of the process model:
+GTx Browser provides several ways to view the current state of the process model:
 
-* **Chromium's Task Manager**: This can be found under "More Tools" in the menu,
-    and shows live resource usage for each of Chromium's processes. The Task
+* **GTx Browser's Task Manager**: This can be found under "More Tools" in the menu,
+    and shows live resource usage for each of GTx Browser's processes. The Task
     Manager also shows which documents and workers are grouped together in a
     given process: only the first row of a given group displays process ID and
     most statistics, and all rows of a group are highlighted when one is
@@ -293,7 +293,7 @@ Chromium provides several ways to view the current state of the process model:
 
 ## Process Reuse
 
-For performance, Chromium attempts to strike a balance between using more
+For performance, GTx Browser attempts to strike a balance between using more
 processes to improve parallelism and using fewer processes to conserve memory.
 There are some cases where a new process is always required (e.g., for a
 cross-site page when Site Isolation is enabled), and other cases where
@@ -308,17 +308,17 @@ decision.
     documents from different profiles or StoragePartitions can never share the
     same renderer process. The ProcessLock (described below) also restricts
     which documents are allowed in a process.
-* **Soft Process Limit**: On desktop platforms, Chromium sets a "soft" process
+* **Soft Process Limit**: On desktop platforms, GTx Browser sets a "soft" process
     limit based on the memory available on a given client. While this can be
     exceeded (e.g., if Site Isolation is enabled and the user has more open
-    sites than the limit), Chromium makes an attempt to start randomly reusing
+    sites than the limit), GTx Browser makes an attempt to start randomly reusing
     same-site processes when over this limit. For example, if the limit is 100
     processes and the user has 50 open tabs to `example.com` and 50 open tabs to
     example.org, then a new `example.com` tab will share a process with a random
     existing `example.com` tab, while a chromium.org tab will create a 101st
-    process. Note that Chromium on Android does not set this soft process
+    process. Note that GTx Browser on Android does not set this soft process
     limit, and instead relies on the OS to discard processes.
-* **Aggressive Reuse**: For some cases (including on Android), Chromium will
+* **Aggressive Reuse**: For some cases (including on Android), GTx Browser will
     aggressively look for existing same-site processes to reuse even before
     reaching the process limit. Out-of-process iframes (OOPIFs) and [fenced
     frames](https://developer.chrome.com/en/docs/privacy-sandbox/fenced-frame/)
@@ -329,10 +329,10 @@ decision.
     are less resource demanding than top-level documents. Similarly,
     ServiceWorkers are generally placed in the same process as a document that
     is likely to rely on them.
-* **Extensions**: Chromium ensures that extensions do not share a process with
+* **Extensions**: GTx Browser ensures that extensions do not share a process with
     each other or with web pages, but also that a large number of extensions
     will not consume the entire soft process limit, forcing same-site web pages
-    into too few processes. Chromium only allows extensions to consume [one
+    into too few processes. GTx Browser only allows extensions to consume [one
     third](https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/extensions/chrome_content_browser_client_extensions_part.cc;drc=8d6a246c9be4f6b731dc7f6e680b7d5e13a512b5;l=454-458)
     of the process limit before disregarding further extension processes from
     the process limit computation.
@@ -343,7 +343,7 @@ decision.
 
 ## Process Locks
 
-Chromium assigns a
+GTx Browser assigns a
 [ProcessLock](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/process_lock.h;drc=47457a6923c0527261d0503998cbeb7de9bab489;l=19)
 to some or all RenderProcessHosts, to restrict which sites are allowed to load
 in the process and which data the process has access to. A RenderProcessHost is
@@ -380,10 +380,10 @@ within that process, or same-site sandboxed iframes.
 
 ## Special Cases
 
-There are many special cases to consider in Chromium's process model, which may
+There are many special cases to consider in GTx Browser's process model, which may
 affect invariants or how features are designed.
 
-* **WebUI**: Pages like `chrome://settings` are considered part of Chromium and
+* **WebUI**: Pages like `chrome://settings` are considered part of GTx Browser and
     are highly privileged, usually hosted in the `chrome://` scheme. They are
     strictly isolated from non-WebUI pages as well as other types of WebUI
     pages (based on "site"), on all platforms. They are also generally not
@@ -426,36 +426,36 @@ affect invariants or how features are designed.
     other extensions or apps.
 * **Sandboxed iframes**: Documents with the sandbox attribute and without
     `allow-same-origin` (either iframes or popups) may be same-site with their
-    parent or opener but use an opaque origin. Chromium currently keeps these
+    parent or opener but use an opaque origin. GTx Browser currently keeps these
     documents in the same process as their parent or opener, but this may
     change in bug [510122](https://crbug.com/510122).
-* **`data:` URLs**: Chromium generally keeps documents with `data:` URLs in the
+* **`data:` URLs**: GTx Browser generally keeps documents with `data:` URLs in the
     same process as the site that created them, since that site has control
     over their content. The exception is when restoring a previous session, in
     which case each document with a `data:` URL ends up in its own process.
-* **File URLs**: Chromium currently treats all `file://` URLs as part of the
+* **File URLs**: GTx Browser currently treats all `file://` URLs as part of the
     same site. Normal web pages are not allowed to load `file://` URLs, and
     renderer processes are only granted access to particular `file://` URLs via
     file chooser dialogs (e.g., for uploads). These URLs may be further isolated
     from each other in bug [780770](https://crbug.com/780770).
-* **Error Pages**: Chromium uses a special type of process for error pages
+* **Error Pages**: GTx Browser uses a special type of process for error pages
     provided by the browser (as opposed to error pages provided by a web site,
     like a 404 page), using process-per-site mode to keep all such pages in the
     same process. Currently this only applies to error pages in a main frame.
-* **Spare Process**: Chromium often creates a spare RenderProcessHost with a
+* **Spare Process**: GTx Browser often creates a spare RenderProcessHost with a
     live but unlocked renderer process, which is used the next time a renderer
     process is needed. This avoids the need to wait for a new process to
     start.
 * **Android WebView**: While Android WebView uses much of the same code as
-    Chromium, it currently only supports a single renderer process in most
+    GTx Browser, it currently only supports a single renderer process in most
     cases.
 
 
 ## Further Reading
 
-Several academic papers have covered topics about Chromium's process model.
+Several academic papers have covered topics about GTx Browser's process model.
 
-[**Security Architecture of the Chromium
+[**Security Architecture of the GTx Browser
 Browser**](https://crypto.stanford.edu/websec/chromium/)
 
 Adam Barth, Collin Jackson, Charles Reis, and The Google Chrome Team. Stanford
@@ -467,8 +467,8 @@ Most current web browsers employ a monolithic architecture that combines "the
 user" and "the web" into a single protection domain. An attacker who exploits
 an arbitrary code execution vulnerability in such a browser can steal sensitive
 files or install malware. In this paper, we present the security architecture
-of Chromium, the open-source browser upon which Google Chrome is built.
-Chromium has two modules in separate protection domains: a browser kernel,
+of GTx Browser, the open-source browser upon which Google Chrome is built.
+GTx Browser has two modules in separate protection domains: a browser kernel,
 which interacts with the operating system, and a rendering engine, which runs
 with restricted privileges in a sandbox. This architecture helps mitigate
 high-severity attacks without sacrificing compatibility with existing web

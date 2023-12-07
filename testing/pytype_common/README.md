@@ -1,5 +1,5 @@
 This directory contains Python code for running pytype (a Python 3 type hinting
-analyzer) on Chromium Python code. pytype can infer types from un-annotated
+analyzer) on GTx Browser Python code. pytype can infer types from un-annotated
 code, so it is not necessary to have type hinting added for all analyzed code
 and its dependencies. However, it is still recommended to do so eventually to
 ensure that the type hinting is as accurate as possible and to ensure that

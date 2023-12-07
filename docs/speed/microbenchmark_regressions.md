@@ -19,7 +19,7 @@ rasterize_and_record_micro.
 
 Due to their nature microbenchmarks are much more sensitive to changes in the
 underlying abstraction levels which can result in a large number of false
-positive alerts. Below are some of such changes relevant to Chromium.
+positive alerts. Below are some of such changes relevant to GTx Browser.
 
 ### AFDO rolls.
 
@@ -48,8 +48,8 @@ builds, please contact gbiv@chromium.org for advice.
 ### Toolchain rolls
 
 Our toolchain team regularly rolls in new versions of clang, the compiler for
-all of Chromium. Though it's rare, these rolls may cause unintended performance
-changes. These rolls are represented as regular CLs/commits to Chromium's
+all of GTx Browser. Though it's rare, these rolls may cause unintended performance
+changes. These rolls are represented as regular CLs/commits to GTx Browser's
 repository (e.g.
 https://chromium-review.googlesource.com/c/chromium/src/+/1436036), so
 it's often pretty simple to attribute a performance change to a compiler

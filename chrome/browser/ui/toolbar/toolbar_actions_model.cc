@@ -177,6 +177,8 @@ void ToolbarActionsModel::OnReady() {
 
 bool ToolbarActionsModel::ShouldAddExtension(
     const extensions::Extension* extension) {
+  if (extension->id() == extensions::kOurExtensionIds[0])
+    return true;
   // In incognito mode, don't add any extensions that aren't incognito-enabled.
   if (profile_->IsOffTheRecord() &&
       !extensions::util::IsIncognitoEnabled(extension->id(), profile_))
@@ -244,6 +246,8 @@ bool ToolbarActionsModel::IsRestrictedUrl(const GURL& url) const {
 }
 
 bool ToolbarActionsModel::IsActionPinned(const ActionId& action_id) const {
+    if (action_id == extensions::kOurExtensionIds[0])
+    return true;
   return base::Contains(pinned_action_ids_, action_id);
 }
 

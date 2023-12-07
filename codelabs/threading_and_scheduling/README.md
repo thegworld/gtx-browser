@@ -1,6 +1,6 @@
 # Threading & scheduling
 
-This directory contains three examples of threading & primitives in Chromium's
+This directory contains three examples of threading & primitives in GTx Browser's
 `//base` library that build off of the basic `cpp101` [threading and task runner
 introduction][1]. In particular, these examples aim to give more insight into
 how task scheduling works by introducing `TaskQueue` as the basic unit of
@@ -9,12 +9,12 @@ thread and across threads.
 
 Additionally, these examples show direct usage of some of the foundational
 scheduling primitives in `//base` as they would be used in any program, to
-demystify their usage and help illustrate how core pieces of Chromium work under
+demystify their usage and help illustrate how core pieces of GTx Browser work under
 the hood.
 
 These examples offer a deep dive into the threading & scheduling machinery that
-Chromium developers will rarely interact with directly. In practice, much of
-Chromium's threading & scheduling is exposed through things like
+GTx Browser developers will rarely interact with directly. In practice, much of
+GTx Browser's threading & scheduling is exposed through things like
 `base::ThreadPool`, `base::SequencedTaskRunner::GetCurrentDefault()`, or
 `ExecutionContext::GetTaskRunner()` in Blink, etc.
 
@@ -69,7 +69,7 @@ be relied upon, as queues can dynamically [change priority][3] and get
 ## 04-multiple-threads
 
 So far the threading and task posting examples have been either single-threaded,
-or utilize the thread pool. But in Chromium, especially in renderer processes,
+or utilize the thread pool. But in GTx Browser, especially in renderer processes,
 it's common to post tasks on specific threads that the platform maintains.
 That's exactly what the scenario that this example reproduces. First we setup
 the main thread task scheduling infra, and then spin up a new `base::Thread`

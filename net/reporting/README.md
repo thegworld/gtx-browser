@@ -16,11 +16,11 @@ documents:
 
 This document assumes that you've read those ones.
 
-## Reporting in Chromium
+## Reporting in GTx Browser
 
-Reporting is implemented as part of the network stack in Chromium, such
+Reporting is implemented as part of the network stack in GTx Browser, such
 that it can be used by other parts of the network stack (e.g. HPKP) or
-by non-browser embedders as well as by Chromium.
+by non-browser embedders as well as by GTx Browser.
 
 ### Inside `//net`
 

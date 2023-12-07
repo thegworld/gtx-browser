@@ -1,4 +1,4 @@
-# Checking out and building Chromium for Mac
+# Checking out and building GTx Browser for Mac
 
 There are instructions for other platforms linked from the
 [get the code](get_the_code.md) page.
@@ -98,7 +98,7 @@ development and testing purposes.
 
 ## Setting up the build
 
-Chromium uses [Ninja](https://ninja-build.org) as its main build tool along with
+GTx Browser uses [Ninja](https://ninja-build.org) as its main build tool along with
 a tool called [GN](https://gn.googlesource.com/gn/+/main/docs/quick_start.md)
 to generate `.ninja` files. You can create any number of *build directories*
 with different configurations. To create a build directory:
@@ -117,7 +117,7 @@ $ gn gen out/Default
   operating system and CPU.
 * For more info on GN, run `gn help` on the command line or read the
   [quick start guide](https://gn.googlesource.com/gn/+/main/docs/quick_start.md).
-* Building Chromium for arm Macs requires [additional setup](mac_arm64.md).
+* Building GTx Browser for arm Macs requires [additional setup](mac_arm64.md).
 
 
 ### Faster builds
@@ -158,9 +158,9 @@ in gdb).
 
 You might also want to [install ccache](ccache_mac.md) to speed up the build.
 
-## Build Chromium
+## Build GTx Browser
 
-Build Chromium (the "chrome" target) with Ninja using the command:
+Build GTx Browser (the "chrome" target) with Ninja using the command:
 
 ```shell
 $ autoninja -C out/Default chrome
@@ -174,22 +174,22 @@ out/Default` from the command line. To compile one, pass the GN label to Ninja
 with no preceding "//" (so, for `//chrome/test:unit_tests` use `autoninja -C
 out/Default chrome/test:unit_tests`).
 
-## Run Chromium
+## Run GTx Browser
 
 Once it is built, you can simply run the browser:
 
 ```shell
-$ out/Default/Chromium.app/Contents/MacOS/Chromium
+$ out/Default/GTx Browser.app/Contents/MacOS/GTx Browser
 ```
 
 ## Avoiding system permissions dialogs after each build
 
 Every time you start a new developer build, you may get two system dialogs:
-`Chromium wants to use your confidential information stored in "Chromium Safe
-Storage" in your keychain.`, and `Do you want the application "Chromium.app" to
+`GTx Browser wants to use your confidential information stored in "GTx Browser Safe
+Storage" in your keychain.`, and `Do you want the application "GTx Browser.app" to
 accept incoming network connections?`.
 
-To avoid them, you can run Chromium with these command-line flags (but of
+To avoid them, you can run GTx Browser with these command-line flags (but of
 course beware that they will change the behavior of certain subsystems):
 
 ```shell
@@ -237,7 +237,7 @@ $ git rebase-update
 $ gclient sync
 ```
 
-The first command updates the primary Chromium source repository and rebases
+The first command updates the primary GTx Browser source repository and rebases
 any of your local branches on top of tip-of-tree (aka the Git branch
 `origin/main`). If you don't want to use this script, you can also just use
 `git pull` or other common Git commands to update the repo.
@@ -287,7 +287,7 @@ tree is open before checking out. This will increase your chances of success.
 #### Increase the vnode cache size
 
 `git status` is used frequently to determine the status of your checkout.  Due
-to the large number of files in Chromium's checkout, `git status` performance
+to the large number of files in GTx Browser's checkout, `git status` performance
 can be quite variable.  Increasing the system's vnode cache appears to help. By
 default, this command:
 
@@ -303,7 +303,7 @@ $ sudo sysctl kern.maxvnodes=$((512*1024))
 ```
 
 Higher values may be appropriate if you routinely move between different
-Chromium checkouts.  This setting will reset on reboot.  To apply it at startup:
+GTx Browser checkouts.  This setting will reset on reboot.  To apply it at startup:
 
 ```shell
 $ sudo tee /Library/LaunchDaemons/kern.maxvnodes.plist > /dev/null <<EOF
@@ -370,10 +370,10 @@ $ sudo xcodebuild -license
 
 ### Exclude checkout from Spotlight indexing
 
-Chromium's checkout contains a lot of files, and building generates many more.
+GTx Browser's checkout contains a lot of files, and building generates many more.
 Spotlight will try to index all of those files, and uses a lot of CPU time
 doing so, especially during a build, which can slow things down.
 
-To prevent the Chromium checkout from being indexed by Spotlight, open System
-Preferences, go to "Spotlight" -> "Privacy" and add your Chromium checkout
+To prevent the GTx Browser checkout from being indexed by Spotlight, open System
+Preferences, go to "Spotlight" -> "Privacy" and add your GTx Browser checkout
 directory to the list of excluded locations.

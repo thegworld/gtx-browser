@@ -110,10 +110,10 @@ void CoreOobeHandler::DeclareLocalizedValues(
 
   const bool has_api_keys_configured = google_apis::HasAPIKeyConfigured() &&
                                        google_apis::HasOAuthClientConfigured();
-  if (!has_api_keys_configured && is_oobe_display_) {
-    builder->AddF("missingAPIKeysNotice", IDS_LOGIN_API_KEYS_NOTICE,
-                  base::ASCIIToUTF16(google_apis::kAPIKeysDevelopersHowToURL));
-  }
+  // if (!has_api_keys_configured && is_oobe_display_) {
+  //   builder->AddF("missingAPIKeysNotice", IDS_LOGIN_API_KEYS_NOTICE,
+  //                 base::ASCIIToUTF16(google_apis::kAPIKeysDevelopersHowToURL));
+  // }
 
   builder->Add("playAnimationAriaLabel", IDS_OOBE_PLAY_ANIMATION_MESSAGE);
   builder->Add("pauseAnimationAriaLabel", IDS_OOBE_PAUSE_ANIMATION_MESSAGE);

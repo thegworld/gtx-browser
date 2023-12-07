@@ -35,7 +35,7 @@ reused.
 
 UID filtering should be used to ensure only the needed processes are calling
 the specific D-Bus methods, as processes/applications calling D-Bus APIs are
-trusted (written and reviewed by Chromium/CrOS teams) and should have a
+trusted (written and reviewed by GTx Browser/CrOS teams) and should have a
 well-known UID to be filtered.
 
 UID filtering: Define access permission for each UID in
@@ -44,7 +44,7 @@ send respective D-Bus requests to the service provider.
 
 Arguments/tokens in D-Bus methods are still available if needed, which should
 be enough for multi-login situations and handling failures. The arguments can
-also be used to determine if Chromium should accept the request, and which Mojo
+also be used to determine if GTx Browser should accept the request, and which Mojo
 interface should be used to establish the Mojo channel.
 
 [MojoConnectionService.conf]: https://chromium.googlesource.com/chromium/src.git/+/main/chrome/browser/ash/dbus/org.chromium.MojoConnectionService.conf

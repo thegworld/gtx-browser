@@ -322,7 +322,7 @@ void ShowChromeTips(Browser* browser) {
 }
 
 void ShowChromeWhatsNew(Browser* browser) {
-  ShowSingletonTab(browser, GURL(kChromeUIWhatsNewURL));
+  // ShowSingletonTab(browser, GURL(kChromeUIWhatsNewURL));
 }
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 

@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Eine inkompatible Protokollversion wurde erkannt. Überprüfe, ob die neueste Version der Software auf beiden Computern installiert ist, und versuche es erneut.</translation>
 <translation id="1008557486741366299">Jetzt nicht</translation>
 <translation id="1201402288615127009">Weiter</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Alle Rechte vorbehalten.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Alle Rechte vorbehalten.</translation>
 <translation id="1297009705180977556">Fehler beim Herstellen der Verbindung mit <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Das angeforderte Objekt ist nicht vorhanden.</translation>
 <translation id="1480046233931937785">Mitwirkende</translation>
@@ -156,7 +156,7 @@ Falls neben "<ph name="SERVICE_SCRIPT_NAME" />" schon ein Haken gesetzt ist, ent
 <translation id="7868137160098754906">Gib deine PIN für den Remote-Computer ein.</translation>
 <translation id="7895403300744144251">Die Sicherheitsrichtlinien auf dem Remote-Computer gestatten keine Verbindungen von deinem Konto.</translation>
 <translation id="7936528439960309876">Rechts verankern</translation>
-<translation id="7970576581263377361">Fehler bei der Authentifizierung. Melde dich erneut in Chromium an.</translation>
+<translation id="7970576581263377361">Fehler bei der Authentifizierung. Melde dich erneut in GTx Browser an.</translation>
 <translation id="7981525049612125370">Die Remote-Sitzung ist abgelaufen.</translation>
 <translation id="8038111231936746805">(Standard)</translation>
 <translation id="8041089156583427627">Feedback geben</translation>
@@ -190,6 +190,6 @@ Falls neben "<ph name="SERVICE_SCRIPT_NAME" />" schon ein Haken gesetzt ist, ent
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> die Berechtigung zur Bildschirmaufzeichnung erteilen</translation>
 <translation id="9213184081240281106">Ungültige Hostkonfiguration</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">Die Chromium-Autoren</translation>
+<translation id="985602178874221306">Die GTx Browser-Autoren</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (zuletzt online: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

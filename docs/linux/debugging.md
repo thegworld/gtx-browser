@@ -1,6 +1,6 @@
 # Tips for debugging on Linux
 
-This page is for Chromium-specific debugging tips; learning how to run gdb is
+This page is for GTx Browser-specific debugging tips; learning how to run gdb is
 out of scope.
 
 [TOC]
@@ -46,7 +46,7 @@ Note that you'll also probably want to use `--no-sandbox`, as explained below.
 
 #### Getting renderer subprocesses into gdb
 
-Since Chromium itself spawns the renderers, it can be tricky to grab a
+Since GTx Browser itself spawns the renderers, it can be tricky to grab a
 particular with gdb. This command does the trick:
 
 ```
@@ -258,11 +258,11 @@ Note that for technical reasons plugins cannot be in-process, so
 still useful for debugging plugins (since it's only two processes instead of
 three) but you'll still need to use `--plugin-launcher` or another approach.
 
-### Printing Chromium types
+### Printing GTx Browser types
 
-gdb 7 lets us use Python to write pretty-printers for Chromium types. See
+gdb 7 lets us use Python to write pretty-printers for GTx Browser types. See
 [gdbinit](https://chromium.googlesource.com/chromium/src/+/main/docs/gdbinit.md)
-to enable pretty-printing of Chromium types.  This will import Blink
+to enable pretty-printing of GTx Browser types.  This will import Blink
 pretty-printers as well.
 
 Pretty printers for std types shouldn't be necessary in gdb 7, but they're
@@ -312,7 +312,7 @@ can also step or execute backwards. This works by first recording a trace
 and then debugging based on that.
 
 You need an up-to-date version of rr, since rr is frequently updated to support
-new parts of the Linux system call API surface that Chromium uses. If you have
+new parts of the Linux system call API surface that GTx Browser uses. If you have
 any issues with the latest release version, try compiling rr
 [from source](https://github.com/rr-debugger/rr/wiki/Building-And-Installing).
 
@@ -361,16 +361,16 @@ See `LayoutObject::ShowLayoutObject()` for an example of this, and
 If rr doesn't work correctly, the rr developers are generally quite responsive
 to [bug reports](https://github.com/rr-debugger/rr/issues),
 especially ones that have enough information so that
-they don't have to build Chromium.
+they don't have to build GTx Browser.
 
 See Also:
 
-* [The Chromium Chronicle #13: Time-Travel Debugging with RR](https://developer.chrome.com/blog/chromium-chronicle-13/)
+* [The GTx Browser Chronicle #13: Time-Travel Debugging with RR](https://developer.chrome.com/blog/chromium-chronicle-13/)
 * [@davidbaron demo using rr](https://twitter.com/davidbaron/status/1473761042278887433)
 * [@davidbaron demo using pernosco](https://twitter.com/davidbaron/status/1475836824409022469)
 (Googlers: see [go/pernosco](https://goto.google.com/pernosco))
 
-### Graphical Debugging Aid for Chromium Views
+### Graphical Debugging Aid for GTx Browser Views
 
 The following link describes a tool that can be used on Linux, Windows and Mac under GDB.
 
@@ -465,7 +465,7 @@ timeout flags to a large value:
 
 ### To replicate Window Manager setup on the bots
 
-Chromium try bots and main waterfall's bots run tests under Xvfb&openbox
+GTx Browser try bots and main waterfall's bots run tests under Xvfb&openbox
 combination. Xvfb is an X11 server that redirects the graphical output to the
 memory, and openbox is a simple window manager that is running on top of Xvfb.
 The behavior of openbox is markedly different when it comes to focus management
@@ -519,7 +519,7 @@ locally now - and often nearly 100% of the time.
 Default log level hides `LOG(INFO)`. Run with `--log-level=0` and
 `--enable-logging=stderr` flags.
 
-Newer versions of Chromium with VLOG may need --v=1 too. For more VLOG tips, see
+Newer versions of GTx Browser with VLOG may need --v=1 too. For more VLOG tips, see
 [the chromium-dev thread](https://groups.google.com/a/chromium.org/group/chromium-dev/browse_thread/thread/dcd0cd7752b35de6?pli=1).
 
 ### Seeing IPC debug messages
@@ -605,15 +605,15 @@ Google Chrome binaries don't include symbols. Googlers can read where to get
 symbols from
 [the Google-internal wiki](http://wiki/Main/ChromeOfficialBuildLinux#The_Build_Archive).
 
-### Ubuntu Chromium
+### Ubuntu GTx Browser
 
 Since we don't build the Ubuntu packages (Ubuntu does) we can't get useful
-backtraces from them. Direct users to https://wiki.ubuntu.com/Chromium/Debugging
+backtraces from them. Direct users to https://wiki.ubuntu.com/GTx Browser/Debugging
 
-### Fedora's Chromium
+### Fedora's GTx Browser
 
 Like Ubuntu, but direct users to
-https://fedoraproject.org/wiki/TomCallaway/Chromium_Debug
+https://fedoraproject.org/wiki/TomCallaway/GTx Browser_Debug
 
 ### Xlib
 

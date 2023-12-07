@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Εντοπίστηκε μη συμβατή έκδοση πρωτοκόλλου. Βεβαιωθείτε ότι διαθέτετε την πιο πρόσφατη έκδοση του λογισμικού και στους δύο υπολογιστές και προσπαθήστε ξανά.</translation>
 <translation id="1008557486741366299">Όχι τώρα</translation>
 <translation id="1201402288615127009">Επόμενο</translation>
-<translation id="1296511125400541222">Πνευματικά δικαιώματα 2023 Οι συντάκτες του Chromium. Με επιφύλαξη παντός δικαιώματος.</translation>
+<translation id="1296511125400541222">Πνευματικά δικαιώματα 2023 Οι συντάκτες του GTx Browser. Με επιφύλαξη παντός δικαιώματος.</translation>
 <translation id="1297009705180977556">Σφάλμα κατά τη σύνδεση με: <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Το αντικείμενο που ζητήθηκε δεν υπάρχει.</translation>
 <translation id="1480046233931937785">Συντελεστές</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Καταχωρίστε το PIN σας για τον απομακρυσμένο υπολογιστή.</translation>
 <translation id="7895403300744144251">Οι πολιτικές ασφάλειας στον απομακρυσμένο υπολογιστή δεν επιτρέπουν τις συνδέσεις από τον λογαριασμό σας.</translation>
 <translation id="7936528439960309876">Αγκύρωση δεξιά</translation>
-<translation id="7970576581263377361">Ο έλεγχος ταυτότητας απέτυχε. Συνδεθείτε ξανά στο Chromium.</translation>
+<translation id="7970576581263377361">Ο έλεγχος ταυτότητας απέτυχε. Συνδεθείτε ξανά στο GTx Browser.</translation>
 <translation id="7981525049612125370">Η απομακρυσμένη περίοδος σύνδεσης έχει λήξει.</translation>
 <translation id="8038111231936746805">(προεπιλογή)</translation>
 <translation id="8041089156583427627">Αποστολή σχολίων</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Παραχώρηση άδειας Εγγραφή οθόνης στο <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Μη έγκυρη διαμόρφωση κεντρικού υπολογιστή.</translation>
 <translation id="981121421437150478">Εκτός σύνδεσης</translation>
-<translation id="985602178874221306">Οι συντάκτες του Chromium</translation>
+<translation id="985602178874221306">Οι συντάκτες του GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (τελευταία σύνδεση <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

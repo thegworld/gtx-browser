@@ -1,5 +1,5 @@
 # Mac Installer API
-This document describes how macOS software integrates with Chromium Updater for
+This document describes how macOS software integrates with GTx Browser Updater for
 software updates.
 
 ## Design

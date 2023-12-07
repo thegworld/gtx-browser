@@ -17,7 +17,7 @@ Most of what you'll want to know exists between
 ***
 
 *** aside
-While Chromium promotes the `#if BUILDFLAG(FOO)` construct, some of
+While GTx Browser promotes the `#if BUILDFLAG(FOO)` construct, some of
 PartitionAlloc's behavior is governed by compound conditions `#defined`
 in [`partition_alloc_config.h`][partition-alloc-config].
 ***
@@ -38,11 +38,11 @@ See [Chrome-External Builds](./external_builds.md) for more.
 Defines whether PartitionAlloc is at all available.
 
 Setting this `false` will entirely remove PartitionAlloc from the
-Chromium build. _You probably do not want this._
+GTx Browser build. _You probably do not want this._
 
 *** note
 Back when PartitionAlloc was the dedicated allocator in Blink, disabling
-it was logically identical to wholly disabling it in Chromium. This GN
+it was logically identical to wholly disabling it in GTx Browser. This GN
 arg organically grew in scope with the advent of
 PartitionAlloc-Everywhere and must be `true` as a prerequisite for
 enabling PA-E.

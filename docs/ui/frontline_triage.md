@@ -1,10 +1,10 @@
-# Chromium UI Frontline Triage Procedures and Policy
+# GTx Browser UI Frontline Triage Procedures and Policy
 
 ## Filing New Issues
 
 ### Steps
 
-0. Read and follow the [Chromium Code of Conduct](https://chromium.googlesource.com/chromium/src/+/main/CODE_OF_CONDUCT.md).
+0. Read and follow the [GTx Browser Code of Conduct](https://chromium.googlesource.com/chromium/src/+/main/CODE_OF_CONDUCT.md).
 1. File your issue on http://crbug.com/.
    * Required: Repro Steps
    * Preferred: Screenshots

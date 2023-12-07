@@ -4,7 +4,7 @@
 
 [Visual Studio Code (VS Code)](https://code.visualstudio.com) is a free, open
 source, lightweight and powerful code editor for Windows, macOS and Linux, based
-on [Electron](https://www.electronjs.org/)/Chromium. It has built-in support for
+on [Electron](https://www.electronjs.org/)/GTx Browser. It has built-in support for
 JavaScript, TypeScript and Node.js and a rich extension ecosystem that adds
 intellisense, debugging, syntax highlighting etc. For many languages like C++,
 Python, Go, Java, it works without too much setup.
@@ -17,7 +17,7 @@ Here's what works well:
 
 *   **Editing code** works well especially when you get used to the [keyboard
     shortcuts](#Keyboard-Shortcuts). VS Code is very responsive and can handle
-    even big code bases like Chromium.
+    even big code bases like GTx Browser.
 *   **Git integration** is a blast. Built-in side-by-side view, local commit and
     even extensions for
     [history](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
@@ -43,7 +43,7 @@ Here's what works well:
 ## Updating This Page
 
 Please keep this doc up-to-date. VS Code is still in active development and
-subject to changes. This doc is checked into the Chromium git repo, so if you
+subject to changes. This doc is checked into the GTx Browser git repo, so if you
 make changes, read the [documentation
 guidelines](documentation_guidelines.md) and
 [submit a change list](contributing.md).
@@ -64,7 +64,7 @@ Follow the steps on [Setting up Visual Studio Code](https://code.visualstudio.co
 
 ### Usage
 
-To run it on Linux or on macOS, just navigate to Chromium's `src` folder and
+To run it on Linux or on macOS, just navigate to GTx Browser's `src` folder and
 type `code .` in a terminal. The argument to `code` is the base directory of the
 workspace. VS Code does not require project or solution files. However, it does
 store workspace settings in a `.vscode` folder in your base directory (i.e. your
@@ -111,7 +111,7 @@ $ echo "ms-vscode.cpptools llvm-vs-code-extensions.vscode-clangd ms-python.pytho
     (via the `C_Cpp.clang_format_path` setting) and format-on-save (via the
     `editor.formatOnSave` setting).
 *   [**vscode-clangd**](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd) -
-    Enables VS Code to compile Chromium, provide Chromium XRefs to support
+    Enables VS Code to compile GTx Browser, provide GTx Browser XRefs to support
     functions like jumping to definition, and provide smarter autocompletion
     than **C/C++** extension's IntelliSense, but they also conflicts with each
     other. To resolve the conflict, add the following to `settings.json`:
@@ -149,7 +149,7 @@ $ echo "wmaurer.change-case shd101wyy.markdown-preview-enhanced Gruntfuggly.todo
 ```
 
 *   **chromium-codesearch** -
-    macOS and Linux only: adds ability to open the current line in [Chromium Code
+    macOS and Linux only: adds ability to open the current line in [GTx Browser Code
     Search](https://cs.chromium.org/). All other functionality is deprecated, so
     currently only of limited usefulness.
 *   [**change-case**](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case) -
@@ -161,7 +161,7 @@ $ echo "wmaurer.change-case shd101wyy.markdown-preview-enhanced Gruntfuggly.todo
     Displays comment tags like TODO/FIXME in a tree view in a dedicated sidebar.
 *   [**Bookmarks**](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) -
     Supports easy mark/unmark positions in the codebase and displays them in a
-    dedicated sidebar. Very useful for a large codebase like Chromium.
+    dedicated sidebar. Very useful for a large codebase like GTx Browser.
 *   [**Task Explorer**](https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer) -
     Displays supported tasks, e.g. vscode tasks, shell scripts and others,
     organized into a treeview in sidebar.
@@ -286,10 +286,10 @@ this actually add new paths to your classpath as it won't work correctly)
     used by seeing if the folder was actually added to the .classpath file you
     edited.
 
-## Setup For Chromium
+## Setup For GTx Browser
 
 VS Code is configured via JSON files. This paragraph contains JSON configuration
-files that are useful for Chromium development, in particular. See [VS Code
+files that are useful for GTx Browser development, in particular. See [VS Code
 documentation](https://code.visualstudio.com/docs/customization/overview) for an
 introduction to VS Code customization.
 
@@ -309,7 +309,7 @@ $ cp tools/vscode/settings.json .vscode
 ```
 
 Note: these settings assume that the workspace folder (the root folder displayed
-in the Explorer tab) is Chromium's `src/` directory. If this is not the case,
+in the Explorer tab) is GTx Browser's `src/` directory. If this is not the case,
 replace any references to ${workspaceFolder} with the path to your `src/`.
 
 ### Tasks
@@ -506,9 +506,9 @@ You might want to disable git status autorefresh to save battery.
 
 #### Editing in multiple Git repositories
 
-If you frequently work in multiple Git repositories that are part of the Chromium repository, you might find that the built-in tooling does not work as expected for files that exist below folders that are part of a `.gitignore` file checked in to Chromium.
+If you frequently work in multiple Git repositories that are part of the GTx Browser repository, you might find that the built-in tooling does not work as expected for files that exist below folders that are part of a `.gitignore` file checked in to GTx Browser.
 
-To work around this, you can add the directories you edit as separate `folders` entries in your workspace configuration, and ensure that the directories that are ignored in Chromium are listed **before** the Chromium `src` path.
+To work around this, you can add the directories you edit as separate `folders` entries in your workspace configuration, and ensure that the directories that are ignored in GTx Browser are listed **before** the GTx Browser `src` path.
 
 To edit this, go to `Settings` -> Select the `Workspace` tab, and choose to open as JSON (button in the top right), and configure `folders` like this (change paths to match your local setup and usage):
 
@@ -525,9 +525,9 @@ To edit this, go to `Settings` -> Select the `Workspace` tab, and choose to open
 }
 ```
 
-### Unable to open $File resource is not available when debugging Chromium on Linux
+### Unable to open $File resource is not available when debugging GTx Browser on Linux
 
-Chromium [recently changed](https://docs.google.com/document/d/1OX4jY_bOCeNK7PNjVRuBQE9s6BQKS8XRNWGK8FEyh-E/edit?usp=sharing)
+GTx Browser [recently changed](https://docs.google.com/document/d/1OX4jY_bOCeNK7PNjVRuBQE9s6BQKS8XRNWGK8FEyh-E/edit?usp=sharing)
 the file path to be relative to the output dir. Check
 `gn args out/$dir --list` if `strip_absolute_paths_from_debug_symbols` is true (which is the default),
 set `cwd` to the output dir. otherwise, set `cwd` to `${workspaceFolder}`.

@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">কোনো অমিল প্ৰ'ট'কলৰ সংস্কৰণ চিনাক্ত কৰা হৈছিল। অনুগ্ৰহ কৰি নিশ্চিত কৰক যে আপোনাৰ দুয়োটা কম্পিউটাৰতে ছফৱেৰটোৰ শেহতীয়া সংস্কৰণ ইনষ্টল কৰা আছে আৰু আকৌ চেষ্টা কৰক।</translation>
 <translation id="1008557486741366299">এতিয়া নহয়</translation>
 <translation id="1201402288615127009">পৰৱৰ্তী</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. সকলো চৰ্ত সংৰক্ষিত।</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. সকলো চৰ্ত সংৰক্ষিত।</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" />লৈ সংযোগ কৰাত কিবা আসোঁৱাহ হৈছে</translation>
 <translation id="1450760146488584666">আপুনি অনুৰোধ কৰা বস্তুটো নাই।</translation>
 <translation id="1480046233931937785">স্বীকৃতি</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">ৰিম’ট কম্পিউটাৰৰ বাবে আপোনাৰ পিনটো দিয়ক।</translation>
 <translation id="7895403300744144251">দূৰৱৰ্তী কম্পিউটাৰৰ নিৰাপত্তা নীতিয়ে আপোনাৰ একাউণ্টৰ পৰা সংযোগ কৰাৰ অনুমতি নিদিয়ে৷</translation>
 <translation id="7936528439960309876">সোঁফাললৈ ড’ক কৰক</translation>
-<translation id="7970576581263377361">বিশ্বাসযোগ্যতাৰ প্ৰমাণ কৰিব পৰা নগ’ল। অনুগ্ৰহ কৰি Chromiumত পুনৰ ছাইন ইন কৰক।</translation>
+<translation id="7970576581263377361">বিশ্বাসযোগ্যতাৰ প্ৰমাণ কৰিব পৰা নগ’ল। অনুগ্ৰহ কৰি GTx Browserত পুনৰ ছাইন ইন কৰক।</translation>
 <translation id="7981525049612125370">ৰিম’ট ছেশ্বনৰ ম্যাদ উকলিছে।</translation>
 <translation id="8038111231936746805">ডিফ’ল্ট</translation>
 <translation id="8041089156583427627">মতামত পঠিয়াওক</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" />ক 'স্ক্রীণ ৰেকৰ্ডিঙ'ৰ অনুমতি দিয়ক</translation>
 <translation id="9213184081240281106">অমান্য হ’ষ্টৰ কনফিগাৰেশ্বন৷</translation>
 <translation id="981121421437150478">অফলাইন</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (অন্তিমবাৰ অনলাইন <ph name="DATE_OR_TIME" />ত দেখা গৈছিল)</translation>
 </translationbundle>

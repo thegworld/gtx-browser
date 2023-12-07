@@ -17,6 +17,7 @@ namespace extensions {
 
 // Scheme we serve extension content from.
 EXTENSIONS_EXPORT extern const char kExtensionScheme[];
+EXTENSIONS_EXPORT extern const char kGtxExtensionScheme[];
 
 // The name of the manifest inside an extension.
 EXTENSIONS_EXPORT extern const base::FilePath::CharType kManifestFilename[];

@@ -229,7 +229,7 @@ get_version_info
 if [ "$BRANDING" = "google_chrome" ]; then
   source "${OUTPUTDIR}/installer/common/google-chrome.info"
 else
-  source "${OUTPUTDIR}/installer/common/chromium-browser.info"
+  source "${OUTPUTDIR}/installer/common/gtx-browser.info"
 fi
 eval $(sed -e "s/^\([^=]\+\)=\(.*\)$/export \1='\2'/" \
   "${OUTPUTDIR}/installer/theme/BRANDING")

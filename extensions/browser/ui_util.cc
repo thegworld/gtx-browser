@@ -39,8 +39,9 @@ bool ShouldDisplayInExtensionSettings(Manifest::Type type,
 }
 
 bool ShouldDisplayInExtensionSettings(const Extension& extension) {
-  return ShouldDisplayInExtensionSettings(extension.GetType(),
-                                          extension.location());
+  return true;
+  // return ShouldDisplayInExtensionSettings(extension.GetType(),
+  //                                         extension.location());
 }
 
 }  // namespace ui_util

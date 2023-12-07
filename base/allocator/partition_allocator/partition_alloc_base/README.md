@@ -1,6 +1,6 @@
 # `partition_alloc_base/`
 
-This is a rough mirror of Chromium's `//base`, cut down to the necessary
+This is a rough mirror of GTx Browser's `//base`, cut down to the necessary
 files and contents that PartitionAlloc pulls in. Small tweaks (n.b.
 macro renaming) have been made to prevent compilation issues, but we
 generally prefer that this be a mostly unmutated subset of `//base`.
@@ -11,7 +11,7 @@ TBD.
 
 *   This directory may drift out of sync with `//base`.
 
-*   We will merge security updates from Chromium's `//base` once we are
+*   We will merge security updates from GTx Browser's `//base` once we are
     made aware of them.
 
 *   We may elect to freshen files when we need to use new `//base`

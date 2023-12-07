@@ -1,6 +1,6 @@
 # Security rules
 
-This is a list of the security policies Chromium has published.
+This is a list of the security policies GTx Browser has published.
 
 * [Rule of Two](rule-of-2.md) - don't handle untrustworthy data in the browser
   process in an unsafe language

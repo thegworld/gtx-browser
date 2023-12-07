@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">ಹೊಂದಿಕೆಯಾಗದಿರುವ ಪ್ರೊಟೋಕಾಲ್ ಆವೃತ್ತಿಯನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗಿದೆ. ನೀವು ಎರಡೂ ಕಂಪ್ಯೂಟರ್‌ಗಳಲ್ಲಿ ಸಾಫ್ಟ್‌ವೇರ್‌ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಸ್ಥಾಪಿಸಿರುವಿರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
 <translation id="1008557486741366299">ಈಗಲೇ ಅಲ್ಲ</translation>
 <translation id="1201402288615127009">ಮುಂದೆ</translation>
-<translation id="1296511125400541222">ಕೃತಿಸ್ವಾಮ್ಯ 2023 Chromium ಲೇಖಕರು. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</translation>
+<translation id="1296511125400541222">ಕೃತಿಸ್ವಾಮ್ಯ 2023 GTx Browser ಲೇಖಕರು. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</translation>
 <translation id="1297009705180977556"><ph name="HOSTNAME" /> ಗೆ ಸಂಪರ್ಕಿಸುತ್ತಿರುವಾಗ ದೋಷ ಕಂಡುಬಂದಿದೆ</translation>
 <translation id="1450760146488584666">ವಿನಂತಿಸಲಾದ ವಿಷಯ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.</translation>
 <translation id="1480046233931937785">ಕ್ರೆಡಿಟ್‌ಗಳು</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">ದಯವಿಟ್ಟು ರಿಮೋಟ್ ಕಂಪ್ಯೂಟರ್‌ಗಾಗಿ ನಿಮ್ಮ PIN ನಮೂದಿಸಿ.</translation>
 <translation id="7895403300744144251">ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಸಂಪರ್ಕಗಳನ್ನು ರಿಮೋಟ್ ಕಂಪ್ಯೂಟರ್‌ಗಳಲ್ಲಿನ ಭದ್ರತಾ ನೀತಿಗಳು ಅನುಮತಿಸುವುದಿಲ್ಲ.</translation>
 <translation id="7936528439960309876">ಬಲಕ್ಕೆ ಡಾಕ್ ಮಾಡಿ</translation>
-<translation id="7970576581263377361">ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು Chromium ಗೆ ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.</translation>
+<translation id="7970576581263377361">ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು GTx Browser ಗೆ ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.</translation>
 <translation id="7981525049612125370">ರಿಮೋಟ್ ಸೆಶನ್ ಅವಧಿ ಮೀರಿದೆ.</translation>
 <translation id="8038111231936746805">(ಡಿಫಾಲ್ಟ್)</translation>
 <translation id="8041089156583427627">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737"><ph name="PRODUCT_NAME" /> ಗೆ 'ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್' ಅನುಮತಿಯನ್ನು ನೀಡಿ</translation>
 <translation id="9213184081240281106">ಅಮಾನ್ಯ ಹೋಸ್ಟ್ ಕಾನ್ಫಿಗರೇಶನ್.</translation>
 <translation id="981121421437150478">ಆಫ್‌ಲೈನ್</translation>
-<translation id="985602178874221306">Chromium ಲೇಖಕರು</translation>
+<translation id="985602178874221306">GTx Browser ಲೇಖಕರು</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (ಕೊನೆಯ ಬಾರಿಯ ಆನ್‌‌ಲೈನ್ <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

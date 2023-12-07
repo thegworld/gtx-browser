@@ -61,7 +61,8 @@ void PopulateTermsPrefixedByHttpOrHttps(
   for (const auto& term : base::SplitString(text, u" ", base::TRIM_WHITESPACE,
                                             base::SPLIT_WANT_ALL)) {
     const std::string term_utf8(base::UTF16ToUTF8(term));
-    static const char* kSchemes[2] = { url::kHttpScheme, url::kHttpsScheme };
+    static const char* kSchemes[4] = {url::kHttpScheme, url::kHttpsScheme,
+                                      url::kIpfsScheme,url::kGtxScheme};
     for (const char* scheme : kSchemes) {
       const std::string prefix(scheme + separator);
       // Doing an ASCII comparison is okay because prefix is ASCII.
@@ -180,6 +181,13 @@ void AutocompleteInput::Init(
   GURL canonicalized_url;
   type_ = Parse(text_, desired_tld_, scheme_classifier, &parts_, &scheme_,
                 &canonicalized_url);
+
+   if (canonicalized_url.SchemeIsIpfs())
+    type_ = metrics::OmniboxInputType::URL;
+
+  if (canonicalized_url.SchemeIs(url::kGtxScheme))
+    type_ = metrics::OmniboxInputType::URL;
+
   PopulateTermsPrefixedByHttpOrHttps(text_, &terms_prefixed_by_http_or_https_);
 
   DCHECK(!added_default_scheme_to_typed_url_);
@@ -198,6 +206,11 @@ void AutocompleteInput::Init(
     // by one.
     OffsetComponentsExcludingScheme(&parts_, 1);
   }
+    if (canonicalized_url.SchemeIsIpfs())
+    canonicalized_url_ = canonicalized_url;
+
+    if (canonicalized_url.SchemeIs(url::kGtxScheme))
+    canonicalized_url_ = canonicalized_url;
 
   if (((type_ == metrics::OmniboxInputType::UNKNOWN) ||
        (type_ == metrics::OmniboxInputType::URL)) &&
@@ -210,7 +223,7 @@ void AutocompleteInput::Init(
 
 AutocompleteInput::AutocompleteInput(const AutocompleteInput& other) = default;
 
-AutocompleteInput::~AutocompleteInput() = default;
+AutocompleteInput::~AutocompleteInput() {}
 
 // static
 std::string AutocompleteInput::TypeToString(metrics::OmniboxInputType type) {

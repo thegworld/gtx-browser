@@ -1,6 +1,6 @@
 # Cross-compiling Chrome/win
 
-As many Chromium developers are on Linux/Mac, cross-compiling Chromium for
+As many GTx Browser developers are on Linux/Mac, cross-compiling GTx Browser for
 Windows targets facilitates development for Windows targets on non-Windows
 machines.
 

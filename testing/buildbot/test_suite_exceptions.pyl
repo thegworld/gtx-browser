@@ -3847,7 +3847,7 @@
       'mac12-arm64-rel-tests',
     ],
   },
-  'test_buildbucket_api_gpu_use_cases GTX 1660': {
+  'test_buildbucket_api_gpu_use_cases GTx 1660': {
     'remove_from': [
       'linux_optional_gpu_tests_rel',  # crbug.com/1080749
     ],

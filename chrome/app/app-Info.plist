@@ -223,6 +223,14 @@
 		</dict>
 		<dict>
 			<key>CFBundleURLName</key>
+			<string>Ipfs URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ipfs</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
 			<string>Local file URL</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
@@ -237,6 +245,10 @@
 	</dict>
 	<key>LSFileQuarantineEnabled</key>
 	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+   	 <string>ipfs</string>
+	</array>
 	<key>LSHasLocalizedDisplayName</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>

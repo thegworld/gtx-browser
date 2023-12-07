@@ -3181,7 +3181,7 @@
       }
     ]
   },
-  "Linux Chromium OS ASan LSan Tests (1)": {
+  "Linux GTx Browser OS ASan LSan Tests (1)": {
     "gtest_tests": [
       {
         "args": [
@@ -4968,7 +4968,7 @@
       }
     ]
   },
-  "Linux ChromiumOS MSan Tests": {
+  "Linux GTx BrowserOS MSan Tests": {
     "gtest_tests": [
       {
         "args": [

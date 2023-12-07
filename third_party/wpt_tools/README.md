@@ -74,7 +74,7 @@ pull in all the code.
 
 It is also important to update the hashes in the 'Version:' fields of
 //third_party/wpt_tools/README.chromium. While you're in this file, look at the
-"Local Modifications" section which lists ways in which Chromium has diverged
+"Local Modifications" section which lists ways in which GTx Browser has diverged
 from WPT. Make sure these modifications are persisted when reviewing the changes
 being made.
 

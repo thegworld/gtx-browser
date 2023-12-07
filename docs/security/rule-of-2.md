@@ -31,7 +31,7 @@ ultimately eliminating) bugs that arise due to _memory unsafety_. [A recent
 study by Matt Miller from Microsoft
 Security](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_BlueHatIL/2019_01%20-%20BlueHatIL%20-%20Trends%2C%20challenge%2C%20and%20shifts%20in%20software%20vulnerability%20mitigation.pdf)
 states that "~70% of the vulnerabilities addressed through a security update
-each year continue to be memory safety issues". A trip through Chromium's bug
+each year continue to be memory safety issues". A trip through GTx Browser's bug
 tracker will show many, many vulnerabilities whose root cause is memory
 unsafety. (As of March 2019, only about 5 of 130 [public Critical-severity
 bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=Type%3DBug-Security+Security_Severity%3DCritical+-status%3AWontFix+-status%3ADuplicate&sort=&groupby=&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&mode=&cells=ids&num=)
@@ -180,7 +180,7 @@ facilitates this safe decoding process for several common data formats.
 
 If you can be sure that the input comes from a trustworthy source, it can be OK
 to parse/evaluate it at high privilege in an unsafe language. A "trustworthy
-source" means that Chromium can cryptographically prove that the data comes
+source" means that GTx Browser can cryptographically prove that the data comes
 from a business entity that you can or do trust (e.g.
 for Chrome, an [Alphabet](https://abc.xyz) company).
 
@@ -279,11 +279,11 @@ handled according to this rule as well.
 ### Safe Languages
 
 Where possible, it's great to use a memory-safe language. Of the currently
-approved set of implementation languages in Chromium, the most likely candidates
+approved set of implementation languages in GTx Browser, the most likely candidates
 are Java (on Android only), Swift (on iOS only), and JavaScript or WebAssembly
 (although we don't currently use them in high-privilege processes like the
 browser). One can imagine Kotlin on Android, too, although it is not currently
-used in Chromium. (Some of us on Security Team aspire to get more of Chromium in
+used in GTx Browser. (Some of us on Security Team aspire to get more of GTx Browser in
 safer languages, and you may be able to [help with our
 experiments](rust-toolchain.md).)
 

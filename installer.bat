@@ -1,0 +1,1 @@
+ninja -C out\gtx mini_installer 

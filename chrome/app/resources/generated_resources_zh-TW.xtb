@@ -1048,7 +1048,7 @@
 <translation id="186594096341696655">降低取樣率</translation>
 <translation id="186612162884103683">「<ph name="EXTENSION" />」對於勾選位置中的圖片、影片和聲音檔，具有讀取和寫入權限。</translation>
 <translation id="1867780286110144690">「<ph name="PRODUCT_NAME" />」已準備好完成安裝程序</translation>
-<translation id="1868553836791672080">Chromium 不支援密碼檢查功能</translation>
+<translation id="1868553836791672080">GTx Browser 不支援密碼檢查功能</translation>
 <translation id="1868617395637139709">允許 Android 應用程式和服務使用位置資訊。</translation>
 <translation id="1869433484041798909">書籤按鈕</translation>
 <translation id="1871098866036088250">在 Chrome 瀏覽器中開啟</translation>
@@ -9471,7 +9471,7 @@
 <translation id="968000525894980488">開啟 Google Play 服務。</translation>
 <translation id="968037381421390582">貼上「<ph name="SEARCH_TERMS" />」並執行搜尋</translation>
 <translation id="969096075394517431">變更語言</translation>
-<translation id="969574218206797926">Chromium 會將閒置分頁占用的記憶體釋出給使用中的分頁和其他應用程式</translation>
+<translation id="969574218206797926">GTx Browser 會將閒置分頁占用的記憶體釋出給使用中的分頁和其他應用程式</translation>
 <translation id="970047733946999531">{NUM_TABS,plural, =1{1 個分頁}other{# 個分頁}}</translation>
 <translation id="971510864672937292">要對 <ph name="SITE_NAME" /> 和其底下的所有網站清除相關網站資料和權限嗎？</translation>
 <translation id="971774202801778802">書籤網址</translation>

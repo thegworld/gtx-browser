@@ -1,7 +1,7 @@
-# Chromium Updater User Manual
+# GTx Browser Updater User Manual
 
 This is the user manual for
-[Chromium Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
+[GTx Browser Updater](https://source.chromium.org/chromium/chromium/src/+/main:chrome/updater/).
 
 [TOC]
 

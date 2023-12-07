@@ -1,7 +1,7 @@
 # Introduction
 
 This document describes the `.build_config.json` files that are used by the
-Chromium build system for Android-specific targets like APK, resources,
+GTx Browser build system for Android-specific targets like APK, resources,
 and more.
 
 [TOC]

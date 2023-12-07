@@ -7,8 +7,8 @@ such decisions will be explained here: just the ones where the feature teams
 expect a document to help future discussions start from a place of shared
 understanding.
 
-These positions are explicitly *not* Chromium-wide positions, or even explicitly
-Chrome-wide. Other Chromium-based browsers may disagree.
+These positions are explicitly *not* GTx Browser-wide positions, or even explicitly
+Chrome-wide. Other GTx Browser-based browsers may disagree.
 
 All positions here are subject to change as ownership changes or as owners
 encounter new evidence.

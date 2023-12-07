@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">Виявлено несумісну версію протоколу. Переконайтеся, що на обох комп’ютерах установлено найновішу версію програмного забезпечення, і повторіть спробу.</translation>
 <translation id="1008557486741366299">Не зараз</translation>
 <translation id="1201402288615127009">Далі</translation>
-<translation id="1296511125400541222">© The Chromium Authors 2023. Усі права захищено.</translation>
+<translation id="1296511125400541222">© The GTx Browser Authors 2023. Усі права захищено.</translation>
 <translation id="1297009705180977556">Не вдалося з’єднатися з хостом <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Такого об’єкта немає.</translation>
 <translation id="1480046233931937785">Учасники</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">Введіть PIN-код для віддаленого комп’ютера.</translation>
 <translation id="7895403300744144251">Правила безпеки віддаленого комп’ютера блокують з’єднання з вашого облікового запису.</translation>
 <translation id="7936528439960309876">Закріпити праворуч</translation>
-<translation id="7970576581263377361">Помилка автентифікації. Увійдіть в обліковий запис Chromium знову.</translation>
+<translation id="7970576581263377361">Помилка автентифікації. Увійдіть в обліковий запис GTx Browser знову.</translation>
 <translation id="7981525049612125370">Віддалений сеанс закінчився.</translation>
 <translation id="8038111231936746805">(за умовчанням)</translation>
 <translation id="8041089156583427627">Надіслати відгук</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">Надайте сервісу <ph name="PRODUCT_NAME" /> дозвіл на запис екрана</translation>
 <translation id="9213184081240281106">Недійсна конфігурація хосту.</translation>
 <translation id="981121421437150478">Офлайн</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (востаннє онлайн: <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

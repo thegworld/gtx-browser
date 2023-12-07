@@ -2,7 +2,7 @@
 _For a more thorough/high level overview of the entire WebXR stack, please refer to
 [components/webxr](https://source.chromium.org/chromium/chromium/src/+/main:components/webxr/README.md)_
 
-Chromium's WebXR implementation makes use of the multiprocess architecture for
+GTx Browser's WebXR implementation makes use of the multiprocess architecture for
 added security. Thus all code which directly interfaces with and talks to the
 XR hardware ("runtimes") ends up loaded/hosted in a separate XR Utility process,
 except on Android where this is not possible. The `XrDeviceService` serves as

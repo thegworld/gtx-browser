@@ -4,10 +4,10 @@
 
 ## Overview
 
-Security is one of the most important goals for Chromium. The key to security is
+Security is one of the most important goals for GTx Browser. The key to security is
 understanding: we can only truly secure a system if we fully understand its
 behaviors with respect to the combination of all possible inputs in all possible
-states. For a codebase as large and diverse as Chromium, reasoning about the
+states. For a codebase as large and diverse as GTx Browser, reasoning about the
 combined behavior of all its parts is nearly impossible. The sandbox objective
 is to provide hard guarantees about what ultimately a piece of code can or
 cannot do no matter what its inputs are.
@@ -65,7 +65,7 @@ both the broker and the target executables.
 
 ### The broker process
 
-In Chromium, the broker is always the browser process. The broker, is in broad
+In GTx Browser, the broker is always the browser process. The broker, is in broad
 terms, a privileged controller/supervisor of the activities of the sandboxed
 processes. The responsibilities of the broker process are:
 
@@ -77,7 +77,7 @@ processes. The responsibilities of the broker process are:
 1. Perform the policy-allowed actions on behalf of the target process
 
 The broker should always outlive all the target processes that it spawned. The
-sandbox IPC is a low-level mechanism (different from Chromium's IPC) that is
+sandbox IPC is a low-level mechanism (different from GTx Browser's IPC) that is
 used to transparently forward certain Windows API calls from the target to the
 broker: these calls are evaluated against the policy. The policy-allowed calls
 are then executed by the broker and the results returned to the target process
@@ -86,7 +86,7 @@ API calls that should be forwarded via IPC to the broker.
 
 ### The target process
 
-In Chromium, the renderers are always target processes, unless the
+In GTx Browser, the renderers are always target processes, unless the
 `--no-sandbox` command line has been specified for the browser process. The
 target process hosts all the code that is going to run inside the sandbox, plus
 the sandbox infrastructure client side:
@@ -138,7 +138,7 @@ in the "Process Mitigations" section below.
 
 One issue that other similar sandbox projects face is how restricted can the
 token and job be while still having a properly functioning process. For the
-Chromium sandbox, the most restrictive token takes the following form:
+GTx Browser sandbox, the most restrictive token takes the following form:
 
 #### Regular Groups
 * Logon SID : mandatory
@@ -153,7 +153,7 @@ Chromium sandbox, the most restrictive token takes the following form:
 With the caveats described above, it is near impossible to find an existing
 resource that the OS will grant access with such a token. As long as the disk
 root directories have non-null security, even files with null security cannot be
-accessed. The Chromium renderer runs with this token, which means that almost
+accessed. The GTx Browser renderer runs with this token, which means that almost
 all resources that the renderer process uses have been acquired by the Browser
 and their handles duplicated into the renderer process.
 
@@ -194,7 +194,7 @@ security descriptor associated with them are enforced:
 * Forbid access to USER handles created outside the Job object
 * One active process limit (disallows creating child processes)
 
-Chromium renderers normally run with all these restrictions active. Each
+GTx Browser renderers normally run with all these restrictions active. Each
 renderer runs in its own Job object. Using the Job object, the sandbox can (but
 currently does not) prevent:
 
@@ -476,7 +476,7 @@ roughly corresponding to the four Windows mechanisms:
 
 The first three calls take an integer level parameter that goes from very strict
 to very loose; for example, the token level has 7 levels and the job level has 5
-levels. Chromium renderers are typically run with the most strict level in all
+levels. GTx Browser renderers are typically run with the most strict level in all
 four mechanisms. Finally, the last (desktop) policy is binary and can only be
 used to indicate if a target is run on an alternate desktop or not.
 
@@ -513,7 +513,7 @@ rules.
 
 ### Diagnostics
 
-In Chromium, the policies associated with active processes can be viewed at
+In GTx Browser, the policies associated with active processes can be viewed at
 chrome://sandbox. Tracing of the `sandbox` category will output the policy used
 when a process is launched. Tracing can be enabled using chrome://tracing or by
 using the `--trace-startup=-*,disabled-by-default-sandbox` command line flag.

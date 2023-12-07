@@ -1,7 +1,7 @@
 # Buildbot Testing Configuration Files
 
 The files in this directory control how tests are run on the
-[Chromium buildbots](https://www.chromium.org/developers/testing/chromium-build-infrastructure/tour-of-the-chromium-buildbot).
+[GTx Browser buildbots](https://www.chromium.org/developers/testing/chromium-build-infrastructure/tour-of-the-chromium-buildbot).
 In addition to specifying what tests run on which builders, they also specify
 special arguments and constraints for the tests.
 
@@ -49,7 +49,7 @@ a standardized format.
 ## How the files are consumed
 ### Buildbot configuration json
 Logic in the
-[Chromium recipe](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/recipes/recipes/chromium.py)
+[GTx Browser recipe](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/recipes/recipes/chromium.py)
 looks up each builder for each builder group, and the test generators in
 [chromium_tests/generators.py](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/recipes/recipe_modules/chromium_tests/generators.py)
 parse the data into structures defined in
@@ -82,7 +82,7 @@ your tryjob). Non-trybot changes have to be landed manually :(.
 When adding tests or bumping timeouts, care must be taken to ensure the
 infrastructure has capacity to handle the extra load.  This is especially true
 for the established
-[Chromium CQ builders](https://chromium.googlesource.com/chromium/src/+/HEAD/infra/config/generated/cq-builders.md),
+[GTx Browser CQ builders](https://chromium.googlesource.com/chromium/src/+/HEAD/infra/config/generated/cq-builders.md),
 as they operate under strict execution requirements. Make sure to get a resource
 owner or a member of Chrome Browser Infra to sign off that there is both builder
 and swarmed test shard capacity available. The suggested process for adding new
@@ -430,7 +430,7 @@ how a test is run on a bot_, or _remove keys from a test&apos;s specification on
 a bot_. The exceptions _can not_ be used to add a test to a bot. This
 restriction is by design, and helps prevent taking shortcuts when designing test
 suites which would make the test descriptions unmaintainable. (The number of
-exceptions needed to describe Chromium's waterfalls in their previous
+exceptions needed to describe GTx Browser's waterfalls in their previous
 hand-maintained state has already gotten out of hand, and a concerted effort
 should be made to eliminate them wherever possible.)
 

@@ -1,4 +1,4 @@
-# Code Coverage in Chromium
+# Code Coverage in GTx Browser
 
 ### Coverage Dashboard: [link](https://analysis.chromium.org/coverage/p/chromium)
 
@@ -149,7 +149,7 @@ views in the [coverage dashboard](#coverage-dashboard) above.
 
 ## Workflow
 This section presents the workflow of generating code coverage reports using two
-unit test targets in Chromium repo as an example: `crypto_unittests` and
+unit test targets in GTx Browser repo as an example: `crypto_unittests` and
 `url_unittests`, and the following diagram shows a step-by-step overview of the
 process.
 
@@ -162,7 +162,7 @@ You can get them by adding `"checkout_clang_coverage_tools": True,` to
 download the tools manually ([tools link])
 
 ### Step 1 Build
-In Chromium, to compile code with coverage enabled, one needs to add
+In GTx Browser, to compile code with coverage enabled, one needs to add
 `use_clang_coverage=true`, `is_component_build=false` and `is_debug=false` GN
 flags to the args.gn file in the build output directory. Under the hood, they
 ensure `-fprofile-instr-generate` and `-fcoverage-mapping` flags are passed to
@@ -177,7 +177,7 @@ $ autoninja -C out/coverage crypto_unittests url_unittests
 
 ### Step 2 Create Raw Profiles
 The next step is to run the instrumented binaries. When the program exits, it
-writes a raw profile for each process. Because Chromium runs tests in
+writes a raw profile for each process. Because GTx Browser runs tests in
 multiple processes, the number of processes spawned can be as many as a few
 hundred, resulting in the generation of a few hundred gigabytes’ raw
 profiles. To limit the number of raw profiles, `%Nm` pattern in
@@ -259,7 +259,7 @@ see [crbug.com/831939].
 
 Usually this is not a critical issue, but in general we tend not to have any
 warnings. Please check the list of [known issues], and if there is a similar
-bug, leave a comment with the command you run, the output you get, and Chromium
+bug, leave a comment with the command you run, the output you get, and GTx Browser
 revision you use. Otherwise, please [file a bug] providing the same information.
 
 ### How do crashes affect code coverage?
@@ -278,7 +278,7 @@ on the disk ([crrev.com/c/1172932]). However, if a crashing process calls the
 standard [assert] directly or through a custom wrapper, the dump will not be
 written (see [How do crashes affect code coverage?]).
 
-### Is it possible to obtain code coverage from a full Chromium build?
+### Is it possible to obtain code coverage from a full GTx Browser build?
 
 Yes, with some important caveats. It is possible to build `chrome` target with
 code coverage instrumentation enabled. However, there are some inconveniences

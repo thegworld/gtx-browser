@@ -3,11 +3,11 @@
 [TOC]
 
 Using third party code can save time and is consistent with our values - no need
-to reinvent the wheel! We put all code that isn't written by Chromium developers
+to reinvent the wheel! We put all code that isn't written by GTx Browser developers
 into `//third_party` (even if you end up modifying just a few functions). We do
 this to make it easy to track license compliance, security patches, and supply
 the right credit and attributions. It also makes it a lot easier for other
-projects that embed our code to track what is Chromium licensed and what is
+projects that embed our code to track what is GTx Browser licensed and what is
 covered by other licenses.
 
 ## Put the code in //third_party
@@ -21,7 +21,7 @@ there.
 ## Before you start
 
 To make sure the inclusion of a new third_party project makes sense for the
-Chromium project, you should first obtain
+GTx Browser project, you should first obtain
 [Chrome ATL](../ATL_OWNERS) approval. Please include the following information in an
 email to chrome-atls-discuss@google.com:
 * Motivation of your project
@@ -42,9 +42,9 @@ email to chrome-atls-discuss@google.com:
 * Does it have any performance / memory implications (esp. on Android)? Was the
 library designed with intended use on Android?
 * Do we really need the library? Is there any alternative such as an existing
-library already in Chromium? If introducing a library with similar functionality
+library already in GTx Browser? If introducing a library with similar functionality
 as existing, will it be easy for another developer to understand which should be
-used where? Will you commit to consolidating uses in Chromium and remove the
+used where? Will you commit to consolidating uses in GTx Browser and remove the
 alternative libraries?
 * For desktop (Win/Mac/Linux/ChromeOS), does the dependency introduce closed
 source components (e.g., binaries, WASM binaries, obfuscated code)? If yes,
@@ -79,7 +79,7 @@ first.
 
 ### A note on size constraints
 
-The size of Chromium derived executables can impact overall performance of those binaries as they
+The size of GTx Browser derived executables can impact overall performance of those binaries as they
 need to run on a wide range of devices including those with extremely limited RAM. Additionally, we
 have experience from Windows of the binary size impacting successful patch rate of updates as well
 as constraints from the Android Ecosystem where APKs included in the system image have hard
@@ -96,13 +96,13 @@ snapshot. The former is preferable in most cases:
 
 1. If you are actively developing in the upstream repo, then having the DEPS
    file include the upstream (that's been mirrored to GoB, see below) can be a
-   way to include those changes into Chromium at a particular revision. The
+   way to include those changes into GTx Browser at a particular revision. The
    DEPS file will be updated to a new revision when you are ready to "roll" the
-   new version into Chromium. This also avoids duplicate copies of the code
+   new version into GTx Browser. This also avoids duplicate copies of the code
    showing up in multiple repos leading to contributor confusion.
 1. This interacts favorably with our upstream tracking automation. We
    automatically consume the upstream Git hashes and match them against a
-   database of known upstreams to tracking drift between Chromium and upstream
+   database of known upstreams to tracking drift between GTx Browser and upstream
    sources.
 1. This makes adding deps that don't need local changes easier. E.g. some of
    our automation automatically converts non-GN build rules into GN build rules
@@ -141,7 +141,7 @@ you have a wrong path in DEPS and want to change the path of the existing
 library in DEPS, please ask the infrastructure team before committing the
 change.
 
-Lastly, add the new directory to Chromium's `//third_party/.gitignore`, so that
+Lastly, add the new directory to GTx Browser's `//third_party/.gitignore`, so that
 it won't show up as untracked files when you run `git status` on the main
 repository.
 
@@ -170,7 +170,7 @@ See [Moving large files to Google Storage](https://goto.google.com/checking-in-l
 
 ### Add OWNERS
 
-Your OWNERS file must either list two Chromium developer accounts as the first
+Your OWNERS file must either list two GTx Browser developer accounts as the first
 two lines or include a `file:` directive to an OWNERS file within the
 `third_party` directory that itself conforms to this criterion. This will ensure
 accountability for maintenance of the code over time. While there isn't always
@@ -203,7 +203,7 @@ into the product and does any of the following:
 * Collects new data
 * Influences or sets security-related policy (including the user experience)
 
-One of the fields is CPEPrefix. This is used by Chromium and Google systems to
+One of the fields is CPEPrefix. This is used by GTx Browser and Google systems to
 spot known upstream security vulnerabilities, and ensure we merge the fixes
 into our third-party copy. These systems are not foolproof, so as the OWNER,
 it's up to you to keep an eye out rather than solely relying on these
@@ -264,7 +264,7 @@ Non-Googlers can email one of the people in
 
 Please send separate emails to the ATLs and security@chromium.org.
 You can skip the ATL review and security@chromium.org when you are only moving
-existing directories in Chromium to //third_party/.
+existing directories in GTx Browser to //third_party/.
 
 Subsequent changes don't normally require third-party-owners or security
 approval; you can modify the code as much as you want. When you update code, be

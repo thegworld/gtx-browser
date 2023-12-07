@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">U zbulua një version i papërputhshëm i protokollit. Sigurohu që të kesh instaluar versionin më të fundit të softuerit në të dy kompjuterët dhe provo përsëri.</translation>
 <translation id="1008557486741366299">Jo tani</translation>
 <translation id="1201402288615127009">Para</translation>
-<translation id="1296511125400541222">Të drejtat e autorit 2023 të "Autorëve të Chromium". Të gjitha të drejtat të rezervuara.</translation>
+<translation id="1296511125400541222">Të drejtat e autorit 2023 të "Autorëve të GTx Browser". Të gjitha të drejtat të rezervuara.</translation>
 <translation id="1297009705180977556">Gabim gjatë lidhjes me <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Objekti i kërkuar nuk ekziston.</translation>
 <translation id="1480046233931937785">Bashkëpunëtorët</translation>
@@ -156,7 +156,7 @@ Nëse "<ph name="SERVICE_SCRIPT_NAME" />" është e zgjedhur tashmë, anulo zgje
 <translation id="7868137160098754906">Fut kodin PIN për kompjuterin në distancë.</translation>
 <translation id="7895403300744144251">Politikat e sigurisë në kompjuterin në distancë nuk lejojnë lidhje nga llogaria jote.</translation>
 <translation id="7936528439960309876">Staciono djathtas</translation>
-<translation id="7970576581263377361">Verifikimi dështoi. Identifikohu përsëri në Chromium.</translation>
+<translation id="7970576581263377361">Verifikimi dështoi. Identifikohu përsëri në GTx Browser.</translation>
 <translation id="7981525049612125370">Sesioni në largësi ka skaduar.</translation>
 <translation id="8038111231936746805">(parazgjedhje)</translation>
 <translation id="8041089156583427627">Dërgo komentet</translation>
@@ -191,6 +191,6 @@ Nëse "<ph name="SERVICE_SCRIPT_NAME" />" është e zgjedhur tashmë, anulo zgje
 <translation id="9187628920394877737">Jepi autorizim "Regjistrimit të ekranit" në <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Konfigurim i pavlefshëm i strehuesit.</translation>
 <translation id="981121421437150478">Jashtë linje</translation>
-<translation id="985602178874221306">Autorët e Chromium</translation>
+<translation id="985602178874221306">Autorët e GTx Browser</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (për herë të fundit në linjë <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

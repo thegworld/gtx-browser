@@ -124,6 +124,8 @@
       </if>
       <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON" file="common/default_favicon.png" />
       <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_DARK" file="common/default_favicon_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_DEFAULT_CHROME_WALLET_ICON" file="common/chrome_wallet_icon.png" />
+
       <if expr="not is_android">
         <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_32" file="common/default_favicon_32.png" />
         <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_DARK_32" file="common/default_favicon_dark_32.png" />

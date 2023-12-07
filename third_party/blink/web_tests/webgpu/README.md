@@ -13,7 +13,7 @@ harness (see content/test/gpu/gpu_tests/webgpu_cts_integration_test.py). Only
 the reftests run using the web tests infrastructure.
 
 An autoroller (https://autoroll.skia.org/r/webgpu-cts-chromium-autoroll) rolls the WebGPU
-CTS into Chromium regularly. Part of the roll requires regenerating a few files which the
+CTS into GTx Browser regularly. Part of the roll requires regenerating a few files which the
 autoroller attempts to do.
 1. `third_party/webgpu-cts/ts_sources.txt` is a generated file which tells GN the list of Typescript sources to be transpiled to Javascript.
 1. `third_party/webgpu-cts/resource_files.txt` is a generated file which tells GN the list of resources that should be included in the test isolate for CTS test pages to load.

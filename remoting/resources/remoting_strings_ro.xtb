@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">A fost detectată o versiune de protocol incompatibilă. Asigură-te că ai cea mai recentă versiune de software pe ambele computere și încearcă din nou.</translation>
 <translation id="1008557486741366299">Nu acum</translation>
 <translation id="1201402288615127009">Înainte</translation>
-<translation id="1296511125400541222">Copyright 2023 The Chromium Authors. Toate drepturile rezervate.</translation>
+<translation id="1296511125400541222">Copyright 2023 The GTx Browser Authors. Toate drepturile rezervate.</translation>
 <translation id="1297009705180977556">Eroare la conectarea la <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">Obiectul solicitat nu există.</translation>
 <translation id="1480046233931937785">Mulțumiri</translation>
@@ -156,7 +156,7 @@ Dacă opțiunea „<ph name="SERVICE_SCRIPT_NAME" />” este deja bifată, debif
 <translation id="7868137160098754906">Introduceți codul PIN pentru computerul la distanță.</translation>
 <translation id="7895403300744144251">Politicile de securitate de pe computerul la distanță nu permit conexiunile din contul tău.</translation>
 <translation id="7936528439960309876">Andochează în dreapta</translation>
-<translation id="7970576581263377361">Autentificarea nu a reușit. Conectează-te din nou la Chromium.</translation>
+<translation id="7970576581263377361">Autentificarea nu a reușit. Conectează-te din nou la GTx Browser.</translation>
 <translation id="7981525049612125370">Sesiunea la distanță a expirat.</translation>
 <translation id="8038111231936746805">(prestabilit)</translation>
 <translation id="8041089156583427627">Trimiteți feedback</translation>
@@ -191,6 +191,6 @@ Dacă opțiunea „<ph name="SERVICE_SCRIPT_NAME" />” este deja bifată, debif
 <translation id="9187628920394877737">Acordă permisiunea „Înregistrarea ecranului” pentru <ph name="PRODUCT_NAME" /></translation>
 <translation id="9213184081240281106">Configurație nevalidă a gazdei.</translation>
 <translation id="981121421437150478">Offline</translation>
-<translation id="985602178874221306">The Chromium Authors</translation>
+<translation id="985602178874221306">The GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (online ultima dată la <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

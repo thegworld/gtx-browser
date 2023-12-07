@@ -37,7 +37,7 @@ and so on can still be taller (unless they contain Ahem text only).
 ## Selection regression tests
 
 Four tests are based on the properties described in <https://crrev.com/915543>,
-and were designed to catch regressions as bugs were fixed in Chromium:
+and were designed to catch regressions as bugs were fixed in GTx Browser:
 
 *   selection-originating-underline-order.html (P1)
 *   selection-originating-decoration-color.html (P3)

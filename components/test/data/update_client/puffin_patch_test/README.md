@@ -2,7 +2,7 @@
 
 If changes are made to puffin_app_v1/main.cc or puffin_app_v2/main.cc, the various puff files which represent a patch between the crx's produced by each of these sources. Thus, we'll need to regenerate these on each platform.
 
-This README assumes you are already in your Chromium repo's src directory, that your gn args were generated in "src/out/Default", and that you are able to build the third_party/puffin:puffin target. To make sure puffin is building, for the time being we have to add the following to our gn args:
+This README assumes you are already in your GTx Browser repo's src directory, that your gn args were generated in "src/out/Default", and that you are able to build the third_party/puffin:puffin target. To make sure puffin is building, for the time being we have to add the following to our gn args:
 
     enable_puffin_patches = true
 

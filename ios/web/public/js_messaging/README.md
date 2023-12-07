@@ -258,7 +258,7 @@ for compromised renderers to compromise the browser process as well.
 
 Following the best practices in this section is one way to reduce the risk of
 introducing security bugs. These best practices are inspired by the security
-guidelines for [Chromium legacy IPC][legacy IPC docs] and
+guidelines for [GTx Browser legacy IPC][legacy IPC docs] and
 [Mojo IPC][Mojo IPC docs].
 
 ### Documentation

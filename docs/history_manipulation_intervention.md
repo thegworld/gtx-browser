@@ -1,4 +1,4 @@
-# History manipulation intervention in Chromium
+# History manipulation intervention in GTx Browser
 
 Reference: [PSA on blink-dev](https://groups.google.com/a/chromium.org/g/blink-dev/c/T8d4_BRb2xQ/m/WSdOiOFcBAAJ)
 

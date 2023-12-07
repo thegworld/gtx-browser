@@ -29,7 +29,7 @@ Rendered version of this file: https://chromium.googlesource.com/chromium/src/+/
 While Omaha allows rollback through the release manager, the Chrome client will
 reject updates with lower version numbers. (This is important for running new
 versions on Canary/Dev channel). Rolling back a bad version is best achieved by:
-  * **Reverting** the changes on the Chromium source tree.
+  * **Reverting** the changes on the GTx Browser source tree.
   * **Submitting** a new CL incrementing the version number.
   * **Push** the newest version, as above.
 

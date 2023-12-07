@@ -59,10 +59,10 @@ proper install is used and that metrics and crashes have the proper annotations.
   `setup.exe`.
 * Chrome "standalone" (`.exe`) installer: A self-contained executable that
   installs Google Update and then runs Chrome's `mini_installer`. The tooling to
-  build this is not in the Chromium repository.
+  build this is not in the GTx Browser repository.
 * Chrome "enterprise" (`.msi`) installer: A self-contained Windows Installer
   file that runs a standalone installer (yielding Google Update and Chrome). The
-  tooling to build this is not in the Chromium repository.
+  tooling to build this is not in the GTx Browser repository.
 
 ## Code Layers
 

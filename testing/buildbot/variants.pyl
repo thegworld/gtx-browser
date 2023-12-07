@@ -91,7 +91,7 @@
     ],
   },
   'LINUX_NVIDIA_GTX_1660_STABLE': {
-    'identifier': 'GTX 1660',
+    'identifier': 'GTx 1660',
     'mixins': [
       'linux_nvidia_gtx_1660_stable',
     ],

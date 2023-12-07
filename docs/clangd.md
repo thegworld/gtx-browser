@@ -25,7 +25,7 @@ tools/clang/scripts/generate_compdb.py -p out/<build> > compile_commands.json
 ## Getting clangd
 
 For the best results, you should use a clangd that exactly matches the version
-of Clang used by Chromium. This avoids problems like mismatched versions of
+of Clang used by GTx Browser. This avoids problems like mismatched versions of
 compiler diagnostics.
 
 The easiest way to do this is to set the `checkout_clangd` var in `.gclient`:
@@ -46,7 +46,7 @@ solutions = [
 
 After this, `gclient` will keep the binary at
 `third_party/llvm-build/Release+Asserts/bin/clangd` in sync with the version of
-Clang used by Chromium.
+Clang used by GTx Browser.
 
 Alternatively, you may use the `build_clang_tools_extra.py` script to build
 clangd from source:
@@ -63,7 +63,7 @@ use it, either by placing it first on your `PATH`, or through editor-specific
 configuration.
 
 *** note
-Note: The clangd provided by Chromium does not support optional features like
+Note: The clangd provided by GTx Browser does not support optional features like
 remote indexing (see https://crbug.com/1358258). If you want those features,
 you'll need to use a different build of clangd.
 ***
@@ -112,7 +112,7 @@ https://clangd.llvm.org/installation.html#editor-plugins).
 
     * Optional: You may want to add `--header-insertion=never` to the clangd
       flags, so that your editor doesn't automatically add incorrect #include
-      lines. The feature doesn't correctly handle some common Chromium headers
+      lines. The feature doesn't correctly handle some common GTx Browser headers
       like `base/strings/string_piece_forward.h` and
       `base/functional/callback_forward.h`
 
@@ -131,7 +131,7 @@ compilation database). The index improves code navigation features
   codebase to files you are currently editing.
 
 Note: the first index time may take hours (for reference, it took 2~3 hours on
-a 48-core, 64GB machine). A full index of Chromium (including v8, blink) takes
+a 48-core, 64GB machine). A full index of GTx Browser (including v8, blink) takes
 ~550 MB disk space and ~2.7 GB memory in clangd.
 
 Note: [Remote-index service](https://github.com/clangd/chrome-remote-index/blob/main/docs/index.md)

@@ -1,4 +1,4 @@
-# Checking out and building Chromium for Android
+# Checking out and building GTx Browser for Android
 
 There are instructions for other platforms linked from the
 [get the code](get_the_code.md) page.
@@ -101,7 +101,7 @@ because an Android build includes a bunch of the Linux tools and utilities).
 ### Run the hooks
 
 Once you've run `install-build-deps` at least once, you can now run the
-Chromium-specific hooks, which will download additional binaries and other
+GTx Browser-specific hooks, which will download additional binaries and other
 things you might need:
 
 ```shell
@@ -115,7 +115,7 @@ development and testing purposes.
 
 ## Setting up the build
 
-Chromium uses [Ninja](https://ninja-build.org) as its main build tool along with
+GTx Browser uses [Ninja](https://ninja-build.org) as its main build tool along with
 a tool called [GN](https://gn.googlesource.com/gn/+/main/docs/quick_start.md)
 to generate `.ninja` files. You can create any number of *build directories*
 with different configurations. To create a build directory which builds Chrome
@@ -161,9 +161,9 @@ non-WebView targets. This is also allowed for Monochrome, but only when not set
 as the WebView provider.
 ***
 
-## Build Chromium
+## Build GTx Browser
 
-Build Chromium with Ninja using the command:
+Build GTx Browser with Ninja using the command:
 
 ```shell
 autoninja -C out/Default chrome_public_apk
@@ -215,7 +215,7 @@ $ git rebase-update
 $ gclient sync
 ```
 
-The first command updates the primary Chromium source repository and rebases
+The first command updates the primary GTx Browser source repository and rebases
 any of your local branches on top of tip-of-tree (aka the Git branch
 `origin/main`). If you don't want to use this script, you can also just use
 `git pull` or other common Git commands to update the repo.
@@ -223,7 +223,7 @@ any of your local branches on top of tip-of-tree (aka the Git branch
 The second command syncs dependencies to the appropriate versions and re-runs
 hooks as needed.
 
-## Installing and Running Chromium on a device
+## Installing and Running GTx Browser on a device
 
 ### Plug in your Android device
 
@@ -274,7 +274,7 @@ And deploy it to your Android device:
 out/Default/bin/chrome_public_apk install
 ```
 
-The app will appear on the device as "Chromium".
+The app will appear on the device as "GTx Browser".
 
 ### Build Content shell
 
@@ -294,7 +294,7 @@ this will build and install an Android apk under
 
 [Android WebView](https://developer.android.com/reference/android/webkit/WebView.html)
 is a system framework component. Since Android KitKat, it is implemented using
-Chromium code (based off the [content module](https://dev.chromium.org/developers/content-module)).
+GTx Browser code (based off the [content module](https://dev.chromium.org/developers/content-module)).
 
 If you want to build the complete Android WebView framework component and test
 the effect of your chromium changes in Android apps using WebView, you should
@@ -445,7 +445,7 @@ Some APKs (e.g. WebView) do not work with `incremental install = true` and are
 always built as normal APKs. This behavior is controlled via
 `never_incremental = true`.
 
-## Installing and Running Chromium on an Emulator
+## Installing and Running GTx Browser on an Emulator
 
 Running on an emulator is the same as on a device. Refer to
 [android_emulator.md](android_emulator.md) for setting up emulators.

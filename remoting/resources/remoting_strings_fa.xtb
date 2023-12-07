@@ -4,7 +4,7 @@
 <translation id="1002108253973310084">نسخه ناسازگار پروتکل شناسایی شد. لطفاً مطمئن شوید جدیدترین نسخه نرم‌افزار روی هر دو رایانه نصب شده است و دوباره امتحان کنید.</translation>
 <translation id="1008557486741366299">حالا نه</translation>
 <translation id="1201402288615127009">بعدی</translation>
-<translation id="1296511125400541222">‏حق نشر ۲۰۲۳ Chromium Authors. کلیه حقوق محفوظ است.</translation>
+<translation id="1296511125400541222">‏حق نشر ۲۰۲۳ GTx Browser Authors. کلیه حقوق محفوظ است.</translation>
 <translation id="1297009705180977556">خطا در اتصال به <ph name="HOSTNAME" /></translation>
 <translation id="1450760146488584666">شئ درخواست شده وجود ندارد.</translation>
 <translation id="1480046233931937785">دست‌اندرکاران</translation>
@@ -156,7 +156,7 @@
 <translation id="7868137160098754906">لطفاً پین خودتان را برای رایانه راه دور وارد کنید.</translation>
 <translation id="7895403300744144251">خط‌مشی‌های امنیتی در رایانه راه دور به اتصالات از حساب شما اجازه نمی‌دهد.</translation>
 <translation id="7936528439960309876">متصل کردن در چپ</translation>
-<translation id="7970576581263377361">‏اصالت‌سنجی انجام نشد. لطفاً دوباره وارد سیستم Chromium شوید.</translation>
+<translation id="7970576581263377361">‏اصالت‌سنجی انجام نشد. لطفاً دوباره وارد سیستم GTx Browser شوید.</translation>
 <translation id="7981525049612125370">وقت جلسه راه دور تمام شد.</translation>
 <translation id="8038111231936746805">(پیش‌‏فرض)</translation>
 <translation id="8041089156583427627">ارسال بازخورد</translation>
@@ -191,6 +191,6 @@
 <translation id="9187628920394877737">به <ph name="PRODUCT_NAME" /> مجوز «ضبط صفحه‌نمایش» اعطا کنید</translation>
 <translation id="9213184081240281106">پیکربندی میزبان نامعتبر است.</translation>
 <translation id="981121421437150478">آفلاین</translation>
-<translation id="985602178874221306">Chromium Authors</translation>
+<translation id="985602178874221306">GTx Browser Authors</translation>
 <translation id="992215271654996353"><ph name="HOSTNAME" /> (آخرین حضور آنلاین <ph name="DATE_OR_TIME" />)</translation>
 </translationbundle>

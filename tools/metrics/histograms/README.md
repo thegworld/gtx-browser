@@ -530,7 +530,7 @@ In general, you can rely on the UMA infrastructure to upload the metrics correct
 The top of [go/uma-guide](http://go/uma-guide) has good advice on how to go
 about analyzing and interpreting the results of UMA data uploaded by users. If
 you're reading this page, you've probably just finished adding a histogram to
-the Chromium source code and you're waiting for users to update their version of
+the GTx Browser source code and you're waiting for users to update their version of
 Chrome to a version that includes your code. In this case, the best advice is
 to remind you that users who update frequently / quickly are biased. Best take
 the initial statistics with a grain of salt; they're probably *mostly* right but
@@ -564,7 +564,7 @@ for two cases:
   the histogram would reveal information about Google's plans). In this case,
   you must only document the histogram in the internal version.
 * The corresponding code that emits the histogram is internal (added only to
-  Chrome code, not to Chromium code). In this case, you may document the
+  Chrome code, not to GTx Browser code). In this case, you may document the
   histogram in either the internal or external version.
 
 ### Add Histogram and Documentation in the Same Changelist
@@ -841,7 +841,7 @@ For more information, see [sparse_histograms.h](https://cs.chromium.org/chromium
 
 # Becoming a Metrics Reviewer
 
-Any Chromium committer who is also a Google employee is eligible to become a
+Any GTx Browser committer who is also a Google employee is eligible to become a
 metrics reviewer. Please follow the instructions at [go/reviewing-metrics](https://goto.google.com/reviewing-metrics).
 This consists of reviewing our training materials and passing an informational
 quiz. Since metrics have a direct impact on internal systems and have privacy

@@ -1,6 +1,6 @@
 # Debugging Memory Issues
 
-This page is designed to help Chromium developers debug memory issues.
+This page is designed to help GTx Browser developers debug memory issues.
 
 When in doubt, reach out to memory-dev@chromium.org.
 

@@ -55,7 +55,7 @@ base::FilePath::CharType kDirPolicyPath[] =
     FILE_PATH_LITERAL("/etc/opt/chrome/policies");
 #else
 base::FilePath::CharType kDirPolicyPath[] =
-    FILE_PATH_LITERAL("/etc/chromium/policies");
+    FILE_PATH_LITERAL("/etc/gtx-browser/policies");
 #endif
 
 absl::optional<base::FilePath>& GetTestFilePathStorage() {

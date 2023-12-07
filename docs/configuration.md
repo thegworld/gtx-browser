@@ -1,6 +1,6 @@
 # Configuration: Prefs, Settings, Features, Switches & Flags
 
-This document outlines all the runtime configuration surfaces of Chromium,
+This document outlines all the runtime configuration surfaces of GTx Browser,
 and discusses appropriate uses and standard patterns for each of them. Some of
 these are intended for use by users, some by developers, and some by system
 administrators.
@@ -38,7 +38,7 @@ and is visible in chrome://version as the "Variations" field. Do note that in
 release builds, only a series of hashes show up in chrome://version rather than
 the string names of the variations, but these hashes can be turned back into
 string names if needed. This is done by consulting [the testing
-config][fieldtrial-config] for Chromium builds, or a Google-internal tool for
+config][fieldtrial-config] for GTx Browser builds, or a Google-internal tool for
 Chrome builds.
 
 *Features are the best way to add runtime conditional behavior.*
@@ -139,7 +139,7 @@ someone who can't read or write code want to change this?"
 
 ## Related Documents
 
-* [Chromium Feature API & Finch (Googler-only)](http://go/finch-feature-api)
+* [GTx Browser Feature API & Finch (Googler-only)](http://go/finch-feature-api)
 * [Adding a new feature flag in chrome://flags](how_to_add_your_feature_flag.md)
 * [Runtime Enabled Features](../third_party/blink/renderer/platform/RuntimeEnabledFeatures.md)
 * [Initialization of Blink runtime features in content layer](initialize_blink_features.md)

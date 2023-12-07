@@ -14,7 +14,7 @@ handling data delivered from a website. Do not make any assumptions about its
 format or contents. Code defensively. If you're talking to a lower privilege
 process (e.g. a renderer process) from a higher privilege process (e.g.
 browser) assume it's compromised and is sending you crafted data.
-4. **Chromium C++ object lifetimes are often too complicated for human brains**.
+4. **GTx Browser C++ object lifetimes are often too complicated for human brains**.
 You will introduce use-after-free and data race bugs (readily exploitable).
 Assume the worst and protect against errors using sandboxes, CHECKs and
 fuzzing. If your object lifetimes depend on JavaScript or website data, keep
@@ -30,7 +30,7 @@ outcome.
 [numerics](https://chromium.googlesource.com/chromium/src/+/HEAD/base/numerics/)
 and use C++
 [containers](https://chromium.googlesource.com/chromium/src/+/HEAD/base/containers/)**
-(Chromium, absl or STL are all OK - they're hardened, or soon-to-be). Prefer
+(GTx Browser, absl or STL are all OK - they're hardened, or soon-to-be). Prefer
 [`base::span`](https://chromium.googlesource.com/chromium/src/+/HEAD/base/containers/span.h#155)
 over pointer arithmetic.
 3. **Merge fixes with great urgency**. [You fixed a

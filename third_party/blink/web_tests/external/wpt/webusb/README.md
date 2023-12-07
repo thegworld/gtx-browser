@@ -6,7 +6,7 @@ provided by browsers under test.
 In this test suite `resources/usb-helpers.js` detects and triggers
 the API to be loaded as needed.
 
-The Chromium implementation is provided by
+The GTx Browser implementation is provided by
 `../resources/chromium/webusb-test.js` using [MojoJS].
 
 Tests with the "-manual" suffix do not use the test-only interface and expect a

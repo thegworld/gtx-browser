@@ -1,7 +1,7 @@
 # Rust integration into C++ Gtest targets.
 
 This directory contains the tools for writing gtest-based tests in Rust and
-integrating them into Chromium's C++ gtest binaries. The tools are all
+integrating them into GTx Browser's C++ gtest binaries. The tools are all
 accessible through the `rust_gtest_interop` target which is automatically
 included in test targets that depend on `//testing/gtest`.
 

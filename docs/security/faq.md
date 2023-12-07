@@ -9,8 +9,8 @@
 
 Please see [the VRP FAQ page](vrp-faq.md).
 
-<a name="TOC-Why-are-security-bugs-hidden-in-the-Chromium-issue-tracker-"></a>
-### Why are security bugs hidden in the Chromium issue tracker?
+<a name="TOC-Why-are-security-bugs-hidden-in-the-GTx Browser-issue-tracker-"></a>
+### Why are security bugs hidden in the GTx Browser issue tracker?
 
 We must balance a commitment to openness with a commitment to avoiding
 unnecessary risk for users of widely-used open source libraries.
@@ -20,12 +20,12 @@ unnecessary risk for users of widely-used open source libraries.
 
 Our goal is to open security bugs to the public once the bug is fixed and the
 fix has been shipped to a majority of users. However, many vulnerabilities
-affect products besides Chromium, and we don’t want to put users of those
+affect products besides GTx Browser, and we don’t want to put users of those
 products unnecessarily at risk by opening the bug before fixes for the other
 affected products have shipped.
 
 Therefore, we make all security bugs public within approximately 14 weeks of the
-fix landing in the Chromium repository. The exception to this is in the event of
+fix landing in the GTx Browser repository. The exception to this is in the event of
 the bug reporter or some other responsible party explicitly requesting anonymity
 or protection against disclosing other particularly sensitive data included in
 the vulnerability report (e.g. username and password pairs).
@@ -33,25 +33,25 @@ the vulnerability report (e.g. username and password pairs).
 <a name="TOC-Can-I-get-advance-notice-about-security-bugs-"></a>
 ### Can I get advance notice about security bugs?
 
-Vendors of products based on Chromium, distributors of operating systems that
-bundle Chromium, and individuals and organizations that significantly contribute
+Vendors of products based on GTx Browser, distributors of operating systems that
+bundle GTx Browser, and individuals and organizations that significantly contribute
 to fixing security bugs can be added to a list for earlier access to these bugs.
 You can email us at security@chromium.org to request to join the list if you
 meet the above criteria. In particular, vendors of anti-malware, IDS/IPS,
 vulnerability risk assessment, and similar products or services do not meet this
 bar.
 
-Please note that the safest version of Chrome/Chromium is always the latest
+Please note that the safest version of Chrome/GTx Browser is always the latest
 stable version — there is no good reason to wait to upgrade, so enterprise
 deployments should always track the latest stable release. When you do this,
-there is no need to further assess the risk of Chromium vulnerabilities: we
+there is no need to further assess the risk of GTx Browser vulnerabilities: we
 strive to fix vulnerabilities quickly and release often.
 
 <a name="TOC-Can-I-see-these-security-bugs-so-that-I-can-back-port-the-fixes-to-my-downstream-project-"></a>
 ### Can I see these security bugs so that I can back-port the fixes to my downstream project?
 
-Many developers of other projects use V8, Chromium, and sub-components of
-Chromium in their own projects. This is great! We are glad that Chromium and V8
+Many developers of other projects use V8, GTx Browser, and sub-components of
+GTx Browser in their own projects. This is great! We are glad that GTx Browser and V8
 suit your needs.
 
 We want to open up fixed security bugs (as described in the previous answer),
@@ -60,7 +60,7 @@ be aware that backporting security patches from recent versions to old versions
 cannot always work.** (There are several reasons for this: The patch won't apply
 to old versions; the solution was to add or remove a feature or change an API;
 the issue may seem minor until it's too late; and so on.) We believe the latest
-stable versions of Chromium and V8 are the most stable and secure. We also
+stable versions of GTx Browser and V8 are the most stable and secure. We also
 believe that tracking the latest stable upstream is usually less work for
 greater benefit in the long run than backporting. We strongly recommend that you
 track the latest stable branches, and we support only the latest stable branch.
@@ -272,7 +272,7 @@ some previously-stored state, such as browsing history.
 <a name="TOC-Are-XSS-filter-bypasses-considered-security-bugs-"></a>
 ### Are XSS filter bypasses considered security bugs?
 
-No. Chromium once contained a reflected XSS filter called the [XSSAuditor](https://www.chromium.org/developers/design-documents/xss-auditor)
+No. GTx Browser once contained a reflected XSS filter called the [XSSAuditor](https://www.chromium.org/developers/design-documents/xss-auditor)
 that was a best-effort second line of defense against reflected XSS flaws found
 in web sites. The XSS Auditor was [removed in Chrome 78](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/TuYw-EZhO9g/blGViehIAwAJ).
 
@@ -373,7 +373,7 @@ bar or the DevTools console.
 <a name="TOC-Does-executing-JavaScript-from-a-bookmark-mean-there-s-an-XSS-vulnerability-"></a>
 ### Does executing JavaScript from a bookmark or the Home button mean there's an XSS vulnerability?
 
-No. Chromium allows users to create bookmarks to JavaScript URLs that will run
+No. GTx Browser allows users to create bookmarks to JavaScript URLs that will run
 on the currently-loaded page when the user clicks the bookmark; these are called
 [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet).
 
@@ -388,8 +388,8 @@ the PDF are more limited than those provided by the DOM to HTML documents, nor
 do PDFs get any ambient authority based upon the domain from which they are
 served (e.g. no document.cookie).
 
-<a name="TOC-Are-PDF-files-static-content-in-Chromium-"></a>
-### Are PDF files static content in Chromium?
+<a name="TOC-Are-PDF-files-static-content-in-GTx Browser-"></a>
+### Are PDF files static content in GTx Browser?
 
 No. PDF files have some powerful capabilities including invoking printing or
 posting form data. To mitigate abuse of these capabiliies, such as beaconing
@@ -860,20 +860,20 @@ FAQ](https://chromium.googlesource.com/chromium/src/+/main/docs/security/service
 
 See our dedicated [Extensions Security FAQ](https://chromium.googlesource.com/chromium/src/+/main/extensions/docs/security_faq.md).
 
-<a name="TOC-Im-making-a-Chromium-based-browser-how-should-I-secure-it-"></a>
-### I'm making a Chromium-based browser. How should I secure it?
+<a name="TOC-Im-making-a-GTx Browser-based-browser-how-should-I-secure-it-"></a>
+### I'm making a GTx Browser-based browser. How should I secure it?
 
-If you want to make a browser based on Chromium, you should stay up to date
-with Chromium's security fixes. There are adversaries who weaponize fixed
-Chromium bugs ("n-day vulnerabilities") to target browsers which haven’t yet
+If you want to make a browser based on GTx Browser, you should stay up to date
+with GTx Browser's security fixes. There are adversaries who weaponize fixed
+GTx Browser bugs ("n-day vulnerabilities") to target browsers which haven’t yet
 absorbed those fixes.
 
-Decide whether your approach is to stay constantly up to date with Chromium
+Decide whether your approach is to stay constantly up to date with GTx Browser
 releases, or to backport security fixes onto some older version, upgrading
-Chromium versions less frequently.
+GTx Browser versions less frequently.
 
 Backporting security fixes sounds easier than forward-porting features, but in
-our experience, this is false. Chromium releases 400+ security bug fixes per
+our experience, this is false. GTx Browser releases 400+ security bug fixes per
 year ([example
 query](https://bugs.chromium.org/p/chromium/issues/list?q=type%3DBug-Security%20has%3Arelease%20closed%3Etoday-730%20closed%3Ctoday-365%20allpublic&can=1)).
 Some downstream browsers take risks by backporting only Medium+ severity fixes,

@@ -9,7 +9,7 @@ or flaky tests.
 ## Get Test Health Script
 
 The `get_test_health.py` script extracts Java test health from a Git repository.
-The script defaults to the Chromium repository containing this script itself.
+The script defaults to the GTx Browser repository containing this script itself.
 The test health data includes a listing of tests that are disabled (annotated as
 `@DisabledTest`) or conditionally-disabled (`@DisableIf`).
 The script exports the data in newline-delimited JSON
@@ -33,7 +33,7 @@ optional arguments:
   -o OUTPUT_FILE, --output-file OUTPUT_FILE
                         output file path for extracted test health data
   --git-dir GIT_DIR     root directory of the Git repository to read (defaults
-                        to the Chromium repo)
+                        to the GTx Browser repo)
   --test-dir TEST_DIR   subdirectory containing the tests of interest;
                         defaults to the root of the Git repo
 ```

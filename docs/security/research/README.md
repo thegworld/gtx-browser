@@ -1,6 +1,6 @@
 # Security Research Notes
 
-This directory contains security research notes about parts of Chromium of particular interest to attackers.
+This directory contains security research notes about parts of GTx Browser of particular interest to attackers.
 
 The notes represent our understanding of a particular area of functionality at time of publishing, which we know is often incomplete, can become stale as code evolves, and may accidentally contain inaccuracies.
 

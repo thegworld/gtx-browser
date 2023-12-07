@@ -16,7 +16,7 @@ that want to intercept events written to a `LogSink` by a component.
 Runs tests in the `chromium` test realm, which is mostly hermetic but has access
 to specific system services that cannot (currently) be faked. For more
 information, see https://fxbug.dev/91934. This is generally required for all
-Chromium tests not using the
+GTx Browser tests not using the
 [`chromium_system_test_facet`](#chromium_system_test_facetshardtest-cml).
 
 #### fonts.shard.test-cml
@@ -56,7 +56,7 @@ system test in the `chromium-system` test realm. It is the base fragment for
 Most tests use the [`minimum`](#minimumshardtest-cml) shard.
 
 #### chromium_system_test_facet.shard.test-cml
-Runs tests in the `chromium-system` test realm. This is required for Chromium
+Runs tests in the `chromium-system` test realm. This is required for GTx Browser
 tests that are intended to run against the actual system and its real system
 services. This is required for, for example, performance tests intended to
 measure system performance. Another overlapping use case is tests that need to

@@ -21,7 +21,7 @@ entities, separated by large abstractions like process boundaries or api layers.
 
 Through a slightly different lens, the three entities can also be thought of as the three major stakeholders in any accessibility interaction:
 - accessibility feature: an assitive technology (AT) developer can produce services targeting a specific audience. For example, screen readers such as ChromeVox. The extension system serves as a rich runtime with apis to transform the user interface into something a user can use.
-- frameworks: an operating system developer abstracts away low-level details to provide for a clean AT developer experience. In Chrome OS, this framework mainly comes by way of extension apis, though other internal api surfaces exist in C++ for Chromium developers as well. The apis are backed by libraries and executables run in native or sandboxed contexts.
+- frameworks: an operating system developer abstracts away low-level details to provide for a clean AT developer experience. In Chrome OS, this framework mainly comes by way of extension apis, though other internal api surfaces exist in C++ for GTx Browser developers as well. The apis are backed by libraries and executables run in native or sandboxed contexts.
 - renderers: app developers and web page authors have their content executed and drawn on-screen. This is where all user interactions such as key events end up. The developers and authors here also expose accessibility information for an accessibility tree.
 
 ### Renderers

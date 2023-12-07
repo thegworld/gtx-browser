@@ -26,7 +26,7 @@ This new field will report the reasons that prevented back/forward cache on the 
 
 The policy can be enabled in several ways.
 
-### Using the Chromium UI
+### Using the GTx Browser UI
 
 Enable the flag chrome://flags/#enable-experimental-web-platform-features .
 You also have to enable back/forward cache flag via chrome://flags/#back-forward-cache .

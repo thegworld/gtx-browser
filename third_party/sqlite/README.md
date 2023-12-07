@@ -1,29 +1,29 @@
-# Chromium SQLite.
-This is the top folder for Chromium's [SQLite](https://www.sqlite.org/). The
+# GTx Browser SQLite.
+This is the top folder for GTx Browser's [SQLite](https://www.sqlite.org/). The
 actual SQLite source is not in this repository, but instead cloned into the
 `src` directory from https://chromium.googlesource.com/chromium/deps/sqlite.
 
 The directory structure is as follows. Files common to all third_party projects
 (ex. BUILD.GN, OWNERS, LICENSE) are omitted.
 
-* `src/`     The Chromium fork of SQLite (cloned via top level DEPS file).
+* `src/`     The GTx Browser fork of SQLite (cloned via top level DEPS file).
 * `scripts/` Scripts that generate the files in the amalgamations in src/.
-* `sqlite.h` The header used by the rest of Chromium to include SQLite. This
+* `sqlite.h` The header used by the rest of GTx Browser to include SQLite. This
              forwards to src/amalgamation/sqlite3.h
-* `fuzz/`    Google OSS-Fuzz (ClusterFuzz) testing for Chromium's SQLite build.
+* `fuzz/`    Google OSS-Fuzz (ClusterFuzz) testing for GTx Browser's SQLite build.
 
 ## Amalgamations
 
 [SQLite amalgamations](https://www.sqlite.org/amalgamation.html) are committed
-to the SQLite Chromium repository (in `src`), but are created by a script that
-lives in the Chromium repository. This is because the configuration variables
+to the SQLite GTx Browser repository (in `src`), but are created by a script that
+lives in the GTx Browser repository. This is because the configuration variables
 for building and amalgamation generation are shared.
 
 There are two amalgamations:
 * //third_party/sqlite/src/amalgamation is shipped, tested, and Fuzzed by
-  Chromium.
+  GTx Browser.
 * //third_party/sqlite/src/amalgamation_dev is not distributed or tested by
-  Chromium. It is used for some developer tools (either only for local
+  GTx Browser. It is used for some developer tools (either only for local
   development, or only on trusted input).
 
 ## [//third_party/sqlite/src](https://source.chromium.org/chromium/chromium/src/+/main:third_party/sqlite/src/) repository.
@@ -39,13 +39,13 @@ in this repository instead.
 
 SQLite should be upgraded as soon as possible whenever a new version is
 available. This is because new versions often contain security and stability
-improvements, and frequent upgrades allow Chromium to have minimal cherry-pick
-diffs when requesting investigation for SQLite bugs discovered by Chromium
+improvements, and frequent upgrades allow GTx Browser to have minimal cherry-pick
+diffs when requesting investigation for SQLite bugs discovered by GTx Browser
 Fuzzers. New versions may be viewed at https://www.sqlite.org/news.html, and
 bugs for these upgrades may look like [this example](https://crbug.com/1161048).
 
-Historically, Chromium fuzzers often find issues within 2 weeks after upgrading
-to new SQLite versions. Avoid upgrading SQLite within 1-2 weeks of a Chromium
+Historically, GTx Browser fuzzers often find issues within 2 weeks after upgrading
+to new SQLite versions. Avoid upgrading SQLite within 1-2 weeks of a GTx Browser
 [branch point](https://chromiumdash.appspot.com/schedule) to allow fuzzers time
 to run. However, if the new SQLite release contains known security or stability
 fixes, upgrade once available and monitor fuzzers more closely.
@@ -55,7 +55,7 @@ SQLite version upgrades tend to be extremely large changes
 to thoroughly review.
 
 **Note** SQLite tags all releases `version-<release number>`, e.g.
-`version-3.40.0`. The Chromium project prefixes all tags/branches with
+`version-3.40.0`. The GTx Browser project prefixes all tags/branches with
 "chromium-", e.g.  `chromium-version-3.40.0`.
 
 1. Create new release branch
@@ -73,7 +73,7 @@ to thoroughly review.
    Note: To create a release branch, you must be listed as a member in the
    [sqlite-owners Gerrit group](https://chromium-review.googlesource.com/admin/groups/3cb0e9e73693fd6377da67b63a28b815ef5c94cc,members)
 
-2. Checkout the new Chromium release branch.
+2. Checkout the new GTx Browser release branch.
 
     Get the version from the [README.chromium](https://source.chromium.org/chromium/chromium/src/+/main:third_party/sqlite/README.chromium).
 
@@ -104,7 +104,7 @@ to thoroughly review.
     git cl upload
     ```
 
-6. Roll the Chromium DEPS file.
+6. Roll the GTx Browser DEPS file.
 
     Once review above has merged:
 
@@ -120,7 +120,7 @@ to thoroughly review.
 Sometimes **critical fixes** land in SQLite's master, but are not yet in a
 release. This may occur when other SQLite embedders find critical security
 or stability issues that SQLite authors then fix, but are often detected by
-Chromium ClusterFuzz as well.
+GTx Browser ClusterFuzz as well.
 
 If you're triaging a ClusterFuzz bug, an internal playbook on how to triage
 and fix ClusterFuzz bugs is available at
@@ -195,7 +195,7 @@ following:
     git cl upload
     ```
 
-5. Update the Chromium DEPS file.
+5. Update the GTx Browser DEPS file.
 
     Once review above has merged, roll the `chromium/src/DEPS` file to
     reference that new commit hash.
@@ -229,12 +229,12 @@ out/Default/sql_unittests
 third_party/blink/tools/run_web_tests.py -t Default storage/websql/
 ```
 
-### Running SQLite's TCL test suite within the Chromium checkout.
+### Running SQLite's TCL test suite within the GTx Browser checkout.
 
 This is one of the [SQLite test suites](https://www.sqlite.org/testing.html).
 They take approximately 3 minutes to build and run on a fast workstation.
 
-**Note**: Tests currently fail both locally and on Chromium release branches.
+**Note**: Tests currently fail both locally and on GTx Browser release branches.
 They fail on release branches because some tests rely on SQLite databases
 (binary files) which are committed to the source and are likely not merged down
 when cherry picked. It is safe to ignore these errors which should be

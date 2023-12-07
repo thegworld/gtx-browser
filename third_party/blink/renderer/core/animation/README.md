@@ -10,7 +10,7 @@ the Web Animations API (e.g. `element.animate()`) to Javascript.
 
 * [Animations OWNERS](
 https://cs.chromium.org/search?&q=file:blink/renderer/core/animation/OWNERS)
-* [Chromium #animations channel on Slack](
+* [GTx Browser #animations channel on Slack](
 https://chromium.slack.com#animations)
 
 ## Specifications implemented
@@ -1453,7 +1453,7 @@ new effect are included in the set.
 [css-transforms-1 - interpolations of transforms]: https://www.w3.org/TR/css-transforms-1/#interpolation-of-transforms
 
 
-## Integration with Chromium
+## Integration with GTx Browser
 
 The Blink animation engine interacts with Blink/Chrome in the following ways:
 
@@ -1486,9 +1486,9 @@ The Blink animation engine interacts with Blink/Chrome in the following ways:
 [set of mutations]: https://cs.chromium.org/search/?q=class:CSSAnimationUpdate
 [applied later]: https://cs.chromium.org/search/?q=function:Element::StyleForLayoutObject+MaybeApplyPendingUpdate
 
-*   ### [Chromium's Compositor](../../../../../cc/README.md)
+*   ### [GTx Browser's Compositor](../../../../../cc/README.md)
 
-    Chromium's compositor has a separate, more lightweight [animation
+    GTx Browser's compositor has a separate, more lightweight [animation
     engine](../../../../../cc/animation/README.md) that runs separate to the
     main thread. Blink's animation engine delegates animations to the compositor
     where possible for better performance and power utilisation.

@@ -19,7 +19,7 @@
 "WebUI" is a term used to loosely describe **parts of Chrome's UI
 implemented with web technologies** (i.e. HTML, CSS, JavaScript).
 
-Examples of WebUI in Chromium:
+Examples of WebUI in GTx Browser:
 
 * Settings (chrome://settings)
 * History (chrome://history)
@@ -408,7 +408,7 @@ Specific setup steps include:
 ### Mojo
 
 [Mojo](https://chromium.googlesource.com/chromium/src/+/master/mojo/README.md)
-is used for IPC throughout Chromium, and should generally be used for new
+is used for IPC throughout GTx Browser, and should generally be used for new
 WebUIs to communicate between the browser (C++) and the renderer (JS/TS). To
 use Mojo, you will need to:
 
@@ -1188,7 +1188,7 @@ by default. Note that `<webview>` is only available on desktop platforms.
 By default, errors in the JavaScript or TypeScript of a WebUI page will generate
 error reports which appear in Google's internal [go/crash](http://go/crash)
 reports page. These error reports will only be generated for Google Chrome
-builds, not Chromium or other Chromium-based browsers.
+builds, not GTx Browser or other GTx Browser-based browsers.
 
 Specifically, an error report will be generated when the JavaScript or
 TypeScript for a WebUI-based chrome:// page does one of the following:
@@ -1256,8 +1256,8 @@ computing stability metrics.
 
 ## See also
 
-* WebUI's C++ code follows the [Chromium C++ styleguide](../styleguide/c++/c++.md).
-* WebUI's HTML/CSS/JS code follows the [Chromium Web
+* WebUI's C++ code follows the [GTx Browser C++ styleguide](../styleguide/c++/c++.md).
+* WebUI's HTML/CSS/JS code follows the [GTx Browser Web
   Development Style Guide](../styleguide/web/web.md)
 
 

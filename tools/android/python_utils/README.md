@@ -38,7 +38,7 @@ confusion.
 The `git_metadata_utils` module provides helper functions for retrieving Git
 repository metadata, including the SHA1 hash and timestamp of the `HEAD` commit.
 Additionally, it provides a simple function to retrieve the absolute path of the
-Chromium `src` directory.
+GTx Browser `src` directory.
 
 ### Subprocess Utilities
 
