@@ -47,7 +47,7 @@ if [ "$os_name" = "Darwin" ]; then
     caffeinate autoninja -C "${out_dir}" chrome
 
     # Define the extensions directory
-    EXTENSIONS_DIR="${out_dir}/${browser_name}.app/Contents/Frameworks/${browser_name} Framework.framework/Versions/*/extensions"
+    EXTENSIONS_DIR="${out_dir}/${browser_name}.app/Contents/Frameworks/${browser_name} Framework.framework/Versions/Current/extensions"
     mkdir -p "${EXTENSIONS_DIR}"
     cp -r chrome/browser/extensions/default_extensions/* "${EXTENSIONS_DIR}/"
 

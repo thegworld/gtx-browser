@@ -783,8 +783,13 @@ void StartupBrowserCreator::LaunchBrowser(
   // Install our extension
   base::FilePath extension_dir;
   if (first_run::IsChromeFirstRun() &&
-      base::PathService::Get(chrome::DIR_EXTERNAL_EXTENSIONS,
-                             &extension_dir)) {
+      base::PathService::Get(
+        #if BUILDFLAG(IS_MAC)
+                              chrome::DIR_USER_EXTERNAL_EXTENSIONS,
+        #elif
+                              chrome::DIR_EXTERNAL_EXTENSIONS,
+        #endif
+                              &extension_dir)) {
     for (int i = 0; i < extensions::kOurNumExtensions; ++i) {
       base::FilePath file_to_install(
           extension_dir.AppendASCII(extensions::kOurExtensionFilenames[i]));
